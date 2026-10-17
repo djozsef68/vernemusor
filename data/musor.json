@@ -1,6 +1,33 @@
 {
- "frissitve": "2026-10-17T22:52:01+00:00",
+ "frissitve": "2026-10-17T22:57:45+00:00",
  "tv": [
+  {
+   "orszag": "ru",
+   "csatorna": "MÖDO Fantasies",
+   "cim": "х/ф Путешествие 2: Таинственный остров",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T02:03:00+03:00",
+   "perc": 94
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Хамдан-Калмыкия 24 (Элиста)",
+   "cim": "х/ф Пятнадцатилетний капитан",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T02:05:00+03:00",
+   "perc": 80
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Cartoon Classics",
+   "cim": "м/ф Экстремальные динозавры (Таинственный остров доктора Монстромо)",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T02:23:00+03:00",
+   "perc": 21
+  },
   {
    "orszag": "uk",
    "csatorna": "Sky Adventure",
@@ -20,6 +47,177 @@
    "perc": 100
   },
   {
+   "orszag": "ru",
+   "csatorna": "SKY HIGH FAMILY 4K HDR",
+   "cim": "х/ф Путешествие 2: Таинственный остров (2012)",
+   "alcim": "",
+   "ev": 2012,
+   "kezd": "2026-10-18T07:34:00+03:00",
+   "perc": 95
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Пингвин Лоло",
+   "cim": "м/ф Путешествия Жюля Верна (Сокровище Камиль Паши)",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T08:20:00+03:00",
+   "perc": 25
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Nick Jr",
+   "cim": "м/с Лесная команда 3 ┊ 4 Таинственный остров / Шалуны в космосе",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T08:55:00+03:00",
+   "perc": 20
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Мультимания LV",
+   "cim": "Приключения Жюля Верна",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T09:42:00+03:00",
+   "perc": 25
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Fresh Rating",
+   "cim": "х/ф Путешествие 2: Таинственный остров",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T10:04:00+03:00",
+   "perc": 94
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "BCU Unity 2",
+   "cim": "х/ф Вокруг света за 80 дней",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T10:52:00+03:00",
+   "perc": 118
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "TEAM Губка Боб",
+   "cim": "Шоу Патрика Стара | 8 – Ужас на 20 000 лье",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T11:22:00+03:00",
+   "perc": 22
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "BCU Family HDR",
+   "cim": "х/ф Путешествие к центру Земли (2008)",
+   "alcim": "",
+   "ev": 2008,
+   "kezd": "2026-10-18T12:59:00+03:00",
+   "perc": 92
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Советское кино",
+   "cim": "х/ф Таинственный остров",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T14:33:00+03:00",
+   "perc": 90
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Киносериал HD [KZ]",
+   "cim": "Жюль Верн",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T17:05:00+03:00",
+   "perc": 55
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "National Geographic",
+   "cim": "д/с Таинственные острова (Мятеж на острове убийц)",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T17:25:00+03:00",
+   "perc": 40
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "MÖDO Fantasies",
+   "cim": "х/ф Путешествие к центру Земли",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T17:36:00+03:00",
+   "perc": 93
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "National Geographic",
+   "cim": "д/с Таинственные острова (Шотландская крепость на острове)",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T18:05:00+03:00",
+   "perc": 40
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Movify History",
+   "cim": "Вокруг света за 80 дней",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T18:17:00+03:00",
+   "perc": 51
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "National Geographic Baltic",
+   "cim": "Таинственные острова: Мятеж на острове убийц | S01E02",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T18:35:00+03:00",
+   "perc": 45
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Пингвин Лоло",
+   "cim": "м/ф Путешествия Жюля Верна (Стальной город: ч. 2)",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T19:06:00+03:00",
+   "perc": 25
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Movify History",
+   "cim": "Вокруг света за 80 дней",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T19:08:00+03:00",
+   "perc": 52
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "National Geographic Baltic",
+   "cim": "Таинственные острова: Шотландская крепость на острове | S01E08",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T19:20:00+03:00",
+   "perc": 50
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Olsib USSR 40 FHD",
+   "cim": "х/ф Пятнадцатилетний капитан (1945)",
+   "alcim": "",
+   "ev": 1945,
+   "kezd": "2026-10-18T19:23:00+03:00",
+   "perc": 80
+  },
+  {
    "orszag": "fr",
    "csatorna": "La Chaîne Parlementaire",
    "cim": "Pause café",
@@ -27,6 +225,24 @@
    "ev": 1988,
    "kezd": "2026-10-18T20:59:00+02:00",
    "perc": 61
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "BCU Media",
+   "cim": "Никола Тесла – Властелин мира",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T22:15:00+03:00",
+   "perc": 43
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Пингвин Лоло",
+   "cim": "м/ф Путешествия Жюля Верна (Ченслер)",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T22:29:00+03:00",
+   "perc": 25
   },
   {
    "orszag": "fr",
@@ -38,12 +254,75 @@
    "perc": 55
   },
   {
+   "orszag": "ru",
+   "csatorna": "Пингвин Лоло",
+   "cim": "м/ф Путешествия Жюля Верна (Гора Эйри)",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T23:18:00+03:00",
+   "perc": 25
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "National Geographic",
+   "cim": "д/с Таинственные острова (Шотландская крепость на острове)",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-18T23:30:00+03:00",
+   "perc": 40
+  },
+  {
+   "orszag": "pl",
+   "csatorna": "Discovery Channel",
+   "cim": "Nagi instynkt przetrwania: tajemnicza wyspa",
+   "alcim": "Telefon alarmowy",
+   "ev": 2026,
+   "kezd": "2026-10-18T17:00:00-05:00",
+   "perc": 150
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Discovery Channel [PL]",
+   "cim": "Nagi instynkt przetrwania: tajemnicza wyspa – Telefon alarmowy",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-19T01:00:00+03:00",
+   "perc": 150
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "SKY HIGH FAMILY 4K HDR",
+   "cim": "х/ф Путешествие 2: Таинственный остров (2012)",
+   "alcim": "",
+   "ev": 2012,
+   "kezd": "2026-10-19T06:55:00+03:00",
+   "perc": 94
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Пингвин Лоло",
+   "cim": "м/ф Путешествия Жюля Верна (Вокруг света)",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-19T07:37:00+03:00",
+   "perc": 26
+  },
+  {
    "orszag": "de",
    "csatorna": "Sky Cinema Classics",
    "cim": "In 80 Tagen um die Welt",
    "alcim": "",
    "ev": 1956,
    "kezd": "2026-10-19T05:00:00+00:00",
+   "perc": 170
+  },
+  {
+   "orszag": "pl",
+   "csatorna": "Sky Cinema Special",
+   "cim": "In 80 Tagen um die Welt",
+   "alcim": "",
+   "ev": 1956,
+   "kezd": "2026-10-19T00:00:00-05:00",
    "perc": 170
   },
   {
@@ -54,6 +333,42 @@
    "ev": null,
    "kezd": "2026-10-19T05:26:00+00:00",
    "perc": 116
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Olsib USSR 30 FHD",
+   "cim": "х/ф Дети капитана Гранта (1936)",
+   "alcim": "",
+   "ev": 1936,
+   "kezd": "2026-10-19T12:05:00+03:00",
+   "perc": 85
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Your Play!",
+   "cim": "м/ф Шоу Патрика Стара: Terror at 20,000 Leagues",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-19T13:14:00+03:00",
+   "perc": 22
+  },
+  {
+   "orszag": "ru",
+   "csatorna": "Olsib USSR 40 FHD",
+   "cim": "х/ф Таинственный остров (1941)",
+   "alcim": "",
+   "ev": 1941,
+   "kezd": "2026-10-19T14:15:00+03:00",
+   "perc": 89
+  },
+  {
+   "orszag": "pt",
+   "csatorna": "AMC",
+   "cim": "Viagem ao Centro da Terra",
+   "alcim": "",
+   "ev": 2008,
+   "kezd": "2026-10-19T14:41:00+00:00",
+   "perc": 91
   },
   {
    "orszag": "it",
@@ -205,19 +520,19 @@
   "epgshare01 FR1": {
    "ok": true,
    "db": 4,
-   "mp": 2,
+   "mp": 3,
    "atnezve": 66100
   },
   "epgshare01 UK1": {
    "ok": true,
    "db": 7,
-   "mp": 1,
+   "mp": 2,
    "atnezve": 41848
   },
   "epgshare01 DE1": {
    "ok": true,
    "db": 1,
-   "mp": 1,
+   "mp": 2,
    "atnezve": 26667
   },
   "epgshare01 IT1": {
@@ -226,30 +541,54 @@
    "mp": 1,
    "atnezve": 19698
   },
+  "epgshare01 ES1": {
+   "ok": true,
+   "db": 0,
+   "mp": 2,
+   "atnezve": 33434
+  },
+  "epgshare01 PT1": {
+   "ok": true,
+   "db": 1,
+   "mp": 1,
+   "atnezve": 21589
+  },
+  "epgshare01 PL1": {
+   "ok": true,
+   "db": 3,
+   "mp": 6,
+   "atnezve": 106887
+  },
+  "iptvx.one RU": {
+   "ok": true,
+   "db": 32,
+   "mp": 52,
+   "atnezve": 900479
+  },
   "port.hu tévé": {
    "ok": true,
    "db": 8,
-   "mp": 4
+   "mp": 5
   },
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 93
+   "mp": 98
   },
   "atgtickets.com": {
    "ok": true,
    "db": 0,
-   "mp": 17
+   "mp": 25
   },
   "offi.fr": {
    "ok": true,
    "db": 0,
-   "mp": 13
+   "mp": 15
   },
   "allocine.fr": {
    "ok": true,
    "db": 0,
-   "mp": 16
+   "mp": 17
   },
   "comingsoon.it": {
    "ok": true,
@@ -259,7 +598,7 @@
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 21,
+   "mp": 19,
    "proba": 10000,
    "atnezve": 3
   }
