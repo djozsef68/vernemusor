@@ -50,6 +50,9 @@ EPG = [('hu', 'HU1'), ('fr', 'FR1'), ('uk', 'UK1'), ('de', 'DE1'), ('it', 'IT1')
 RADIO = re.compile(r'(?i)\bradio\b|rádió|^MR\d|^BBC R(?:adio)?\b|^BBC R\d|^BBC 6 Music|^RTÉ (?:Radio|2FM|lyric)|France (?:Culture|Inter|Musique)|Deutschlandfunk|^Rai ?Radio')
 KIHAGY = re.compile(r'(?i)brazzers|hustler|playboy|private|eroxxx|xxx|redlight|dorcel|blue hustler|\+1\b|\+24\b|\bsport|eurosport|bein|dazn|qvc|shop|news\b|\bnews|info\b|tg24|bloomberg|cnbc|cnn|euronews')
 ATNEZVE = {}
+# A forrás néhány rövid csatornaneve olvashatóbban
+CSATORNANEV = {'20': '20 Mediaset', 'Action': 'Action (FR)', 'MR1-Kossuth': 'Kossuth Rádió', 'MR2-Petőfi': 'Petőfi Rádió',
+               'MR3-Bartók': 'Bartók Rádió', 'MR4-Nemzetiségi': 'Nemzetiségi Rádió', 'MR6-Dankó': 'Dankó Rádió'}
 EV = re.compile(r'(?<!\d)(18[89]\d|19\d\d|20[0-3]\d)(?!\d)')
 
 
@@ -86,7 +89,7 @@ def epg_orszag(orszag, cimke):
                             ev = m.group(1) if m else ''
                         ki.append({
                             'tipus': 'radio' if RADIO.search(csat) else 'tv',
-                            'orszag': orszag, 'csatorna': re.sub(r'\s+HD$', '', csat), 'cim': cim,
+                            'orszag': orszag, 'csatorna': CSATORNANEV.get(csat, re.sub(r'\s+HD$', '', csat)), 'cim': cim,
                             'alcim': alcim if alcim and egyszerusit(alcim) != egyszerusit(cim) else '',
                             'ev': int(ev) if ev else None,
                             'kezd': kezd.isoformat(), 'perc': max(1, round((veg - kezd).total_seconds() / 60)),
@@ -341,7 +344,17 @@ def main():
             cs = re.sub(r'[^a-z0-9]', '', m['csatorna'].lower())
             cs = re.sub(r'(hd|uhd|4k)$', '', cs)
             egyedi.setdefault((cs, dt.datetime.fromisoformat(m['kezd']).astimezone(dt.timezone.utc)), m)
-        eredmeny[k] = sorted(egyedi.values(), key=lambda m: (m['kezd'], m['orszag'], m['csatorna']))
+        lista = sorted(egyedi.values(), key=lambda m: (dt.datetime.fromisoformat(m['kezd']).astimezone(dt.timezone.utc), m['orszag'], m['csatorna']))
+        # Ugyanaz a műsor ugyanazon a csatornán 45 percen belül kétszer: a forrás két adatszolgáltatója
+        # eltérő időt ad (pl. 07:26 és 07:41). A korábbit tartjuk meg – így biztosan nem marad le róla senki.
+        tartott = []
+        for m in lista:
+            t = dt.datetime.fromisoformat(m['kezd'])
+            kulcs = (re.sub(r'[^a-z0-9]', '', m['csatorna'].lower()), egyszerusit(m['cim']))
+            if any(x[0] == kulcs and abs((t - x[1]).total_seconds()) < 45 * 60 for x in tartott):
+                continue
+            tartott.append((kulcs, t, m))
+        eredmeny[k] = [x[2] for x in tartott]
     for m in eredmeny['szinhaz'] + eredmeny['mozi']:
         m.pop('tipus', None)
     eredmeny['szinhaz'].sort(key=lambda m: (m.get('datum') or '9999', m['orszag'], m['cim']))
