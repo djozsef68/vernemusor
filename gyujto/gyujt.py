@@ -176,6 +176,61 @@ def port_hu():
     return sz, mo
 
 
+# ---------------------------------------------------------------- Magyarország: port.hu – a Verne-adatlap tévéadásai
+# Jules Verne port.hu-adatlapja minden Verne-filmnél felsorolja a következő ~10 nap magyar tévéadásait
+# (csatorna, nap, időpont) – a magyar csatornákra ez a legpontosabb forrás.
+HO_ROVID = {'jan': 1, 'febr': 2, 'feb': 2, 'márc': 3, 'ápr': 4, 'máj': 5, 'jún': 6, 'júl': 7, 'aug': 8, 'szept': 9, 'szep': 9,
+            'okt': 10, 'nov': 11, 'dec': 12}
+
+
+def budapest_ido(d, hh, mm):
+    # közép-európai idő nyári időszámítással (utolsó márciusi vasárnaptól utolsó októberi vasárnapig)
+    def utolso_vasarnap(ev, ho):
+        x = dt.date(ev, ho, 31)
+        return x - dt.timedelta(days=(x.weekday() + 1) % 7)
+    nyar = utolso_vasarnap(d.year, 3) <= d < utolso_vasarnap(d.year, 10)
+    return dt.datetime(d.year, d.month, d.day, hh, mm, tzinfo=dt.timezone(dt.timedelta(hours=2 if nyar else 1)))
+
+
+def csat_nev(c):
+    return c.upper() if re.fullmatch(r'[a-z]\d', c) else c  # m1 → M1
+
+
+def port_adasok(h):
+    ki = []
+    ma = MOST.astimezone(dt.timezone(dt.timedelta(hours=1))).date()
+    for blokk in re.split(r'<li data-position-id=', h)[1:]:
+        if 'event-place' not in blokk:
+            continue
+        c = re.search(r'<div class="release-info">\s*<a href="([^"]+)"[^>]*>([^<]+)</a>', blokk)
+        if not c:
+            continue
+        cim = html.unescape(c.group(2)).strip()
+        adat = re.search(r'\(([^()]*?),\s*(\d+) perc,\s*(\d{4})\)', blokk)
+        perc = int(adat.group(2)) if adat else 0
+        ev = int(adat.group(3)) if adat else None
+        for csat_link, csat, napok in re.findall(r'<span class="event-place">\s*<a href="(/csatorna/[^"]+)"[^>]*>\s*<span class="event-date-link">\s*([^<:]+?):?\s*</span>.*?<ul class="event-date">(.*?)</ul>', blokk, re.S):
+            for ho, nap, hh, mm in re.findall(r'\((\w+)\.\s*(\d{1,2})\.\)\s*(\d{1,2}):(\d{2})', napok):
+                hon = HO_ROVID.get(ho.lower())
+                if not hon:
+                    continue
+                ev_ = ma.year + (1 if hon < ma.month - 6 else 0)
+                try:
+                    kezd = budapest_ido(dt.date(ev_, hon, int(nap)), int(hh), int(mm))
+                except ValueError:
+                    continue
+                if kezd + dt.timedelta(minutes=perc or 60) < MOST:
+                    continue
+                ki.append({'tipus': 'radio' if '/radio/' in csat_link else 'tv', 'orszag': 'hu',
+                           'csatorna': csat_nev(html.unescape(csat).strip()), 'cim': cim, 'alcim': '', 'ev': ev,
+                           'kezd': kezd.isoformat(), 'perc': perc or 60, 'link': PORT + c.group(1)})
+    return ki
+
+
+def port_tv():
+    return port_adasok(letolt(PORT + '/adatlap/szemely/jules-verne/person-18735').decode('utf-8', 'replace'))
+
+
 # ---------------------------------------------------------------- Anglia: ATG (színház)
 ATG_KERES = ['verne', 'around the world in 80 days', '20,000 leagues', 'journey to the centre of the earth',
              'captain nemo', 'mysterious island', 'phileas fogg', 'from the earth to the moon', 'trip to the moon', 'offenbach']
@@ -327,6 +382,8 @@ def main():
     for orszag, cimke in EPG:
         for m in fut('epgshare01 ' + cimke, lambda o=orszag, c=cimke: epg_orszag(o, c)):
             eredmeny[m.pop('tipus')].append(m)
+    for m in fut('port.hu tévé', port_tv):
+        eredmeny[m.pop('tipus')].append(m)
     sz, mo = fut('port.hu', port_hu)
     eredmeny['szinhaz'] += sz
     eredmeny['mozi'] += mo

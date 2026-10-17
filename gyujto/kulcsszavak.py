@@ -35,6 +35,8 @@ CIM = [
     # Offenbach Verne nyomán: Utazás a Holdba (Le voyage dans la lune), Doktor Ox (Le docteur Ox)
     r'ox doktor', r'doktor ox', r'docteur ox', r'dottor ox', r'doctor ox', r'reise (?:in|auf) den mond',
     r'viaggio nella luna', r'trip to the moon', r'voyage to the moon',
+    r'egy kinai viszontagsagai', r'tribulations d un chinois', r'tribulations of a chinaman', r'tribulations in china',
+    r'cinese in cina', r'leiden eines chinesen',
     # angol
     r'around the world in (?:80|eighty) days', r'(?:20000|30000|twenty thousand) leagues', r'000 leagues under',
     r'journey to the cent(?:er|re) of the earth', r'from the earth to the moon', r'mysterious island',
