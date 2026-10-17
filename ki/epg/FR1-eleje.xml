@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tv generator-info-name="none" generator-info-url="none">
+  <channel id="Al.Jazeera.English.fr">
+    <url>http://www.tv.sfr.fr</url>
+    <display-name lang="fr">Al Jazeera English</display-name>
+  </channel>
+  <channel id="EuroNews.fr">
+    <icon src="https://television.telerama.frhttps://focus.telerama.fr/0000/00/01/clear-192.png" />
+    <icon src="https://television.telerama.frhttps://focus.telerama.fr/0000/00/01/clear-192.png" />
+    <url>http://www.telerama.fr</url>
+    <display-name lang="fr">EuroNews</display-name>
+  </channel>
+  <channel id="CNBC.Europe.fr">
+    <url>http://www.tv.sfr.fr</url>
+    <display-name lang="fr">CNBC Europe</display-name>
+  </channel>
+  <channel id="Al.Masriya.fr">
+    <url>http://www.tv.sfr.fr</url>
+    <display-name lang="fr">Al Masriya</display-name>
+  </channel>
+  <channel id="Planète+.Crime.fr">
+    <icon src="https://television.telerama.frhttps://focus.telerama.fr/0000/00/01/clear-192.png" />
+    <icon src="https://television.telerama.frhttps://focus.telerama.fr/0000/00/01/clear-192.png" />
+    <url>http://www.telerama.fr</url>
+    <display-name lang="fr">Planète+ Crime</display-name>
+  </channel>
+  <channel id="M6.Music.Hits.fr">
+    <icon src="https://assets-bundle.6cloud.fr/m6/15/svg-sprite/marginless.svg#MH" />
+    <icon src="https://television.telerama.frhttps://focus.telerama.fr/0000/00/01/clear-192.png" />
+    <icon src="https://television.telerama.frhttps://focus.telerama.fr/0000/00/01/clear-192.png" />
+    <url>http://www.m6.fr</url>
+    <display-name lang="fr">M6 Music Hits</display-name>
+  </channel>
+  <channel id="Trek.fr">
+    <icon src="https://television.telerama.frhttps://focus.telerama.fr/0000/00/01/clear-192.png" />
+    <icon src="https://television.telerama.frhttps://focus.telerama.fr/0000/00/01/clear-192.png" />
+    <url>http://www.telerama.fr</url>
+    <display-name lang="fr">Trek</display-name>
+  </channel>
+  <channel id="beIN.SPORTS.MAX.9.fr">
+    <icon src="https://television.telerama.frhttps://focus.telerama.fr/0000/00/01/clear-192.png" />
+    <icon src="https://television.telerama.frhttps://focus.telerama.fr/0000/00/01/clear-192.png" />
+    <url>http://www.telerama.fr</url>
+    <display-name lang="fr">beIN SPORTS MAX 9</display-name>
+  </channel>
+  <channel id="Benfica.TV.fr">
+    <url>http://www.tv.sfr.fr</url>
+    <display-name lang="fr">Benfica TV</display-name>
+  </channel>
+  <channel id="N-TV.fr">
+    <url>http://www.tv.sfr.fr</url>
+    <display-name lang="fr">N-TV</display-name>
+  </channel>
+  <channel id="Canal.11.fr">
+    <url>http://www.tv.sfr.fr</url>
+    <display-name lang="fr">Canal 11</display-name>
+  </channel>
+  <channel id="RMC.STORY.fr">
+    <url>http://www.tv.sfr.fr</url>
+    <display-name lang="fr">RMC STORY</display-name>
+  </channel>
+  <channel id="Télénantes.fr">
+    <url>http://www.tv.sfr.fr</url>
+    <display-name lang="fr">Télénantes</display-name>
+  </channel>
+  <channel id="CCTV.YuLe.fr">
+    <url>http://www.tv  <programme channel="France.2..fr" start="20261017040000 +0200" stop="20261017043500 +0200">
+  <programme channel="France.2..fr" start="20261017043500 +0200" stop="20261017060000 +0200">
+  <programme channel="France.2..fr" start="20261017060000 +0200" stop="20261017063500 +0200">

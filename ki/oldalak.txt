@@ -1,0 +1,27 @@
+porthu-verne 200 281426 https://port.hu/adatlap/szemely/jules-verne/person-18735?token=5329bbff1b4107ad025a57d1c1c0fcc3
+porthu-verne-szinhaz 200 281655 https://port.hu/adatlap/szemely/jules-verne/person-18735?type=szinhaz&token=12957b45b1ddf3c4eb743cb673083129
+porthu-80nap 200 127019 https://port.hu/adatlap/szindarab/gyerekprogram/80-nap-alatt-a-fold-korul/directing-55806?token=bf9f0bece9b13e6dde05ef2b472818d1
+porthu-film 200 180789 https://port.hu/adatlap/film/mozi/az-erod-varn/movie-267244?token=65d4fd0021d5cf7a1e75fcbbb3893155
+porthu-szinhaz-lista 404 44908 https://port.hu/szinhaz/musor?token=b49e1efe9016fd4e25c7b7d764ded1f0
+porthu-mozi-lista 404 44892 https://port.hu/mozi/musor?token=5b7e0d86c6a5d382cd662ac606c46763
+porthu-kereso-80 200 102185 https://port.hu/kereso?q=80+nap+alatt+a+F%C3%B6ld+k%C3%B6r%C3%BCl&token=28ef2523377ad684c46e3c76792114dd
+jegyhu-80 200 148488 https://www.jegy.hu/search?q=80+nap
+jegyhu-nemo 200 89642 https://www.jegy.hu/search?q=nemo
+jegyhu-gyula 200 89810 https://www.jegy.hu/search?q=Verne+Gyula
+allocine-seances 404 104901 https://www.allocine.fr/film/fichefilm-1036/seances/
+allocine-api 200 8693 https://www.allocine.fr/_/autocomplete/jules%20verne
+theatreonline 404 24346 https://www.theatreonline.com/Recherche/Resultats?motcle=verne
+fnacspect 000 0 https://www.fnacspectacles.com/search/?searchterm=verne
+fnacspect HIBA
+sortiraparis 200 31601 https://www.sortiraparis.com/recherche?q=jules+verne
+atg 200 418728 https://www.atgtickets.com/whats-on/?q=verne
+whatsonstage 200 195013 https://www.whatsonstage.com/shows/inner-london-theatre/search-party_268821/?q=verne
+officiallondon 403 5593 https://officiallondontheatre.com/?s=verne
+reservix 404 57471 https://www.reservix.de/suche?q=verne
+theaterkompass 404 33272 https://theaterkompass.de/suche?q=verne
+kinozeit 000 0 https://www.kinozeit.de/suche?q=verne
+kinozeit HIBA
+trovacinema 000 0 https://www.trovacinema.it/cerca?q=verne
+trovacinema HIBA
+teatro-it 403 5660 https://www.teatro.it/cerca?q=verne
+giornaledellospettacolo 200 142409 https://www.giornaledellospettacolo.it/?s=verne

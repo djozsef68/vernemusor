@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tv generator-info-name="none" generator-info-url="none">
+  <channel id="U.and.Laughs.uk">
+    <icon src="https://assets.tv24.co/channels/uktv-play-laughs-l.webp" />
+    <icon src="https://assets.tv24.co/channels/uktv-play-laughs-l.webp" />
+    <url>http://www.tv24.uk</url>
+    <display-name lang="en">U and Laughs</display-name>
+  </channel>
+  <channel id="MUTV.HD.uk">
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1003.png" />
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1003.png" />
+    <icon src="https://tv.assets.pressassociation.io/18923f6a-9f20-5a46-aada-d978babdd557.png" />
+    <icon src="https://tv.assets.pressassociation.io/18923f6a-9f20-5a46-aada-d978babdd557.png" />
+    <url>http://www.sky.com</url>
+    <display-name lang="en">MUTV HD</display-name>
+  </channel>
+  <channel id="GEO.TV.uk">
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4110.png" />
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb4110.png" />
+    <url>http://www.sky.com</url>
+    <display-name lang="en">GEO TV</display-name>
+  </channel>
+  <channel id="SkySp.Golf.uk">
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1322.png" />
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1322.png" />
+    <url>http://www.sky.com</url>
+    <display-name lang="en">SkySp Golf</display-name>
+  </channel>
+  <channel id="PBS.America.uk">
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5500.png" />
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5500.png" />
+    <url>http://www.sky.com</url>
+    <display-name lang="en">PBS America</display-name>
+  </channel>
+  <channel id="FRANCE.24.HD.uk">
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1121.png" />
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1121.png" />
+    <url>http://www.sky.com</url>
+    <display-name lang="en">FRANCE 24 HD</display-name>
+  </channel>
+  <channel id="SkySp+.uk">
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3839.png" />
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb3839.png" />
+    <url>http://www.sky.com</url>
+    <display-name lang="en">SkySp+</display-name>
+  </channel>
+  <channel id="Sky.Replay.uk">
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb1833.png" />
+    <url>http://www.sky.com</url>
+    <display-name lang="en">Sky Replay</display-name>
+  </channel>
+  <channel id="High.Street.TV.2.uk">
+    <icon src="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/80/35/skychb5706.png" />
+    <icon src="https://d2n0069hmn  <programme channel="Sky.HistoryHD.uk" start="20261016005000 +0000" stop="20261016015000 +0000">
+  <programme channel="Sky.HistoryHD.uk" start="20261016015000 +0000" stop="20261016024000 +0000">
+  <programme channel="Sky.HistoryHD.uk" start="20261016024000 +0000" stop="20261016032500 +0000">
