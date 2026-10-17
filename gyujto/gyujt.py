@@ -49,6 +49,7 @@ def szoveg(h):
 EPG = [('hu', 'HU1'), ('fr', 'FR1'), ('uk', 'UK1'), ('de', 'DE1'), ('it', 'IT1')]
 RADIO = re.compile(r'(?i)\bradio\b|rádió|^MR\d|^BBC R(?:adio)?\b|^BBC R\d|^BBC 6 Music|^RTÉ (?:Radio|2FM|lyric)|France (?:Culture|Inter|Musique)|Deutschlandfunk|^Rai ?Radio')
 KIHAGY = re.compile(r'(?i)brazzers|hustler|playboy|private|eroxxx|xxx|redlight|dorcel|blue hustler|\+1\b|\+24\b|\bsport|eurosport|bein|dazn|qvc|shop|news\b|\bnews|info\b|tg24|bloomberg|cnbc|cnn|euronews')
+ATNEZVE = {}
 EV = re.compile(r'(?<!\d)(18[89]\d|19\d\d|20[0-3]\d)(?!\d)')
 
 
@@ -64,24 +65,25 @@ def xmltv_ido(s):
 
 def epg_orszag(orszag, cimke):
     adat = letolt(f'https://epgshare01.online/epgshare01/epg_ripper_{cimke}.xml.gz', ido=300)
-    nevek, ki = {}, []
+    nevek, ki, osszes = {}, [], 0
     for _, e in ET.iterparse(__import__('io').BytesIO(adat), events=('end',)):
         if e.tag == 'channel':
             nevek[e.get('id')] = (e.findtext('display-name') or e.get('id')).strip()
             e.clear()
         elif e.tag == 'programme':
+            osszes += 1
             cim = (e.findtext('title') or '').strip()
             alcim = (e.findtext('sub-title') or '').strip()
             leiras = (e.findtext('desc') or '').strip()
-            if (verne_e(cim, alcim, leiras) or cim_verne_e(alcim)):
+            if verne_e(cim, alcim, leiras):
                 csat = nevek.get(e.get('channel'), e.get('channel') or '')
                 if not KIHAGY.search(csat) or RADIO.search(csat):
                     kezd, veg = xmltv_ido(e.get('start')), xmltv_ido(e.get('stop'))
                     if kezd and veg and veg > MOST - dt.timedelta(hours=1):
                         ev = (e.findtext('date') or '')[:4]
                         if not EV.fullmatch(ev or ''):
-                            m = EV.search(cim + ' ' + (leiras[:160] if leiras else ''))
-                            ev = m.group(1) if m and int(m.group(1)) <= MOST.year else ''
+                            m = re.search(r'\((18[89]\d|19\d\d|20[0-3]\d)\)', cim)
+                            ev = m.group(1) if m else ''
                         ki.append({
                             'tipus': 'radio' if RADIO.search(csat) else 'tv',
                             'orszag': orszag, 'csatorna': re.sub(r'\s+HD$', '', csat), 'cim': cim,
@@ -90,6 +92,7 @@ def epg_orszag(orszag, cimke):
                             'kezd': kezd.isoformat(), 'perc': max(1, round((veg - kezd).total_seconds() / 60)),
                         })
             e.clear()
+    ATNEZVE[cimke] = osszes
     return ki
 
 
@@ -298,6 +301,8 @@ def main():
             r = f()
             eredmeny['forrasok'][nev] = {'ok': True, 'db': sum(len(x) for x in r) if isinstance(r, tuple) else len(r),
                                          'mp': round(time.time() - t0)}
+            if nev.split()[-1] in ATNEZVE:
+                eredmeny['forrasok'][nev]['atnezve'] = ATNEZVE[nev.split()[-1]]
             return r
         except Exception as e:  # a forrás hibája nem állítja meg a többit
             eredmeny['forrasok'][nev] = {'ok': False, 'hiba': str(e)[:200], 'mp': round(time.time() - t0)}
@@ -320,7 +325,9 @@ def main():
     for k in ('tv', 'radio'):  # ismétlődések (ugyanaz a csatorna, ugyanakkor) és rendezés
         egyedi = {}
         for m in eredmeny[k]:
-            egyedi[(m['csatorna'], m['kezd'])] = m
+            cs = re.sub(r'[^a-z0-9]', '', m['csatorna'].lower())
+            cs = re.sub(r'(hd|uhd|4k)$', '', cs)
+            egyedi.setdefault((cs, dt.datetime.fromisoformat(m['kezd']).astimezone(dt.timezone.utc)), m)
         eredmeny[k] = sorted(egyedi.values(), key=lambda m: (m['kezd'], m['orszag'], m['csatorna']))
     for m in eredmeny['szinhaz'] + eredmeny['mozi']:
         m.pop('tipus', None)

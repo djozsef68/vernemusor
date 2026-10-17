@@ -24,10 +24,10 @@ CIM = [
     # magyar
     r'nemo kapitany', r'kapitany nemo', r'(?:husz|20)\s?ezer merfold', r'20000 merfold', r'30000 merfold',
     r'(?:nyolcvan|80) nap alatt', r'utazas a fold kozeppontja', r'utazas a holdba', r'a foldtol a holdig',
-    r'rejtelmes sziget', r'ketevi vakacio', r'grant kapitany', r'sandor matyas', r'sztrogo', r'tizenot eves kapitany',
+    r'rejtelmes sziget', r'ketevi vakacio', r'grant kapitany', r'sandor matyas', r'sztrogof+\w*', r'tizenot eves kapitany',
     r'dunai hajos', r'dunai revkalauz', r'karpati kastely', r'varkastely a karpatokban', r'uszo varos',
-    r'robur a hodito', r'a vilag ura', r'begum otszazmillioja', r'ot het leghajon', r'hatteras kapitany',
-    r'antifer mester', r'keraban', r'az acelvaros titka', r'ordogi talalmany', r'az ustokoson', r'fekete india',
+    r'robur a hodito', r'a vilag ura', r'(?:a )?begum otszazmilli\w*', r'ot het leghajon', r'hatteras kapitany',
+    r'antifer mester', r'keraban\w*', r'az acelvaros titka', r'ordogi talalmany', r'az ustokoson', r'fekete india',
     r'jegszfinx', r'willy fog', r'phileas fogg',
     # angol
     r'around the world in (?:80|eighty) days', r'(?:20000|30000|twenty thousand) leagues', r'000 leagues under',
@@ -57,11 +57,11 @@ CIM = [
 # Ami hasonlít, de nem Verne.
 TILTO = [
     r'nemo nyomaban', r'finding nemo', r'monde de nemo', r'findet nemo', r'ricerca di nemo', r'szenilla', r'finding dory',
-    r'verne troyer', r'little nemo', r'nemo the',
+    r'verne troyer', r'little nemo', r'nemo the', r'8 jours de la terre',
 ]
 
 _NEV = re.compile(r' (?:' + '|'.join(NEV) + r') ')
-_CIM = re.compile(r' (?:' + '|'.join(CIM) + r') ?')
+_CIM = re.compile(r' (?:' + '|'.join(CIM) + r') ')
 _TILTO = re.compile(r' (?:' + '|'.join(TILTO) + r') ')
 
 
