@@ -89,9 +89,13 @@ TILTO = [
     r'verne troyer', r'verne lundquist', r'в поисках немо', r'buscando a nemo', r'procurando nemo', r'gdzie jest nemo', r'little nemo', r'nemo the', r'8 jours de la terre',
 ]
 
-_NEV = re.compile(r' (?:' + '|'.join(NEV) + r') ')
-_CIM = re.compile(r' (?:' + '|'.join(CIM) + r') ')
-_TILTO = re.compile(r' (?:' + '|'.join(TILTO) + r') ')
+def _minta(lista):  # a minták is ugyanúgy egyszerűsödnek, mint a szöveg (й → и, ё → е)
+    return re.compile(r' (?:' + '|'.join(x.replace('й', 'и').replace('ё', 'е') for x in lista) + r') ')
+
+
+_NEV = _minta(NEV)
+_CIM = _minta(CIM)
+_TILTO = _minta(TILTO)
 
 
 def verne_e(cim, *egyeb):
