@@ -51,6 +51,10 @@ EPG = [('hu', 'HU1'), ('fr', 'FR1'), ('uk', 'UK1'), ('de', 'DE1'), ('it', 'IT1')
 RADIO = re.compile(r'(?i)\bradio\b|rádió|радио|^RNE\b|Antena [123]\b|Jedynka|Dwójka|Trójka|^MR\d|^BBC R(?:adio)?\b|^BBC R\d|^BBC 6 Music|^RTÉ (?:Radio|2FM|lyric)|France (?:Culture|Inter|Musique)|Deutschlandfunk|^Rai ?Radio')
 KIHAGY = re.compile(r'(?i)brazzers|hustler|playboy|private|eroxxx|xxx|redlight|dorcel|blue hustler|\(\+\d+\)|\+\d+\b|\bsport|eurosport|bein|dazn|qvc|shop|news\b|\bnews|info\b|tg24|bloomberg|cnbc|cnn|euronews')
 ATNEZVE = {}
+# Az orosz gyűjtés (iptvx.one) több ezer, sokszor kétes IPTV-csatornát is tartalmaz – csak az ismert orosz adók számítanak.
+RU_ADOK = re.compile(r'(?i)^(?:Первый канал|Россия[ -]?(?:1|К|Культура)|Культура|НТВ|Пятый канал|5 канал|СТС|ТНТ|Домашний|Карусель|Мульт|'
+                     r'Дом кино|Кинопоказ|Мосфильм|Золотая коллекция|Советское кино|Звезда|ТВ Центр|ТВЦ|РЕН ТВ|Пятница|ТВ-3|Ностальгия|'
+                     r'Время|Радио России|Маяк|Вести ФМ|Радио Культура|Радио Звезда)(?:\s|$|\(|HD)')
 # A forrás néhány rövid csatornaneve olvashatóbban
 CSATORNANEV = {'20': '20 Mediaset', 'MR1-Kossuth': 'Kossuth Rádió', 'MR2-Petőfi': 'Petőfi Rádió',
                'MR3-Bartók': 'Bartók Rádió', 'MR4-Nemzetiségi': 'Nemzetiségi Rádió', 'MR6-Dankó': 'Dankó Rádió'}
@@ -81,7 +85,7 @@ def epg_orszag(orszag, cimke):
             leiras = (e.findtext('desc') or '').strip()
             if verne_e(cim, alcim, leiras):
                 csat = nevek.get(e.get('channel'), e.get('channel') or '')
-                if not KIHAGY.search(csat) or RADIO.search(csat):
+                if (not KIHAGY.search(csat) or RADIO.search(csat)) and (orszag != 'ru' or RU_ADOK.search(csat)):
                     kezd, veg = xmltv_ido(e.get('start')), xmltv_ido(e.get('stop'))
                     if kezd and veg and veg > MOST - dt.timedelta(hours=1):
                         ev = (e.findtext('date') or '')[:4]

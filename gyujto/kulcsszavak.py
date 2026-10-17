@@ -48,7 +48,7 @@ CIM = [
     r'piec tygodni w balonie', r'dwa lata wakacji', r'dzieci kapitana granta', r'pietnastoletni kapitan',
     r'latarnia na krancu swiata', r'robur zdobywca', r'zamek w karpatach',
     # orosz
-    r'вокруг света за (?:80|восемьдесят) дней', r'таинственн\w* остров\w*', r'дети капитана гранта',
+    r'вокруг света за (?:80|восемьдесят) дней', r'таинственный остров', r'дети капитана гранта',
     r'(?:20000|двадцать тысяч) лье', r'михаил строгов', r'капитан немо', r'путешествие к центру земли',
     r'с земли на луну', r'пятнадцатилетний капитан', r'пять недель на воздушном шаре', r'робур завоеватель',
     r'властелин мира', r'матиас шандор', r'замок в карпатах', r'маяк на краю света', r'два года каникул',
@@ -86,7 +86,9 @@ CIM = [
 # Ami hasonlít, de nem Verne.
 TILTO = [
     r'nemo nyomaban', r'finding nemo', r'monde de nemo', r'findet nemo', r'ricerca di nemo', r'szenilla', r'finding dory',
-    r'verne troyer', r'verne lundquist', r'в поисках немо', r'buscando a nemo', r'procurando nemo', r'gdzie jest nemo', r'little nemo', r'nemo the', r'8 jours de la terre',
+    r'verne troyer', r'verne lundquist', r'в поисках немо', r'buscando a nemo', r'procurando nemo', r'gdzie jest nemo',
+    r'nagi instynkt', r'naked and afraid', r'губка боб', r'шоу патрика', r'patrick star', r'spongebob', r'тесла', r'tesla',
+    r'экстремальные динозавры', r'лесная команда', r'waldtruppe', r'little nemo', r'nemo the', r'8 jours de la terre',
 ]
 
 def _minta(lista):  # a minták is ugyanúgy egyszerűsödnek, mint a szöveg (й → и, ё → е)
