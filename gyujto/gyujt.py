@@ -248,6 +248,54 @@ def port_adasok(h):
     return ki
 
 
+PORT_TV_KERES = ['verne', 'jules verne', 'verne gyula', 'nemo kapitány', '80 nap alatt', 'sándor mátyás', 'rejtelmes sziget',
+                 'föld középpontja', 'grant kapitány', 'sztrogoff', 'kétévi vakáció', 'dunai hajós', 'utazás a holdba']
+
+
+def port_tvkereses():
+    """A port.hu tévéműsor-keresője: a Verne-ről szóló dokumentumfilmeket és a leírásban említett adásokat is megtalálja."""
+    ki = []
+    for q in PORT_TV_KERES:
+        try:
+            h = letolt(PORT + '/kereso?type=tvevent&q=' + urllib.parse.quote_plus(q)).decode('utf-8', 'replace')
+        except Exception:
+            continue
+        for a in re.findall(r'<article data-category="[^"]*">(.*?)</article>', h, re.S):
+            c = re.search(r'<a class="title" href="([^"]+)"[^>]*>\s*([^<]+?)\s*</a>', a)
+            e = re.search(r'<p class="events">(.*?)</p>', a, re.S)
+            if not c or not e:
+                continue
+            cim = html.unescape(c.group(2)).strip()
+            leir = szoveg(re.search(r'<p class="description">(.*?)</p>', a, re.S).group(1)) if '<p class="description">' in a else ''
+            if not verne_e(cim, leir):
+                continue
+            osszeg = szoveg(re.search(r'<label class="summary">(.*?)(?:<img|</label>)', a, re.S).group(1)) if '<label class="summary">' in a else ''
+            ev = re.search(r'(18[89]\d|19\d\d|20[0-3]\d)\s*$', osszeg)
+            perc = re.search(r'(\d+) perc', osszeg)
+            sorok = [szoveg(x) for x in re.split(r'<br\s*/?>', e.group(1)) if szoveg(x)]
+            csat = ''
+            for sor in sorok:
+                m = re.match(r'(?:(.+?) - )?(\d{4})\. (\w+)\. (\d{1,2})\. (\d{1,2}):(\d{2})$', sor)
+                if not m:
+                    continue
+                csat = m.group(1) or csat
+                hon = HO_ROVID.get(m.group(3).lower())
+                if not hon or not csat:
+                    continue
+                try:
+                    kezd = budapest_ido(dt.date(int(m.group(2)), hon, int(m.group(4))), int(m.group(5)), int(m.group(6)))
+                except ValueError:
+                    continue
+                if kezd + dt.timedelta(minutes=int(perc.group(1)) if perc else 60) < MOST:
+                    continue
+                ki.append({'tipus': 'radio' if re.search(r'(?i)rádió|radio', csat) else 'tv', 'orszag': 'hu',
+                           'csatorna': csat_nev(html.unescape(csat).strip()), 'cim': cim, 'alcim': '',
+                           'ev': int(ev.group(1)) if ev else None, 'kezd': kezd.isoformat(),
+                           'perc': int(perc.group(1)) if perc else 0, 'link': PORT + c.group(1)})
+        time.sleep(1)
+    return ki
+
+
 def port_tv():
     return port_adasok(letolt(PORT + '/adatlap/szemely/jules-verne/person-18735').decode('utf-8', 'replace'))
 
@@ -404,7 +452,7 @@ def main():
         nev = 'iptvx.one RU' if cimke.startswith('http') else 'epgshare01 ' + cimke
         for m in fut(nev, lambda o=orszag, c=cimke: epg_orszag(o, c)):
             eredmeny[m.pop('tipus')].append(m)
-    for m in fut('port.hu tévé', port_tv):
+    for m in fut('port.hu tévé', port_tv) + fut('port.hu tévékereső', port_tvkereses):
         eredmeny[m.pop('tipus')].append(m)
     sz, mo = fut('port.hu', port_hu)
     eredmeny['szinhaz'] += sz
