@@ -1,5 +1,5 @@
 {
- "frissitve": "2026-10-17T22:41:13+00:00",
+ "frissitve": "2026-10-17T22:47:53+00:00",
  "tv": [
   {
    "orszag": "uk",
@@ -63,6 +63,122 @@
    "ev": null,
    "kezd": "2026-10-19T19:08:00+00:00",
    "perc": 107
+  },
+  {
+   "orszag": "uk",
+   "csatorna": "5SELECT",
+   "cim": "Monsters of the Deep: 20,000 Leagues Under the Sea",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-20T02:10:00+00:00",
+   "perc": 50
+  },
+  {
+   "orszag": "uk",
+   "csatorna": "Sky Adventure",
+   "cim": "Journey 2: The Mysterious Island",
+   "alcim": "",
+   "ev": 2012,
+   "kezd": "2026-10-20T06:15:00+00:00",
+   "perc": 105
+  },
+  {
+   "orszag": "uk",
+   "csatorna": "Sky Family",
+   "cim": "Journey 2: The Mysterious Island",
+   "alcim": "",
+   "ev": 2012,
+   "kezd": "2026-10-20T06:15:00+00:00",
+   "perc": 105
+  },
+  {
+   "orszag": "it",
+   "csatorna": "20 Mediaset",
+   "cim": "Viaggio Nell'isola Misteriosa",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-20T21:47:00+00:00",
+   "perc": 127
+  },
+  {
+   "orszag": "hu",
+   "csatorna": "Filmbox Premium",
+   "cim": "80 nap alatt a Föld körül",
+   "alcim": "",
+   "ev": 2004,
+   "kezd": "2026-10-21T09:15:00+02:00",
+   "perc": 115,
+   "link": "https://port.hu/adatlap/film/tv/80-nap-alatt-a-fold-korul-around-the-world-in-80-days/movie-65570"
+  },
+  {
+   "orszag": "hu",
+   "csatorna": "Moziverzum",
+   "cim": "80 nap alatt a Föld körül",
+   "alcim": "",
+   "ev": 2004,
+   "kezd": "2026-10-25T14:30:00+01:00",
+   "perc": 115,
+   "link": "https://port.hu/adatlap/film/tv/80-nap-alatt-a-fold-korul-around-the-world-in-80-days/movie-65570"
+  },
+  {
+   "orszag": "hu",
+   "csatorna": "AXN",
+   "cim": "80 nap alatt a Föld körül",
+   "alcim": "",
+   "ev": 2004,
+   "kezd": "2026-10-25T16:00:00+01:00",
+   "perc": 115,
+   "link": "https://port.hu/adatlap/film/tv/80-nap-alatt-a-fold-korul-around-the-world-in-80-days/movie-65570"
+  },
+  {
+   "orszag": "hu",
+   "csatorna": "Filmbox Premium",
+   "cim": "80 nap alatt a Föld körül",
+   "alcim": "",
+   "ev": 2004,
+   "kezd": "2026-10-26T06:35:00+01:00",
+   "perc": 115,
+   "link": "https://port.hu/adatlap/film/tv/80-nap-alatt-a-fold-korul-around-the-world-in-80-days/movie-65570"
+  },
+  {
+   "orszag": "hu",
+   "csatorna": "M1",
+   "cim": "A dunai hajós",
+   "alcim": "",
+   "ev": 1977,
+   "kezd": "2026-10-26T20:25:00+01:00",
+   "perc": 97,
+   "link": "https://port.hu/adatlap/film/tv/a-dunai-hajos-a-dunai-hajos/movie-497"
+  },
+  {
+   "orszag": "hu",
+   "csatorna": "M1",
+   "cim": "A dunai hajós",
+   "alcim": "",
+   "ev": 1977,
+   "kezd": "2026-10-27T10:15:00+01:00",
+   "perc": 97,
+   "link": "https://port.hu/adatlap/film/tv/a-dunai-hajos-a-dunai-hajos/movie-497"
+  },
+  {
+   "orszag": "hu",
+   "csatorna": "AXN Crime",
+   "cim": "80 nap alatt a Föld körül",
+   "alcim": "",
+   "ev": 2004,
+   "kezd": "2026-10-27T23:55:00+01:00",
+   "perc": 115,
+   "link": "https://port.hu/adatlap/film/tv/80-nap-alatt-a-fold-korul-around-the-world-in-80-days/movie-65570"
+  },
+  {
+   "orszag": "hu",
+   "csatorna": "FILMBOX+ one",
+   "cim": "Egy kínai viszontagságai Kínában",
+   "alcim": "",
+   "ev": 1965,
+   "kezd": "2026-10-29T20:00:00+01:00",
+   "perc": 93,
+   "link": "https://port.hu/adatlap/film/tv/egy-kinai-viszontagsagai-kinaban-les-tribulations-dun-chinois-en-chine/movie-44073"
   }
  ],
  "radio": [],
@@ -83,7 +199,7 @@
   "epgshare01 HU1": {
    "ok": true,
    "db": 0,
-   "mp": 1,
+   "mp": 2,
    "atnezve": 23907
   },
   "epgshare01 FR1": {
@@ -94,9 +210,9 @@
   },
   "epgshare01 UK1": {
    "ok": true,
-   "db": 3,
-   "mp": 1,
-   "atnezve": 41764
+   "db": 7,
+   "mp": 2,
+   "atnezve": 41848
   },
   "epgshare01 DE1": {
    "ok": true,
@@ -106,24 +222,29 @@
   },
   "epgshare01 IT1": {
    "ok": true,
-   "db": 1,
+   "db": 2,
    "mp": 1,
-   "atnezve": 19804
+   "atnezve": 19698
+  },
+  "port.hu tévé": {
+   "ok": true,
+   "db": 8,
+   "mp": 4
   },
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 98
+   "mp": 95
   },
   "atgtickets.com": {
    "ok": true,
    "db": 0,
-   "mp": 21
+   "mp": 16
   },
   "offi.fr": {
    "ok": true,
    "db": 0,
-   "mp": 14
+   "mp": 13
   },
   "allocine.fr": {
    "ok": true,
@@ -133,12 +254,12 @@
   "comingsoon.it": {
    "ok": true,
    "db": 0,
-   "mp": 1
+   "mp": 0
   },
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 19,
+   "mp": 18,
    "proba": 10000,
    "atnezve": 3
   }
