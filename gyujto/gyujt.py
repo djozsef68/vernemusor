@@ -254,13 +254,14 @@ PORT_TV_KERES = ['verne', 'jules verne', 'verne gyula', 'nemo kapitány', '80 na
 
 def port_tvkereses():
     """A port.hu tévéműsor-keresője: a Verne-ről szóló dokumentumfilmeket és a leírásban említett adásokat is megtalálja."""
-    ki = []
+    ki, cikk, ver = [], 0, 0
     for q in PORT_TV_KERES:
         try:
             h = letolt(PORT + '/kereso?q=' + urllib.parse.quote_plus(q) + '&type=tvevent').decode('utf-8', 'replace')
         except Exception:
             continue
         for a in re.findall(r'<article data-category="[^"]*">(.*?)</article>', h, re.S):
+            cikk += 1
             c = re.search(r'<a class="title" href="([^"]+)"[^>]*>\s*([^<]+?)\s*</a>', a)
             e = re.search(r'<p class="events">(.*?)</p>', a, re.S)
             if not c or not e:
@@ -269,6 +270,7 @@ def port_tvkereses():
             leir = szoveg(re.search(r'<p class="description">(.*?)</p>', a, re.S).group(1)) if '<p class="description">' in a else ''
             if not verne_e(cim, leir):
                 continue
+            ver += 1
             osszeg = szoveg(re.search(r'<label class="summary">(.*?)(?:<img|</label>)', a, re.S).group(1)) if '<label class="summary">' in a else ''
             ev = re.search(r'(18[89]\d|19\d\d|20[0-3]\d)\s*$', osszeg)
             perc = re.search(r'(\d+) perc', osszeg)
@@ -293,6 +295,8 @@ def port_tvkereses():
                            'ev': int(ev.group(1)) if ev else None, 'kezd': kezd.isoformat(),
                            'perc': int(perc.group(1)) if perc else 0, 'link': PORT + c.group(1)})
         time.sleep(1)
+    ATNEZVE['tévékereső'] = cikk
+    ATNEZVE['tévékereső-verne'] = ver
     return ki
 
 
@@ -439,6 +443,9 @@ def main():
             r = f()
             eredmeny['forrasok'][nev] = {'ok': True, 'db': sum(len(x) for x in r) if isinstance(r, tuple) else len(r),
                                          'mp': round(time.time() - t0)}
+            if nev == 'port.hu tévékereső':
+                eredmeny['forrasok'][nev]['atnezve'] = ATNEZVE.get('tévékereső')
+                eredmeny['forrasok'][nev]['verne'] = ATNEZVE.get('tévékereső-verne')
             if nev == 'ticketmaster' and 'ticketmaster-proba' in ATNEZVE:
                 eredmeny['forrasok'][nev]['proba'] = ATNEZVE['ticketmaster-proba']
             if nev.split()[-1] in ATNEZVE:
