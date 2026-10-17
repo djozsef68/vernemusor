@@ -1,5 +1,5 @@
 {
- "frissitve": "2026-10-17T22:28:56+00:00",
+ "frissitve": "2026-10-17T22:41:13+00:00",
  "tv": [
   {
    "orszag": "uk",
@@ -48,7 +48,7 @@
   },
   {
    "orszag": "fr",
-   "csatorna": "Action",
+   "csatorna": "Action (FR)",
    "cim": "Le triomphe de Michel Strogoff",
    "alcim": "",
    "ev": null,
@@ -56,17 +56,8 @@
    "perc": 116
   },
   {
-   "orszag": "fr",
-   "csatorna": "Action",
-   "cim": "Le triomphe de Michel Strogoff",
-   "alcim": "",
-   "ev": null,
-   "kezd": "2026-10-19T07:41:00+02:00",
-   "perc": 116
-  },
-  {
    "orszag": "it",
-   "csatorna": "20",
+   "csatorna": "20 Mediaset",
    "cim": "Viaggio Nell'isola Misteriosa",
    "alcim": "",
    "ev": null,
@@ -104,7 +95,7 @@
   "epgshare01 UK1": {
    "ok": true,
    "db": 3,
-   "mp": 2,
+   "mp": 1,
    "atnezve": 41764
   },
   "epgshare01 DE1": {
@@ -122,34 +113,34 @@
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 77
+   "mp": 98
   },
   "atgtickets.com": {
    "ok": true,
    "db": 0,
-   "mp": 12
+   "mp": 21
   },
   "offi.fr": {
    "ok": true,
    "db": 0,
-   "mp": 12
+   "mp": 14
   },
   "allocine.fr": {
    "ok": true,
    "db": 0,
-   "mp": 15
+   "mp": 18
   },
   "comingsoon.it": {
    "ok": true,
    "db": 0,
-   "mp": 0
+   "mp": 1
   },
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 10,
+   "mp": 19,
    "proba": 10000,
-   "atnezve": 0
+   "atnezve": 3
   }
  }
 }
