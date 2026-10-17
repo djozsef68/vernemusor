@@ -29,6 +29,9 @@ CIM = [
     r'robur a hodito', r'a vilag ura', r'(?:a )?begum otszazmilli\w*', r'ot het leghajon', r'hatteras kapitany',
     r'antifer mester', r'keraban\w*', r'az acelvaros titka', r'ordogi talalmany', r'az ustokoson', r'fekete india',
     r'jegszfinx', r'willy fog', r'phileas fogg',
+    # Offenbach Verne nyomán: Utazás a Holdba (Le voyage dans la lune), Doktor Ox (Le docteur Ox)
+    r'ox doktor', r'doktor ox', r'docteur ox', r'dottor ox', r'doctor ox', r'reise (?:in|auf) den mond',
+    r'viaggio nella luna', r'trip to the moon', r'voyage to the moon',
     # angol
     r'around the world in (?:80|eighty) days', r'(?:20000|30000|twenty thousand) leagues', r'000 leagues under',
     r'journey to the cent(?:er|re) of the earth', r'from the earth to the moon', r'mysterious island',

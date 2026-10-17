@@ -100,7 +100,7 @@ def epg_orszag(orszag, cimke):
 PORT = 'https://port.hu'
 PORT_KERES = ['Jules Verne', 'Verne Gyula', '80 nap alatt a Föld körül', 'Nemo kapitány', 'Húszezer mérföld',
               'Sándor Mátyás', 'Sztrogoff', 'Rejtelmes sziget', 'Utazás a Föld középpontja felé', 'Grant kapitány',
-              'Kétévi vakáció', 'Utazás a Holdba', 'Kárpáti kastély', 'Willy Fog']
+              'Kétévi vakáció', 'Utazás a Holdba', 'Kárpáti kastély', 'Willy Fog', 'Ox doktor', 'Offenbach']
 HONAP = {h: i + 1 for i, h in enumerate(['január', 'február', 'március', 'április', 'május', 'június', 'július',
                                           'augusztus', 'szeptember', 'október', 'november', 'december'])}
 
@@ -175,7 +175,7 @@ def port_hu():
 
 # ---------------------------------------------------------------- Anglia: ATG (színház)
 ATG_KERES = ['verne', 'around the world in 80 days', '20,000 leagues', 'journey to the centre of the earth',
-             'captain nemo', 'mysterious island', 'phileas fogg', 'from the earth to the moon']
+             'captain nemo', 'mysterious island', 'phileas fogg', 'from the earth to the moon', 'trip to the moon', 'offenbach']
 
 
 def atg():
@@ -267,7 +267,7 @@ def comingsoon():
 def ticketmaster(kulcs):
     ki, latott, jo, hiba, lat = [], set(), 0, '', 0
     for orszag, kod in [('uk', 'GB'), ('de', 'DE'), ('fr', 'FR'), ('it', 'IT'), ('hu', 'HU')]:
-        for k in ['Jules Verne', 'Around the World in 80 Days', 'Nemo', 'Strogoff', 'Phileas Fogg']:
+        for k in ['Jules Verne', 'Around the World in 80 Days', 'Nemo', 'Strogoff', 'Phileas Fogg', 'Offenbach', 'Voyage dans la lune', 'Docteur Ox']:
             u = ('https://app.ticketmaster.com/discovery/v2/events.json?size=50&countryCode=' + kod +
                  '&keyword=' + urllib.parse.quote(k) + '&apikey=' + kulcs)
             try:
