@@ -1,0 +1,59 @@
+name: proba
+on:
+  push:
+    branches: [proba]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  proba:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Oldalak
+        run: |
+          mkdir -p ki/oldal
+          UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36'
+          while read n u; do
+            curl -sL -m 40 -A "$UA" -H 'Accept-Language: hu,fr;q=0.8,en;q=0.6' -o ki/oldal/$n.html -w "$n %{http_code} %{size_download} %{url_effective}\n" "$u" >> ki/oldalak.txt || echo "$n HIBA" >> ki/oldalak.txt
+          done < proba/urlek.txt
+          cat ki/oldalak.txt
+      - name: epgshare01
+        run: |
+          mkdir -p ki/epg
+          for t in HU1 FR1 UK1 DE1 IT1 IE1; do
+            curl -sL -m 300 -o /tmp/$t.xml.gz -w "$t %{http_code} %{size_download}\n" https://epgshare01.online/epgshare01/epg_ripper_$t.xml.gz >> ki/epg.txt
+            gunzip -c /tmp/$t.xml.gz > /tmp/$t.xml || true
+            python3 - "$t" >> ki/epg.txt <<'P'
+          import sys,re
+          t=sys.argv[1]; s=open('/tmp/'+t+'.xml',encoding='utf-8',errors='replace').read()
+          st=re.findall(r'<programme start="(\d{8})',s)
+          print(t,'csatorna',s.count('<channel '),'musor',len(st),'napok',sorted(set(st))[:1],sorted(set(st))[-1:],len(set(st)))
+          tal=[m for m in re.findall(r'<title[^>]*>([^<]*)</title>',s) if re.search(r'(?i)verne|nemo|strogo|sandorf|sándor mátyás|80 (nap|jours|days|tage|giorni)|lieues|leagues|meilen|leghe|centre de la terre|center of the earth|mysterious island|île mystérieuse|isola misteriosa|geheimnisvolle',m)]
+          print('  talalat',len(tal),sorted(set(tal))[:40])
+          P
+            grep -o '<display-name[^>]*>[^<]*' /tmp/$t.xml | sed 's/.*>//' > ki/epg/$t-csatornak.txt
+          done
+          cat ki/epg.txt
+      - name: iptv-org
+        run: |
+          git clone -q --depth 1 https://github.com/iptv-org/epg.git /tmp/epg
+          cd /tmp/epg && npm install --silent 2>&1 | tail -3
+          printf '<?xml version="1.0" encoding="UTF-8"?>\n<channels>\n' > /tmp/c.xml
+          grep -h 'site_id="2"\|site_id="3"' sites/mediaklikk.hu/mediaklikk.hu.channels.xml >> /tmp/c.xml
+          grep -h 'MR1"\|MR3"' sites/musor.tv/musor.tv.channels.xml >> /tmp/c.xml
+          grep -h -m3 '<channel' sites/port.hu/port.hu.channels.xml >> /tmp/c.xml
+          echo '</channels>' >> /tmp/c.xml
+          cat /tmp/c.xml
+          timeout 900 npm run grab --- --channels=/tmp/c.xml --days=7 --maxConnections=3 --output=$GITHUB_WORKSPACE/ki/iptv.xml 2>&1 | tail -30 > $GITHUB_WORKSPACE/ki/iptv-naplo.txt || true
+          cd $GITHUB_WORKSPACE; tail -30 ki/iptv-naplo.txt; python3 -c "
+          import re;s=open('ki/iptv.xml').read();import collections
+          c=collections.Counter((a,b[:8]) for a,b in re.findall(r'<programme[^>]*channel=\"([^\"]+)\"[^>]*start=\"(\d+)',s) )
+          print(sorted(c.items()))" >> ki/iptv-naplo.txt 2>&1 || true
+          ls -la ki
+      - name: Mentés
+        run: |
+          git config user.name 'verne-musor'; git config user.email 'actions@github.com'
+          git checkout -b proba-ki
+          git add ki; git commit -qm 'próba eredmény'; git push -f origin proba-ki
