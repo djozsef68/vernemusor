@@ -4,3 +4,9 @@ FR1 csatorna 574 musor 0 napok [] [] 0
 UK1 200 2959092
 UK1 csatorna 486 musor 0 napok [] [] 0
   talalat 16 ['Journey 2: The Mysterious Island', 'Lauren Laverne', 'Live PL: Bournemouth v Sunderland', 'Monsters of the Deep: 20,000 Leagues Under the Sea', 'PL: Bournemouth v Sunderland Hlts']
+FR1 200 5356054
+FR1 csatorna 574 musor 0 napok [] [] 0
+  talalat 32 ['A venir : Bournemouth / Sunderland', 'AC Taverne / Young Boys Berne', 'Bournemouth / Sunderland', 'Le triomphe de Michel Strogoff', 'Marc Ribot - Banlieues Bleues', 'Mysterious Islands', 'Questions au gouvernement', 'Taverne', 'Terminé : Bournemouth / Sunderland']
+UK1 200 2959092
+UK1 csatorna 486 musor 0 napok [] [] 0
+  talalat 16 ['Journey 2: The Mysterious Island', 'Lauren Laverne', 'Live PL: Bournemouth v Sunderland', 'Monsters of the Deep: 20,000 Leagues Under the Sea', 'PL: Bournemouth v Sunderland Hlts']

@@ -25,3 +25,28 @@ trovacinema 000 0 https://www.trovacinema.it/cerca?q=verne
 trovacinema HIBA
 teatro-it 403 5660 https://www.teatro.it/cerca?q=verne
 giornaledellospettacolo 200 142409 https://www.giornaledellospettacolo.it/?s=verne
+allocine-affiche 200 435430 https://www.allocine.fr/film/aucinema/
+allocine-affiche2 200 430049 https://www.allocine.fr/film/aucinema/?page=2
+allocine-seance 200 288305 https://www.allocine.fr/film/fichefilm_gen_cfilm=261513.html
+kinode-programm 200 312058 https://www.kino.de/filme/aktuell/
+kinode-kinoprogramm 200 360439 https://www.kino.de/kinoprogramm/
+cinema-de 404 290737 https://www.cinema.de/kino/aktuell-im-kino
+comingsoon-cinema 200 125376 https://www.comingsoon.it/cinema/filmalcinema/
+mymovies-cinema 200 1033918 https://www.mymovies.it/cinema/
+uk-cinemaclock 200 211111 https://www.cinemaclock.com/london-on
+uk-empire 200 278206 https://www.empireonline.com/movies/reviews/
+uk-bfi 403 5793 https://whatson.bfi.org.uk/Online/default.asp
+billetreduc-root 200 2657375 https://www.billetreduc.com/
+theatreonline-root 200 113460 https://www.theatreonline.com/
+theatreonline-s 404 24370 https://www.theatreonline.com/Recherche/?q=verne
+billetreduc-s2 200 285911 https://www.billetreduc.com/search?q=verne
+offi-s 200 140400 https://www.offi.fr/theatre?q=verne
+atg-80 200 534054 https://www.atgtickets.com/whats-on/?q=around+the+world
+atg-nemo 200 437173 https://www.atgtickets.com/whats-on/?q=nemo
+theaterkompass-root 200 12643 https://theaterkompass.de/
+spielplan-de 200 4006 https://www.spielplan.de/suche?q=verne
+buehnenspiegel 000 0 https://www.buehnenspiegel.de/
+buehnenspiegel HIBA
+vivaticket-it 302 0 https://www.vivaticket.com/it/?queueittoken=e_vivaticketstore~q_7b4090f7-2296-47af-b905-b706892fe85f~ts_1792274205~ce_true~rt_safetynet~h_106638863c09c81e4d346ff4e65e4d486c54f84a75a3ce32d8f36acaa33cb282
+vivaticket-it HIBA
+teatri-online 200 191357 https://www.teatrionline.it/?s=verne
