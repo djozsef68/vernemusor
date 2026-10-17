@@ -1,5 +1,5 @@
 {
- "frissitve": "2026-10-17T22:26:12+00:00",
+ "frissitve": "2026-10-17T22:28:56+00:00",
  "tv": [
   {
    "orszag": "uk",
@@ -122,7 +122,7 @@
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 76
+   "mp": 77
   },
   "atgtickets.com": {
    "ok": true,
@@ -148,6 +148,7 @@
    "ok": true,
    "db": 0,
    "mp": 10,
+   "proba": 10000,
    "atnezve": 0
   }
  }
