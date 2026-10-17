@@ -28,9 +28,14 @@ jobs:
         run: |
           git config user.name 'Verne-műsorfüzet'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/musor.json
-          git diff --cached --quiet && exit 0
-          git commit -qm "Műsor frissítve: $(date -u +%F)"
-          # ha közben más is írt a repóba (pl. egy javítás), előbb ráhúzzuk – legfeljebb háromszor próbáljuk
-          for i in 1 2 3; do git pull -q --rebase origin main && git push -q && exit 0; sleep 5; done
+          cp data/musor.json "$RUNNER_TEMP/musor.json"
+          # ha közben más is írt a repóba, a legfrissebb állapotra tesszük rá az új műsort – legfeljebb háromszor próbáljuk
+          for i in 1 2 3; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            cp "$RUNNER_TEMP/musor.json" data/musor.json
+            git add data/musor.json
+            git diff --cached --quiet && exit 0
+            git commit -qm "Műsor frissítve: $(date -u +%F)" && git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
           exit 1
