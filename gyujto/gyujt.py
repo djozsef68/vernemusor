@@ -265,15 +265,18 @@ def comingsoon():
 
 # ---------------------------------------------------------------- Ticketmaster (csak ha van kulcs)
 def ticketmaster(kulcs):
-    ki, latott = [], set()
+    ki, latott, jo, hiba, lat = [], set(), 0, '', 0
     for orszag, kod in [('uk', 'GB'), ('de', 'DE'), ('fr', 'FR'), ('it', 'IT'), ('hu', 'HU')]:
         for k in ['Jules Verne', 'Around the World in 80 Days', 'Nemo', 'Strogoff', 'Phileas Fogg']:
             u = ('https://app.ticketmaster.com/discovery/v2/events.json?size=50&countryCode=' + kod +
                  '&keyword=' + urllib.parse.quote(k) + '&apikey=' + kulcs)
             try:
                 d = json.loads(letolt(u, 'en'))
-            except Exception:
+                jo += 1
+            except Exception as e:
+                hiba = str(e)[:120]
                 continue
+            lat += len(d.get('_embedded', {}).get('events', []))
             for e in d.get('_embedded', {}).get('events', []):
                 if e.get('id') in latott or not cim_verne_e(e.get('name', '')):
                     continue
@@ -286,6 +289,9 @@ def ticketmaster(kulcs):
                            'datum': st.get('localDate', ''), 'ido': (st.get('localTime') or '')[:5], 'mufaj': '',
                            'helyek': [], 'link': e.get('url', '')})
             time.sleep(0.3)
+    if not jo:
+        raise RuntimeError('a Ticketmaster egyik kérésre sem válaszolt: ' + hiba)
+    ATNEZVE['ticketmaster'] = lat
     return ki
 
 
