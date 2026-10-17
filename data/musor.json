@@ -1,5 +1,5 @@
 {
- "frissitve": "2026-10-17T22:23:19+00:00",
+ "frissitve": "2026-10-17T22:26:12+00:00",
  "tv": [
   {
    "orszag": "uk",
@@ -122,22 +122,22 @@
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 77
+   "mp": 76
   },
   "atgtickets.com": {
    "ok": true,
    "db": 0,
-   "mp": 14
+   "mp": 12
   },
   "offi.fr": {
    "ok": true,
    "db": 0,
-   "mp": 13
+   "mp": 12
   },
   "allocine.fr": {
    "ok": true,
    "db": 0,
-   "mp": 18
+   "mp": 15
   },
   "comingsoon.it": {
    "ok": true,
@@ -147,7 +147,8 @@
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 12
+   "mp": 10,
+   "atnezve": 0
   }
  }
 }
