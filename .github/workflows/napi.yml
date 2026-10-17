@@ -1,0 +1,33 @@
+name: Napi műsorgyűjtés
+on:
+  schedule:
+    - cron: '17 3 * * *'   # minden nap 03:17 UTC (nyáron 05:17, télen 04:17 magyar idő)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['gyujto/**', '.github/workflows/napi.yml']
+permissions:
+  contents: write
+concurrency:
+  group: napi
+  cancel-in-progress: false
+jobs:
+  gyujt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Gyűjtés
+        env:
+          TICKETMASTER_KULCS: ${{ secrets.TICKETMASTER_KULCS }}
+        run: python3 gyujto/gyujt.py data/musor.json
+      - name: Mentés
+        run: |
+          git config user.name 'Verne-műsorfüzet'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/musor.json
+          git diff --cached --quiet || git commit -qm "Műsor frissítve: $(date -u +%F)"
+          git push
