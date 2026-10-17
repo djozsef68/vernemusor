@@ -291,6 +291,11 @@ def ticketmaster(kulcs):
             time.sleep(0.3)
     if not jo:
         raise RuntimeError('a Ticketmaster egyik kérésre sem válaszolt: ' + hiba)
+    try:  # ellenőrzés: egy biztosan létező keresés – ha ez is üres, a keresés módjával van baj, nem a műsorral
+        d = json.loads(letolt('https://app.ticketmaster.com/discovery/v2/events.json?size=1&countryCode=GB&keyword=theatre&apikey=' + kulcs, 'en'))
+        ATNEZVE['ticketmaster-proba'] = d.get('page', {}).get('totalElements', 0)
+    except Exception:
+        ATNEZVE['ticketmaster-proba'] = -1
     ATNEZVE['ticketmaster'] = lat
     return ki
 
@@ -307,6 +312,8 @@ def main():
             r = f()
             eredmeny['forrasok'][nev] = {'ok': True, 'db': sum(len(x) for x in r) if isinstance(r, tuple) else len(r),
                                          'mp': round(time.time() - t0)}
+            if nev == 'ticketmaster' and 'ticketmaster-proba' in ATNEZVE:
+                eredmeny['forrasok'][nev]['proba'] = ATNEZVE['ticketmaster-proba']
             if nev.split()[-1] in ATNEZVE:
                 eredmeny['forrasok'][nev]['atnezve'] = ATNEZVE[nev.split()[-1]]
             return r
