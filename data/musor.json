@@ -1,5 +1,5 @@
 {
- "frissitve": "2026-10-17T23:07:51+00:00",
+ "frissitve": "2026-10-17T23:18:33+00:00",
  "tv": [
   {
    "orszag": "uk",
@@ -286,28 +286,33 @@
   "iptvx.one RU": {
    "ok": true,
    "db": 1,
-   "mp": 58,
+   "mp": 59,
    "atnezve": 900479
   },
   "port.hu tévé": {
    "ok": true,
    "db": 8,
-   "mp": 5
+   "mp": 4
+  },
+  "port.hu tévékereső": {
+   "ok": true,
+   "db": 0,
+   "mp": 24
   },
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 105
+   "mp": 95
   },
   "atgtickets.com": {
    "ok": true,
    "db": 0,
-   "mp": 18
+   "mp": 15
   },
   "offi.fr": {
    "ok": true,
    "db": 0,
-   "mp": 32
+   "mp": 13
   },
   "allocine.fr": {
    "ok": true,
@@ -322,7 +327,7 @@
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 20,
+   "mp": 16,
    "proba": 10000,
    "atnezve": 3
   }
