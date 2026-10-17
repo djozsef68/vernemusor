@@ -9,11 +9,7 @@ jobs:
       - run: |
           mkdir ki && cd ki
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36'
-          curl -sL -c c.txt -b c.txt -A "$UA" -o kereso.html 'https://port.hu/kereso?q=verne'
-          curl -sL -c c.txt -b c.txt -A "$UA" -o kereso2.html 'https://port.hu/kereso?q=verne-exped%C3%ADci%C3%B3'
-          u=$(grep -o 'href="/adatlap/film/tv/[^"]*verne-exped[^"]*"' kereso.html kereso2.html | head -1 | sed 's/.*href="//;s/"$//')
-          echo "$u" > url.txt
-          [ -n "$u" ] && curl -sL -c c.txt -b c.txt -A "$UA" -o film.html "https://port.hu$u"
+          for q in verne nemo '80 nap' 'Utaz%C3%A1s' 'dunai haj%C3%B3s'; do n=$(echo "$q" | tr -c 'a-z0-9' '_'); curl -sL -c c.txt -b c.txt -A "$UA" -o "tv-$n.html" "https://port.hu/kereso?q=$q&type=tvevent"; curl -sL -c c.txt -b c.txt -A "$UA" -o "film-$n.html" "https://port.hu/kereso?q=$q&type=movie"; sleep 1; done
           rm c.txt; ls -la
           git init -q; git checkout -q -b proba-ki; git add .; git -c user.name=p -c user.email=p@p commit -qm p
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" proba-ki
