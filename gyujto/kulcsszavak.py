@@ -16,7 +16,9 @@ def egyszerusit(s):
 
 # Verne neve – ez a leírásban is elég (pl. „Rádiószínház … Verne Gyula regénye nyomán”).
 NEV = [
-    r'jules vernes?', r'verne gyula', r'gyula verne', r'giulio verne', r'julio verne', r'jules gabriel verne',
+    r'jules vernes?', r'jules verne s', r'verne gyula', r'gyula verne', r'verne gy', r'giulio verne', r'guilio verne', r'gulio verne',
+    r'julio verne', r'julius verne', r'juliusz verne', r'jules gabriel verne', r'jule verne', r'verne jules', r'verne julius',
+    r'zsul vern', r'jules vern', r'jul vern', r'jules verns?',
 ]
 
 # Művek és szereplők – a címben (a sorozatcím mellett az epizódcímben is).
