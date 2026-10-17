@@ -47,10 +47,25 @@ def szoveg(h):
 
 # ---------------------------------------------------------------- tévé és rádió
 EPG = [('hu', 'HU1'), ('fr', 'FR1'), ('uk', 'UK1'), ('de', 'DE1'), ('it', 'IT1'), ('es', 'ES1'), ('pt', 'PT1'), ('pl', 'PL1'),
+       ('ch', 'CH1'), ('be', 'BE2'),
        ('ru', 'https://iptvx.one/epg/epg_noarch.xml.gz')]  # orosz nyelvű adók: az iptvx.one gyűjtése (az iptv-org egyik forrása)
 RADIO = re.compile(r'(?i)\bradio\b|rádió|радио|^RNE\b|Antena [123]\b|Jedynka|Dwójka|Trójka|^MR\d|^BBC R(?:adio)?\b|^BBC R\d|^BBC 6 Music|^RTÉ (?:Radio|2FM|lyric)|France (?:Culture|Inter|Musique)|Deutschlandfunk|^Rai ?Radio')
 KIHAGY = re.compile(r'(?i)brazzers|hustler|playboy|private|eroxxx|xxx|redlight|dorcel|blue hustler|\(\+\d+\)|\+\d+\b|\bsport|eurosport|bein|dazn|qvc|shop|news\b|\bnews|info\b|tg24|bloomberg|cnbc|cnn|euronews')
 ATNEZVE = {}
+# Osztrák, svájci, belga adók felismerése a nevük alapján (a német és a francia fájlban is vannak ilyenek;
+# a svájci és a belga fájlból csak ezek kellenek, a többi csatornájuk máshonnan is megvan)
+ADO_ORSZAG = [
+    ('at', re.compile(r'(?i)^(?:ORF|ATV|PULS ?(?:4|24|8)|Servus ?TV|oe24|ServusTV)')),
+    ('ch', re.compile(r'(?i)^(?:SRF|RTS|RSI|[3-6]\+|TV ?2[45]\b|S1\b|Blue ?Zoom|Tele ?Z[üu]ri|Tele ?B[äa]rn|CH ?Media|Teleclub|La T[ée]l[ée]\b|L[ée]man Bleu|Canal 9)')),
+    ('be', re.compile(r'(?i)^(?:La ?Une|Tipik|La ?Trois|RTL[- ]?TVI|Club ?RTL|Plug ?RTL|AB ?3|ABXPLORE|Be ?1\b|BE ?1\b|Be ?Cin[ée]|Be ?S[ée]ries|LN24|BX1|Ketnet|VRT|[ée][ée]n\b|Canvas|VTM|Play ?[4-7]|Arte Belgique|Canal ?Z|Vier\b|Vijf\b|ZES\b)')),
+]
+
+
+def ado_orszag(csat, alap):
+    for o, minta in ADO_ORSZAG:
+        if minta.search(csat):
+            return o
+    return None if alap in ('ch', 'be') else alap
 # Az orosz gyűjtés (iptvx.one) több ezer, sokszor kétes IPTV-csatornát is tartalmaz – csak az ismert orosz adók számítanak.
 RU_ADOK = re.compile(r'(?i)^(?:Первый канал|Россия[ -]?(?:1|К|Культура)|Культура|НТВ|Пятый канал|5 канал|СТС|ТНТ|Домашний|Карусель|Мульт|'
                      r'Дом кино|Кинопоказ|Мосфильм|Золотая коллекция|Советское кино|Звезда|ТВ Центр|ТВЦ|РЕН ТВ|Пятница|ТВ-3|Ностальгия|'
@@ -85,7 +100,8 @@ def epg_orszag(orszag, cimke):
             leiras = (e.findtext('desc') or '').strip()
             if verne_e(cim, alcim, leiras):
                 csat = nevek.get(e.get('channel'), e.get('channel') or '')
-                if (not KIHAGY.search(csat) or RADIO.search(csat)) and (orszag != 'ru' or RU_ADOK.search(csat)):
+                hol = ado_orszag(csat, orszag)
+                if hol and (not KIHAGY.search(csat) or RADIO.search(csat)) and (orszag != 'ru' or RU_ADOK.search(csat)):
                     kezd, veg = xmltv_ido(e.get('start')), xmltv_ido(e.get('stop'))
                     if kezd and veg and veg > MOST - dt.timedelta(hours=1):
                         ev = (e.findtext('date') or '')[:4]
@@ -94,7 +110,7 @@ def epg_orszag(orszag, cimke):
                             ev = m.group(1) if m else ''
                         ki.append({
                             'tipus': 'radio' if RADIO.search(csat) else 'tv',
-                            'orszag': orszag, 'csatorna': CSATORNANEV.get(csat, re.sub(r'\s+HD$', '', csat)), 'cim': cim,
+                            'orszag': hol, 'csatorna': CSATORNANEV.get(csat, re.sub(r'\s+HD$', '', csat)), 'cim': cim,
                             'alcim': alcim if alcim and egyszerusit(alcim) != egyszerusit(cim) else '',
                             'ev': int(ev) if ev else None,
                             'kezd': kezd.isoformat(), 'perc': max(1, round((veg - kezd).total_seconds() / 60)),
