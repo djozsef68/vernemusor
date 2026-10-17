@@ -51,7 +51,7 @@ RADIO = re.compile(r'(?i)\bradio\b|rádió|^MR\d|^BBC R(?:adio)?\b|^BBC R\d|^BBC
 KIHAGY = re.compile(r'(?i)brazzers|hustler|playboy|private|eroxxx|xxx|redlight|dorcel|blue hustler|\+1\b|\+24\b|\bsport|eurosport|bein|dazn|qvc|shop|news\b|\bnews|info\b|tg24|bloomberg|cnbc|cnn|euronews')
 ATNEZVE = {}
 # A forrás néhány rövid csatornaneve olvashatóbban
-CSATORNANEV = {'20': '20 Mediaset', 'Action': 'Action (FR)', 'MR1-Kossuth': 'Kossuth Rádió', 'MR2-Petőfi': 'Petőfi Rádió',
+CSATORNANEV = {'20': '20 Mediaset', 'MR1-Kossuth': 'Kossuth Rádió', 'MR2-Petőfi': 'Petőfi Rádió',
                'MR3-Bartók': 'Bartók Rádió', 'MR4-Nemzetiségi': 'Nemzetiségi Rádió', 'MR6-Dankó': 'Dankó Rádió'}
 EV = re.compile(r'(?<!\d)(18[89]\d|19\d\d|20[0-3]\d)(?!\d)')
 
