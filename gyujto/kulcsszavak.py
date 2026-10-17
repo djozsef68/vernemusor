@@ -23,6 +23,7 @@ NEV = [
 
 # Művek és szereplők – a címben (a sorozatcím mellett az epizódcímben is).
 CIM = [
+    r'verne',  # a címben magában is elég (Verne-est, Verne és a tenger …); a leírásban csak a teljes név számít
     # magyar
     r'nemo kapitany', r'kapitany nemo', r'(?:husz|20)\s?ezer merfold', r'20000 merfold', r'30000 merfold',
     r'(?:nyolcvan|80) nap alatt', r'utazas a fold kozeppontja', r'utazas a holdba', r'a foldtol a holdig',
@@ -62,7 +63,7 @@ CIM = [
 # Ami hasonlít, de nem Verne.
 TILTO = [
     r'nemo nyomaban', r'finding nemo', r'monde de nemo', r'findet nemo', r'ricerca di nemo', r'szenilla', r'finding dory',
-    r'verne troyer', r'little nemo', r'nemo the', r'8 jours de la terre',
+    r'verne troyer', r'verne lundquist', r'little nemo', r'nemo the', r'8 jours de la terre',
 ]
 
 _NEV = re.compile(r' (?:' + '|'.join(NEV) + r') ')
