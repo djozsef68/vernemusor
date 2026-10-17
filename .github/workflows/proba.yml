@@ -9,7 +9,11 @@ jobs:
       - run: |
           mkdir ki && cd ki
           UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36'
-          for q in verne nemo '80 nap' 'Utaz%C3%A1s' 'dunai haj%C3%B3s'; do n=$(echo "$q" | tr -c 'a-z0-9' '_'); curl -sL -c c.txt -b c.txt -A "$UA" -o "tv-$n.html" "https://port.hu/kereso?q=$q&type=tvevent"; curl -sL -c c.txt -b c.txt -A "$UA" -o "film-$n.html" "https://port.hu/kereso?q=$q&type=movie"; sleep 1; done
-          rm c.txt; ls -la
+          for q in verne nemo 80+nap dunai; do
+            curl -sL -c c.txt -b c.txt -A "$UA" -o "tv-$q.html" "https://port.hu/kereso?q=$q&type=tvevent" || true
+            curl -sL -c c.txt -b c.txt -A "$UA" -o "film-$q.html" "https://port.hu/kereso?q=$q&type=movie" || true
+            sleep 1
+          done
+          rm -f c.txt; ls -la
           git init -q; git checkout -q -b proba-ki; git add .; git -c user.name=p -c user.email=p@p commit -qm p
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" proba-ki
