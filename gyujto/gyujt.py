@@ -257,7 +257,7 @@ def port_tvkereses():
     ki = []
     for q in PORT_TV_KERES:
         try:
-            h = letolt(PORT + '/kereso?type=tvevent&q=' + urllib.parse.quote_plus(q)).decode('utf-8', 'replace')
+            h = letolt(PORT + '/kereso?q=' + urllib.parse.quote_plus(q) + '&type=tvevent').decode('utf-8', 'replace')
         except Exception:
             continue
         for a in re.findall(r'<article data-category="[^"]*">(.*?)</article>', h, re.S):
