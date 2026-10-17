@@ -8,9 +8,9 @@ import unicodedata
 def egyszerusit(s):
     s = unicodedata.normalize('NFKD', s or '')
     s = ''.join(c for c in s if not unicodedata.combining(c)).lower()
-    s = s.replace('ß', 'ss').replace('œ', 'oe').replace('æ', 'ae')
+    s = s.replace('ß', 'ss').replace('œ', 'oe').replace('æ', 'ae').replace('ł', 'l').replace('ø', 'o').replace('ё', 'е')
     s = re.sub(r'(\d)[\s.,  ](?=\d{3}\b)', r'\1', s)
-    s = re.sub(r'[^a-z0-9]+', ' ', s)
+    s = re.sub(r'[^a-z0-9\u0430-\u044f]+', ' ', s)  # latin és cirill betűk, számok
     return ' ' + s.strip() + ' '
 
 
@@ -19,6 +19,7 @@ NEV = [
     r'jules vernes?', r'jules verne s', r'verne gyula', r'gyula verne', r'verne gy', r'giulio verne', r'guilio verne', r'gulio verne',
     r'julio verne', r'julius verne', r'juliusz verne', r'jules gabriel verne', r'jule verne', r'verne jules', r'verne julius',
     r'zsul vern', r'jules vern', r'jul vern', r'jules verns?',
+    r'жюл[ья]? верн\w*', r'жюль верн', r'верн жюль',
 ]
 
 # Művek és szereplők – a címben (a sorozatcím mellett az epizódcímben is).
@@ -32,6 +33,26 @@ CIM = [
     r'robur a hodito', r'a vilag ura', r'(?:a )?begum otszazmilli\w*', r'ot het leghajon', r'hatteras kapitany',
     r'antifer mester', r'keraban\w*', r'az acelvaros titka', r'ordogi talalmany', r'az ustokoson', r'fekete india',
     r'jegszfinx', r'willy fog', r'phileas fogg',
+    # spanyol
+    r'vuelta al mundo en (?:80|ochenta) dias', r'viaje al centro de la tierra', r'(?:20000|veinte mil) leguas',
+    r'miguel strogoff', r'de la tierra a la luna', r'alrededor de la luna', r'cinco semanas en globo',
+    r'dos anos de vacaciones', r'hijos del capitan grant', r'capitan nemo', r'capitan de quince anos',
+    r'faro del fin del mundo', r'robur el conquistador', r'senor del mundo', r'castillo de los carpatos',
+    # portugál
+    r'volta ao mundo em (?:80|oitenta) dias', r'viagem ao centro da terra', r'ilha misteriosa', r'(?:20000|vinte mil) leguas',
+    r'da terra a lua', r'cinco semanas (?:em um|num) balao', r'dois anos de ferias', r'filhos do capitao grant',
+    r'capitao nemo', r'capitao de quinze anos', r'farol do fim do mundo',
+    # lengyel
+    r'w (?:80|osiemdziesiat) dni dookola swiata', r'dookola swiata w (?:80|osiemdziesiat) dni', r'podroz do wnetrza ziemi',
+    r'tajemnicza wyspa', r'(?:20000|dwadziescia tysiecy) mil podmorskiej', r'michal strogow', r'z ziemi na ksiezyc',
+    r'piec tygodni w balonie', r'dwa lata wakacji', r'dzieci kapitana granta', r'pietnastoletni kapitan',
+    r'latarnia na krancu swiata', r'robur zdobywca', r'zamek w karpatach',
+    # orosz
+    r'вокруг света за (?:80|восемьдесят) дней', r'таинственн\w* остров\w*', r'дети капитана гранта',
+    r'(?:20000|двадцать тысяч) лье', r'михаил строгов', r'капитан немо', r'путешествие к центру земли',
+    r'с земли на луну', r'пятнадцатилетний капитан', r'пять недель на воздушном шаре', r'робур завоеватель',
+    r'властелин мира', r'матиас шандор', r'замок в карпатах', r'маяк на краю света', r'два года каникул',
+    r'в поисках потерпевших кораблекрушение', r'гектор сервадак',
     # Offenbach Verne nyomán: Utazás a Holdba (Le voyage dans la lune), Doktor Ox (Le docteur Ox)
     r'ox doktor', r'doktor ox', r'docteur ox', r'dottor ox', r'doctor ox', r'reise (?:in|auf) den mond',
     r'viaggio nella luna', r'trip to the moon', r'voyage to the moon',
@@ -65,7 +86,7 @@ CIM = [
 # Ami hasonlít, de nem Verne.
 TILTO = [
     r'nemo nyomaban', r'finding nemo', r'monde de nemo', r'findet nemo', r'ricerca di nemo', r'szenilla', r'finding dory',
-    r'verne troyer', r'verne lundquist', r'little nemo', r'nemo the', r'8 jours de la terre',
+    r'verne troyer', r'verne lundquist', r'в поисках немо', r'buscando a nemo', r'procurando nemo', r'gdzie jest nemo', r'little nemo', r'nemo the', r'8 jours de la terre',
 ]
 
 _NEV = re.compile(r' (?:' + '|'.join(NEV) + r') ')

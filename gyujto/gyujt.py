@@ -46,9 +46,10 @@ def szoveg(h):
 
 
 # ---------------------------------------------------------------- tévé és rádió
-EPG = [('hu', 'HU1'), ('fr', 'FR1'), ('uk', 'UK1'), ('de', 'DE1'), ('it', 'IT1')]
-RADIO = re.compile(r'(?i)\bradio\b|rádió|^MR\d|^BBC R(?:adio)?\b|^BBC R\d|^BBC 6 Music|^RTÉ (?:Radio|2FM|lyric)|France (?:Culture|Inter|Musique)|Deutschlandfunk|^Rai ?Radio')
-KIHAGY = re.compile(r'(?i)brazzers|hustler|playboy|private|eroxxx|xxx|redlight|dorcel|blue hustler|\+1\b|\+24\b|\bsport|eurosport|bein|dazn|qvc|shop|news\b|\bnews|info\b|tg24|bloomberg|cnbc|cnn|euronews')
+EPG = [('hu', 'HU1'), ('fr', 'FR1'), ('uk', 'UK1'), ('de', 'DE1'), ('it', 'IT1'), ('es', 'ES1'), ('pt', 'PT1'), ('pl', 'PL1'),
+       ('ru', 'https://iptvx.one/epg/epg_noarch.xml.gz')]  # orosz nyelvű adók: az iptvx.one gyűjtése (az iptv-org egyik forrása)
+RADIO = re.compile(r'(?i)\bradio\b|rádió|радио|^RNE\b|Antena [123]\b|Jedynka|Dwójka|Trójka|^MR\d|^BBC R(?:adio)?\b|^BBC R\d|^BBC 6 Music|^RTÉ (?:Radio|2FM|lyric)|France (?:Culture|Inter|Musique)|Deutschlandfunk|^Rai ?Radio')
+KIHAGY = re.compile(r'(?i)brazzers|hustler|playboy|private|eroxxx|xxx|redlight|dorcel|blue hustler|\(\+\d+\)|\+\d+\b|\bsport|eurosport|bein|dazn|qvc|shop|news\b|\bnews|info\b|tg24|bloomberg|cnbc|cnn|euronews')
 ATNEZVE = {}
 # A forrás néhány rövid csatornaneve olvashatóbban
 CSATORNANEV = {'20': '20 Mediaset', 'MR1-Kossuth': 'Kossuth Rádió', 'MR2-Petőfi': 'Petőfi Rádió',
@@ -67,7 +68,7 @@ def xmltv_ido(s):
 
 
 def epg_orszag(orszag, cimke):
-    adat = letolt(f'https://epgshare01.online/epgshare01/epg_ripper_{cimke}.xml.gz', ido=300)
+    adat = letolt(cimke if cimke.startswith('http') else f'https://epgshare01.online/epgshare01/epg_ripper_{cimke}.xml.gz', 'ru' if orszag == 'ru' else 'hu', ido=300)
     nevek, ki, osszes = {}, [], 0
     for _, e in ET.iterparse(__import__('io').BytesIO(adat), events=('end',)):
         if e.tag == 'channel':
@@ -95,7 +96,7 @@ def epg_orszag(orszag, cimke):
                             'kezd': kezd.isoformat(), 'perc': max(1, round((veg - kezd).total_seconds() / 60)),
                         })
             e.clear()
-    ATNEZVE[cimke] = osszes
+    ATNEZVE['RU' if cimke.startswith('http') else cimke] = osszes
     return ki
 
 
@@ -380,7 +381,8 @@ def main():
             return ([], []) if nev == 'port.hu' else []
 
     for orszag, cimke in EPG:
-        for m in fut('epgshare01 ' + cimke, lambda o=orszag, c=cimke: epg_orszag(o, c)):
+        nev = 'iptvx.one RU' if cimke.startswith('http') else 'epgshare01 ' + cimke
+        for m in fut(nev, lambda o=orszag, c=cimke: epg_orszag(o, c)):
             eredmeny[m.pop('tipus')].append(m)
     for m in fut('port.hu tévé', port_tv):
         eredmeny[m.pop('tipus')].append(m)
