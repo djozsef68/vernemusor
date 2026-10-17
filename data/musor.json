@@ -1,5 +1,5 @@
 {
- "frissitve": "2026-10-17T23:28:12+00:00",
+ "frissitve": "2026-10-17T23:35:23+00:00",
  "tv": [
   {
    "orszag": "uk",
@@ -232,19 +232,19 @@
   "epgshare01 FR1": {
    "ok": true,
    "db": 4,
-   "mp": 4,
+   "mp": 2,
    "atnezve": 66100
   },
   "epgshare01 UK1": {
    "ok": true,
    "db": 7,
-   "mp": 3,
+   "mp": 1,
    "atnezve": 41848
   },
   "epgshare01 DE1": {
    "ok": true,
    "db": 1,
-   "mp": 2,
+   "mp": 1,
    "atnezve": 26667
   },
   "epgshare01 IT1": {
@@ -256,7 +256,7 @@
   "epgshare01 ES1": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 1,
    "atnezve": 33434
   },
   "epgshare01 PT1": {
@@ -268,25 +268,25 @@
   "epgshare01 PL1": {
    "ok": true,
    "db": 1,
-   "mp": 6,
+   "mp": 4,
    "atnezve": 106887
   },
   "epgshare01 CH1": {
    "ok": true,
    "db": 0,
-   "mp": 4,
+   "mp": 2,
    "atnezve": 86514
   },
   "epgshare01 BE2": {
    "ok": true,
    "db": 0,
-   "mp": 5,
+   "mp": 3,
    "atnezve": 74912
   },
   "iptvx.one RU": {
    "ok": true,
    "db": 1,
-   "mp": 59,
+   "mp": 32,
    "atnezve": 900479
   },
   "port.hu tévé": {
@@ -294,17 +294,10 @@
    "db": 8,
    "mp": 5
   },
-  "port.hu tévékereső": {
-   "ok": true,
-   "db": 0,
-   "mp": 30,
-   "atnezve": 130,
-   "verne": 0
-  },
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 102
+   "mp": 97
   },
   "atgtickets.com": {
    "ok": true,
@@ -314,7 +307,7 @@
   "offi.fr": {
    "ok": true,
    "db": 0,
-   "mp": 15
+   "mp": 13
   },
   "allocine.fr": {
    "ok": true,
@@ -329,7 +322,7 @@
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 20,
+   "mp": 21,
    "proba": 10000,
    "atnezve": 3
   }
