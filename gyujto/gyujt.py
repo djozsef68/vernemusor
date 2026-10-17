@@ -459,7 +459,7 @@ def main():
         nev = 'iptvx.one RU' if cimke.startswith('http') else 'epgshare01 ' + cimke
         for m in fut(nev, lambda o=orszag, c=cimke: epg_orszag(o, c)):
             eredmeny[m.pop('tipus')].append(m)
-    for m in fut('port.hu tévé', port_tv) + fut('port.hu tévékereső', port_tvkereses):
+    for m in fut('port.hu tévé', port_tv):  # (a port.hu tévéműsor-keresője a GitHubról nem ad megbízható találatot – kimaradt)
         eredmeny[m.pop('tipus')].append(m)
     sz, mo = fut('port.hu', port_hu)
     eredmeny['szinhaz'] += sz
