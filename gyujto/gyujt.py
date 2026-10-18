@@ -47,7 +47,7 @@ def szoveg(h):
 
 # ---------------------------------------------------------------- tévé és rádió
 EPG = [('hu', 'HU1'), ('fr', 'FR1'), ('uk', 'UK1'), ('de', 'DE1'), ('it', 'IT1'), ('es', 'ES1'), ('pt', 'PT1'), ('pl', 'PL1'),
-       ('ch', 'CH1'), ('be', 'BE2'),
+       ('ch', 'CH1'), ('be', 'BE2'), ('us', 'US1'),
        ('ru', 'https://iptvx.one/epg/epg_noarch.xml.gz')]  # orosz nyelvű adók: az iptvx.one gyűjtése (az iptv-org egyik forrása)
 RADIO = re.compile(r'(?i)\bradio\b|rádió|радио|^RNE\b|Antena [123]\b|Jedynka|Dwójka|Trójka|^MR\d|^BBC R(?:adio)?\b|^BBC R\d|^BBC 6 Music|^RTÉ (?:Radio|2FM|lyric)|France (?:Culture|Inter|Musique)|Deutschlandfunk|^Rai ?Radio')
 KIHAGY = re.compile(r'(?i)brazzers|hustler|playboy|private|eroxxx|xxx|redlight|dorcel|blue hustler|\(\+\d+\)|\+\d+\b|\bsport|eurosport|bein|dazn|qvc|shop|news\b|\bnews|info\b|tg24|bloomberg|cnbc|cnn|euronews')
@@ -376,6 +376,52 @@ def allocine():
     return ki
 
 
+# ---------------------------------------------------------------- Külföldi mozik: „most a mozikban” listák
+def mozi_lista(orszag, oldalak, minta, alap, kozos_link=None, cim_fn=None):
+    """Egy ország „most a mozikban” listája: (link, cím) párok egy regexszel; csak a Verne-címek maradnak."""
+    ki, latott = [], set()
+    for u in oldalak:
+        try:
+            h = letolt(u, orszag).decode('utf-8', 'replace')
+        except Exception:
+            if not latott:
+                raise
+            break
+        uj = 0
+        for x in re.findall(minta, h, re.S):
+            l, cim = x if isinstance(x, tuple) else ((x, x) if cim_fn else (None, x))
+            cim = cim_fn(l, cim) if cim_fn else html.unescape(re.sub(r'\s+', ' ', cim)).strip()
+            if not cim or cim in latott:
+                continue
+            latott.add(cim)
+            uj += 1
+            if cim_verne_e(cim):
+                ki.append({'tipus': 'mozi', 'orszag': orszag, 'cim': cim, 'ev': None, 'helyek': [],
+                           'link': (alap + l if l and l.startswith('/') else (l or kozos_link or u))})
+        if not uj:
+            break
+        time.sleep(1)
+    ATNEZVE['mozi-' + orszag] = len(latott)
+    return ki
+
+
+def filmweb_cim(l, _):
+    m = re.match(r'/film/(.+)-\d{4}-\d+$', urllib.parse.unquote_plus(l or ''))
+    return m.group(1).strip() if m else ''
+
+
+KULFOLDI_MOZIK = [
+    ('sensacine.com', 'es', [f'https://www.sensacine.com/peliculas/en-cartelera/cines/' + (f'?page={i}' if i > 1 else '') for i in range(1, 20)],
+     r'<a class="meta-title-link" href="([^"]+)"[^>]*>([^<]+)</a>', 'https://www.sensacine.com', None, None),
+    ('picturehouses.com', 'uk', ['https://www.picturehouses.com/whats-on'], r'<h3[^>]*>([^<]{2,120})</h3>', '',
+     'https://www.picturehouses.com/whats-on', None),
+    ('filmweb.pl', 'pl', ['https://www.filmweb.pl/showtimes'], r'href="(/film/[^"]+)"', 'https://www.filmweb.pl', None, None),
+    ('film.at', 'at', ['https://www.film.at/kinoprogramm'], r'<h\d[^>]*>([^<]{2,120})</h\d>', '', 'https://www.film.at/kinoprogramm', None),
+    ('rottentomatoes.com', 'us', ['https://www.rottentomatoes.com/browse/movies_in_theaters/'],
+     r'data-qa="discovery-media-list-item-title"[^>]*>\s*([^<]+?)\s*<', '', 'https://www.rottentomatoes.com/browse/movies_in_theaters/', None),
+]
+
+
 # ---------------------------------------------------------------- Olaszország: ComingSoon (mozi)
 def comingsoon():
     ki = []
@@ -468,6 +514,11 @@ def main():
     eredmeny['szinhaz'] += fut('offi.fr', offi)
     eredmeny['mozi'] += fut('allocine.fr', allocine)
     eredmeny['mozi'] += fut('comingsoon.it', comingsoon)
+    for nev, o, oldalak, minta, alap, kozos, _ in KULFOLDI_MOZIK:
+        cfn = filmweb_cim if nev == 'filmweb.pl' else None
+        eredmeny['mozi'] += fut(nev, lambda o=o, ol=oldalak, mi=minta, a=alap, k=kozos, c=cfn: mozi_lista(o, ol, mi, a, k, c))
+        if 'mozi-' + o in ATNEZVE:
+            eredmeny['forrasok'][nev]['atnezve'] = ATNEZVE['mozi-' + o]
     if os.environ.get('TICKETMASTER_KULCS'):
         for m in fut('ticketmaster', lambda: ticketmaster(os.environ['TICKETMASTER_KULCS'])):
             eredmeny[m['tipus']].append(m)
