@@ -1,5 +1,5 @@
 {
- "frissitve": "2026-10-18T05:41:46+00:00",
+ "frissitve": "2026-10-18T05:50:24+00:00",
  "tv": [
   {
    "orszag": "es",
@@ -271,19 +271,57 @@
   "epgshare01 HU1": {
    "ok": true,
    "db": 0,
-   "mp": 1,
+   "mp": 2,
+   "radio": {
+    "MR1-Kossuth": 272,
+    "MR2-Petőfi": 49,
+    "MR3-Bartók": 86,
+    "MR4-Nemzetiségi": 64,
+    "MR6-Dankó": 130
+   },
    "atnezve": 23907
   },
   "epgshare01 FR1": {
    "ok": true,
    "db": 6,
-   "mp": 3,
+   "mp": 4,
    "atnezve": 65224
   },
   "epgshare01 UK1": {
    "ok": true,
    "db": 4,
    "mp": 2,
+   "radio": {
+    "Radio X": 32,
+    "RTÉ 2FM": 35,
+    "RTÉ Lyric fm": 32,
+    "RTÉ Radio 1": 58,
+    "Virgin Radio": 26,
+    "BBC 6 Music": 47,
+    "BBC R Cymru": 51,
+    "BBC R Cymru 2": 36,
+    "BBC R Foyle": 101,
+    "BBC R n Gael": 49,
+    "BBC R Scot.": 38,
+    "BBC R Ulster": 95,
+    "BBC R Wales": 49,
+    "BBC R1": 70,
+    "BBC R1X": 64,
+    "BBC R2": 55,
+    "BBC R3": 46,
+    "BBC R4 Ex": 178,
+    "BBC R4 FM": 170,
+    "BBC R5L": 50,
+    "BBC R5SX": 23,
+    "BFBS Radio": 33,
+    "Panjab Radio": 47,
+    "BBC Radio Sussex": 27,
+    "Greatest Hits Radio (West Sussex)": 32,
+    "More Radio Mid Sussex": 20,
+    "BBC Radio Bristol 94.9FM": 25,
+    "BBC Radio Bristol 104.6FM": 25,
+    "BBC Radio Bristol DAB": 25
+   },
    "atnezve": 41848
   },
   "epgshare01 DE1": {
@@ -296,12 +334,22 @@
    "ok": true,
    "db": 2,
    "mp": 1,
+   "radio": {
+    "Radio Italia TV HD": 37,
+    "Radio Italia Trend Tv HD": 7,
+    "Virgin Radio": 447,
+    "RaiRadio2": 82
+   },
    "atnezve": 19698
   },
   "epgshare01 ES1": {
    "ok": true,
    "db": 6,
    "mp": 2,
+   "radio": {
+    "Antena 3 Internacional": 47,
+    "Antena 3": 100
+   },
    "atnezve": 34362
   },
   "epgshare01 PT1": {
@@ -313,37 +361,92 @@
   "epgshare01 PL1": {
    "ok": true,
    "db": 1,
-   "mp": 6,
+   "mp": 7,
+   "radio": {
+    "Radio Nowy Świat": 53,
+    "Polskie Radio Program 1": 215,
+    "Polskie Radio Program 2": 131,
+    "Radio Silesia": 37,
+    "Czwórka Polskie Radio": 46,
+    "Czwórka Polskie Radio HD": 46
+   },
    "atnezve": 106887
   },
   "epgshare01 CH1": {
    "ok": true,
    "db": 0,
-   "mp": 4,
+   "mp": 5,
+   "radio": {
+    "Antena 3 Int.": 56,
+    "Radio Ticino Channel": 57,
+    "Radio Pilatus TV": 17,
+    "Radio Italia TV": 40
+   },
    "atnezve": 86514
   },
   "epgshare01 BE2": {
    "ok": true,
    "db": 0,
    "mp": 5,
+   "radio": {
+    "Radio Bremen HD": 154,
+    "Radio Contact Vision": 27,
+    "BBC Radio 1 Xtra": 65,
+    "BBC Radio 2": 54,
+    "BBC Radio 3": 47,
+    "BBC Radio 4 Extra": 179,
+    "BBC Radio London": 30,
+    "Virgin Radio": 26,
+    "Radio Zeta": 39,
+    "Radio Italia TV": 39,
+    "Radio Italia Live": 39
+   },
    "atnezve": 74912
   },
   "epgshare01 US2": {
    "ok": true,
    "db": 0,
    "mp": 5,
+   "radio": {
+    "3ABN Radio Network": 161,
+    "Rai Radio 1": 196,
+    "Little Saigon Radio Channel": 24,
+    "YTN Radio Korea": 112,
+    "Antena 3 Internacional": 77
+   },
    "atnezve": 79693
   },
   "iptvx.one RU": {
    "ok": true,
    "db": 1,
-   "mp": 59,
+   "mp": 61,
+   "radio": {
+    "Дорожное радио": 279,
+    "NO EPG Radio (заглушка)": 90,
+    "Olsib Radio FHD": 320,
+    "Polskie Radio 1 [PL]": 329,
+    "Polskie Radio 2 [PL]": 213,
+    "Радио 1": 367,
+    "Радио для Двоих": 79,
+    "Radio Italia TV [IT]": 71,
+    "Радио Комсомольская правда": 417,
+    "Радио Мир": 1068,
+    "Радио Монте-Карло": 40,
+    "Радио 7 на семи холмах": 412,
+    "Радио Родных Дорог": 440,
+    "Радио России": 445,
+    "Телеканал Радио Страна ФМ": 139,
+    "Радио Ваня": 219,
+    "Радио Звезда": 322,
+    "Русское радио": 467,
+    "TEAM Авторадио HD": 2052
+   },
    "atnezve": 900479
   },
   "port.hu tévé": {
    "ok": true,
    "db": 8,
-   "mp": 4
+   "mp": 6
   },
   "port.hu": {
    "ok": true,
@@ -363,7 +466,7 @@
   "allocine.fr": {
    "ok": true,
    "db": 0,
-   "mp": 16
+   "mp": 15
   },
   "comingsoon.it": {
    "ok": true,
@@ -379,13 +482,13 @@
   "picturehouses.com": {
    "ok": true,
    "db": 0,
-   "mp": 3,
+   "mp": 4,
    "atnezve": 439
   },
   "filmweb.pl": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 3,
    "atnezve": 171
   },
   "film.at": {
@@ -397,13 +500,13 @@
   "rottentomatoes.com": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 1,
    "atnezve": 28
   },
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 15,
+   "mp": 16,
    "proba": 10000,
    "atnezve": 3
   }
