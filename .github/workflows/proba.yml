@@ -20,7 +20,7 @@ jobs:
       - name: Összegzés kiírása
         if: always()
         run: |
-          while IFS= read -r l; do echo "::notice::$l"; done < proba/osszegzes.txt || true
+          head -c 60000 proba/osszegzes.txt | split -b 3000 - /tmp/r_ ; for f in /tmp/r_*; do echo "::notice::$(tr '\n' '¶' < $f)"; done || true
       - name: Mentés az ágra
         run: |
           git config user.name 'Verne-műsorfüzet'
