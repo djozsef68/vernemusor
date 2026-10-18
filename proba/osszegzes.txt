@@ -1,0 +1,142 @@
+PÁRIZS mezők: id, event_id, url, title, lead_text, description, date_start, date_end, occurrences, date_description, cover_url, cover_alt, cover_credit, locations, address_name, address_street, address_zipcode, address_city, lat_lon, pmr, blind, deaf, sign_language, mental, transport, contact_url, contact_phone, contact_mail, contact_facebook, contact_twitter, price_type, price_detail, access_type, access_link, access_link_text, updated_at, image_couverture, programs, address_url, address_url_text, address_text, title_event, audience, childrens, group, locale, rank, weight, qfap_tags, universe_tags, event_indoor, event_pets_allowed, contact_organisation_name, contact_url_text, contact_vimeo, contact_deezer, contact_tiktok, contact_twitch, contact_spotify, contact_youtube, contact_bandcamp, contact_linkedin, contact_snapchat, contact_whatsapp, contact_instagram, contact_messenger, contact_pinterest, contact_soundcloud, univers
+PÁRIZS találat: 5
+  P| Voyagez avec Jules Verne dans un spectacle immersif inoubliable au Grand Hôtel des Rêves ! | 2026-01-31T10:00:00+00:00 → 2026-11-08T17:00:00+00:00 | Grand Hôtel des rêves | Paris | https://www.paris.fr/evenements/voyagez-avec-jules-verne-dans-un-spectacle-immersif-inoubliable-au-grand-hotel-des-reves-113358 | 2026-01-31T10:00:00+02:00_2026-01-31T17:00:00+02:00;2026-02-01T10:00:00+02:00_2026-02-01T17:00:00+02:00;2026-02-04T13:00:00+02:00_2026-02-04T19:00:00+02:00;2026 | Du samedi 31 janvier 2026 au dimanche 08 novembre 2026 : <br />samedi, dimanche<br /> de 10h00 à 17h00<br />mercredi<br /> de 13h00 à 19h00<br />
+  P| Le Tour du monde en 80 jours par la Compagnie Moonshine | 2026-09-15T22:15:00+00:00 → 2026-12-08T22:45:00+00:00 | None | None | https://www.paris.fr/evenements/le-tour-du-monde-en-80-jours-par-la-compagnie-moonshine-117906 | 2026-09-15T21:15:00+02:00_2026-09-15T22:45:00+02:00;2026-09-22T21:15:00+02:00_2026-09-22T22:45:00+02:00;2026-09-29T21:15:00+02:00_2026-09-29T22:45:00+02:00;2026 | Du mardi 15 septembre 2026 au mardi 08 décembre 2026 : <br />mardi<br /> de 21h15 à 22h45<br />
+  P| L'Histoire de Madeleine Moineau - Spectacle kamishibaï poétique | 2026-10-21T16:00:00+00:00 → 2026-10-21T18:30:00+00:00 | La Grande Coco / Coco cantine | Paris | https://www.paris.fr/evenements/l-histoire-de-madeleine-moineau-spectacle-kamishibai-poetique-125264 | 2026-10-21T00:00:00+02:00_2026-10-21T23:59:00+02:00 | Le mercredi 21 octobre 2026<br />de  à <br />
+  P| Méliès, du théâtre d'illusion au début du cinéma | 2026-12-01T18:30:00+00:00 → 2026-12-01T20:00:00+00:00 | Hôtel de Ville | Paris | https://www.paris.fr/evenements/melies-du-theatre-d-illusion-au-debut-du-cinema-113416 | 2026-12-01T18:30:00+02:00_2026-12-01T20:00:00+02:00 | Le mardi 01 décembre 2026<br />de 18h30 à 20h00<br />
+  P| Sport Seniors en plein air : un programme dynamique pour votre bien-être et votre vitalité | 2026-01-01T00:00:00+00:00 → 2027-01-03T23:59:59+00:00 | None | None | https://www.paris.fr/evenements/sport-seniors-en-plein-air-un-programme-dynamique-pour-votre-bien-etre-et-votre-vitalite-81498 | None | Du jeudi 01 janvier 2026 au dimanche 03 janvier 2027 : <br />
+  NK| 244400404_catalogue-e-services-nantes-metropole | Catalogue des e-services de Nantes Métropole | nom, description, url, typologie_usager, eservice_nom, eservice_url, communes, eservice_description, service_interne, eservice_actif, connexion_via_cmn
+  NK| 244400404_agenda-animations-culturelles-bibliotheque-municipale-nantes | Agenda des animations culturelles de la Bibliothèque Municipale de la ville de Nantes | id_manif, nom, description, emetteur, precisions_public, complet, annule, reporte, date_report, categorie_1, categorie_2, categorie_3, categorie_4, categorie_5, rubrique, accueil_enfant, lieu, adresse, code_postal, ville, date, heure_debut, heure_fin, gratuit, precisions_tarifs, info_suppl, lien_agenda, courriel, libelle_courriel, libelle_site, libelle_telephone, media_url, lieu_quartier, organisa
+  NK| 244400404_agenda-evenements-nantes-metropole_v2 | Agenda des événements de Nantes Métropole | id_manif, id_agenda_in, nom, description_evt, h_visuel, h_auditif, h_lsf, h_hyperacousie, h_moteur, h_psychique, h_intellectuel, lieu_tel, lieu_siteweb, carte_blanche, lieu_email, lieu_quartier, emetteur, annule, complet, reporte, date_report, themes_libelles, types_libelles, accueil_enfant, precisions_public, lieu, adresse, code_postal, ville, organisateurs, date, heure_debut, heure_fin, gratuit,
+NANTES agenda 96891 verne-előfordulás: 0
+  N| /que-faire-a-nantes/agenda/45538185_mois-des-aidants-2026 | Mois des aidants 2026
+  N| /que-faire-a-nantes/agenda/36812823_trail-urbain-nantais-100e-tour-de-chantenay | Trail Urbain Nantais - 100e Tour de Chantenay
+  N| /que-faire-a-nantes/agenda/74273531_les-utopiales-2026 | Les Utopiales 2026 – La billetterie est ouverte
+  N| /que-faire-a-nantes/agenda/40219053_inscriptions-imminentes-marathon-de-nantes-semi-marathon-foulees-de-lelephant-2027 | [Inscriptions ouvertes] Marathon de Nantes +…
+  N| /que-faire-a-nantes/agenda/96536690_exposition-le-museum-au-fil-du-temps-8082298 | Exposition Le Muséum au fil du temps
+  N| /que-faire-a-nantes/agenda/9743391_exposition-naitre-a-nantes-3403627 | Exposition « Naître à Nantes »
+  N| /que-faire-a-nantes/agenda/71515580_raconte-moi-bottiere-pin-sec | Raconte-moi Bottière Pin-Sec
+  N| /que-faire-a-nantes/agenda/26113145_exposition-histoire-du-tour-de-chantenay-2815255 | Exposition Histoire du Tour de Chantenay
+  N| /que-faire-a-nantes/agenda/87782565_exposition-zoonoses | Exposition Zoonoses
+  N| /que-faire-a-nantes/agenda/86182305_don-du-sang-maison-du-don-nantes | Don du sang — Maison du don, Nantes
+  N| /que-faire-a-nantes/agenda/98236500_exposition-or-steve-reich-le-minimalisme-et-son-heritage | Exposition | Steve Reich, le minimalisme et son…
+  N| /que-faire-a-nantes/agenda/60200068_michel-batt-and-herve-guillermit | Michel Batt & Hervé Guillermit
+  űrlap: <form class="views-exposed-form bef-exposed-form" data-bef-auto-submit="" data-bef-auto-submit-delay="500" data-bef-auto-submit-minimum-length="999" data-bef-auto-submit-full-form="" data-drupal-selec
+  mező: <input placeholder="Que cherchez-vous ?" data-drupal-selector="edit-query-header" data-search-api-autocomplete-search="search_list" class="form-autocomplete for
+NANTES agenda keresés 97434 verne-előfordulás: 14
+  N| /que-faire-a-nantes/agenda/45538185_mois-des-aidants-2026 | Mois des aidants 2026
+  N| /que-faire-a-nantes/agenda/36812823_trail-urbain-nantais-100e-tour-de-chantenay | Trail Urbain Nantais - 100e Tour de Chantenay
+  N| /que-faire-a-nantes/agenda/74273531_les-utopiales-2026 | Les Utopiales 2026 – La billetterie est ouverte
+  N| /que-faire-a-nantes/agenda/40219053_inscriptions-imminentes-marathon-de-nantes-semi-marathon-foulees-de-lelephant-2027 | [Inscriptions ouvertes] Marathon de Nantes +…
+  N| /que-faire-a-nantes/agenda/96536690_exposition-le-museum-au-fil-du-temps-8082298 | Exposition Le Muséum au fil du temps
+  N| /que-faire-a-nantes/agenda/9743391_exposition-naitre-a-nantes-3403627 | Exposition « Naître à Nantes »
+  N| /que-faire-a-nantes/agenda/71515580_raconte-moi-bottiere-pin-sec | Raconte-moi Bottière Pin-Sec
+  N| /que-faire-a-nantes/agenda/26113145_exposition-histoire-du-tour-de-chantenay-2815255 | Exposition Histoire du Tour de Chantenay
+  N| /que-faire-a-nantes/agenda/87782565_exposition-zoonoses | Exposition Zoonoses
+  N| /que-faire-a-nantes/agenda/86182305_don-du-sang-maison-du-don-nantes | Don du sang — Maison du don, Nantes
+  N| /que-faire-a-nantes/agenda/98236500_exposition-or-steve-reich-le-minimalisme-et-son-heritage | Exposition | Steve Reich, le minimalisme et son…
+  N| /que-faire-a-nantes/agenda/60200068_michel-batt-and-herve-guillermit | Michel Batt & Hervé Guillermit
+  űrlap: <form class="views-exposed-form bef-exposed-form" data-bef-auto-submit="" data-bef-auto-submit-delay="500" data-bef-auto-submit-minimum-length="999" data-bef-auto-submit-full-form="" data-drupal-selec
+  mező: <input placeholder="Que cherchez-vous ?" data-drupal-selector="edit-query-header" data-search-api-autocomplete-search="search_list" class="form-autocomplete for
+NANTES keresés 111515 verne-előfordulás: 12
+  űrlap: <form class="views-exposed-form bef-exposed-form" data-bef-auto-submit="" data-bef-auto-submit-delay="500" data-bef-auto-submit-minimum-length="999" data-bef-auto-submit-full-form="" data-drupal-selec
+  űrlap: <form class="views-exposed-form bef-exposed-form" data-bef-auto-submit="" data-bef-auto-submit-delay="500" data-bef-auto-submit-minimum-length="999" data-bef-auto-submit-full-form="" data-drupal-selec
+  űrlap: <form class="views-exposed-form bef-exposed-form" data-bef-auto-submit="" data-bef-auto-submit-delay="500" data-bef-auto-submit-minimum-length="999" data-bef-auto-submit-full-form="" data-drupal-selec
+  mező: <input placeholder="Que cherchez-vous ?" data-drupal-selector="edit-query-header" data-search-api-autocomplete-search="search_list" class="form-autocomplete for
+  mező: <input placeholder="Que cherchez-vous ?" data-drupal-selector="edit-query" data-search-api-autocomplete-search="search_list" class="form-autocomplete form-text"
+  mező: <input data-drupal-selector="edit-filter-news" type="checkbox" id="edit-filter-news--4" name="filter[news]" value="news" class="form-checkbox" />
+  mező: <input data-drupal-selector="edit-filter-elected-officials-agenda" type="checkbox" id="edit-filter-elected-officials-agenda--4" name="filter[elected_officials_a
+  mező: <input data-drupal-selector="edit-filter-help" type="checkbox" id="edit-filter-help--4" name="filter[help]" value="help" class="form-checkbox" />
+  mező: <input data-drupal-selector="edit-filter-elected-list" type="checkbox" id="edit-filter-elected-list--4" name="filter[elected_list]" value="elected_list" class="
+  mező: <input data-drupal-selector="edit-filter-association" type="checkbox" id="edit-filter-association--4" name="filter[association]" value="association" class="form
+  mező: <input data-drupal-selector="edit-filter-taxonomy-city-areas" type="checkbox" id="edit-filter-taxonomy-city-areas--4" name="filter[taxonomy_city_areas]" value="
+  mező: <input data-drupal-selector="edit-filter-page" type="checkbox" id="edit-filter-page--4" name="filter[page]" value="page" class="form-checkbox" />
+  mező: <input data-drupal-selector="edit-filter-metropolitan-elected" type="checkbox" id="edit-filter-metropolitan-elected--4" name="filter[metropolitan_elected]" valu
+  mező: <input data-drupal-selector="edit-filter-city-councillor" type="checkbox" id="edit-filter-city-councillor--4" name="filter[city_councillor]" value="city_council
+  mező: <input data-drupal-selector="edit-filter-episode" type="checkbox" id="edit-filter-episode--4" name="filter[episode]" value="episode" class="form-checkbox" />
+  mező: <input data-drupal-selector="edit-filter-equipment" type="checkbox" id="edit-filter-equipment--4" name="filter[equipment]" value="equipment" class="form-checkbo
+  mező: <input data-drupal-selector="edit-filter-openagenda-events" type="checkbox" id="edit-filter-openagenda-events--4" name="filter[openagenda_events]" value="openag
+  mező: <input data-drupal-selector="edit-filter-big-project" type="checkbox" id="edit-filter-big-project--4" name="filter[big_project]" value="big_project" class="form
+AMIENS események 281050 verne-előfordulás: 10
+  A| /Les-evenements/(categorie)/sport | Sport
+  A| /Les-evenements/(categorie)/concert | Concert
+  A| /Les-evenements/(categorie)/spectacle | Spectacle
+  A| /Les-evenements/(categorie)/visite | Visite
+  A| /Les-evenements/(categorie)/exposition | Exposition
+  A| /Les-evenements/(categorie)/evenement | Evénement
+  A| /Les-evenements/(categorie)/fete-et-festival | Fête et Festival
+  A| /Les-evenements/(categorie)/jeunesse | Jeunesse
+  A| /Les-evenements/(categorie)/stages-et-ateliers | Stages et Ateliers
+  A| /Les-evenements/(categorie)/rencontre-&amp;-echange | Rencontre & échange
+  A| /Les-evenements/(categorie)/enfance | Enfance
+  A| /Les-evenements/(organisateur)/centre-culturel-leo-lagrange | Centre Culturel Léo Lagrange
+  A| /Les-evenements/(organisateur)/coliseum | Coliseum
+  A| /Les-evenements/(organisateur)/conservatoire-a-rayonnement-regional-d-amiens | Conservatoire à rayonnement régional d'Amiens
+  A| /Les-evenements/(organisateur)/le-safran | Le Safran
+  A| /Les-evenements/(organisateur)/zenith | Zénith
+  A| /Les-evenements/(organisateur)/zoo-d-amiens | Zoo d'Amiens
+  A| /Les-evenements/(organisateur)/le-trait-d-union | Le Trait d'Union
+  A| /Les-evenements/(organisateur)/la-lune-des-pirates | La Lune des Pirates
+  A| /Les-evenements/(organisateur)/maison-du-theatre | Maison du théâtre
+  A| /Les-evenements/(organisateur)/musee-de-picardie | Musée de Picardie
+  A| /Les-evenements/(organisateur)/amiens-cluster | Amiens Cluster
+  A| /Les-evenements/(organisateur)/le-diapason | Le Diapason
+  A| /Les-evenements/(organisateur)/ccas | CCAS
+  A| /Les-evenements/(organisateur)/espace-culturel-de-camon | Espace culturel de Camon
+  A| /Les-evenements/(organisateur)/cc-saint-exupery | Cc Saint-Exupéry
+  A| /Les-evenements/(organisateur)/office-de-tourisme | Office de Tourisme
+  A| /Les-evenements/(organisateur)/sport | Sport
+  A| /Les-evenements/(organisateur)/jardin-archeologique-de-st-acheul | Jardin archéologique de St-Acheul
+  A| /Les-evenements/(organisateur)/mardis-sante | Mardis santé
+  A| /Les-evenements/(organisateur)/rencontres-&amp;-ateliers-mdt | Rencontres & ateliers MDT
+  A| /Les-evenements/(organisateur)/galerie-totem | Galerie Totem
+  A| /Les-evenements/(organisateur)/les-jeudis-de-la-citoyennete | Les jeudis de la citoyenneté
+  A| /Les-evenements/(organisateur)/democratie-locale | Démocratie locale
+  A| /Les-evenements/(organisateur)/ic.on.ic | IC.ON.IC
+  A| /Les-evenements/(organisateur)/maison-de-la-culture-d-amiens | Maison de la culture d'Amiens
+  A| /Les-evenements/(organisateur)/centre-culturel-jacques-tati | Centre culturel Jacques Tati
+  A| /Les-evenements/(organisateur)/comedie-de-picardie | Comédie de Picardie
+  A| /Les-evenements/(organisateur)/megacite | Mégacité
+  A| /Les-evenements/(organisateur)/odyssee | Odyssée
+  A| /Les-evenements/(organisateur)/maison-de-jules-verne | Maison de Jules Verne
+  A| /Les-evenements/(organisateur)/corner | Corner
+  A| /Les-evenements/(organisateur)/bibliothèque-louis-aragon | Bibliothèque Louis Aragon
+  A| /Les-evenements/(organisateur)/cirque-jules-verne---pole-national | Cirque Jules Verne - Pôle National
+  A| /Les-evenements/(organisateur)/citoyennete | Citoyenneté
+  A| /Les-evenements/(organisateur)/renouvellement-urbain | Renouvellement Urbain
+  A| /Les-evenements/(organisateur)/maison-prevention-sante | Maison prévention santé
+  A| /Les-evenements/(organisateur)/ciap | CIAP
+  A| /Les-evenements/(organisateur)/peniche-celestine | Péniche Célestine
+  A| /Les-evenements/(organisateur)/habitat | Habitat
+  A| /Les-evenements/(organisateur)/gestion-des-dechets | Gestion des déchets
+  A| /Les-evenements/(organisateur)/etoile-du-sud | Etoile du Sud
+  A| /Les-evenements/(organisateur)/la-comedie-d-amiens | La Comédie d'Amiens
+  A| /Les-evenements/(organisateur)/amiens-metropole | Amiens Métropole
+  A| /Les-evenements/(organisateur)/amiens-sport-sante | Amiens Sport Santé
+  A| /Les-evenements/(organisateur)/katalyze | Katalyze
+  A| /Les-evenements/(organisateur)/service-handicap | Service handicap
+  A| /Les-evenements/(organisateur)/chu | CHU
+  A| /Les-evenements/Exposition-L-enfance-des-mechants-des-vilaines-et-des-affreux | Exposition | L’enfance des méchants, des vilaines et des affreux
+  A| /Les-evenements/Exposition-L-enfance-des-mechants-des-vilaines-et-des-affreux | en savoir plus
+  űrlap: <form class="search-ft"
+                      action="/fulltext/results/(keyword)/"
+                      method="POST"
+                      id="fulltext">
+  mező: <input id="jsSearchField"
+                                       class="search-ft__field"
+                                       type="text"
+                   
+  dátum: class="territory__link " href="/Actualites/(filter)/amiens-sud" title="9 Rue du 8 Mai 1945
+AMIENS keresés 128945 verne-előfordulás: 24
+  űrlap: <form class="search-ft"
+                      action="/fulltext/results/(keyword)/"
+                      method="POST"
+                      id="fulltext">
+  űrlap: <form action="/content/search" method="get">
+  mező: <input id="jsSearchField"
+                                       class="search-ft__field"
+                                       type="text"
+                   
+  mező: <input class="halfbox" type="text" size="20" name="SearchText" id="Search" value="Jules Verne" />
+  mező: <input class="button" name="SearchButton" type="submit" value="Recherche" />
+  dátum: class="territory__link " href="/Actualites/(filter)/amiens-sud" title="9 Rue du 8 Mai 1945
