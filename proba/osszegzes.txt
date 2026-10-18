@@ -1,7 +1,25 @@
-NANTES jövő: 42
-  N| {"id_manif": "81687", "nom": "VASTE MONDE", "date": "2026-10-18", "heure_debut": "14:30", "heure_fin": "15:30", "lieu": "Théâtre 100 Noms", "adresse": "21 Quai des Antilles, 44200 NANTES", "ville": "Nantes", "emetteur": "VILLE DE NANTES", "types_libelles": ["Théâtre - Humour"], "url_site": "https://billetterie-theatre100noms.mapado.com/event/707515-vaste-monde", "lien_agenda": "https://metropole.nantes.fr/infonantes/agenda/81687"}
-  N| {"id_manif": "75745", "nom": "Reliure : fabrique ton carnet !", "date": "2026-10-19", "heure_debut": "10:00", "heure_fin": "11:30", "lieu": "Le 20 mille", "adresse": "20 Bd Jules Verne", "ville": "Nantes", "emetteur": "QUARTIERS NANTAIS", "types_libelles": ["Stage - Atelier - Activité à partager"], "url_site": "https://optitscoins.fr/les-ateliers/reliure-fabrique-ton-carnet/date:2026-10-19", "lien_agenda": "https://metropole.nantes.fr/infonantes/agenda/75745"}
-  N| {"id_manif": "74607", "nom": "Tamponne ta carte pour Halloween !", "date": "2026-10-19", "heure_debut": "14:30", "heure_fin": "16:00", "lieu": "Le 20 mille", "adresse": "20 Bd Jules Verne", "ville": "Nantes", "emetteur": "QUARTIERS NANTAIS", "types_libelles": ["Stage - Atelier - Activité à partager"], "url_site": "https://optitscoins.fr/les-ateliers/tamponne-ta-carte-pour-halloween", "lien_agenda": "https://metropole.nantes.fr/infonantes/agenda/74607"}
-  N| {"id_manif": "81687", "nom": "VASTE MONDE", "date": "2026-10-19", "heure_debut": "14:30", "heure_fin": "15:30", "lieu": "Théâtre 100 Noms", "adresse": "21 Quai des Antilles, 44200 NANTES", "ville": "Nantes", "emetteur": "VILLE DE NANTES", "types_libelles": ["Théâtre - Humour"], "url_site": "https://billetterie-theatre100noms.mapado.com/event/707515-vaste-monde", "lien_agenda": "https://metropole.nantes.fr/infonantes/agenda/81687"}
-  N| {"id_manif": "81687", "nom": "VASTE MONDE", "date": "2026-10-20", "heure_debut": "14:30", "heure_fin": "15:30", "lieu": "Théâtre 100 Noms", "adresse": "21 Quai des Antilles, 44200 NANTES", "ville": "Nantes", "emetteur": "VILLE DE NANTES", "types_libelles": ["Théâtre - Humour"], "url_site": "https://billetterie-theatre100noms.mapado.com/event/707515-vaste-monde", "lien_agenda": "https://metropole.nantes.fr/infonantes/agenda/81687"}
-AMIENS MJV linkek: 0
+  data-url: /fulltext/results/(keyword)/
+  data-url: Augmentation
+  data-url: Diminution
+  data-url: Facebook
+  data-url: Instagram
+  data-url: Twitter
+  data-url: Youtube
+  út: /Les-evenements/(organisateur)/maison-prevention-sante
+  út: /Vivre-a-Amiens/Prevention-et-gestion-des-dechets
+  út: /Vivre-a-Amiens/Securite-Prevention
+  út: /layout/set/print/Les-evenements/(organisateur)/maison-de-jules-verne
+  szkript: https://platform-api.sharethis.com/js/sharethis.js#property=655b22fc4ba88b0012e52f49&product=inline-share-buttons&source=platform
+  szkript: /extension/amiens/design/amiens/javascript/tarteaucitron/tarteaucitron.js
+  szkript: /extension/amiens/design/amiens/javascript/jquery-3.7.1.min.js
+
+  szkript: /extension/amiens/design/amiens/javascript/easyzoom.js
+
+  szkript: /extension/amiens/design/amiens/javascript/owl-carousel-gallery.js
+
+  szkript: https://www.numanis.net/accessedition.js
+  szkript: https://maps.googleapis.com/maps/api/js?key=AIzaSyD927Pxj_w7XChgKZunSyE3gJ94_kw-800
+  szkript: /var/ez_website/cache/public/javascript/6718f013d395b743204e57a260e33d48.js
+  szkript: /var/ez_website/cache/public/javascript/3d45487c4b811b64190a570435bcd04d.js
+  LISTA környezet: events__list jsDrilldownList"> <div id="contenu_page" class="jsZoomContainer"> <div class="events__list__header"> <div class="row"> <div class="col"> <h1 class="title title--upper title--display title--orange title--xxl mg-bottom-20"> Les événements (Maison de Jules Verne) </h1> </div> </div> <div class="row"> <div class="col-12 col-md-6"> <ul class="events__list__header__criteria-choices"> <li class="events__list__header__criteria-choices__element"> <a href="/Les-evenements" title="Supprimer le filtre : Maison de Jules Verne" class=" events__list__header__criteria-choices__element__inner btn btn--bg-transparent btn--bg-hover-orange btn--text-orange btn--text-hover-white btn--border-orange btn--icon-orange-hover-white"> <span class="btn__inner"> Maison de Jules Verne </span> <span class="icon icon--right icon--delete-small-orange"></span> </a> </li> </ul> </div> <div class="col-12 col-md-6 text-right@md-min"> <button class="events__list__header__criteria-choices__btn-criteria btn btn--bg-orange btn--bg-hover-transparent btn--text-white btn--text-hover-orange btn--border-orange jsCriteriaToggle"> 
+  "Verne" előfordulások:  <title>Les événements (Maison de Jules Verne) - Amiens Métropole</title> <meta name="facebook-domain-verification" content="s55e8110r0x7apk8ofl84lck4xm8 ¦ n-verification" content="s55e8110r0x7apk8ofl84lck4xm84h" /> <meta name="title" content="Les événements (Maison de Jules Verne) - Amiens Métropole" /> <meta name="description" content="Liste des événements pour la ville d' Amiens" ¦ ta name="twitter:site" content="Amiens Métropole"> <meta name="twitter:title" content="Les événements (Maison de Jules Verne) - Amiens Métropole"> <meta name="twitter:description" content="Liste des événements pour la ville d' Am ¦ name="twitter:domain" content="www.amiens.fr" /> <meta property="og:title" content="Les événements (Maison de Jules Verne) - Amiens Métro" /> <meta property="og:description" content="Liste des événements pour la ville d' Amien ¦  printNode.rel = 'Alternate'; printNode.href = "/layout/set/print/Les-evenements/(organisateur)/maison-de-jules-verne" + document.location.search; printNode.media = 'print'; printNode.title = "Version imprimable"; head.append ¦ ts (Maison de Jules Verne) </h1> </div> < ¦  <a href="/Les-evenements" title="Supprimer le filtre : Maison de Jules Verne" class=" events__list__header__crit ¦  <span class="btn__inner"> Maison de Jules Verne </span> <span class="icon icon--right i ¦ href="/Les-evenements" title="Supprimer le filtre : Maison de Jules Verne" >  ¦  > Maison de Jules Verne </a> </li>  ¦  href="/Les-evenements/(organisateur)/cirque-jules-verne---pole-national" title="Ajouter le filtre : Cirque Jules Verne - Pô ¦ ules-verne---pole-national" title="Ajouter le filtre : Cirque Jules Verne - Pôle National" >  ¦  > Cirque Jules Verne - Pôle National </a> </li>  ¦  Aucun événement concernant le filtre <i>Maison de Jules Verne</i> </p> 
