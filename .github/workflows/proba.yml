@@ -17,10 +17,16 @@ jobs:
       - name: Próba
         run: |
           if [ -f gyujto/proba_futtat.py ]; then python3 gyujto/proba_futtat.py; else python3 gyujto/felderit.py; fi
+      - name: Összegzés kiírása
+        if: always()
+        run: |
+          while IFS= read -r l; do echo "::notice::$l"; done < proba/osszegzes.txt || true
       - name: Mentés az ágra
         run: |
           git config user.name 'Verne-műsorfüzet'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git status --short | head -20
           git add -A proba
           git diff --cached --quiet && exit 0
-          git commit -qm "Forráspróba eredménye" && git push -q origin HEAD:forras-proba
+          git commit -qm "Forráspróba eredménye"
+          if ! git push origin HEAD:refs/heads/forras-proba > /tmp/p 2>&1; then echo "::error::push: $(tr '\n' ' ' < /tmp/p | cut -c1-900)"; exit 1; fi
