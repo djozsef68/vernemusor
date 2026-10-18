@@ -308,6 +308,167 @@ def port_tv():
     return port_adasok(letolt(PORT + '/adatlap/szemely/jules-verne/person-18735').decode('utf-8', 'replace'))
 
 
+# ---------------------------------------------------------------- Rádiók saját műsorlapjai (FR, DE, AT)
+def napok(db=7):
+    ma = MOST.astimezone(dt.timezone(dt.timedelta(hours=1))).date()
+    return [ma + dt.timedelta(days=i) for i in range(db)]
+
+
+def radiofrance(adoazon, nev):
+    ki, lat = [], 0
+    for nap in napok():
+        try:
+            h = letolt(f'https://www.radiofrance.fr/{adoazon}/grille-programmes?date={nap:%d-%m-%Y}', 'fr').decode('utf-8', 'replace')
+        except Exception:
+            continue
+        elemek = []
+        for b in h.split('timeline-item')[1:]:
+            t = re.search(r'starttimeunix="(\d+)"', b)
+            c = re.search(r'aria-label="([^"]+)"', b)
+            if not t or not c:
+                continue
+            al = re.search(r'class="typo-text-medium subtext[^"]*"[^>]*>(?:<!--[^>]*-->)*([^<]*)', b)
+            elemek.append((int(t.group(1)), html.unescape(c.group(1)).strip(), html.unescape(al.group(1)).strip() if al else ''))
+        lat += len(elemek)
+        for i, (ts, cim, alcim) in enumerate(elemek):
+            if not verne_e(cim, alcim) and not cim_verne_e(alcim):
+                continue
+            kezd = dt.datetime.fromtimestamp(ts, dt.timezone.utc)
+            veg = dt.datetime.fromtimestamp(elemek[i + 1][0], dt.timezone.utc) if i + 1 < len(elemek) else kezd + dt.timedelta(hours=1)
+            if veg < MOST:
+                continue
+            ki.append({'tipus': 'radio', 'orszag': 'fr', 'csatorna': nev, 'cim': cim, 'alcim': alcim, 'ev': None,
+                       'kezd': kezd.isoformat(), 'perc': max(1, round((veg - kezd).total_seconds() / 60)),
+                       'link': f'https://www.radiofrance.fr/{adoazon}/grille-programmes?date={nap:%d-%m-%Y}'})
+        time.sleep(1)
+    ATNEZVE['radio-' + adoazon] = lat
+    return ki
+
+
+def deutschlandradio(domain, nev):
+    ki, lat = [], 0
+    for nap in napok():
+        try:
+            h = letolt(f'https://www.{domain}/programm?drsearch:date={nap:%Y-%m-%d}', 'de').decode('utf-8', 'replace')
+        except Exception:
+            continue
+        for j in re.findall(r'data-json="([^"]+)"', h):
+            try:
+                d = json.loads(html.unescape(j))
+                d = d.get('value') if isinstance(d, dict) else None
+            except Exception:
+                continue
+            if not isinstance(d, dict) or d.get('__typename') != 'BroadcastLines' or not d.get('startDateRaw'):
+                continue
+            lat += 1
+            cim, leir = d.get('title') or '', (d.get('shortText') or '') + ' ' + (d.get('pressText') or '')
+            if not verne_e(cim, leir):
+                continue
+            kezd = dt.datetime.fromisoformat(d['startDateRaw'].replace('Z', '+00:00'))
+            veg = dt.datetime.fromisoformat(d['endDateRaw'].replace('Z', '+00:00')) if d.get('endDateRaw') else kezd + dt.timedelta(hours=1)
+            if veg < MOST:
+                continue
+            ki.append({'tipus': 'radio', 'orszag': 'de', 'csatorna': nev, 'cim': cim,
+                       'alcim': (d.get('shortText') or '').split('\n')[0].strip(), 'ev': None, 'kezd': kezd.isoformat(),
+                       'perc': max(1, round((veg - kezd).total_seconds() / 60)), 'link': f'https://www.{domain}/programm?drsearch:date={nap:%Y-%m-%d}'})
+        time.sleep(1)
+    ATNEZVE['radio-' + domain] = lat
+    return ki
+
+
+def oe1():
+    ki, lat = [], 0
+    for nap in napok():
+        try:
+            h = letolt(f'https://oe1.orf.at/programm/{nap:%Y%m%d}', 'de').decode('utf-8', 'replace')
+        except Exception:
+            continue
+        elemek = re.findall(r'<span class="programTime">\s*(\d{1,2}):(\d{2})</span><a href="([^"]+)">([^<]+)</a>', h)
+        lat += len(elemek)
+        for i, (hh, mm, l, cim) in enumerate(elemek):
+            cim = html.unescape(cim).strip()
+            if not cim_verne_e(cim):
+                continue
+            kezd = budapest_ido(nap, int(hh), int(mm))
+            veg = budapest_ido(nap, int(elemek[i + 1][0]), int(elemek[i + 1][1])) if i + 1 < len(elemek) else kezd + dt.timedelta(hours=1)
+            if veg < kezd:
+                veg += dt.timedelta(days=1)
+            if veg < MOST:
+                continue
+            ki.append({'tipus': 'radio', 'orszag': 'at', 'csatorna': 'Ö1', 'cim': cim, 'alcim': '', 'ev': None,
+                       'kezd': kezd.isoformat(), 'perc': max(1, round((veg - kezd).total_seconds() / 60)), 'link': 'https://oe1.orf.at' + l})
+        time.sleep(1)
+    ATNEZVE['radio-oe1'] = lat
+    return ki
+
+
+# ---------------------------------------------------------------- Egyéb események: kiállítás, koncert, fesztivál
+HONAP_HU = {h: i + 1 for i, h in enumerate(['január', 'február', 'március', 'április', 'május', 'június', 'július', 'augusztus',
+                                             'szeptember', 'október', 'november', 'december'])}
+
+
+def port_esemenyek():
+    ki, latott = [], set()
+    for q in ['verne', 'jules verne', 'verne gyula', 'nemo kapitány', '80 nap alatt', 'nautilus']:
+        try:
+            h = letolt(PORT + '/kereso?q=' + urllib.parse.quote_plus(q) + '&type=generalevent').decode('utf-8', 'replace')
+        except Exception:
+            continue
+        for a in re.findall(r'<article data-category="[^"]*">(.*?)</article>', h, re.S):
+            c = re.search(r'<a class="title" href="([^"]+)"[^>]*>\s*([^<]+?)\s*</a>', a)
+            if not c or c.group(1) in latott:
+                continue
+            latott.add(c.group(1))
+            cim = html.unescape(c.group(2)).strip()
+            leir = szoveg(re.search(r'<p class="description">(.*?)</p>', a, re.S).group(1)) if '<p class="description">' in a else ''
+            if not verne_e(cim, leir):
+                continue
+            fajta = szoveg(re.search(r'<span class="name">([^<]+)</span>', a).group(1)) if '<span class="name">' in a else ''
+            osszeg = szoveg(re.search(r'<label class="summary">(.*?)</label>', a, re.S).group(1)) if '<label class="summary">' in a else ''
+            m = re.match(r'(\d{4})\. (\w+) (\d{1,2})\.(?: (\d{1,2}:\d\d))?', osszeg)
+            if not m or m.group(2).lower() not in HONAP_HU:
+                continue
+            nap = dt.date(int(m.group(1)), HONAP_HU[m.group(2).lower()], int(m.group(3)))
+            if nap < MOST.date():
+                continue
+            hely = re.search(r'\(([^()]+)\)\s*$', osszeg)
+            ki.append({'tipus': 'egyeb', 'orszag': 'hu', 'cim': cim, 'fajta': fajta.lower(), 'hely': hely.group(1) if hely else '',
+                       'varos': '', 'datum': nap.isoformat(), 'ido': m.group(4) or '', 'link': PORT + c.group(1)})
+        time.sleep(1)
+    return ki
+
+
+# a „Jules Verne” nevet viselő helyek (iskola, könyvtár, utca) eseményei nem Verne-események – a múzeumai igen
+HELYNEV = re.compile(r'(?i)(lyc[ée]e|coll[èe]ge|[ée]cole|biblioth[èe]que|m[ée]diath[èe]que|gymnase|stade|salle|rue|avenue|all[ée]e|place|quai|boulevard|centre|maison de quartier|complexe|piscine|résidence)(?: \w+){0,2} jules[- ]verne')
+VERNE_HELY = re.compile(r'(?i)mus[ée]e jules[- ]verne|maison de jules[- ]verne|maison jules[- ]verne')
+
+
+def unidivers():
+    ki, latott = [], set()
+    for q in ['jules verne', 'vingt mille lieues', 'tour du monde en 80 jours', 'capitaine nemo', 'voyage au centre de la terre']:
+        try:
+            h = letolt('https://unidivers.fr/?s=' + urllib.parse.quote_plus(q), 'fr').decode('utf-8', 'replace')
+        except Exception:
+            continue
+        for l, cim in re.findall(r'<h2><a href="(https://unidivers\.fr/event/[^"]+)"[^>]*>([^<]+)</a>', h):
+            if l in latott:
+                continue
+            latott.add(l)
+            cim = html.unescape(cim).replace('\xa0', ' ').strip()
+            if not (VERNE_HELY.search(cim) or (cim_verne_e(cim) and not HELYNEV.search(cim))):
+                continue
+            m = re.search(r'-(\d{4})-(\d{2})-(\d{2})(?:t(\d{2})(\d{2}))?', l)
+            if not m:
+                continue
+            nap = dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+            if nap < MOST.date():
+                continue
+            ki.append({'tipus': 'egyeb', 'orszag': 'fr', 'cim': cim, 'fajta': '', 'hely': '', 'varos': '',
+                       'datum': nap.isoformat(), 'ido': f'{m.group(4)}:{m.group(5)}' if m.group(4) else '', 'link': l})
+        time.sleep(1)
+    return ki
+
+
 # ---------------------------------------------------------------- Anglia: ATG (színház)
 ATG_KERES = ['verne', 'around the world in 80 days', '20,000 leagues', 'journey to the centre of the earth',
              'captain nemo', 'mysterious island', 'phileas fogg', 'from the earth to the moon', 'trip to the moon', 'offenbach']
@@ -484,7 +645,7 @@ def ticketmaster(kulcs):
 # ---------------------------------------------------------------- összerakás
 def main():
     ki_fajl = sys.argv[1] if len(sys.argv) > 1 else 'data/musor.json'
-    eredmeny = {'frissitve': MOST.replace(microsecond=0).isoformat(), 'tv': [], 'radio': [], 'szinhaz': [], 'mozi': [],
+    eredmeny = {'frissitve': MOST.replace(microsecond=0).isoformat(), 'tv': [], 'radio': [], 'szinhaz': [], 'mozi': [], 'egyeb': [],
                 'forrasok': {}}
 
     def fut(nev, f):
@@ -496,6 +657,9 @@ def main():
             if nev == 'port.hu tévékereső':
                 eredmeny['forrasok'][nev]['atnezve'] = ATNEZVE.get('tévékereső')
                 eredmeny['forrasok'][nev]['verne'] = ATNEZVE.get('tévékereső-verne')
+            for kk, ak in [('France Culture', 'radio-franceculture'), ('France Inter', 'radio-franceinter'), ('Deutschlandfunk Kultur', 'radio-deutschlandfunkkultur.de'), ('Deutschlandfunk', 'radio-deutschlandfunk.de'), ('Ö1', 'radio-oe1')]:
+                if nev == kk and ak in ATNEZVE:
+                    eredmeny['forrasok'][nev]['atnezve'] = ATNEZVE[ak]
             if nev == 'ticketmaster' and 'ticketmaster-proba' in ATNEZVE:
                 eredmeny['forrasok'][nev]['proba'] = ATNEZVE['ticketmaster-proba']
             if 'radio-' + nev.split()[-1] in ATNEZVE and ATNEZVE['radio-' + nev.split()[-1]]:
@@ -511,6 +675,15 @@ def main():
         nev = 'iptvx.one RU' if cimke.startswith('http') else 'epgshare01 ' + cimke
         for m in fut(nev, lambda o=orszag, c=cimke: epg_orszag(o, c)):
             eredmeny[m.pop('tipus')].append(m)
+    for nev, f in [('France Culture', lambda: radiofrance('franceculture', 'France Culture')),
+                   ('France Inter', lambda: radiofrance('franceinter', 'France Inter')),
+                   ('Deutschlandfunk Kultur', lambda: deutschlandradio('deutschlandfunkkultur.de', 'Deutschlandfunk Kultur')),
+                   ('Deutschlandfunk', lambda: deutschlandradio('deutschlandfunk.de', 'Deutschlandfunk')),
+                   ('Ö1', oe1)]:
+        for m in fut(nev, f):
+            eredmeny[m.pop('tipus')].append(m)
+    eredmeny['egyeb'] += fut('port.hu események', port_esemenyek)
+    eredmeny['egyeb'] += fut('unidivers.fr', unidivers)
     for m in fut('port.hu tévé', port_tv):  # (a port.hu tévéműsor-keresője a GitHubról nem ad megbízható találatot – kimaradt)
         eredmeny[m.pop('tipus')].append(m)
     sz, mo = fut('port.hu', port_hu)
@@ -546,15 +719,20 @@ def main():
                 continue
             tartott.append((kulcs, t, m))
         eredmeny[k] = [x[2] for x in tartott]
-    for m in eredmeny['szinhaz'] + eredmeny['mozi']:
+    for m in eredmeny['szinhaz'] + eredmeny['mozi'] + eredmeny['egyeb']:
         m.pop('tipus', None)
+    egy = {}
+    for m in eredmeny['egyeb']:  # ugyanaz az esemény kétszer (kicsit más címmel) – egyszer
+        egy.setdefault((m.get('datum'), egyszerusit(m['cim'])[:32]), m)
+    eredmeny['egyeb'] = list(egy.values())
+    eredmeny['egyeb'].sort(key=lambda m: (m.get('datum') or '9999', m.get('ido') or '', m['orszag'], m['cim']))
     eredmeny['szinhaz'].sort(key=lambda m: (m.get('datum') or '9999', m['orszag'], m['cim']))
     eredmeny['mozi'].sort(key=lambda m: (m['orszag'] != 'hu', m['orszag'], m['cim']))
 
     os.makedirs(os.path.dirname(ki_fajl) or '.', exist_ok=True)
     with open(ki_fajl, 'w', encoding='utf-8') as f:
         json.dump(eredmeny, f, ensure_ascii=False, indent=1)
-    for k in ('tv', 'radio', 'szinhaz', 'mozi'):
+    for k in ('tv', 'radio', 'szinhaz', 'mozi', 'egyeb'):
         print(f'{k}: {len(eredmeny[k])}')
     for n, f in eredmeny['forrasok'].items():
         print(n, f)
