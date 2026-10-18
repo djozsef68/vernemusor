@@ -487,7 +487,11 @@ def verne_program(cim, leiras=''):
     (de nem egy róla elnevezett hely nevében)."""
     if HELYNEV2.search(cim) and not VERNE_HELY.search(cim):
         cim = HELYNEV2.sub(' ', cim)
-    return cim_verne_e(cim) or verne_e(cim, HELYNEV2.sub(' ', szoveg(leiras or '')))
+    if cim_verne_e(cim):
+        return True
+    # a leírásban legalább kétszer kell Verne nevének állnia (egy futó említés – „mint Jules Verne-nél” – nem elég)
+    t = HELYNEV2.sub(' ', szoveg(leiras or ''))
+    return len(re.findall(r'(?i)jules[- ]verne', t)) >= 2 and verne_e(cim, t)
 
 
 def idoszak(d1, d2):
@@ -551,8 +555,6 @@ def nantes():
         tipusok = ' '.join(x.get('types_libelles') or [])
         cim = html.unescape(x['nom']).strip()
         muzeum = 'JULES VERNE' in (x.get('emetteur') or '').upper()
-        if muzeum and 'verne' not in cim.lower():
-            cim += ' – Musée Jules Verne'
         d1, d2 = dt.date.fromisoformat(x['date']), dt.date.fromisoformat(utolso['date'])
         ki.append({'tipus': 'szinhaz' if SZINPAD.search(cim + ' ' + tipusok) else 'egyeb', 'orszag': 'fr', 'cim': cim,
                    'fajta': (x.get('types_libelles') or [''])[0].split(' - ')[0].lower(), 'mufaj': '',
@@ -587,12 +589,15 @@ def amiens():
         h = letolt('https://www.amiens.fr/Les-evenements' + (f'/(page)/{oldal}' if oldal > 1 else ''), 'fr').decode('utf-8', 'replace')
         if oldal == 1:
             lapok = max([1] + [int(x) for x in re.findall(r'/Les-evenements/\(page\)/(\d+)', h)])
-        for l, c in re.findall(r'<a href="(/Les-evenements/[^"(#]+)" class="diary-block__content-hidden__title"[^>]*>\s*(.*?)\s*</a>', h, re.S):
-            if l in latott:
+        for blokk in h.split('diary-block jsBlockLink')[1:]:
+            lc = re.search(r'href="(/Les-evenements/[^"(#]+)"[^>]*class="diary-block__content-hidden__title"[^>]*>\s*(.*?)\s*</a>', blokk, re.S) \
+                or re.search(r'class="diary-block__content-hidden__title"[^>]*href="(/Les-evenements/[^"(#]+)"[^>]*>\s*(.*?)\s*</a>', blokk, re.S)
+            if not lc or lc.group(1) in latott:
                 continue
+            l = lc.group(1)
             latott.add(l)
-            cim = szoveg(c)
-            if not (VERNE_HELY.search(cim) or verne_program(cim)):
+            cim = szoveg(lc.group(2))
+            if not (VERNE_HELY.search(cim) or verne_program(cim) or VERNE_HELY.search(szoveg(blokk[:6000]))):
                 continue
             e = letolt('https://www.amiens.fr' + l, 'fr').decode('utf-8', 'replace')
             t = szoveg(re.sub(r'(?s)<(header|nav|footer)[^>]*>.*?</\1>', ' ', e))
@@ -870,6 +875,17 @@ def main():
         eredmeny[k] = [x[2] for x in tartott]
     for m in eredmeny['szinhaz'] + eredmeny['mozi'] + eredmeny['egyeb']:
         m.pop('tipus', None)
+    for k in ('szinhaz', 'egyeb'):  # ugyanaz az esemény két forrásból (pl. Unidivers és a város naptára): a részletesebb marad
+        lista = eredmeny[k]
+        kidob = set()
+        for i, a in enumerate(lista):
+            for j, b in enumerate(lista):
+                if i >= j or i in kidob or j in kidob or not a.get('datum') or a.get('datum') != b.get('datum'):
+                    continue
+                ea, eb = egyszerusit(a['cim']).strip(), egyszerusit(b['cim']).strip()
+                if min(len(ea), len(eb)) >= 12 and (ea in eb or eb in ea or ea[:24] == eb[:24]):
+                    kidob.add(j if (a.get('hely') or a.get('ido')) else i)
+        eredmeny[k] = [m for i, m in enumerate(lista) if i not in kidob]
     egy = {}
     for m in eredmeny['egyeb']:  # ugyanaz az esemény kétszer (kicsit más címmel) – egyszer
         egy.setdefault((m.get('datum'), egyszerusit(m['cim'])[:32]), m)
