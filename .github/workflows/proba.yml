@@ -1,0 +1,15 @@
+name: proba
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          mkdir ki && cd ki
+          for t in US1 US2 US3 US US_LOCALS1 US_LOCALS2 CA1 UK1; do curl -s -o /dev/null -w "$t %{http_code} %{size_download}\n" "https://epgshare01.online/epgshare01/epg_ripper_$t.xml.gz" >> lista.txt; done
+          curl -sL https://epgshare01.online/epgshare01/ -o index.html || true
+          cat lista.txt
+          git init -q; git checkout -q -b proba-ki; git add .; git -c user.name=p -c user.email=p@p commit -qm p
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" proba-ki
