@@ -105,7 +105,7 @@ def verne_e(cim, *egyeb):
     c = egyszerusit(cim)
     if _TILTO.search(c):
         return False
-    if _CIM.search(c) or _NEV.search(c):
+    if _CIM.search(c) or _NEV.search(c) or _NAUTILUS.match(c):
         return True
     for e in egyeb:
         e = egyszerusit(e)
@@ -116,6 +116,11 @@ def verne_e(cim, *egyeb):
     return False
 
 
+# A puszta „Nautilus” cím (a 2024-es Nemo-sorozat) – csak ha a cím maga ez, epizódjelöléssel együtt;
+# a USS Nautilusról vagy a Nautilus nevű cégekről szóló műsorok így nem kerülnek be.
+_NAUTILUS = re.compile(r'^ nautilus (?:(?:s\d+ ?e\d+|\d+|evad|saison|staffel|season|stagione|temporada)\b.*)?$')
+
+
 def cim_verne_e(cim):
     c = egyszerusit(cim)
-    return not _TILTO.search(c) and bool(_CIM.search(c) or _NEV.search(c))
+    return not _TILTO.search(c) and bool(_CIM.search(c) or _NEV.search(c) or _NAUTILUS.match(c))
