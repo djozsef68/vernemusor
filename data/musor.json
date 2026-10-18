@@ -1,6 +1,15 @@
 {
- "frissitve": "2026-10-18T06:08:26+00:00",
+ "frissitve": "2026-10-18T06:55:31+00:00",
  "tv": [
+  {
+   "orszag": "es",
+   "csatorna": "AMC+ Connect",
+   "cim": "Nautilus",
+   "alcim": "Cold War",
+   "ev": 2024,
+   "kezd": "2026-10-18T07:20:00+02:00",
+   "perc": 53
+  },
   {
    "orszag": "es",
    "csatorna": "La Otra",
@@ -9,6 +18,15 @@
    "ev": 1983,
    "kezd": "2026-10-18T08:06:00+02:00",
    "perc": 26
+  },
+  {
+   "orszag": "es",
+   "csatorna": "AMC+ Connect",
+   "cim": "Nautilus",
+   "alcim": "The Tipping Point",
+   "ev": 2024,
+   "kezd": "2026-10-18T08:13:00+02:00",
+   "perc": 50
   },
   {
    "orszag": "ru",
@@ -92,6 +110,15 @@
    "perc": 116
   },
   {
+   "orszag": "pl",
+   "csatorna": "CT 1",
+   "cim": "Nautilus",
+   "alcim": "Odhalení Dobrodruzný",
+   "ev": 2024,
+   "kezd": "2026-10-19T08:50:00-05:00",
+   "perc": 55
+  },
+  {
    "orszag": "pt",
    "csatorna": "AMC",
    "cim": "Viagem ao Centro da Terra",
@@ -146,6 +173,42 @@
    "perc": 105
   },
   {
+   "orszag": "pl",
+   "csatorna": "CT 1",
+   "cim": "Nautilus",
+   "alcim": "Odhalení Dobrodruzný",
+   "ev": 2024,
+   "kezd": "2026-10-20T02:00:00-05:00",
+   "perc": 55
+  },
+  {
+   "orszag": "pl",
+   "csatorna": "CT 1",
+   "cim": "Nautilus",
+   "alcim": "Kluzká zálezitost Dobrodruzný",
+   "ev": 2024,
+   "kezd": "2026-10-20T08:55:00-05:00",
+   "perc": 50
+  },
+  {
+   "orszag": "es",
+   "csatorna": "AMC+ Connect",
+   "cim": "Nautilus",
+   "alcim": "Cold War",
+   "ev": 2024,
+   "kezd": "2026-10-20T17:13:00+02:00",
+   "perc": 53
+  },
+  {
+   "orszag": "es",
+   "csatorna": "AMC+ Connect",
+   "cim": "Nautilus",
+   "alcim": "The Tipping Point",
+   "ev": 2024,
+   "kezd": "2026-10-20T18:06:00+02:00",
+   "perc": 50
+  },
+  {
    "orszag": "it",
    "csatorna": "20 Mediaset",
    "cim": "Viaggio Nell'isola Misteriosa",
@@ -173,6 +236,15 @@
    "perc": 116
   },
   {
+   "orszag": "pl",
+   "csatorna": "CT 1",
+   "cim": "Nautilus",
+   "alcim": "Kluzká zálezitost Dobrodruzný",
+   "ev": 2024,
+   "kezd": "2026-10-21T02:00:00-05:00",
+   "perc": 55
+  },
+  {
    "orszag": "hu",
    "csatorna": "Filmbox Premium",
    "cim": "80 nap alatt a Föld körül",
@@ -181,6 +253,15 @@
    "kezd": "2026-10-21T09:15:00+02:00",
    "perc": 115,
    "link": "https://port.hu/adatlap/film/tv/80-nap-alatt-a-fold-korul-around-the-world-in-80-days/movie-65570"
+  },
+  {
+   "orszag": "pl",
+   "csatorna": "CT 1",
+   "cim": "Nautilus",
+   "alcim": "Vidiny Dobrodruzný",
+   "ev": 2024,
+   "kezd": "2026-10-21T09:25:00-05:00",
+   "perc": 50
   },
   {
    "orszag": "hu",
@@ -438,7 +519,7 @@
   "epgshare01 HU1": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 1,
    "radio": {
     "MR1-Kossuth": 272,
     "MR2-Petőfi": 49,
@@ -451,13 +532,13 @@
   "epgshare01 FR1": {
    "ok": true,
    "db": 6,
-   "mp": 4,
+   "mp": 2,
    "atnezve": 65224
   },
   "epgshare01 UK1": {
    "ok": true,
    "db": 4,
-   "mp": 2,
+   "mp": 1,
    "radio": {
     "Radio X": 32,
     "RTÉ 2FM": 35,
@@ -494,7 +575,7 @@
   "epgshare01 DE1": {
    "ok": true,
    "db": 1,
-   "mp": 2,
+   "mp": 1,
    "atnezve": 22513
   },
   "epgshare01 IT1": {
@@ -511,8 +592,8 @@
   },
   "epgshare01 ES1": {
    "ok": true,
-   "db": 6,
-   "mp": 2,
+   "db": 10,
+   "mp": 1,
    "atnezve": 34362
   },
   "epgshare01 PT1": {
@@ -523,8 +604,8 @@
   },
   "epgshare01 PL1": {
    "ok": true,
-   "db": 1,
-   "mp": 7,
+   "db": 6,
+   "mp": 4,
    "radio": {
     "Radio Nowy Świat": 53,
     "Polskie Radio Program 1": 215,
@@ -538,7 +619,7 @@
   "epgshare01 CH1": {
    "ok": true,
    "db": 0,
-   "mp": 5,
+   "mp": 3,
    "radio": {
     "Radio Ticino Channel": 57,
     "Radio Pilatus TV": 17,
@@ -549,7 +630,7 @@
   "epgshare01 BE2": {
    "ok": true,
    "db": 0,
-   "mp": 5,
+   "mp": 3,
    "radio": {
     "Radio Bremen HD": 154,
     "Radio Contact Vision": 27,
@@ -568,7 +649,7 @@
   "epgshare01 US2": {
    "ok": true,
    "db": 0,
-   "mp": 5,
+   "mp": 3,
    "radio": {
     "3ABN Radio Network": 161,
     "Rai Radio 1": 196,
@@ -580,7 +661,7 @@
   "iptvx.one RU": {
    "ok": true,
    "db": 1,
-   "mp": 62,
+   "mp": 32,
    "radio": {
     "Дорожное радио": 279,
     "NO EPG Radio (заглушка)": 90,
@@ -607,13 +688,13 @@
   "France Culture": {
    "ok": true,
    "db": 0,
-   "mp": 9,
+   "mp": 12,
    "atnezve": 224
   },
   "France Inter": {
    "ok": true,
    "db": 0,
-   "mp": 9,
+   "mp": 12,
    "atnezve": 184
   },
   "Deutschlandfunk Kultur": {
@@ -625,7 +706,7 @@
   "Deutschlandfunk": {
    "ok": true,
    "db": 0,
-   "mp": 18,
+   "mp": 14,
    "atnezve": 334
   },
   "Ö1": {
@@ -647,17 +728,17 @@
   "port.hu tévé": {
    "ok": true,
    "db": 8,
-   "mp": 1
+   "mp": 2
   },
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 91
+   "mp": 97
   },
   "atgtickets.com": {
    "ok": true,
    "db": 0,
-   "mp": 18
+   "mp": 17
   },
   "offi.fr": {
    "ok": true,
@@ -667,7 +748,7 @@
   "allocine.fr": {
    "ok": true,
    "db": 0,
-   "mp": 17
+   "mp": 19
   },
   "comingsoon.it": {
    "ok": true,
@@ -677,8 +758,8 @@
   "sensacine.com": {
    "ok": true,
    "db": 0,
-   "mp": 20,
-   "atnezve": 198
+   "mp": 30,
+   "atnezve": 203
   },
   "picturehouses.com": {
    "ok": true,
@@ -707,7 +788,7 @@
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 21,
+   "mp": 24,
    "proba": 10000,
    "atnezve": 3
   }
