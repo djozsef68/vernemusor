@@ -1,0 +1,26 @@
+name: Forráspróba
+on:
+  push:
+    branches: [forras-proba]
+    paths: ['gyujto/**', '.github/workflows/proba.yml']
+permissions:
+  contents: write
+jobs:
+  proba:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Próba
+        run: |
+          if [ -f gyujto/proba_futtat.py ]; then python3 gyujto/proba_futtat.py; else python3 gyujto/felderit.py; fi
+      - name: Mentés az ágra
+        run: |
+          git config user.name 'Verne-műsorfüzet'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A proba
+          git diff --cached --quiet && exit 0
+          git commit -qm "Forráspróba eredménye" && git push -q origin HEAD:forras-proba
