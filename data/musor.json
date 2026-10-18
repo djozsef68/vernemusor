@@ -1,23 +1,14 @@
 {
- "frissitve": "2026-10-17T23:35:23+00:00",
+ "frissitve": "2026-10-18T05:35:36+00:00",
  "tv": [
   {
-   "orszag": "uk",
-   "csatorna": "Sky Adventure",
-   "cim": "Journey 2: The Mysterious Island",
-   "alcim": "",
-   "ev": 2012,
-   "kezd": "2026-10-18T02:30:00+00:00",
-   "perc": 100
-  },
-  {
-   "orszag": "uk",
-   "csatorna": "Sky Family",
-   "cim": "Journey 2: The Mysterious Island",
-   "alcim": "",
-   "ev": 2012,
-   "kezd": "2026-10-18T02:30:00+00:00",
-   "perc": 100
+   "orszag": "es",
+   "csatorna": "La Otra",
+   "cim": "La vuelta al mundo de Willy Fog",
+   "alcim": "El expreso de calcuta",
+   "ev": 1983,
+   "kezd": "2026-10-18T08:06:00+02:00",
+   "perc": 26
   },
   {
    "orszag": "ru",
@@ -27,6 +18,15 @@
    "ev": null,
    "kezd": "2026-10-18T14:33:00+03:00",
    "perc": 90
+  },
+  {
+   "orszag": "es",
+   "csatorna": "GCM",
+   "cim": "La vuelta al mundo en 80 días",
+   "alcim": "",
+   "ev": 1956,
+   "kezd": "2026-10-18T16:00:00+02:00",
+   "perc": 150
   },
   {
    "orszag": "fr",
@@ -47,6 +47,15 @@
    "perc": 55
   },
   {
+   "orszag": "es",
+   "csatorna": "GCM",
+   "cim": "La vuelta al mundo en 80 días",
+   "alcim": "",
+   "ev": 1956,
+   "kezd": "2026-10-19T04:00:00+02:00",
+   "perc": 150
+  },
+  {
    "orszag": "de",
    "csatorna": "Sky Cinema Classics",
    "cim": "In 80 Tagen um die Welt",
@@ -63,6 +72,15 @@
    "ev": 1956,
    "kezd": "2026-10-19T00:00:00-05:00",
    "perc": 170
+  },
+  {
+   "orszag": "es",
+   "csatorna": "La Otra",
+   "cim": "Willy Fog",
+   "alcim": "El rescate de Romy",
+   "ev": 1983,
+   "kezd": "2026-10-19T07:20:00+02:00",
+   "perc": 25
   },
   {
    "orszag": "fr",
@@ -101,6 +119,15 @@
    "perc": 50
   },
   {
+   "orszag": "es",
+   "csatorna": "La Otra",
+   "cim": "La vuelta al mundo de Willy Fog",
+   "alcim": "Un regalo para Parsi",
+   "ev": 1983,
+   "kezd": "2026-10-20T07:20:00+02:00",
+   "perc": 25
+  },
+  {
    "orszag": "uk",
    "csatorna": "Sky Adventure",
    "cim": "Journey 2: The Mysterious Island",
@@ -126,6 +153,24 @@
    "ev": null,
    "kezd": "2026-10-20T21:47:00+00:00",
    "perc": 127
+  },
+  {
+   "orszag": "fr",
+   "csatorna": "Action",
+   "cim": "Michel Strogoff",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-21T06:51:00+02:00",
+   "perc": 110
+  },
+  {
+   "orszag": "fr",
+   "csatorna": "Action",
+   "cim": "Le triomphe de Michel Strogoff",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-21T08:41:00+02:00",
+   "perc": 116
   },
   {
    "orszag": "hu",
@@ -226,26 +271,26 @@
   "epgshare01 HU1": {
    "ok": true,
    "db": 0,
-   "mp": 1,
+   "mp": 2,
    "atnezve": 23907
   },
   "epgshare01 FR1": {
    "ok": true,
-   "db": 4,
-   "mp": 2,
-   "atnezve": 66100
+   "db": 6,
+   "mp": 4,
+   "atnezve": 65224
   },
   "epgshare01 UK1": {
    "ok": true,
-   "db": 7,
-   "mp": 1,
+   "db": 4,
+   "mp": 2,
    "atnezve": 41848
   },
   "epgshare01 DE1": {
    "ok": true,
    "db": 1,
-   "mp": 1,
-   "atnezve": 26667
+   "mp": 2,
+   "atnezve": 22513
   },
   "epgshare01 IT1": {
    "ok": true,
@@ -255,9 +300,9 @@
   },
   "epgshare01 ES1": {
    "ok": true,
-   "db": 0,
-   "mp": 1,
-   "atnezve": 33434
+   "db": 6,
+   "mp": 2,
+   "atnezve": 34362
   },
   "epgshare01 PT1": {
    "ok": true,
@@ -268,46 +313,51 @@
   "epgshare01 PL1": {
    "ok": true,
    "db": 1,
-   "mp": 4,
+   "mp": 6,
    "atnezve": 106887
   },
   "epgshare01 CH1": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 4,
    "atnezve": 86514
   },
   "epgshare01 BE2": {
    "ok": true,
    "db": 0,
-   "mp": 3,
+   "mp": 5,
    "atnezve": 74912
+  },
+  "epgshare01 US1": {
+   "ok": false,
+   "hiba": "HTTP Error 404: Not Found",
+   "mp": 3
   },
   "iptvx.one RU": {
    "ok": true,
    "db": 1,
-   "mp": 32,
+   "mp": 58,
    "atnezve": 900479
   },
   "port.hu tévé": {
    "ok": true,
    "db": 8,
-   "mp": 5
+   "mp": 4
   },
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 97
+   "mp": 91
   },
   "atgtickets.com": {
    "ok": true,
    "db": 0,
-   "mp": 17
+   "mp": 15
   },
   "offi.fr": {
    "ok": true,
    "db": 0,
-   "mp": 13
+   "mp": 12
   },
   "allocine.fr": {
    "ok": true,
@@ -317,12 +367,42 @@
   "comingsoon.it": {
    "ok": true,
    "db": 0,
-   "mp": 0
+   "mp": 1
+  },
+  "sensacine.com": {
+   "ok": true,
+   "db": 0,
+   "mp": 21,
+   "atnezve": 193
+  },
+  "picturehouses.com": {
+   "ok": true,
+   "db": 0,
+   "mp": 2,
+   "atnezve": 439
+  },
+  "filmweb.pl": {
+   "ok": true,
+   "db": 0,
+   "mp": 3,
+   "atnezve": 171
+  },
+  "film.at": {
+   "ok": true,
+   "db": 0,
+   "mp": 1,
+   "atnezve": 13
+  },
+  "rottentomatoes.com": {
+   "ok": true,
+   "db": 0,
+   "mp": 2,
+   "atnezve": 28
   },
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 21,
+   "mp": 19,
    "proba": 10000,
    "atnezve": 3
   }
