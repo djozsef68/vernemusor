@@ -88,13 +88,16 @@ def xmltv_ido(s):
 
 def epg_orszag(orszag, cimke):
     adat = letolt(cimke if cimke.startswith('http') else f'https://epgshare01.online/epgshare01/epg_ripper_{cimke}.xml.gz', 'ru' if orszag == 'ru' else 'hu', ido=300)
-    nevek, ki, osszes = {}, [], 0
+    nevek, ki, osszes, radio = {}, [], 0, {}
     for _, e in ET.iterparse(__import__('io').BytesIO(adat), events=('end',)):
         if e.tag == 'channel':
             nevek[e.get('id')] = (e.findtext('display-name') or e.get('id')).strip()
             e.clear()
         elif e.tag == 'programme':
             osszes += 1
+            rc = nevek.get(e.get('channel'), '')
+            if rc and RADIO.search(rc):
+                radio[rc] = radio.get(rc, 0) + 1
             cim = (e.findtext('title') or '').strip()
             alcim = (e.findtext('sub-title') or '').strip()
             leiras = (e.findtext('desc') or '').strip()
@@ -117,6 +120,7 @@ def epg_orszag(orszag, cimke):
                         })
             e.clear()
     ATNEZVE['RU' if cimke.startswith('http') else cimke] = osszes
+    ATNEZVE['radio-' + ('RU' if cimke.startswith('http') else cimke)] = radio
     return ki
 
 
@@ -494,6 +498,8 @@ def main():
                 eredmeny['forrasok'][nev]['verne'] = ATNEZVE.get('tévékereső-verne')
             if nev == 'ticketmaster' and 'ticketmaster-proba' in ATNEZVE:
                 eredmeny['forrasok'][nev]['proba'] = ATNEZVE['ticketmaster-proba']
+            if 'radio-' + nev.split()[-1] in ATNEZVE and ATNEZVE['radio-' + nev.split()[-1]]:
+                eredmeny['forrasok'][nev]['radio'] = ATNEZVE['radio-' + nev.split()[-1]]
             if nev.split()[-1] in ATNEZVE:
                 eredmeny['forrasok'][nev]['atnezve'] = ATNEZVE[nev.split()[-1]]
             return r
