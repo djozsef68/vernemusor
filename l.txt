@@ -1,0 +1,14 @@
+fc https://www.radiofrance.fr/franceculture/grille-programmes
+fc2 https://www.radiofrance.fr/franceculture/grille-programmes?date=18-10-2026
+fi https://www.radiofrance.fr/franceinter/grille-programmes
+dlfk https://www.deutschlandfunkkultur.de/programm
+dlfk2 https://www.deutschlandfunkkultur.de/programm?drsearch:date=2026-10-18
+oe1 https://oe1.orf.at/programm/20261018
+ardhsp https://hoerspiele.dra.de/
+ardaudio https://www.ardaudiothek.de/suche/jules%20verne/
+rai3 https://www.raiplaysound.it/palinsesto/radio3
+porthu-ev https://port.hu/kereso?q=verne&type=generalevent
+porthu-ev2 https://port.hu/kereso?q=jules+verne&type=generalevent
+nantes https://metropole.nantes.fr/que-faire-a-nantes/agenda?search=jules+verne
+unidivers https://unidivers.fr/?s=jules+verne
+openagenda https://openagenda.com/fr/search?search=jules%20verne

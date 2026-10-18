@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+<html lang="hu"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml">
+    <head prefix="og: http://ogp.me/ns#">
+    <script type="text/javascript">
+        const addEListener = window.addEventListener;
+        const sTimeout = window.setTimeout;
+        const DCL = 'DOMContentLoaded';
+    </script>
+
+        <link rel="manifest" href="/OneSignal/manifest.json">
+    <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                
+    <meta http-equiv="X-UA-Compatible" content="IE=11">
+    <meta name="google-site-verification" content="tMfB8j6tfvQ-e9NkrLE3W95kDTpTnHtdhEi_19trTWY" />
+    <meta name="apple-itunes-app" content="app-id=541579449">
+    <meta name="google-play-app" content="app-id=com.portdata.tv">
+    <meta name="facebook-domain-verification" content="j50i7kw74b6srl5qzhabtc8g6le2rw" />
+    <meta property="og:site_name" content="PORT.hu" />
+    <meta property="og:title" content="Keresés" />
+    <meta name="robots" content="index, follow, noai, noimageai">
+
+            <meta property="og:url" content="http://port.hu/kereso?q=verne&type=generalevent">
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="msapplication-square70x70logo" content="/favicons24/windows-tile-70x70.png">
+<meta name="msapplication-square150x150logo" content="/favicons24/windows-tile-150x150.png">
+<meta name="msapplication-square310x310logo" content="/favicons24/windows-tile-310x310.png">
+<meta name="msapplication-TileImage" content="/favicons24/windows-tile-144x144.png">
+<meta name="msapplication-TileColor" content="#EF3B39">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicons24/apple-touch-icon-152x152-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/favicons24/apple-touch-icon-120x120-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/favicons24/apple-touch-icon-76x76-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/favicons24/apple-touch-icon-60x60-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/favicons24/apple-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicons24/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicons24/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon" sizes="57x57" href="/favicons24/apple-touch-icon.png">
+<link rel="icon" sizes="228x228" href="/favicons24/coast-icon-228x228.png">
+<link rel="shortcut icon" href="/favicons24/favicon.ico">
+<link rel="icon" type="image/png" sizes="64x64" href="/favicons24/favicon.png">
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="-PZ8N6oHA6a3yqq5CF8XOzEl8jCNdvaf6PGqNk4PmDDMsgxx-ENolNSJ_o1iPkdQREa0c6A7mdylhpoHCXzzfQ==">
+    <title>Keresés</title>
+
+    <link href="https://media.port.hu/assets/prod/0c0d36f90b9cc4623453fadc5fe9a1b7/css/bootstrap.min.css?v=1792056413" rel="stylesheet">
+<link href="/css/global.css?v=1792056203" rel="stylesheet">
+<link href="/css/layout.css?v=1792056202" rel="stylesheet">
+<link href="https://media.port.hu/assets/prod/98c53499c7f5bc2a43038f10fe74324a/dist/assets/owl.carousel.min.css?v=1792056413" rel="stylesheet">
+<link href="/css/interstitial.css?v=1792056201" rel="stylesheet">
+<link href="/css/carousel.css?v=1792056197" rel="stylesheet">
+<link href="https://media.port.hu/assets/prod/71be38dc3459f812c8d9d6997031f3de/jquery.mCustomScrollbar.min.css?v=1792056414" rel="stylesheet">
+<link href="/css/search.css?v=1792056209" rel="stylesheet">
+<link href="/css/tv-channels-widget.css?v=1792056207" rel="stylesheet">
+<link href="/css/widgets/ticket.css?v=1792056210" rel="stylesheet">
+<link href="/css/widgets/premiers.css?v=1792056210" rel="stylesheet">
+<link href="/css/search-landing.css?v=1792056205" rel="stylesheet">
+<link href="/css/widgets/cinemalist.css?v=1792056208" rel="stylesheet">
+<link href="https://media.port.hu/assets/prod/3c9d382b33a694233ac5ae8046c6bba0/css/typeahead.min.css?v=1792056413" rel="stylesheet">
+<link href="https://media.port.hu/assets/prod/3c9d382b33a694233ac5ae8046c6bba0/css/typeahead-kv.min.css?v=1792056413" rel="stylesheet">
+<link href="https://media.port.hu/assets/prod/ac5c1c16e0f2ea8752863ccb4b05c37a/css/kv-widgets.min.css?v=1792056413" rel="stylesheet">
+<link href="/css/passport-login.css?v=1792056204" rel="stylesheet">
+<script>
+    var portPage = {
+        section : "kereso",
+        type : "kereso",
+        tid: "pt99",
+        canSubscribeOlimpiaNoti: false
+    };
+    
+__passportHeader_config={"INDAPASS_URL":"https:\/\/indapass.hu\/","HEADER_URL":"https:\/\/indapass.hu\/jsfejlec2\/","LOGIN_URL":"https:\/\/daemon.indapass.hu\/http\/login","NOTI_URL":"https:\/\/noti.inda.hu\/","IDENT_URL":"https:\/\/management.ident.indapass.hu\/","partner_id":"port","loggedIn":false,"nick":false,"avatar":false,"hint":"https:\/\/indapass.hu\/static\/logo.php?h=szk3qOzvPyHEXWmPQoe6RR%2F4p5Nm1T7%2Bu0es1khvBt%2FO3Ns%2FWqBTSJ41u53gYEH2&type=spacer","hasFacebook":false,"providerExpired":false,"irresponsive":false,"miniHeader":true,"cookiePolicy":{"enabled":false,"text":"Friss <a id=\"_iph_cp_privacy\" href=\"\/adatvedelem\" target=\"_blank\">adatkezel\u00e9si  t\u00e1j\u00e9koztat\u00f3nkban<\/a> megtal\u00e1lod, hogyan gondoskodunk adataid  v\u00e9delm\u00e9r\u0151l. Oldalainkon HTTP-s\u00fctiket haszn\u00e1lunk a jobb m\u0171k\u00f6d\u00e9s\u00e9rt."},"links":{"loggedIn":[]},"disableNoti":true};
+window.typeahead_7864e59a = {"highlight":true};
+</script><link href="/img/prtre.css?v=1731927334" rel="stylesheet">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MNRSXGM');</script>
+    <!-- End Google Tag Manager -->
+         <!-- google ad exchange -->
+     <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    </script>
+
+    <!-- mobile sticky hirdetes -->
+    
+    
+
+    <!-- end of google ad exchange -->
+        <!-- smart lazy -->
+    <script type="text/javascript" src="//lib.wtg-ads.com/publisher/port.hu/add257a12dd60063ee4a.js" async></script>
+    <!-- server: ptfr2 -->
+    <script>
+    //user adatok átadása javascriptbe
+    var userIsGuest = true;var userId = false;    </script>
+
+        <script type="text/javascript">
+        var customTarget = '&';
+        __passportIdentConfig = {
+            // Ident elérhetősége
+            IDENT_URL: "//management.ident.indapass.hu/",
+            // Ident tag
+            tid: 'pt99'
+        };
+    </script>
+    <meta name="logcustomtarget" content="1"/>
+
+  <!-- InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+<script type="text/javascript" async=true>
+(function() {
+  var host = 'port.hu';
+  var element = document.createElement('script');
+  var firstScript = document.getElementsByTagName('script')[0];
+  var url = 'https://cmp.inmobi.com'
+    .concat('/choice/', '4z9XXyvnuPTjK', '/', host, '/choice.js?tag_version=V3');
+  var uspTries = 0;
+  var uspTriesLimit = 3;
+  element.async = true;
+  element.type = 'text/javascript';
+  element.src = url;
+
+  firstScript.parentNode.insertBefore(element, firstScript);
+
+  function makeStub() {
+    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+    var queue = [];
+    var win = window;
+    var cmpFrame;
+
+    function addFrame() {
+      var doc = win.document;
+      var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+      if (!otherCMP) {
+        if (doc.body) {
+          var iframe = doc.createElement('iframe');
+
+          iframe.style.cssText = 'display:none';
+          iframe.name = TCF_LOCATOR_NAME;
+          doc.body.appendChild(iframe);
+        } else {
+          setTimeout(addFrame, 5);
+        }
+      }
+      return !otherCMP;
+    }
+
+    function tcfAPIHandler() {
+      var gdprApplies;
+      var args = arguments;
+
+      if (!args.length) {
+        return queue;
+      } else if (args[0] === 'setGdprApplies') {
+        if (
+          args.length > 3 &&
+          args[2] === 2 &&
+          typeof args[3] === 'boolean'
+        ) {
+          gdprApplies = args[3];
+          if (typeof args[2] === 'function') {
+            args[2]('set', true);
+          }
+        }
+      } else if (args[0] === 'ping') {
+        var retr = {
+          gdprApplies: gdprApplies,
+          cmpLoaded: false,
+          cmpStatus: 'stub'
+        };
+
+        if (typeof args[2] === 'function') {
+          args[2](retr);
+        }
+      } else {
+        if(args[0] === 'init' && typeof args[3] === 'object') {
+          args[3] = Object.assign(args[3], { tag_version: 'V3' });
+        }
+        queue.push(args);
+      }
+    }
+
+    function postMessageEventHandler(event) {
+      var msgIsString = typeof event.data === 'string';
+      var json = {};
+
+      try {
+        if (msgIsString) {
+          json = JSON.parse(event.data);
+        } else {
+          json = event.data;
+        }
+      } catch (ignore) {}
+
+      var payload = json.__tcfapiCall;
+
+      if (payload) {
+        window.__tcfapi(
+          payload.command,
+          payload.version,
+          function(retValue, success) {
+            var returnMsg = {
+              __tcfapiReturn: {
+                returnValue: retValue,
+                success: success,
+                callId: payload.callId
+              }
+            };
+            if (msgIsString) {
+              returnMsg = JSON.stringify(returnMsg);
+            }
+            if (event && event.source && event.source.postMessage) {
+              event.source.postMessage(returnMsg, '*');
+            }
+          },
+          payload.parameter
+        );
+      }
+    }
+
+    while (win) {
+      try {
+        if (win.frames[TCF_LOCATOR_NAME]) {
+          cmpFrame = win;
+          break;
+        }
+      } catch (ignore) {}
+
+      if (win === window.top) {
+        break;
+      }
+      win = win.parent;
+    }
+    if (!cmpFrame) {
+      addFrame();
+      win.__tcfapi = tcfAPIHandler;
+      win.addEventListener('message', postMessageEventHandler, false);
+    }
+  };
+
+  makeStub();
+
+  function makeGppStub() {
+    const CMP_ID = 10;
+    const SUPPORTED_APIS = [
+      '2:tcfeuv2',
+      '6:uspv1',
+      '7:usnatv1',
+      '8:usca',
+      '9:usvav1',
+      '10:uscov1',
+      '11:usutv1',
+      '12:usctv1'
+    ];
+
+    window.__gpp_addFrame = function (n) {
+      if (!window.frames[n]) {
+        if (document.body) {
+          var i = document.createElement("iframe");
+          i.style.cssText = "display:none";
+          i.name = n;
+          document.body.appendChild(i);
+        } else {
+          window.setTimeout(window.__gpp_addFrame, 10, n);
+        }
+      }
+    };
+    window.__gpp_stub = function () {
+      var b = arguments;
+      __gpp.queue = __gpp.queue || [];
+      __gpp.events = __gpp.events || [];
+
+      if (!b.length || (b.length == 1 && b[0] == "queue")) {
+        return __gpp.queue;
+      }
+
+      if (b.length == 1 && b[0] == "events") {
+        return __gpp.events;
+      }
+
+      var cmd = b[0];
+      var clb = b.length > 1 ? b[1] : null;
+      var par = b.length > 2 ? b[2] : null;
+      if (cmd === "ping") {
+        clb(
+          {
+            gppVersion: "1.1", // must be “Version.Subversion”, current: “1.1”
+            cmpStatus: "stub", // possible values: stub, loading, loaded, error
+            cmpDisplayStatus: "hidden", // possible values: hidden, visible, disabled
+            signalStatus: "not ready", // possible values: not ready, ready
+            supportedAPIs: SUPPORTED_APIS, // list of supported APIs
+            cmpId: CMP_ID, // IAB assigned CMP ID, may be 0 during stub/loading
+            sectionList: [],
+            applicableSections: [-1],
+            gppString: "",
+            parsedSections: {},
+          },
+          true
+        );
+      } else if (cmd === "addEventListener") {
+        if (!("lastId" in __gpp)) {
+          __gpp.lastId = 0;
+        }
+        __gpp.lastId++;
+        var lnr = __gpp.lastId;
+        __gpp.events.push({
+          id: lnr,
+          callback: clb,
+          parameter: par,
+        });
+        clb(
+          {
+            eventName: "listenerRegistered",
+            listenerId: lnr, // Registered ID of the listener
+            data: true, // positive signal
+            pingData: {
+              gppVersion: "1.1", // must be “Version.Subversion”, current: “1.1”
+              cmpStatus: "stub", // possible values: stub, loading, loaded, error
+              cmpDisplayStatus: "hidden", // possible values: hidden, visible, disabled
+              signalStatus: "not ready", // possible values: not ready, ready
+              supportedAPIs: SUPPORTED_APIS, // list of supported APIs
+              cmpId: CMP_ID, // list of supported APIs
+              sectionList: [],
+              applicableSections: [-1],
+              gppString: "",
+              parsedSections: {},
+            },
+          },
+          true
+        );
+      } else if (cmd === "removeEventListener") {
+        var success = false;
+        for (var i = 0; i < __gpp.events.length; i++) {
+          if (__gpp.events[i].id == par) {
+            __gpp.events.splice(i, 1);
+            success = true;
+            break;
+          }
+        }
+        clb(
+          {
+            eventName: "listenerRemoved",
+            listenerId: par, // Registered ID of the listener
+            data: success, // status info
+            pingData: {
+              gppVersion: "1.1", // must be “Version.Subversion”, current: “1.1”
+              cmpStatus: "stub", // possible values: stub, loading, loaded, error
+              cmpDisplayStatus: "hidden", // possible values: hidden, visible, disabled
+              signalStatus: "not ready", // possible values: not ready, ready
+              supportedAPIs: SUPPORTED_APIS, // list of supported APIs
+              cmpId: CMP_ID, // CMP ID
+              sectionList: [],
+              applicableSections: [-1],
+              gppString: "",
+              parsedSections: {},
+            },
+          },
+          true
+        );
+      } else if (cmd === "hasSection") {
+        clb(false, true);
+      } else if (cmd === "getSection" || cmd === "getField") {
+        clb(null, true);
+      }
+      //queue all other commands
+      else {
+        __gpp.queue.push([].slice.apply(b));
+      }
+    };
+    window.__gpp_msghandler = function (event) {
+      var msgIsString = typeof event.data === "string";
+      try {
+        var json = msgIsString ? JSON.parse(event.data) : event.data;
+      } catch (e) {
+        var json = null;
+      }
+      if (typeof json === "object" && json !== null && "__gppCall" in json) {
+        var i = json.__gppCall;
+        window.__gpp(
+          i.command,
+          function (retValue, success) {
+            var returnMsg = {
+              __gppReturn: {
+                returnValue: retValue,
+                success: success,
+                callId: i.callId,
+              },
+            };
+            event.source.postMessage(msgIsString ? JSON.stringify(returnMsg) : returnMsg, "*");
+          },
+          "parameter" in i ? i.parameter : null,
+          "version" in i ? i.version : "1.1"
+        );
+      }
+    };
+    if (!("__gpp" in window) || typeof window.__gpp !== "function") {
+      window.__gpp = window.__gpp_stub;
+      window.addEventListener("message", window.__gpp_msghandler, false);
+      window.__gpp_addFrame("__gppLocator");
+    }
+  };
+
+  makeGppStub();
+
+  var uspStubFunction = function() {
+    var arg = arguments;
+    if (typeof window.__uspapi !== uspStubFunction) {
+      setTimeout(function() {
+        if (typeof window.__uspapi !== 'undefined') {
+          window.__uspapi.apply(window.__uspapi, arg);
+        }
+      }, 500);
+    }
+  };
+
+  var checkIfUspIsReady = function() {
+    uspTries++;
+    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+      console.warn('USP is not accessible');
+    } else {
+      clearInterval(uspInterval);
+    }
+  };
+
+  if (typeof window.__uspapi === 'undefined') {
+    window.__uspapi = uspStubFunction;
+    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+  }
+})();
+</script>
+<!-- End InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
+
+    <!-- Hotjar Tracking Code for https://port.hu/ -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:2063429,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script><script type="text/javascript" src="//indexhu.adocean.pl/files/js/ado.js"></script>
+<script type="text/javascript">
+    window.adocf = {};
+    window.adocf.useDOMContentLoaded = true;
+        var tagStr = document.querySelector('meta[name="keywords"]') ? document.querySelector('meta[name="keywords"]').getAttribute("content").replace(/\s/g, '') : "";
+
+    /* (c)AdOcean 2003-2020 */
+    if(typeof ado!=="object"){ado={};ado.config=ado.preview=ado.placement=ado.master=ado.slave=function(){};ado.blocked=true}
+    ado.config({mode: 'new', xml: false, consent: true, characterEncoding: true, attachReferrer: true, fpc: 'auto', defaultServer: 'indexhu.adocean.pl', cookieDomain: 'SLD', ignoreDsa: true});
+    ado.preview({enabled: true});
+
+            /* (c)AdOcean 2003-2020, MASTER: lSoBORCqbG3UtrDLzTZxJySzbeTi.2cv.H.IsWKnDCb.r7 */
+        ado.master({id: "lSoBORCqbG3UtrDLzTZxJySzbeTi.2cv.H.IsWKnDCb.r7", server: "indexhu.adocean.pl", vars: typeof customTarget !== "undefined" ? customTarget : '', keys: tagStr });
+    </script>
+
+<script type="module">
+    window.iap_zones = window.iap_zones || [];
+    document.addEventListener('DOMContentLoaded', async () => {
+    const { Loader } = await (await import("https://iap.cdn.indexvas.hu/Scripts.js")).default;
+    setTimeout(() => {
+    window.ADOLoader = new Loader({
+        "debug": false,
+        "stat": true,
+        "engine": "AdOcean",
+        "master": "lSoBORCqbG3UtrDLzTZxJySzbeTi.2cv.H.IsWKnDCb.r7",
+        "customTarget": typeof customTarget !== "undefined" ? customTarget : '',
+        "keywords": tagStr
+    })
+}, 1000);
+})
+</script>
+</head>
+<body class="device_desktop ">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNRSXGM"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v2.8";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<div class="wrap">
+    <header>
+    <div class="circle circle--large"></div>
+    <div class="circle circle--small"></div>
+    <nav class="navigation">
+    <div class="navigation__logo">
+      <a href="/">
+        <img src="/img/2024/icons/icon-logo-30.svg" alt="port-logo" class="navigation__logo--icon" />
+      </a>
+      <span class="navigation__logo--text">A KultPont</span>
+    </div>
+    <div class="navigation__links">
+            <a href="/tv" class="navigation__links--text">TV</a>
+            <a href="/film" class="navigation__links--text">Film</a>
+            <a href="/stream" class="navigation__links--text">Stream</a>
+            <a href="/port-magazin" class="navigation__links--text">Magazin</a>
+            <a href="/koncert-zene" class="navigation__links--text">Zene</a>
+            <a href="/kult" class="navigation__links--text">Kult</a>
+            <a href="/jegy" class="navigation__links--text">Jegy</a>
+            <a href="/radio" class="navigation__links--text">Rádió</a>
+            <a href="/forum" class="navigation__links--text">Fórum</a>
+        </div>
+    <div class="navigation__buttons">
+      <div class="navigation__buttons--button" id="navSbutton">
+        <img src="/img/2024/icons/search.svg" alt="Search">
+      </div>
+      <div class="navigation__buttons--button">
+        <!--<img src="/img/2024/icons/more.svg" alt="More">-->
+		<a href="/tv" title="TV-oldal" id="tvmus"></a>
+      </div>
+            <div class="navigation__buttons--button" id="iPassHolder">
+		<div id="passportHeader"></div>
+        <!--<img src="/img/2024/icons/profile.svg" alt="Profile">-->
+      </div>
+    </div>
+  </nav>
+    <a class="adv-kapu">
+    <section class="polygon">
+
+</section>
+    </a>
+    <div class="search static activeSearch changelayer1">
+    <form id="w2" class="highlighted-searchbar search__layer onfocus activeSearch__layer" action="/kereso" method="get">    <label for="searchInput" class="searchbar">
+		<input type="hidden" name="type" id="type" value="generalevent">
+        <img src="/img/2024/icons/search-input.svg" alt="Search icon" class="search__layer--icon">
+        <div class="form-group field-highlighted-search">
+
+<div><input type="text" id="highlighted-search" class="search__layer--input form-control" name="q" value="verne" placeholder="Keresel valamit?" autocomplete="off" data-krajee-typeahead="typeahead_7864e59a"></div>
+
+<div class="help-block"></div>
+</div>        <button type="submit" class="search__layer--btn">Keresés</button>
+    </label>
+    </form>    <div class="search__tags activeSearch__tags changelayer2">
+                    <a href="/kereso?type=movie&q=" class=" search__tags--element">Film és sorozat</a>
+                    <a href="/programkereso/mozi-idorendben" class=" search__tags--element">Moziműsor</a>
+                    <a href="/kereso?type=person&q=" class=" search__tags--element">Színész és alkotó</a>
+                    <a href="/kereso?type=directing&q=" class=" search__tags--element">Színdarab</a>
+                    <a href="/programkereso/szinhaz" class=" search__tags--element">Színházműsor</a>
+                    <a href="/programkereso/zene" class=" search__tags--element">Koncert</a>
+                    <a href="/programkereso/fesztival" class=" search__tags--element">Fesztivál</a>
+                    <a href="/programkereso/kiallitas" class=" search__tags--element">Kiállítások</a>
+                    <a href="/programkereso/egyeb" class=" search__tags--element">Egyéb események</a>
+                    <a href="/kereso?type=place&q=" class=" search__tags--element">Helyszínek</a>
+                    <a href="/kereso?type=article&q=" class=" search__tags--element">Cikkek</a>
+            </div>
+</div>
+</header>
+<script>
+function helpPassLayer(){document.getElementsByClassName("navigation")[0].style.zIndex="6";}
+var checkIndPass = setInterval(function(){if(document.getElementById("icon-user")){document.getElementById("icon-user").addEventListener("click", helpPassLayer); clearInterval(checkIndPass);}}, 500);
+function sTop() {window.scrollTo({top: 0, behavior: 'smooth'});}
+document.getElementById("navSbutton").addEventListener("click", sTop);
+var headerObj = document.getElementsByTagName("header")[0];
+var headerHeight = headerObj.offsetHeight;
+var mainFrame = document.getElementsByClassName("wrap")[0];
+function slimHeader(){
+	if(headerObj.classList.value.search("kapubanner")==-1){
+		var weDo = window.pageYOffset || document.documentElement.scrollTop;
+		if(weDo>headerHeight){
+			mainFrame.style.paddingTop = headerHeight+'px';
+			headerObj.classList.add("slim");
+		}else{
+			mainFrame.style.paddingTop ='0px';
+			headerObj.classList.remove("slim");
+		}
+	}else{
+		mainFrame.style.paddingTop ='0px';
+		headerObj.classList.remove("slim");
+		window.removeEventListener("click", slimHeader);
+	}
+}
+window.addEventListener("scroll", slimHeader);
+</script>
+    <div class="container css-table kereso">
+        
+<div class="topMargin advert" align="center">
+    
+                        <!-- (c)AdOcean 2003-2020, Port_Egyeb_LB -->
+                        <div id="adoceanindexhumjjhgnlhpa" data-id="adoceanindexhumjjhgnlhpa" class="iap iap--ado empty bg--transparent ">
+                            <script class="iap-script">
+                                window.iap_zones = window.iap_zones || [];
+                                window.iap_zones.push({"id":"adoceanindexhumjjhgnlhpa","empty":true,"lazy":false,"quality":false,"masterless":false,"area":"Port_Egyeb_LB","events":{"loaded":false,"visible":false,"viewed":false},"stat":{"site":"port","path":"\/kereso?q=verne&type=generalevent","type":"kereso\/kereso"},"porthu":{"id":"adoceanindexhumjjhgnlhpa","section":"kereso","type":"kereso","device":"desktop","zone":"superleaderboard"}});
+                            </script>
+                        </div>
+                    </div>
+<div class="row site-container container">
+    
+
+    
+        <div class="col-md-8 main-box" id="port-main-box">
+                    <div class="entity-filters search-landing text-search-landing">
+                <div class="categories-container">
+                   <!-- <svg viewBox="0 0 24 24" class="filter-icon">
+                        <use xlink:href="/img/svg/filter.svg#icon-filter">
+                    </svg>-->
+
+                    <ul class="categories">
+                        <li class="category-filter ">
+                            <a href="/kereso?q=verne&type=all">Összes</a>
+                        </li>
+                        <li class="category-filter ">
+                            <a href="/kereso?q=verne&type=person">Személy</a>
+                        </li>
+                        <li class="category-filter ">
+                            <a href="/kereso?q=verne&type=movie">Film</a>
+                        </li>
+                        <li class="category-filter ">
+                            <a href="/kereso?q=verne&type=directing">Színdarab</a>
+                        </li>
+                        <li class="category-filter ">
+                            <a href="/kereso?q=verne&type=tvevent">Tv műsor</a>
+                        </li>
+                        <li class="category-filter active">
+                            <a href="/kereso?q=verne&type=generalevent">Esemény</a>
+                        </li>
+
+                        <li class="category-group">
+                            <a href="#" class="group-name">Továbbiak<span class="icon caret"></span></a>
+                            <ul class="group">
+                                <li class="category-filter ">
+                                    <a href="/kereso?q=verne&type=group">Csoport</a>
+                                </li>
+                                <li class="category-filter ">
+                                    <a href="/kereso?q=verne&type=place">Helyszín</a>
+                                </li>
+                                <li class="category-filter ">
+                                    <a href="/kereso?q=verne&type=tvchannel">TV csatorna</a>
+                                </li>
+                                <li class="category-filter ">
+                                    <a href="/kereso?q=verne&type=article">Cikk</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="results-order-select">
+                   <!-- <svg viewBox="0 0 24 24" class="sort-icon">
+                        <use xlink:href="/img/svg/sort.svg#icon-sort">
+                    </svg>-->
+
+                    <div class="custom-dropdown">
+                        <a href="#" class="title">
+                            <span class="value">Népszerűség</span>
+                            <span class="icon caret"></span></a>
+                        <ul class="options">
+                            <li class="option ">
+                                <a href="#" data-value="/kereso?q=verne&type=generalevent&s=relevance">Egyezés</a>
+                            </li>
+                            <li class="option selected">
+                                <a href="#" data-value="/kereso?q=verne&type=generalevent&s=popularity">Népszerűség</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                
+        
+
+                                        <section class="row category-block search-landing">
+                    <div class="block-wrapper">
+                        <div class="block-content">
+                                                                            <article data-category="event">
+                                                                    <a href="/esemeny/zene/flowwolf-verner-alva/event-6275432" class="thumbnail-image">
+                                        <img src="https://media.port.hu/images/001/844/400x400/954.webp" alt="Flowwolf, Verner, Alva">
+                                    </a>
+                                
+                                <div class="category">
+                                    <div  class="category-img">
+                                        <svg viewBox="0 0 35 35">
+                                            <use xlink:href="/img/svg/star.svg#icon-star"></use>
+                                        </svg>
+                                    </div>
+
+                                                                             <span class="name">Koncert</span>
+                                                                    </div>
+
+                                <div class="icons pull-right">
+                                    
+                                    
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <a class="title" href="/esemeny/zene/flowwolf-verner-alva/event-6275432">
+                                        Flowwolf, Verner, Alva                                    </a>
+                                                                                                                <label class="summary">
+                                            2026. október 22. 19:00, könnyű                                                                                            (STENK)
+                                                                                    </label>
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <p class="description">
+                                        Flowwolf &ndash; Progressz&iacute;v elemekkel &aacute;tszőtt pszichedelikus rockjukat balj&oacute;s, dallamos hangulat &eacute;s expresszionista...                                    </p>
+                                </div>
+                                
+                                <div class="clear"></div>
+                            </article>
+
+                                                                                                            <article data-category="event">
+                                                                    <a href="/esemeny/fesztival/ecofamily-everness-fesztival-2026/event-6243728" class="thumbnail-image">
+                                        <img src="https://media.port.hu/images/001/807/400x400/834.webp" alt="Ecofamily Everness Fesztivál 2026">
+                                    </a>
+                                
+                                <div class="category">
+                                    <div  class="category-img">
+                                        <svg viewBox="0 0 35 35">
+                                            <use xlink:href="/img/svg/star.svg#icon-star"></use>
+                                        </svg>
+                                    </div>
+
+                                                                             <span class="name">Fesztivál</span>
+                                                                    </div>
+
+                                <div class="icons pull-right">
+                                    
+                                    
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <a class="title" href="/esemeny/fesztival/ecofamily-everness-fesztival-2026/event-6243728">
+                                        Ecofamily Everness Fesztivál 2026                                    </a>
+                                                                                                                <label class="summary">
+                                            2026. június 19. 12:00, Zenei fesztivál, Mindenmás fesztivál                                                                                            (Siócamping - Siófok-Sóstó)
+                                                                                    </label>
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <p class="description">
+                                        Az Everness 2026-ban teljes meg&uacute;jul&aacute;son megy kereszt&uuml;l.M&aacute;r nem csak a megszokott egy hetet t&ouml;ltheted vel&uuml;k,...                                    </p>
+                                </div>
+                                
+                                <div class="clear"></div>
+                            </article>
+
+                                                                                                            <article data-category="event">
+                                                                    <a href="/esemeny/fesztival/everness-fesztival-2025/event-6154379" class="thumbnail-image">
+                                        <img src="https://media.port.hu/images/001/708/400x400/245.webp" alt="Everness Fesztivál 2025">
+                                    </a>
+                                
+                                <div class="category">
+                                    <div  class="category-img">
+                                        <svg viewBox="0 0 35 35">
+                                            <use xlink:href="/img/svg/star.svg#icon-star"></use>
+                                        </svg>
+                                    </div>
+
+                                                                             <span class="name">Fesztivál</span>
+                                                                    </div>
+
+                                <div class="icons pull-right">
+                                    
+                                    
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <a class="title" href="/esemeny/fesztival/everness-fesztival-2025/event-6154379">
+                                        Everness Fesztivál 2025                                    </a>
+                                                                                                                <label class="summary">
+                                            2025. június 24. 10:00, Zenei fesztivál, Mindenmás fesztivál                                                                                            (Siócamping - Siófok-Sóstó)
+                                                                                    </label>
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <p class="description">
+                                        T&ouml;lts egy hetet a Tudatoss&aacute;g &uuml;nnep&eacute;n!Magyarorsz&aacute;g legnagyobb &ouml;nismereti &eacute;s...                                    </p>
+                                </div>
+                                
+                                <div class="clear"></div>
+                            </article>
+
+                                                                                                            <article data-category="event">
+                                                                    <a href="/esemeny/zene/lavern-nl/event-6177811" class="thumbnail-image">
+                                        <img src="https://media.port.hu/images/001/735/400x400/309.webp" alt="Lavern (NL)">
+                                    </a>
+                                
+                                <div class="category">
+                                    <div  class="category-img">
+                                        <svg viewBox="0 0 35 35">
+                                            <use xlink:href="/img/svg/star.svg#icon-star"></use>
+                                        </svg>
+                                    </div>
+
+                                                                             <span class="name">Koncert</span>
+                                                                    </div>
+
+                                <div class="icons pull-right">
+                                    
+                                    
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <a class="title" href="/esemeny/zene/lavern-nl/event-6177811">
+                                        Lavern (NL)                                    </a>
+                                                                            <a class="parent" href="/esemeny/fesztival/31-sziget-fesztival-2025/event-6098967">(31. Sziget Fesztivál 2025)</a>
+                                                                                                                <label class="summary">
+                                            2025. augusztus 07. 02:45, elektronikus                                                                                            (Sziget Fesztivál)
+                                                                                    </label>
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <p class="description">
+                                        Laurens Elshof, műv&eacute;sznev&eacute;n LAVERN, egy 23 &eacute;ves holland producer &eacute;s DJ, aki gyorsan kiemelkedett az elektronikus zenei...                                    </p>
+                                </div>
+                                
+                                <div class="clear"></div>
+                            </article>
+
+                                                                                                            <article data-category="event">
+                                                                    <a href="/esemeny/kiallitas/fajgerne-dudas-andrea-merules/event-6285362" class="thumbnail-image">
+                                        <img src="https://media.port.hu/images/001/854/400x400/042.webp" alt=" Fajgerné Dudás Andrea: Merülés">
+                                    </a>
+                                
+                                <div class="category">
+                                    <div  class="category-img">
+                                        <svg viewBox="0 0 35 35">
+                                            <use xlink:href="/img/svg/star.svg#icon-star"></use>
+                                        </svg>
+                                    </div>
+
+                                                                             <span class="name">Kiállítás</span>
+                                                                    </div>
+
+                                <div class="icons pull-right">
+                                    
+                                    
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <a class="title" href="/esemeny/kiallitas/fajgerne-dudas-andrea-merules/event-6285362">
+                                         Fajgerné Dudás Andrea: Merülés                                    </a>
+                                                                                                                <label class="summary">
+                                            2026. október 15. 18:00, Időszaki kiállítás                                                                                            (Deák Erika Galéria)
+                                                                                    </label>
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <p class="description">
+                                        Fajgern&eacute; Dud&aacute;s Andrea leg&uacute;jabb műveiben az elm&uacute;l&aacute;s &eacute;s a hal&aacute;l tapasztalat&aacute;t,...                                    </p>
+                                </div>
+                                
+                                <div class="clear"></div>
+                            </article>
+
+                                                            <div class="advert">
+                                    
+                        <!-- (c)AdOcean 2003-2020, Port_Egyeb_RB -->
+                        <div id="adoceanindexhutlokquifsp" data-id="adoceanindexhutlokquifsp" class="iap iap--ado empty bg--transparent ">
+                            <script class="iap-script">
+                                window.iap_zones = window.iap_zones || [];
+                                window.iap_zones.push({"id":"adoceanindexhutlokquifsp","empty":true,"lazy":true,"quality":false,"masterless":false,"area":"Port_Egyeb_RB","events":{"loaded":false,"visible":false,"viewed":false},"stat":{"site":"port","path":"\/kereso?q=verne&type=generalevent","type":"kereso\/kereso"},"porthu":{"id":"adoceanindexhutlokquifsp","section":"kereso","type":"kereso","device":"desktop","zone":"roadblock_a"}});
+                            </script>
+                        </div>
+                                                    </div>
+                                                                                                            <article data-category="event">
+                                                                    <a href="/esemeny/zene/mirage-bogi-balint-fegyverneky-levente/event-6134011" class="thumbnail-image">
+                                        <img src="https://media.port.hu/images/001/690/400x400/007.webp" alt="Mirage / Bogi & Bálint / Fegyverneky Levente">
+                                    </a>
+                                
+                                <div class="category">
+                                    <div  class="category-img">
+                                        <svg viewBox="0 0 35 35">
+                                            <use xlink:href="/img/svg/star.svg#icon-star"></use>
+                                        </svg>
+                                    </div>
+
+                                                                             <span class="name">Koncert</span>
+                                                                    </div>
+
+                                <div class="icons pull-right">
+                                    
+                                    
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <a class="title" href="/esemeny/zene/mirage-bogi-balint-fegyverneky-levente/event-6134011">
+                                        Mirage / Bogi & Bálint / Fegyverneky Levente                                    </a>
+                                                                                                                <label class="summary">
+                                            2025. január 29. 20:00, könnyű                                                                                            (Gödör)
+                                                                                    </label>
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <p class="description">
+                                        Mirage &eacute;s a Bogi &amp; B&aacute;lint du&oacute; k&eacute;t felt&ouml;rekvő singer-songwriter projekt, alternat&iacute;v indie-pop vonalon...                                    </p>
+                                </div>
+                                
+                                <div class="clear"></div>
+                            </article>
+
+                                                                                                            <article data-category="event">
+                                                                    <a href="/esemeny/zene/stifler-10-vendeg-overnight-vastrabant/event-6286656" class="thumbnail-image">
+                                        <img src="https://media.port.hu/images/001/855/400x400/382.webp" alt="Stifler 10!!! - Vendég: Overnight, Vastrabant">
+                                    </a>
+                                
+                                <div class="category">
+                                    <div  class="category-img">
+                                        <svg viewBox="0 0 35 35">
+                                            <use xlink:href="/img/svg/star.svg#icon-star"></use>
+                                        </svg>
+                                    </div>
+
+                                                                             <span class="name">Koncert</span>
+                                                                    </div>
+
+                                <div class="icons pull-right">
+                                    
+                                    
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <a class="title" href="/esemeny/zene/stifler-10-vendeg-overnight-vastrabant/event-6286656">
+                                        Stifler 10!!! - Vendég: Overnight, Vastrabant                                    </a>
+                                                                                                                <label class="summary">
+                                            2026. november 07. 18:00, könnyű                                                                                            (BARhole)
+                                                                                    </label>
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <p class="description">
+                                        "10 &eacute;ves lett Stifler Mam&aacute;ja! El&eacute;g nagyot fogunk &uuml;nnepelni.                                    </p>
+                                </div>
+                                
+                                <div class="clear"></div>
+                            </article>
+
+                                                                                                            <article data-category="event">
+                                                                    <a href="/esemeny/kiallitas/ez-sor-a-sernevelestol-a-sorgyarig/event-6225568" class="thumbnail-image">
+                                        <img src="https://media.port.hu/images/001/787/400x400/288.webp" alt="Ez sör! A serneveléstől a sörgyárig">
+                                    </a>
+                                
+                                <div class="category">
+                                    <div  class="category-img">
+                                        <svg viewBox="0 0 35 35">
+                                            <use xlink:href="/img/svg/star.svg#icon-star"></use>
+                                        </svg>
+                                    </div>
+
+                                                                             <span class="name">Kiállítás</span>
+                                                                    </div>
+
+                                <div class="icons pull-right">
+                                    
+                                    
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <a class="title" href="/esemeny/kiallitas/ez-sor-a-sernevelestol-a-sorgyarig/event-6225568">
+                                        Ez sör! A serneveléstől a sörgyárig                                    </a>
+                                                                                                                <label class="summary">
+                                            2026. február 05. 16:00, Időszaki kiállítás                                                                                            (Damjanich János Múzeum)
+                                                                                    </label>
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <p class="description">
+                                        Az MNMKK Magyar Kereskedelmi &eacute;s Vend&eacute;gl&aacute;t&oacute;ipari M&uacute;zeum &eacute;s a Kunszentm&aacute;rtoni Helyt&ouml;rt&eacute;neti...                                    </p>
+                                </div>
+                                
+                                <div class="clear"></div>
+                            </article>
+
+                                                                                                            <article data-category="event">
+                                                                    <a href="/esemeny/zene/myrath-wilderness-of-mirrors-budapest/event-6203325" class="thumbnail-image">
+                                        <img src="https://media.port.hu/images/001/764/400x400/553.webp" alt="MYRATH - Wilderness Of Mirrors - Budapest">
+                                    </a>
+                                
+                                <div class="category">
+                                    <div  class="category-img">
+                                        <svg viewBox="0 0 35 35">
+                                            <use xlink:href="/img/svg/star.svg#icon-star"></use>
+                                        </svg>
+                                    </div>
+
+                                                                             <span class="name">Koncert</span>
+                                                                    </div>
+
+                                <div class="icons pull-right">
+                                    
+                                    
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <a class="title" href="/esemeny/zene/myrath-wilderness-of-mirrors-budapest/event-6203325">
+                                        MYRATH - Wilderness Of Mirrors - Budapest                                    </a>
+                                                                                                                <label class="summary">
+                                            2026. április 14. 19:00, rock/metal                                                                                            (Dürer Kert)
+                                                                                    </label>
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <p class="description">
+                                        A CONCERTO Music bemutatja:MYRATH - Wilderness Of Mirrors                                    </p>
+                                </div>
+                                
+                                <div class="clear"></div>
+                            </article>
+
+                                                                                                            <article data-category="event">
+                                                                    <a href="/esemeny/egyeb/ernest-es-celestine-a-dallamok-utjan/event-6213921" class="thumbnail-image">
+                                        <img src="https://media.port.hu/images/001/409/400x400/402.jpg" alt="Ernest és Célestine: A dallamok útján">
+                                    </a>
+                                
+                                <div class="category">
+                                    <div  class="category-img">
+                                        <svg viewBox="0 0 35 35">
+                                            <use xlink:href="/img/svg/star.svg#icon-star"></use>
+                                        </svg>
+                                    </div>
+
+                                                                             <span class="name">Egyéb</span>
+                                                                    </div>
+
+                                <div class="icons pull-right">
+                                    
+                                    
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <a class="title" href="/esemeny/egyeb/ernest-es-celestine-a-dallamok-utjan/event-6213921">
+                                        Ernest és Célestine: A dallamok útján                                    </a>
+                                                                            <a class="parent" href="/esemeny/fesztival/puskin-kucko-2026/event-6213503">(Puskin Kuckó 2026)</a>
+                                                                                                                <label class="summary">
+                                            2026. február 21. 10:00, Gyerekprogram                                                                                            (Puskin Kuckó)
+                                                                                    </label>
+                                                                    </div>
+
+                                <div class="wrapper must-shorten">
+                                    <p class="description">
+                                                                            </p>
+                                </div>
+                                
+                                <div class="clear"></div>
+                            </article>
+
+                                                                                                        </div>
+
+                                                <footer>
+                            <div class="button-group">
+                                                                                                        <a href="/search/landing-more?q=verne&type=generalevent&page=2&per-page=10" class="more-btn">
+                                        További találatok
+                                        <span class="folded">
+                                            <svg viewBox="0 0 32 32">
+                                                <use xlink:href="/img/svg/carousel-next.svg#icon-carousel-next"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                                            </div>
+                        </footer>
+                        
+                    </div>
+                </section>
+            
+        
+        <div class="advert">
+            
+                        <!-- (c)AdOcean 2003-2020, Port_Egyeb_RB_B -->
+                        <div id="adoceanindexhuqmfrdssjnk" data-id="adoceanindexhuqmfrdssjnk" class="iap iap--ado empty bg--transparent ">
+                            <script class="iap-script">
+                                window.iap_zones = window.iap_zones || [];
+                                window.iap_zones.push({"id":"adoceanindexhuqmfrdssjnk","empty":true,"lazy":true,"quality":false,"masterless":false,"area":"Port_Egyeb_RB_B","events":{"loaded":false,"visible":false,"viewed":false},"stat":{"site":"port","path":"\/kereso?q=verne&type=generalevent","type":"kereso\/kereso"},"porthu":{"id":"adoceanindexhuqmfrdssjnk","section":"kereso","type":"kereso","device":"desktop","zone":"roadblock_b"}});
+                            </script>
+                        </div>
+                            </div>
+
+        
+            </div>
+
+    <div class="col-md-4 side-box wide" id="port-side-box">
+        <!-- advert -->
+
+        <div class="advert">
+            
+                        <!-- (c)AdOcean 2003-2020, Port_Egyeb_HP -->
+                        <div id="adoceanindexhupicrcqrskb" data-id="adoceanindexhupicrcqrskb" class="iap iap--ado empty bg--transparent ">
+                            <script class="iap-script">
+                                window.iap_zones = window.iap_zones || [];
+                                window.iap_zones.push({"id":"adoceanindexhupicrcqrskb","empty":true,"lazy":false,"quality":false,"masterless":false,"area":"Port_Egyeb_HP","events":{"loaded":false,"visible":false,"viewed":false},"stat":{"site":"port","path":"\/kereso?q=verne&type=generalevent","type":"kereso\/kereso"},"porthu":{"id":"adoceanindexhupicrcqrskb","section":"kereso","type":"kereso","device":"desktop","zone":"half_page"}});
+                            </script>
+                        </div>
+                            </div>
+
+        <!--<section class="row cinema-list-widget">
+    <h1 class="box-heading">
+        <span>
+                        Mozi lista
+                    </span>
+        <span></span>
+    </h1>
+
+    <ul class="table cinema-list">
+                                    <li  class="full-width" >
+                    <a href="/helyszin/mozi/autosmozi-fovarosi-autopiac-budapest/place-23624" title="Autósmozi - Fővárosi Autópiac Budapest">
+                        Autósmozi - Fővárosi Autópiac Budapest                    </a>
+                </li>
+                            <li  class="full-width" >
+                    <a href="/helyszin/mozi/buda-bed-cinema-agymozi/place-7910" title="Buda Bed Cinema - Ágymozi">
+                        Buda Bed Cinema - Ágymozi                    </a>
+                </li>
+                            <li  class="full-width" >
+                    <a href="/helyszin/mozi/budapart-ingyenes-szabadteri-mozi-kopaszi-gat/place-23786" title="BudaPart Ingyenes Szabadtéri MOZI - Kopaszi gát">
+                        BudaPart Ingyenes Szabadtéri MOZI - Kopaszi gát                    </a>
+                </li>
+                            <li  class="full-width" >
+                    <a href="/helyszin/mozi/budapest-kertmozi-hunyadi-ter/place-23722" title="Budapest Kertmozi - Hunyadi tér">
+                        Budapest Kertmozi - Hunyadi tér                    </a>
+                </li>
+                            <li  class="full-width" >
+                    <a href="/helyszin/mozi/budapest-kertmozi-teleki-ter/place-23724" title="Budapest Kertmozi - Teleki tér">
+                        Budapest Kertmozi - Teleki tér                    </a>
+                </li>
+                            <li  class="full-width" >
+                    <a href="/helyszin/mozi/budapest-kertmozi-varosmajor-virag-benedek-haz/place-23768" title="Budapest Kertmozi - Városmajor -  Virág Benedek Ház">
+                        Budapest Kertmozi - Városmajor -  Virág Benedek Ház                    </a>
+                </li>
+                            <li  class="full-width" >
+                    <a href="/helyszin/mozi/budapest-rooftop-cinema-mammutteto/place-19845" title="Budapest Rooftop Cinema Mammuttető">
+                        Budapest Rooftop Cinema Mammuttető                    </a>
+                </li>
+                            <li  class="full-width" >
+                    <a href="/helyszin/mozi/cinemapink-mammut2/place-8947" title="CINEMApink Mammut2">
+                        CINEMApink Mammut2                    </a>
+                </li>
+                                                <li >
+                    <a href="/helyszin/mozi/art-cinema/place-8936" title="Art+ Cinema">
+                        Art+ Cinema                    </a>
+                </li>
+                            <li >
+                    <a href="/helyszin/mozi/bekasi-kertmozi/place-23598" title="Békási Kertmozi">
+                        Békási Kertmozi                    </a>
+                </li>
+                        </ul>
+
+    
+   <a class="port-btn red t400 allcinemasbutton" data-redirect-url="https ://port.hu/felhasznalo/portam/kedvenc-mozi" href="#">Kedvenc mozik szerkesztése »</a>
+</section>-->
+
+        
+                        <!-- (c)AdOcean 2003-2020, Port_PR_ajanlo_Desktop -->
+                        <div id="ado-gOXxWRwvDFOT1myMEydqRqN.0EZKH8Ombhww_g95X.r.t7" data-id="ado-gOXxWRwvDFOT1myMEydqRqN.0EZKH8Ombhww_g95X.r.t7" class="iap iap--ado empty bg--transparent ad-label--hidden ad-label--ghost">
+                            <script class="iap-script">
+                                window.iap_zones = window.iap_zones || [];
+                                window.iap_zones.push({"id":"ado-gOXxWRwvDFOT1myMEydqRqN.0EZKH8Ombhww_g95X.r.t7","empty":true,"lazy":false,"quality":false,"masterless":true,"area":"Port_PR_ajanlo_Desktop","events":{"loaded":false,"visible":false,"viewed":false},"stat":{"site":"port","path":"\/kereso?q=verne&type=generalevent","type":"kereso\/kereso"},"porthu":{"id":"ado-gOXxWRwvDFOT1myMEydqRqN.0EZKH8Ombhww_g95X.r.t7","section":"kereso","type":"kereso","device":"desktop","zone":"pr"}});
+                            </script>
+                        </div>
+                    
+        
+        
+        <section class="row row-1-detailed ">
+
+    <h1 class="box-heading">
+        <span>Heti mozipremierek</span>
+        <span class="premiers-link"><a href="/lista/mozi-premierek">Összes</a></span>
+    </h1>
+
+    <ul class="weekly_premiers square-image-list">
+                <li>
+            <a class="cover-img" href="/adatlap/film/mozi/az-erod-varn/movie-267244">
+                                    <img src="https://media.port.hu/images/001/847/120x170/276.webp">
+                            </a>
+            <section>
+                <a class="title" href="/adatlap/film/mozi/az-erod-varn/movie-267244">
+                    Az erőd                </a>
+                <label>
+                    holland-dán-svéd-finn-lengyel filmdráma, 81 perc, 2025                                            <img class="icon age-limit" src="/img/agelimit/vector/16_age_icon_black.svg" alt="16 éven aluliak számára nem ajánlott" title="16 éven aluliak számára nem ajánlott">                                    </label>
+                <article>
+                    A történet a hidegháború csúcspontján játszódik a svéd vidéken. A „Ha háború jön” című hivatalos katonai röpirat hatásos képei mély benyomást tesznek Karl-Göran Persson...                </article>
+                <a class="check-events" href="/adatlap/film/mozi/az-erod-varn/movie-267244#events">Időpontok</a>
+            </section>
+        </li>
+                <li>
+            <a class="cover-img" href="/adatlap/film/mozi/balnahullas-whalefall/movie-268206">
+                                    <img src="https://media.port.hu/images/001/852/120x170/170.webp">
+                            </a>
+            <section>
+                <a class="title" href="/adatlap/film/mozi/balnahullas-whalefall/movie-268206">
+                    Bálnahullás                </a>
+                <label>
+                    amerikai thriller, 106 perc, 2026                                            <img class="icon age-limit" src="/img/agelimit/vector/16_age_icon_black.svg" alt="16 éven aluliak számára nem ajánlott" title="16 éven aluliak számára nem ajánlott">                                    </label>
+                <article>
+                    A 20th Century Studios és az Imagine Entertainment új filmje, a Bálnahullás egy nagyívű, drámai túlélő-thriller, ami egy fiatalember és egy nagy ámbráscet találkozása nyomán bontakozik...                </article>
+                <a class="check-events" href="/adatlap/film/mozi/balnahullas-whalefall/movie-268206#events">Időpontok</a>
+            </section>
+        </li>
+                <li>
+            <a class="cover-img" href="/adatlap/film/mozi/elfelejtett-sziget-forgotten-island/movie-267878">
+                                    <img src="https://media.port.hu/images/001/840/120x170/664.webp">
+                            </a>
+            <section>
+                <a class="title" href="/adatlap/film/mozi/elfelejtett-sziget-forgotten-island/movie-267878">
+                    Elfelejtett sziget                </a>
+                <label>
+                    amerikai animációs kalandfilm, 109 perc, 2026                                            <img class="icon age-limit" src="/img/agelimit/vector/12_age_icon_black.svg" alt="12 éven aluliak számára a megtekintése nagykorú felügyelete mellett ajánlott" title="12 éven aluliak számára a megtekintése nagykorú felügyelete mellett ajánlott">                                    </label>
+                <article>
+                    A DreamWorks Animation új filmjében Jo és Raissa az általános óta legjobb barátnők, de most külön utakon készülnek folytatni az életüket.                 </article>
+                <a class="check-events" href="/adatlap/film/mozi/elfelejtett-sziget-forgotten-island/movie-267878#events">Időpontok</a>
+            </section>
+        </li>
+                <li>
+            <a class="cover-img" href="/adatlap/film/mozi/meg-egy-kivansag-meg-egy-kivansag/movie-268812">
+                                    <img src="https://media.port.hu/images/001/855/120x170/674.webp">
+                            </a>
+            <section>
+                <a class="title" href="/adatlap/film/mozi/meg-egy-kivansag-meg-egy-kivansag/movie-268812">
+                    Még egy kívánság                </a>
+                <label>
+                    magyar vígjáték, 108 perc, 2026                                            <img class="icon age-limit" src="/img/agelimit/vector/12_age_icon_black.svg" alt="12 éven aluliak számára a megtekintése nagykorú felügyelete mellett ajánlott" title="12 éven aluliak számára a megtekintése nagykorú felügyelete mellett ajánlott">                                    </label>
+                <article>
+                    Takács Juli a munkájában és magánéletében is elkényelmesedett, húszas évei végén járó zenei menedzser. Megszokott hétköznapjai gyökeres fordulatot vesznek, amikor kezébe kerül egy...                </article>
+                <a class="check-events" href="/adatlap/film/mozi/meg-egy-kivansag-meg-egy-kivansag/movie-268812#events">Időpontok</a>
+            </section>
+        </li>
+                <li>
+            <a class="cover-img" href="/adatlap/film/mozi/street-fighter-street-fighter/movie-266606">
+                                    <img src="https://media.port.hu/images/001/847/120x170/906.webp">
+                            </a>
+            <section>
+                <a class="title" href="/adatlap/film/mozi/street-fighter-street-fighter/movie-266606">
+                    Street Fighter                </a>
+                <label>
+                    amerikai akciófilm, 120 perc, 2026                                            <img class="icon age-limit" src="/img/agelimit/vector/16_age_icon_black.svg" alt="16 éven aluliak számára nem ajánlott" title="16 éven aluliak számára nem ajánlott">                                    </label>
+                <article>
+                    1993-ben járunk, a két elidegenedett utcai harcos, Ryu (Andrew Koji) és Ken Masters (Noah Centineo) újra visszaszáll a csatába, amikor a titokzatos Chun-Li (Callina Liang) beveszi őket a...                </article>
+                <a class="check-events" href="/adatlap/film/mozi/street-fighter-street-fighter/movie-266606#events">Időpontok</a>
+            </section>
+        </li>
+                <li>
+            <a class="cover-img" href="/adatlap/film/mozi/the-social-reckoning-a-halozat-ara-the-social-reckoning/movie-267782">
+                                    <img src="https://media.port.hu/images/001/853/120x170/356.webp">
+                            </a>
+            <section>
+                <a class="title" href="/adatlap/film/mozi/the-social-reckoning-a-halozat-ara-the-social-reckoning/movie-267782">
+                    The Social Reckoning - A hálózat ára                </a>
+                <label>
+                    amerikai dokudráma, 112 perc, 2026                                            <img class="icon age-limit" src="/img/agelimit/vector/12_age_icon_black.svg" alt="12 éven aluliak számára a megtekintése nagykorú felügyelete mellett ajánlott" title="12 éven aluliak számára a megtekintése nagykorú felügyelete mellett ajánlott">                                    </label>
+                <article>
+                    Egy pillanatunk sincs már nélküle. De nem csak mi használjuk őt, ő is használ minket. Ezrért kell tudnunk, hogy működik, és mi a célja.                </article>
+                <a class="check-events" href="/adatlap/film/mozi/the-social-reckoning-a-halozat-ara-the-social-reckoning/movie-267782#events">Időpontok</a>
+            </section>
+        </li>
+                <li>
+            <a class="cover-img" href="/adatlap/film/mozi/parhuzamos-tortenetek-histoires-paralleles/movie-269554">
+                                    <img src="https://media.port.hu/images/001/847/120x170/842.webp">
+                            </a>
+            <section>
+                <a class="title" href="/adatlap/film/mozi/parhuzamos-tortenetek-histoires-paralleles/movie-269554">
+                    Párhuzamos történetek                </a>
+                <label>
+                    francia-olasz-belga-iráni filmdráma, 139 perc, 2026                                            <img class="icon age-limit" src="/img/agelimit/vector/16_age_icon_black.svg" alt="16 éven aluliak számára nem ajánlott" title="16 éven aluliak számára nem ajánlott">                                    </label>
+                <article>
+                    Új regényéhez inspirációt keresve Sylvie a szemközti lakásban élő szomszédait figyeli. Amikor felveszi a fiatal Adamot, hogy segítsen neki a mindennapi teendőkben, még nem sejti, hogy a...                </article>
+                <a class="check-events" href="/adatlap/film/mozi/parhuzamos-tortenetek-histoires-paralleles/movie-269554#events">Időpontok</a>
+            </section>
+        </li>
+            </ul>
+</section>
+        <div class="advert">
+                    </div>
+
+        <div class="advert">
+            
+                        <!-- (c)AdOcean 2003-2020, Port_Egyeb_MR -->
+                        <div id="adoceanindexhuwkhenxoqyq" data-id="adoceanindexhuwkhenxoqyq" class="iap iap--ado empty bg--transparent ">
+                            <script class="iap-script">
+                                window.iap_zones = window.iap_zones || [];
+                                window.iap_zones.push({"id":"adoceanindexhuwkhenxoqyq","empty":true,"lazy":true,"quality":false,"masterless":false,"area":"Port_Egyeb_MR","events":{"loaded":false,"visible":false,"viewed":false},"stat":{"site":"port","path":"\/kereso?q=verne&type=generalevent","type":"kereso\/kereso"},"porthu":{"id":"adoceanindexhuwkhenxoqyq","section":"kereso","type":"kereso","device":"desktop","zone":"medium_rectangle_b"}});
+                            </script>
+                        </div>
+                            </div>
+
+        <div class="advert">
+            
+                        <div class="sticky-con " style="text-align: center;">
+                            <div class="sticky ad-label" style="position: sticky; top: 60px;">
+                            <!-- (c)AdOcean 2003-2020, index sticky manual -->
+                                <div id="ado-wEGh6Uy_zA.O1EbZBhPO5f.ZL8v.rE_O4_nEreBJWrb.r7" data-id="ado-wEGh6Uy_zA.O1EbZBhPO5f.ZL8v.rE_O4_nEreBJWrb.r7" class="iap iap--ado empty bg--transparent">
+                                    <script class="iap-script">
+                                        window.iap_zones = window.iap_zones || [];
+                                        window.iap_zones.push({"id":"ado-wEGh6Uy_zA.O1EbZBhPO5f.ZL8v.rE_O4_nEreBJWrb.r7","empty":true,"lazy":true,"quality":true,"masterless":true,"area":"","events":{"loaded":false,"visible":false,"viewed":false},"stat":{"site":"port","path":"\/kereso?q=verne&type=generalevent","type":"index_sticky"},"porthu":{"id":"ado-wEGh6Uy_zA.O1EbZBhPO5f.ZL8v.rE_O4_nEreBJWrb.r7","section":"sticky","type":"index_sticky","device":"","zone":"sticky"}});
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            addEventListener("DOMContentLoaded", (event) => {
+                            if(document.getElementById("main-box") || document.querySelector(".person .main-box") || document.querySelector("#port-main-box")){
+                                addEventListener("scroll", (event) => {
+                                    var mainBox = document.querySelector(".main-box")
+                                    var sidebox =  document.querySelector(".side-box");
+                                    var stickyTop = document.querySelector(".sticky-con");
+                                    if(document.querySelector(".article-content") && document.querySelector("#main-box").clientHeight > sidebox.clientHeight){
+                                        sidebox.style.height = (document.querySelector("#main-box").clientHeight)+"px";
+                                    }
+                                    if(document.getElementById("search-results")){
+                                        document.querySelector(".sticky-con").style.height = (document.getElementById("search-results").clientHeight - stickyTop.parentElement.offsetTop + 60)+"px";
+                                    } else {
+                                        var targetHeight = mainBox.clientHeight - stickyTop.parentElement.offsetTop - 60;
+                                        if(targetHeight < document.querySelector(".sticky-con .sticky").clientHeight){
+                                            targetHeight = document.querySelector(".sticky-con .sticky").clientHeight;
+                                        }
+                                        document.querySelector(".sticky-con").style.height = targetHeight+"px";
+                                        sidebox.style.height = "auto";
+                                    }
+                                });
+                            } else {
+
+                            }
+                                
+                            })
+                        </script>
+                            </div>
+
+    </div>
+</div>
+    </div>
+</div>
+
+<div class="wrap footer-carousel-wrapper">
+    <div class="container">
+        <div id="footer-carousel" class="owl-carousel footer-carousel footer-default">
+            <div class="item">
+                <a href="https://divany.hu/" target="_blank" class="divany"></a>
+            </div>
+
+            <div class="item">
+                <a href="https://index.hu/" target="_blank" class="index"></a>
+            </div>
+
+            <div class="item">
+                <a href="https://welovebudapest.com/" target="_blank" class="we-love-budapest"></a>
+            </div>
+
+            <div class="item">
+                <a href="https://welovebalaton.hu/" target="_blank" class="we-love-balaton"></a>
+            </div>
+
+            <div class="item">
+                <a href="https://revizoronline.com/" target="_blank" class="revizor"></a>
+            </div>
+
+            <div class="item">
+                <a href="https://blog.hu/" target="_blank" class="bloghu"></a>
+            </div>
+
+            <div class="item">
+                <a href="https://indavideo.hu/" target="_blank" class="indavideo"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer data-role="footer" class="port-2-footer">
+    <section>
+        <div class="container site-container">
+            <ul class="footer-col">
+                <li>
+                    <ul>
+	<li><a href="/lista/mozi-premierek">Filmpremierek</a></li>
+			<li><a target="_blank" href="/adatlap/film/mozi/az-erod-varn/movie-267244">Az erőd</a></li>
+			<li><a target="_blank" href="/adatlap/film/mozi/balnahullas-whalefall/movie-268206">Bálnahullás</a></li>
+			<li><a target="_blank" href="/adatlap/film/mozi/elfelejtett-sziget-forgotten-island/movie-267878">Elfelejtett sziget</a></li>
+			<li><a target="_blank" href="/adatlap/film/mozi/meg-egy-kivansag-meg-egy-kivansag/movie-268812">Még egy kívánság</a></li>
+			<li><a target="_blank" href="/adatlap/film/mozi/street-fighter-street-fighter/movie-266606">Street Fighter</a></li>
+	</ul>                </li>
+                <li>
+                    <ul>
+                        <li><a href="/mozi">Kiemelt mozik</a></li>
+                        <li><a href="/helyszin/mozi/cinema-city-allee/place-11170">Cinema City Allee</a></li>
+                        <li><a href="/helyszin/mozi/cinema-city-arena/place-7900">Cinema City Aréna</a></li>
+                        <li><a href="/helyszin/mozi/cinema-city-westend/place-8953">Cinema City Westend</a></li>
+                        <li><a href="/helyszin/mozi/corvin-budapest-filmpalota/place-7928">Corvin Budapest Filmpalota</a></li>
+                        <li><a href="/helyszin/mozi/cinema-city-mom-park/place-8948">Cinema MOM</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <ul>
+                        <li><a href="/zene">Kiemelt helyszínek</a></li>
+                        <li><a href="/helyszin/zene/a38-hajo/place-261">A38</a></li>
+                        <li><a href="/helyszin/zene/papp-laszlo-budapest-sportarena/place-8966">Papp László Budapest Sportaréna</a></li>
+                        <li><a href="/helyszin/szinhaz/dumaszinhaz/place-8215">Dumaszínház</a></li>
+                        <li><a href="/helyszin/zene/budapest-jazz-club/place-15316">Budapest Jazz Club</a></li>
+                        <li><a href="/helyszin/szinhaz/mupa/place-8839">Müpa</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <ul>
+                        <li><a href="/lista/szinhaz-bemutatok">Színházi bemutatók</a></li>
+                        <li><a href="/programkereso/szinhaz?interval=anytime&events_from=2026-10-18&events_until=&dft=i&cityMain=1&city=cityList-3372">Budapesti színházak</a></li>
+                        <li><a href="/programkereso/szinhaz?interval=today&events_from=2026-10-18&events_until=&dft=i&cityMain=1&city=cityList-3372">Napi színházműsor</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/jegy">Jegyvásárlás</a></li>
+                        <li><a href="/programkereso/jegy?interval=anytime&events_from=&events_until=&dft=i&cityMain=1&city=cityList-3372&area=theater">Színházjegy</a></li>
+                        <li><a href="/programkereso/jegy?interval=anytime&events_from=&events_until=&dft=i&cityMain=1&city=cityList-3372&area=concert">Koncertjegy</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <ul>
+	<li><a href="/lista/szuletesnapok">Ma született</a></li>
+			<li><a href="/adatlap/szemely/konrad-gyorgy/person-366369">Konrád György</a></li>
+			<li><a href="/adatlap/szemely/szerbhorvath-gyorgy/person-352828">Szerbhorváth György</a></li>
+			<li><a href="/adatlap/szemely/zac-efron/person-223906">Zac Efron</a></li>
+			<li><a href="/adatlap/szemely/jeremy-riddle/person-554634">Jeremy Riddle</a></li>
+			<li><a href="/adatlap/szemely/freida-pinto/person-294238">Freida Pinto</a></li>
+			<li><a href="/adatlap/szemely/lotte-lenya/person-104400">Lotte Lenya</a></li>
+	</ul>
+                </li>
+
+            </ul><!--footer-col-->
+
+        </div><!--content-size-->
+    </section>
+    <section>
+        <div class="container site-container">
+            <div class="footer-logo-container">
+                <div class="footer-logo footer-logo-port"></div>
+                <div class="footer-logo footer-logo-pku"></div>
+            </div>
+            <ul>
+                <li>
+                    <a target="_blank" href="/impresszum">
+                        Impresszum
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="/cikk/magazin/szerzoi-jogok/article-42099">
+                        Szerzői jogok
+                    </a>
+                </li>
+                <li>
+                    <a href="/aszf-archivum">
+                        Adatkezelési szabályzat
+                    </a>
+                </li>
+                <li>
+                    <a href="/sutik">
+                        Süti szabályzat
+                    </a>
+                </li>
+                <li>
+                    <a href="/site/comment-rules">
+                        Kommentelési szabályzat
+                    </a>
+                </li>
+                <li>
+                    <a href="https://ajanlat.indamediasales.hu/markabiztonsag/Indamedia_Sales_Markabiztonsagi_nyilatkozat.pdf" target="_blank">
+                        Márkabiztonság
+                    </a>
+                </li>
+                <li>
+                    <a href="https://indamediasales.hu/2019/06/25/quality_placement_minosegbiztositasi_tajekoztato_728" target="_blank">
+                        Quality Placement
+                    </a>
+                </li>
+                <li>
+                    <a href="https://indamediasales.hu" target="_blank">
+                        Médiaajánlat
+                    </a>
+                </li>
+                <li>
+                    <a href="/impresszum#szerkesztoseg">
+                        Kapcsolat
+                    </a>
+                </li>
+                
+                <li>
+                    <a class="change-consent" onclick="window.__tcfapi('displayConsentUi', 2, function() {} );">Süti beállítások</a>
+                </li>
+                <li>
+                    <a href="/dsa" target="_blank">
+                        DSA
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="container site-container">
+            <ul class="pull-left">
+                <div class="x_footeradaptive">
+                    <ul class="pull-left">
+                        <li>Hirdetési lehetőségek:</li>
+                        <li>
+                            <a href="https://indamediasales.hu/" target="_blank">
+                                <img src="/img/indamedia_sales_bright.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+    </section>
+</footer>
+
+<div id="noti-disabled-modal" class="fade modal noti-modals" tabindex="-1" role="dialog" aria-labelledby="olimpia_modal_label">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Figyelmeztetés</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Az értesítések jelenleg le vannak tiltva! Amennyiben szeretnél cikkajánlókat kapni, kérlek, hogy a böngésző Beállítások / Értesítések menüpontja alatt állítsd be az értesítések engedélyezését!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn disablePushNotiPopup">Értem!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="fade modal" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="login_modal_label">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h2>Bejelentkezés</h2>
+            </div>
+
+            <div class="modal-body">
+                <div id="indpl_login_box_450">
+                    <form action="https://daemon.indapass.hu/http/login" method="POST">
+                        <input type="hidden" name="partner_id" value="port"/>
+                        <input type="hidden" name="redirect_to" value="http://port.hu/kereso?q=verne&type=generalevent"/>
+                        <div class="indpl_info">
+                            <p>
+                                Jelentkezz be!
+                            </p>
+                        </div>
+                        <div class="indpl_fb_login">
+                            <a class="indpl_container" href="https://indapass.hu/providerlogin/?partner=port&amp;url=http://port.hu/kereso?q=verne&type=generalevent&amp;autologin=1" onclick="this.href = this.href.replace(/autologin=1/, 'autologin=' + (this.parentNode.parentNode['autologin'].checked ? 1 : 0));">
+                                <div class="indpl_img"></div>
+                                <div class="indpl_caption">
+                                    Belépek Facebookkal
+                                </div>
+                            </a>
+                        </div>
+                        <div class="indpl_or">
+                            <div class="indpl_line"></div>
+                            <div class="indpl_text">VAGY</div>
+                        </div>
+                        <div class="indpl_login">
+                            <div class="indpl_border"></div>
+                            <div class="indpl_err_box">
+                                <div>Hibás email cím vagy jelszó!</div>
+                            </div>
+                            <div class="indpl_formContainer">
+                                <div class="indpl_inputs">
+                                    <input name="username" class="indpl_text indpl_email" placeholder="Indapass email cím" />
+                                    <input name="password" type="password" class="indpl_text indpl_passwd" placeholder="Jelszó" />
+                                </div>
+                                <a href="https://indapass.hu/jelszoemlekezteto/" class="indpl_forgot">Elfelejtettem a jelszavam</a>
+                                <div class="indpl_container">
+                                    <input type="Submit" class="indpl_submit" value="Belépek" />
+                                </div>
+                                <div class="indpl_clr"></div>
+                            </div>
+                        </div>
+                        <div class="indpl_clr"></div>
+                        <div class="indpl_remember">
+                            <div class="checkbox">
+                                <input name="autologin" value="1" type="checkbox" checked="checked" id="indpl_login"/>
+                            </div>
+
+                            <label for="indpl_login">Maradjak belépve</label>
+                        </div>
+                        <div class="indpl_reg">
+                            <a href="https://indapass.hu/regisztracio/port" class="indpl_reg_button">Regisztrálok<span class="indpl_arrows">»</span></a>
+                            <a href="https://indapass.hu/segitseg" class="indpl_question"></a>
+                        </div>
+                        <div class="indpl_clr"></div>
+                        <div class="indpl_hidden_reg"></div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>    
+
+<div class="advert layer">
+    
+                        <!-- (c)AdOcean 2003-2020, Port_Aloldal_Layer -->
+                        <div id="ado-.CGVEP.s7ZjFt4VHNCYt1LGv7GGnflCsI4Qfg_Vubd..H7" data-id="ado-.CGVEP.s7ZjFt4VHNCYt1LGv7GGnflCsI4Qfg_Vubd..H7" class="iap iap--ado empty bg--transparent ad-label--hidden no-margin">
+                            <script class="iap-script">
+                                window.iap_zones = window.iap_zones || [];
+                                window.iap_zones.push({"id":"ado-.CGVEP.s7ZjFt4VHNCYt1LGv7GGnflCsI4Qfg_Vubd..H7","empty":true,"lazy":false,"quality":true,"masterless":true,"area":"Port_Aloldal_Layer","events":{"loaded":false,"visible":false,"viewed":false},"stat":{"site":"port","path":"\/kereso?q=verne&type=generalevent","type":"kereso\/kereso"},"porthu":{"id":"ado-.CGVEP.s7ZjFt4VHNCYt1LGv7GGnflCsI4Qfg_Vubd..H7","section":"kereso","type":"kereso","device":"desktop","zone":"layer"}});
+                            </script>
+                        </div>
+                    
+                <!-- (c)AdOcean 2003-2020, Port_Aloldal_Layer_gde_test -->
+                <div id="ado-E07xUtpBDFMsgRykoqv0JBHt.gXveTrqIPJoq0LSGQn.C7" data-id="ado-E07xUtpBDFMsgRykoqv0JBHt.gXveTrqIPJoq0LSGQn.C7" class="iap iap--ado empty bg--transparent">
+                    <script class="iap-script">
+                        window.iap_zones = window.iap_zones || [];
+                        window.iap_zones.push({"id":"ado-E07xUtpBDFMsgRykoqv0JBHt.gXveTrqIPJoq0LSGQn.C7","empty":true,"lazy":false,"quality":false,"masterless":true,"area":"Port_Aloldal_Layer_gde_test","events":{"loaded":false,"visible":false,"viewed":false},"stat":{"site":"port","path":"\/kereso?q=verne&type=generalevent","type":"kereso\/kereso"},"porthu":{"id":"ado-E07xUtpBDFMsgRykoqv0JBHt.gXveTrqIPJoq0LSGQn.C7","section":"kereso","type":"kereso","device":"desktop","zone":"layer"}});
+                    </script>
+                </div></div>
+
+
+<script src="https://media.port.hu/assets/prod/f6e7236ad44150556a18efdb7d0a5443/jquery.min.js?v=1792056413"></script>
+<script src="https://media.port.hu/assets/prod/513c4e3f8b1f140be1a12c0b392ce3be/yii.js?v=1792056413"></script>
+<script src="https://media.port.hu/assets/prod/0c0d36f90b9cc4623453fadc5fe9a1b7/js/bootstrap.min.js?v=1792056413"></script>
+<script src="https://media.port.hu/assets/prod/1386ac1fe83adf8a19a437f025e52e8c/min/moment.min.js?v=1792056413"></script>
+<script src="https://media.port.hu/assets/prod/1386ac1fe83adf8a19a437f025e52e8c/min/locales.min.js?v=1792056413"></script>
+<script src="https://media.port.hu/assets/prod/782a6f3a35cfd875772e32a05fc1884c/src/jquery.dotdotdot.min.js?v=1792056413"></script>
+<script src="https://media.port.hu/assets/prod/034407738ec7f7ff0693cb7e73935eb2/svgxuse.min.js?v=1792056413" defer="defer"></script>
+<script src="/js/gallery/swiper.min.js?v=1792056212"></script>
+<script src="/js/gallery/crel.min.js?v=1792056209"></script>
+<script src="/js/gallery/gallery2.min.js?v=1792056211"></script>
+<script src="/js/gallery/gallery-init.min.js?v=1792056209"></script>
+<script src="https://media.port.hu/assets/prod/98c53499c7f5bc2a43038f10fe74324a/dist/owl.carousel.min.js?v=1792056413"></script>
+<script src="/js/toggle-header-modules.min.js?v=1792056228"></script>
+<script src="/js/header-navigation.min.js?v=1792056213"></script>
+<script src="/js/mobile-menu.min.js?v=1792056227"></script>
+<script src="/js/header.min.js?v=1792056213"></script>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
+<script src="/js/jquery-ui/jquery-ui.min.js?v=1792056216"></script>
+<script src="/js/jquery.swipe.min.js?v=1792056216"></script>
+<script src="/js/push-noti.min.js?v=1792056228"></script>
+<script src="https://media.port.hu/assets/prod/71be38dc3459f812c8d9d6997031f3de/jquery.mCustomScrollbar.concat.min.js?v=1792056414"></script>
+<script src="https://media.port.hu/assets/prod/62e85c7c7899b468d1774f9348eef8b8/dist/truncate.min.js?v=1792056414"></script>
+<script src="/js/analytics.min.js?v=1792056195"></script>
+<script src="/js/calendar.min.js?v=1792056196"></script>
+<script src="/js/carousel.min.js?v=1792056197"></script>
+<script src="/js/events.min.js?v=1792056207"></script>
+<script src="/js/functions.min.js?v=1792056209"></script>
+<script src="/js/gallery.min.js?v=1792056209"></script>
+<script src="/js/index.min.js?v=1792056213"></script>
+<script src="/js/select.min.js?v=1792056228"></script>
+<script src="/js/tabs.min.js?v=1792056228"></script>
+<script src="/js/search.extended.min.js?v=1792056228"></script>
+<script src="/js/search.min.js?v=1792056228"></script>
+<script src="/js/combobox.min.js?v=1792056202"></script>
+<script src="/js/jquery-ui/jquery.ui.datepicker-hu.min.js?v=1792056216"></script>
+<script src="/js/endpage.min.js?v=1792056206"></script>
+<script src="/js/sort-events.min.js?v=1792056228"></script>
+<script src="/js/tv-channels-widget.min.js?v=1792056228"></script>
+<script src="/js/search-landing.min.js?v=1792056228"></script>
+<script src="/js/cinema-list-widget.min.js?v=1792056202"></script>
+<script src="https://media.port.hu/assets/prod/3c9d382b33a694233ac5ae8046c6bba0/js/typeahead.bundle.min.js?v=1792056413"></script>
+<script src="https://media.port.hu/assets/prod/3c9d382b33a694233ac5ae8046c6bba0/js/typeahead-kv.min.js?v=1792056413"></script>
+<script src="https://media.port.hu/assets/prod/3c9d382b33a694233ac5ae8046c6bba0/js/handlebars.min.js?v=1792056413"></script>
+<script src="https://media.port.hu/assets/prod/ac5c1c16e0f2ea8752863ccb4b05c37a/js/kv-widgets.min.js?v=1792056413"></script>
+<script src="https://media.port.hu/assets/prod/513c4e3f8b1f140be1a12c0b392ce3be/yii.validation.js?v=1792056413"></script>
+<script src="https://media.port.hu/assets/prod/513c4e3f8b1f140be1a12c0b392ce3be/yii.activeForm.js?v=1792056413"></script>
+<script>
+    (function() {
+        var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;
+        sc.src = __passportHeader_config.HEADER_URL + 'passportHeader.js';
+       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);
+    })();</script>
+<script>jQuery(function ($) {
+
+    $(".must-shorten").dotdotdot({watch: true});
+    portSearchLanding._create();
+    
+jQuery&&jQuery.pjax&&(jQuery.pjax.defaults.maxCacheLength=0);
+var highlighted_search_data_1 = new Bloodhound({"datumTokenizer":Bloodhound.tokenizers.whitespace,"queryTokenizer":Bloodhound.tokenizers.whitespace,"remote":{"url":"/search/suggest-list","wildcard":"%QUERY","cache":false,"prepare":function (query, settings) {
+                            window.portSearch = query;
+                              //ha van a szabadszavas keresonel kategoria kivalasztva, es az nem "all", akkor get parameterben azt is kuldjuk
+                               var selectedCategory = $("#highlighted-search").closest(".fulltext-search").find(".search-categories:visible").find(".options .option.active .caption").data("value");
+                               settings.data = { "q" : query };
+                               if (selectedCategory !== undefined && selectedCategory != "all"){
+                                    settings.data.category = selectedCategory;
+                               }
+
+                               return settings;
+                           }}});
+kvInitTA('highlighted-search', typeahead_7864e59a, [{"limit":10,"display":"name","templates":{"header":"<div class=\"searchHelpHeader\" onclick=\"$('.search__layer').submit();\"><div class=\"theWord\">Keresés a kifejezésre: <span id=\"search-label-value\"></span></div><div class=\"theQuestion\">Esetleg ezeket keresed?</div></div>","suggestion":Handlebars.compile("<div>\n                        <div class=\"thumbnail {{category.cls}}\">\n                            <img src=\"{{thumbnail}}\" width=\"40\" height=\"40\">\n                        <\/div>\n                        <div class=\"info {{category.cls}}\">\n                            <span class=\"type\">{{category.title}}<\/span>\n                            <span class=\"name\">{{name}}<\/span>\n                            <small class=\"subtitle\">{{subtitle}}<\/small>\n                        <\/div>\n                    <\/div>")},"name":"highlighted_search_data_1","source":highlighted_search_data_1.ttAdapter()}]);
+jQuery("#highlighted-search").on('typeahead:select', function(ev, sel) {
+                            if (sel.url) {
+                                document.location.href=sel.url;
+                                ev.preventDefault();
+                            }
+                        });
+jQuery("#highlighted-search").on('typeahead:render', function(ev, suggestion){
+                            $("#search-label-value").text(window.portSearch);
+                        });
+jQuery('#w2').yiiActiveForm([{"id":"highlighted-search","name":"q","container":".field-highlighted-search","input":"#highlighted-search","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Q csak szöveg lehet.","skipOnEmpty":1});}}], []);
+});</script>
+<!-- adocean adblock mero -->
+<script type="text/javascript">
+    var gemABObj = {
+        docBody: document.getElementsByTagName('body')[0],
+        incScript: document.createElement('SCRIPT'),
+        checkIt: function(){document.getElementById("mnxHDozyKPjB")?pp_gemius_hit("nSdFzTtkvTTrx.B7K13yyfU378aFPueKFs36aeS6yET.A7","addon=no-adblock"):pp_gemius_hit("nSzrCTsGCKuF9KNE6iWTitVrzbu1Eg8GQHsHaml5W8n.b7","addon=adblock")}
+    };
+    gemABObj.incScript.src = '//hu.adocean.pl/files/emitter_global_files/a8a8ba/ads.js';
+    gemABObj.docBody.appendChild(gemABObj.incScript);
+
+    window.addEventListener("load",gemABObj.checkIt);
+</script>
+      </body>
+</html>
