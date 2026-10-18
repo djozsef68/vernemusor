@@ -463,8 +463,10 @@ def unidivers():
             nap = dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
             if nap < MOST.date():
                 continue
-            ki.append({'tipus': 'egyeb', 'orszag': 'fr', 'cim': cim, 'fajta': '', 'hely': '', 'varos': '',
-                       'datum': nap.isoformat(), 'ido': f'{m.group(4)}:{m.group(5)}' if m.group(4) else '', 'link': l})
+            szinpad = re.search(r'(?i)th[ée][aâ]tre|spectacle|compagnie|\bcie\b|\bconte\b|op[ée]ra|op[ée]rette|com[ée]die musicale|marionnette|lecture', cim + ' ' + l)
+            ki.append({'tipus': 'szinhaz' if szinpad else 'egyeb', 'orszag': 'fr', 'cim': cim, 'fajta': '', 'mufaj': '',
+                       'hely': '', 'varos': '', 'datum': nap.isoformat(),
+                       'ido': f'{m.group(4)}:{m.group(5)}' if m.group(4) else '', 'link': l})
         time.sleep(1)
     return ki
 
@@ -683,7 +685,8 @@ def main():
         for m in fut(nev, f):
             eredmeny[m.pop('tipus')].append(m)
     eredmeny['egyeb'] += fut('port.hu események', port_esemenyek)
-    eredmeny['egyeb'] += fut('unidivers.fr', unidivers)
+    for m in fut('unidivers.fr', unidivers):
+        eredmeny[m['tipus']].append(m)
     for m in fut('port.hu tévé', port_tv):  # (a port.hu tévéműsor-keresője a GitHubról nem ad megbízható találatot – kimaradt)
         eredmeny[m.pop('tipus')].append(m)
     sz, mo = fut('port.hu', port_hu)
