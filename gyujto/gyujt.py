@@ -471,6 +471,146 @@ def unidivers():
     return ki
 
 
+# ---------------------------------------------------------------- Párizs, Nantes, Amiens: a városok saját programnaptára
+# (Verne életének három városa). Csak a dátumozott, Verne-hez kötődő programok kerülnek be; a „Jules Verne”
+# nevű utcában, parkban, iskolában tartott, de Verne-hez nem kötődő események nem.
+HELYNEV2 = re.compile(r'(?i)\b(?:lyc[ée]e|coll[èe]ge|[ée]cole|biblioth[èe]que|m[ée]diath[èe]que|gymnase|stade|salle|rue|avenue|all[ée]e|place|'
+                      r'quai|boulevard|bd|square|parc|jardin|esplanade|centre|maison de quartier|complexe|piscine|r[ée]sidence|cirque|pont|'
+                      r'cit[ée]|lyc|ehpad|cr[èe]che)(?: [\w\'’-]+){0,2} jules[- ]verne')
+SZINPAD = re.compile(r'(?i)th[ée][aâ]tre|spectacle|compagnie|\bcie\b|\bconte\b|op[ée]ra|op[ée]rette|com[ée]die musicale|marionnette|lecture|impro|concert')
+HONAP_FR = {'janvier': 1, 'février': 2, 'fevrier': 2, 'mars': 3, 'avril': 4, 'mai': 5, 'juin': 6, 'juillet': 7, 'août': 8, 'aout': 8,
+            'septembre': 9, 'octobre': 10, 'novembre': 11, 'décembre': 12, 'decembre': 12}
+
+
+def verne_program(cim, leiras=''):
+    """Verne-program-e: a cím a művekre vagy Verne nevére vall, vagy a leírás Verne nevét említi
+    (de nem egy róla elnevezett hely nevében)."""
+    if HELYNEV2.search(cim) and not VERNE_HELY.search(cim):
+        cim = HELYNEV2.sub(' ', cim)
+    return cim_verne_e(cim) or verne_e(cim, HELYNEV2.sub(' ', szoveg(leiras or '')))
+
+
+def idoszak(d1, d2):
+    return f'{d1:%d.%m.%Y} – {d2:%d.%m.%Y}' if d1 != d2 else ''
+
+
+def paris():
+    """Párizs: „Que faire à Paris?” – a Ville de Paris nyílt programnaptára (opendata.paris.fr)."""
+    ki = []
+    url = ('https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/que-faire-a-paris-/records?limit=100&where='
+           + urllib.parse.quote('search("jules verne") and date_end >= now()'))
+    d = json.loads(letolt(url, 'fr'))
+    ATNEZVE['paris'] = d.get('total_count')
+    for x in d.get('results', []):
+        cim = html.unescape(x.get('title') or '').strip()
+        if not cim or not verne_program(cim, (x.get('lead_text') or '') + ' ' + (x.get('description') or '')[:3000]):
+            continue
+        alkalmak = []
+        for o in (x.get('occurrences') or '').split(';'):
+            k = o.split('_')[0]
+            try:
+                alkalmak.append(dt.datetime.fromisoformat(k))
+            except ValueError:
+                pass
+        jovo = sorted(a for a in alkalmak if a.date() >= MOST.date())
+        try:
+            eleje = dt.datetime.fromisoformat(x['date_start']).date()
+            vege = dt.datetime.fromisoformat(x['date_end']).date()
+        except (KeyError, TypeError, ValueError):
+            continue
+        kov = jovo[0] if jovo else None
+        nap = kov.date() if kov else max(eleje, MOST.date())
+        ido = f'{kov:%H:%M}' if kov and kov.strftime('%H:%M') not in ('00:00', '10:00') else ''
+        ki.append({'tipus': 'szinhaz' if SZINPAD.search(cim + ' ' + (x.get('lead_text') or '')) else 'egyeb', 'orszag': 'fr',
+                   'cim': cim, 'fajta': '', 'mufaj': '', 'hely': (x.get('address_name') or '').strip(), 'varos': 'Párizs',
+                   'datum': nap.isoformat(), 'ido': ido, 'ig': vege.isoformat(), 'idoszak': idoszak(max(eleje, MOST.date()), vege),
+                   'link': x.get('url') or ''})
+    return ki
+
+
+def nantes():
+    """Nantes: a Nantes Métropole programnaptára (data.nantesmetropole.fr) – benne a Musée Jules Verne programjai."""
+    url = ('https://data.nantesmetropole.fr/api/explore/v2.1/catalog/datasets/244400404_agenda-evenements-nantes-metropole_v2/records?'
+           'limit=100&order_by=date&select=id_manif,nom,description_evt,date,heure_debut,lieu,ville,emetteur,types_libelles,url_site,lien_agenda,annule&where='
+           + urllib.parse.quote(f'search("jules verne") and date >= date\'{MOST.date().isoformat()}\''))
+    d = json.loads(letolt(url, 'fr'))
+    ATNEZVE['nantes'] = d.get('total_count')
+    csop = {}
+    for x in d.get('results', []):
+        if x.get('annule') == 'oui':
+            continue
+        cim = html.unescape(x.get('nom') or '').strip()
+        muzeum = 'JULES VERNE' in (x.get('emetteur') or '').upper()
+        if not cim or not (muzeum or verne_program(cim, x.get('description_evt') or '')):
+            continue
+        csop.setdefault(x.get('id_manif') or cim, []).append(x)
+    ki = []
+    for xs in csop.values():
+        xs.sort(key=lambda x: (x.get('date') or '', x.get('heure_debut') or ''))
+        x, utolso = xs[0], xs[-1]
+        tipusok = ' '.join(x.get('types_libelles') or [])
+        cim = html.unescape(x['nom']).strip()
+        muzeum = 'JULES VERNE' in (x.get('emetteur') or '').upper()
+        if muzeum and 'verne' not in cim.lower():
+            cim += ' – Musée Jules Verne'
+        d1, d2 = dt.date.fromisoformat(x['date']), dt.date.fromisoformat(utolso['date'])
+        ki.append({'tipus': 'szinhaz' if SZINPAD.search(cim + ' ' + tipusok) else 'egyeb', 'orszag': 'fr', 'cim': cim,
+                   'fajta': (x.get('types_libelles') or [''])[0].split(' - ')[0].lower(), 'mufaj': '',
+                   'hely': (x.get('lieu') or '').strip(), 'varos': (x.get('ville') or 'Nantes').strip(),
+                   'datum': d1.isoformat(), 'ido': x.get('heure_debut') or '', 'ig': d2.isoformat(),
+                   'idoszak': (f'{len(xs)} × · ' if len(xs) > 2 else '') + idoszak(d1, d2) if len(xs) > 1 else '',
+                   'link': x.get('url_site') or x.get('lien_agenda') or ''})
+    return ki
+
+
+def fr_datumok(t):
+    """Francia dátumok egy szövegből: „Du 3 juillet 2026 au 11 janvier 2027”, „Le 22 avril 2026”, „22/04/2026”."""
+    ki = []
+    for n, h, e in re.findall(r'(?i)\b(\d{1,2})(?:er)?\s+(janvier|f[ée]vrier|mars|avril|mai|juin|juillet|ao[uû]t|septembre|octobre|novembre|d[ée]cembre)\s+(\d{4})', t):
+        try:
+            ki.append(dt.date(int(e), HONAP_FR[h.lower().replace('û', 'u')], int(n)))
+        except (KeyError, ValueError):
+            pass
+    for n, h, e in re.findall(r'\b(\d{1,2})/(\d{1,2})/(\d{4})\b', t):
+        try:
+            ki.append(dt.date(int(e), int(h), int(n)))
+        except ValueError:
+            pass
+    return ki
+
+
+def amiens():
+    """Amiens: az amiens.fr eseménynaptára – a teljes lista Verne-tételei (benne a Maison de Jules Verne programjai)."""
+    ki, latott, lapok = [], set(), 1
+    oldal = 1
+    while oldal <= lapok and oldal <= 80:
+        h = letolt('https://www.amiens.fr/Les-evenements' + (f'/(page)/{oldal}' if oldal > 1 else ''), 'fr').decode('utf-8', 'replace')
+        if oldal == 1:
+            lapok = max([1] + [int(x) for x in re.findall(r'/Les-evenements/\(page\)/(\d+)', h)])
+        for l, c in re.findall(r'<a href="(/Les-evenements/[^"(#]+)" class="diary-block__content-hidden__title"[^>]*>\s*(.*?)\s*</a>', h, re.S):
+            if l in latott:
+                continue
+            latott.add(l)
+            cim = szoveg(c)
+            if not (VERNE_HELY.search(cim) or verne_program(cim)):
+                continue
+            e = letolt('https://www.amiens.fr' + l, 'fr').decode('utf-8', 'replace')
+            t = szoveg(re.sub(r'(?s)<(header|nav|footer)[^>]*>.*?</\1>', ' ', e))
+            napok = sorted(set(fr_datumok(t)))
+            jovo = [n for n in napok if n >= MOST.date()]
+            if not jovo:
+                continue
+            ki.append({'tipus': 'szinhaz' if SZINPAD.search(cim) else 'egyeb', 'orszag': 'fr', 'cim': cim.replace(' | ', ' – '),
+                       'fajta': '', 'mufaj': '', 'hely': 'Maison de Jules Verne' if 'jules verne' in t.lower() and 'maison de jules verne' in t.lower() else '',
+                       'varos': 'Amiens', 'datum': max(napok[0], MOST.date()).isoformat(), 'ido': '', 'ig': napok[-1].isoformat(),
+                       'idoszak': idoszak(max(napok[0], MOST.date()), napok[-1]), 'link': 'https://www.amiens.fr' + l})
+            time.sleep(1)
+        oldal += 1
+        time.sleep(0.5)
+    ATNEZVE['amiens'] = len(latott)
+    return ki
+
+
 # ---------------------------------------------------------------- Anglia: ATG (színház)
 ATG_KERES = ['verne', 'around the world in 80 days', '20,000 leagues', 'journey to the centre of the earth',
              'captain nemo', 'mysterious island', 'phileas fogg', 'from the earth to the moon', 'trip to the moon', 'offenbach']
@@ -692,6 +832,12 @@ def main():
     sz, mo = fut('port.hu', port_hu)
     eredmeny['szinhaz'] += sz
     eredmeny['mozi'] += mo
+    for nev, f in [('Párizs (opendata.paris.fr)', paris), ('Nantes (data.nantesmetropole.fr)', nantes), ('Amiens (amiens.fr)', amiens)]:
+        for m in fut(nev, f):
+            eredmeny[m['tipus']].append(m)
+        kulcs = nev.split()[0].lower().replace('á', 'a')
+        if kulcs in ATNEZVE:
+            eredmeny['forrasok'][nev]['atnezve'] = ATNEZVE[kulcs]
     eredmeny['szinhaz'] += fut('atgtickets.com', atg)
     eredmeny['szinhaz'] += fut('offi.fr', offi)
     eredmeny['mozi'] += fut('allocine.fr', allocine)
