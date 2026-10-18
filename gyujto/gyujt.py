@@ -112,7 +112,7 @@ def epg_orszag(orszag, cimke):
                             m = re.search(r'\((18[89]\d|19\d\d|20[0-3]\d)\)', cim)
                             ev = m.group(1) if m else ''
                         ki.append({
-                            'tipus': 'radio' if RADIO.search(csat) else 'tv',
+                            'tipus': 'radio' if RADIO.search(csat) and not re.search(r'(?i)\bTV\b|Vision|Telewizja', csat) else 'tv',
                             'orszag': hol, 'csatorna': CSATORNANEV.get(csat, re.sub(r'\s+HD$', '', csat)), 'cim': cim,
                             'alcim': alcim if alcim and egyszerusit(alcim) != egyszerusit(cim) else '',
                             'ev': int(ev) if ev else None,
