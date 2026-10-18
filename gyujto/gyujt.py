@@ -49,7 +49,7 @@ def szoveg(h):
 EPG = [('hu', 'HU1'), ('fr', 'FR1'), ('uk', 'UK1'), ('de', 'DE1'), ('it', 'IT1'), ('es', 'ES1'), ('pt', 'PT1'), ('pl', 'PL1'),
        ('ch', 'CH1'), ('be', 'BE2'), ('us', 'US2'),
        ('ru', 'https://iptvx.one/epg/epg_noarch.xml.gz')]  # orosz nyelvű adók: az iptvx.one gyűjtése (az iptv-org egyik forrása)
-RADIO = re.compile(r'(?i)\bradio\b|rádió|радио|^RNE\b|Antena [123]\b|Jedynka|Dwójka|Trójka|^MR\d|^BBC R(?:adio)?\b|^BBC R\d|^BBC 6 Music|^RTÉ (?:Radio|2FM|lyric)|France (?:Culture|Inter|Musique)|Deutschlandfunk|^Rai ?Radio')
+RADIO = re.compile(r'(?i)\bradio\b|rádió|радио|^RNE\b|^RTP Antena|Jedynka|Dwójka|Trójka|^MR\d|^BBC R(?:adio)?\b|^BBC R\d|^BBC 6 Music|^RTÉ (?:Radio|2FM|lyric)|France (?:Culture|Inter|Musique)|Deutschlandfunk|^Rai ?Radio')
 KIHAGY = re.compile(r'(?i)brazzers|hustler|playboy|private|eroxxx|xxx|redlight|dorcel|blue hustler|\(\+\d+\)|\+\d+\b|\bsport|eurosport|bein|dazn|qvc|shop|news\b|\bnews|info\b|tg24|bloomberg|cnbc|cnn|euronews')
 ATNEZVE = {}
 # Osztrák, svájci, belga adók felismerése a nevük alapján (a német és a francia fájlban is vannak ilyenek;
