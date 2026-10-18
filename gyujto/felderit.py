@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Felderítés, 2. kör: Nantes nyílt adat mezői és rekordjai; Amiens – a Maison de Jules Verne szervezői oldala.
+# Felderítés, 3. kör: Amiens – a Maison de Jules Verne eseménylistájának szerkezete; Nantes – a dátummezők.
 import json, os, re, sys, urllib.parse
 sys.path.insert(0, os.path.dirname(__file__))
 from gyujt import letolt, szoveg  # noqa: E402
@@ -12,32 +12,27 @@ def lek(url):
     except Exception as e:
         ir('HIBA', url, str(e)[:200]); return ''
 B = 'https://data.nantesmetropole.fr/api/explore/v2.1/catalog/datasets/244400404_agenda-evenements-nantes-metropole_v2'
-m = lek(B)
-if m:
-    ir('NANTES mezők:', ', '.join(f['name'] for f in json.loads(m).get('fields', [])))
-r = lek(B + '/records?where=' + Q('search("jules verne")') + '&limit=30&order_by=date')
+r = lek(B + '/records?where=' + Q('search("jules verne") and date >= date\'2026-10-18\'') + '&limit=5&order_by=date&select=id_manif,nom,date,heure_debut,heure_fin,lieu,adresse,ville,emetteur,types_libelles,url_site,lien_agenda')
 if r:
-    d = json.loads(r); ir('NANTES találat:', d.get('total_count'))
-    for x in d.get('results', []):
-        ir('  N|', json.dumps(x, ensure_ascii=False)[:900])
+    d = json.loads(r); ir('NANTES jövő:', d.get('total_count'))
+    for x in d.get('results', []): ir('  N|', json.dumps(x, ensure_ascii=False)[:500])
 h = lek('https://www.amiens.fr/Les-evenements/(organisateur)/maison-de-jules-verne')
 if h:
-    ir('AMIENS MJV', len(h))
-    i = h.find('Les-evenements/', h.find('maison-de-jules-verne') + 200)
-    for l, t in re.findall(r'<a[^>]+href="(/Les-evenements/[A-Za-z0-9][^"(#]+)"[^>]*>(.*?)</a>', h, re.S)[:40]:
-        ir('  A|', l, '|', szoveg(t)[:140])
-    # egy esemény-kártya nyers szerkezete (címkék nélkül, csak a szövege és az osztálynevek)
-    k = re.search(r'(?s)(<(?:article|li|div)[^>]*class="[^"]*(?:event|agenda|card)[^"]*"[^>]*>.{0,2500})', h)
-    if k:
-        ir('  KÁRTYA osztályok:', ' '.join(sorted(set(re.findall(r'class="([^"]+)"', k.group(1)))))[:800])
-        ir('  KÁRTYA szöveg:', szoveg(k.group(1))[:600])
-    for p in re.findall(r'href="([^"]*(?:page|offset)[^"]*)"', h)[:5]: ir('  lapozó:', p)
-    if 'Les-evenements/' in h:
-        l0 = re.findall(r'href="(/Les-evenements/[A-Za-z0-9][^"(#]+)"', h)
-        if l0:
-            e = lek('https://www.amiens.fr' + l0[0])
-            if e:
-                ir('  ESEMÉNY-OLDAL', l0[0], 'szöveg:', szoveg(re.sub(r'(?s)<(header|nav|footer)[^>]*>.*?</\1>', ' ', e))[:900])
-                for d in re.findall(r'(?is)<time[^>]*>.*?</time>|datetime="[^"]+"|class="[^"]*date[^"]*"[^>]*>[^<]{0,80}', e)[:8]: ir('  dátumjel:', szoveg(d)[:160], d[:120])
+    linkek = []
+    for l in re.findall(r'href="([^"]*Les-evenements/[^"]+)"', h):
+        if '(' not in l and l not in linkek: linkek.append(l)
+    ir('AMIENS MJV linkek:', len(linkek))
+    for l in linkek[:30]: ir('  L|', l)
+    if linkek:
+        i = h.find(linkek[0])
+        blokk = h[max(0, i - 1500): i + 1500]
+        ir('  KÖRNYEZET szöveg:', szoveg(blokk)[:700])
+        ir('  KÖRNYEZET osztályok:', ' | '.join(dict.fromkeys(c.strip() for c in re.findall(r'class="([^"]+)"', blokk)))[:900])
+        e = lek(linkek[0] if linkek[0].startswith('http') else 'https://www.amiens.fr' + linkek[0])
+        if e:
+            t = re.sub(r'(?s)<(header|nav|footer|script|style)[^>]*>.*?</\1>', ' ', e)
+            j = t.find('<h1')
+            ir('  ESEMÉNY szöveg:', szoveg(t[j:j + 5000])[:900])
+            for c in dict.fromkeys(re.findall(r'class="([^"]*(?:date|hour|time|place|lieu|horaire)[^"]*)"', t)): ir('  osztály:', c[:120])
 open('proba/osszegzes.txt', 'w', encoding='utf-8').write('\n'.join(ki) + '\n')
 print('\n'.join(ki))
