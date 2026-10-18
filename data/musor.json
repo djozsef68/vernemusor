@@ -1,5 +1,5 @@
 {
- "frissitve": "2026-10-18T05:50:24+00:00",
+ "frissitve": "2026-10-18T05:55:32+00:00",
  "tv": [
   {
    "orszag": "es",
@@ -271,7 +271,7 @@
   "epgshare01 HU1": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 1,
    "radio": {
     "MR1-Kossuth": 272,
     "MR2-Petőfi": 49,
@@ -284,7 +284,7 @@
   "epgshare01 FR1": {
    "ok": true,
    "db": 6,
-   "mp": 4,
+   "mp": 3,
    "atnezve": 65224
   },
   "epgshare01 UK1": {
@@ -346,10 +346,6 @@
    "ok": true,
    "db": 6,
    "mp": 2,
-   "radio": {
-    "Antena 3 Internacional": 47,
-    "Antena 3": 100
-   },
    "atnezve": 34362
   },
   "epgshare01 PT1": {
@@ -361,7 +357,7 @@
   "epgshare01 PL1": {
    "ok": true,
    "db": 1,
-   "mp": 7,
+   "mp": 5,
    "radio": {
     "Radio Nowy Świat": 53,
     "Polskie Radio Program 1": 215,
@@ -375,9 +371,8 @@
   "epgshare01 CH1": {
    "ok": true,
    "db": 0,
-   "mp": 5,
+   "mp": 3,
    "radio": {
-    "Antena 3 Int.": 56,
     "Radio Ticino Channel": 57,
     "Radio Pilatus TV": 17,
     "Radio Italia TV": 40
@@ -387,7 +382,7 @@
   "epgshare01 BE2": {
    "ok": true,
    "db": 0,
-   "mp": 5,
+   "mp": 4,
    "radio": {
     "Radio Bremen HD": 154,
     "Radio Contact Vision": 27,
@@ -406,20 +401,19 @@
   "epgshare01 US2": {
    "ok": true,
    "db": 0,
-   "mp": 5,
+   "mp": 4,
    "radio": {
     "3ABN Radio Network": 161,
     "Rai Radio 1": 196,
     "Little Saigon Radio Channel": 24,
-    "YTN Radio Korea": 112,
-    "Antena 3 Internacional": 77
+    "YTN Radio Korea": 112
    },
    "atnezve": 79693
   },
   "iptvx.one RU": {
    "ok": true,
    "db": 1,
-   "mp": 61,
+   "mp": 48,
    "radio": {
     "Дорожное радио": 279,
     "NO EPG Radio (заглушка)": 90,
@@ -446,43 +440,43 @@
   "port.hu tévé": {
    "ok": true,
    "db": 8,
-   "mp": 6
+   "mp": 5
   },
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 90
+   "mp": 109
   },
   "atgtickets.com": {
    "ok": true,
    "db": 0,
-   "mp": 15
+   "mp": 18
   },
   "offi.fr": {
    "ok": true,
    "db": 0,
-   "mp": 12
+   "mp": 14
   },
   "allocine.fr": {
    "ok": true,
    "db": 0,
-   "mp": 15
+   "mp": 17
   },
   "comingsoon.it": {
    "ok": true,
    "db": 0,
-   "mp": 0
+   "mp": 1
   },
   "sensacine.com": {
    "ok": true,
    "db": 0,
-   "mp": 18,
-   "atnezve": 203
+   "mp": 21,
+   "atnezve": 196
   },
   "picturehouses.com": {
    "ok": true,
    "db": 0,
-   "mp": 4,
+   "mp": 3,
    "atnezve": 439
   },
   "filmweb.pl": {
@@ -506,7 +500,7 @@
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 16,
+   "mp": 18,
    "proba": 10000,
    "atnezve": 3
   }
