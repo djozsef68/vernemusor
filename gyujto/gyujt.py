@@ -474,7 +474,7 @@ def unidivers():
 # ---------------------------------------------------------------- Párizs, Nantes, Amiens: a városok saját programnaptára
 # (Verne életének három városa). Csak a dátumozott, Verne-hez kötődő programok kerülnek be; a „Jules Verne”
 # nevű utcában, parkban, iskolában tartott, de Verne-hez nem kötődő események nem.
-HELYNEV2 = re.compile(r'(?i)\b(?:lyc[ée]e|coll[èe]ge|[ée]cole|biblioth[èe]que|m[ée]diath[èe]que|gymnase|stade|salle|rue|avenue|all[ée]e|place|'
+HELYNEV2 = re.compile(r'(?i)\b(?:ape|apel|amicale|association|asso|lyc[ée]e|coll[èe]ge|[ée]cole|biblioth[èe]que|m[ée]diath[èe]que|gymnase|stade|salle|rue|avenue|all[ée]e|place|'
                       r'quai|boulevard|bd|square|parc|jardin|esplanade|centre|maison de quartier|complexe|piscine|r[ée]sidence|cirque|pont|'
                       r'cit[ée]|lyc|ehpad|cr[èe]che)(?: [\w\'’-]+){0,2} jules[- ]verne')
 SZINPAD = re.compile(r'(?i)th[ée][aâ]tre|spectacle|compagnie|\bcie\b|\bconte\b|op[ée]ra|op[ée]rette|com[ée]die musicale|marionnette|lecture|impro|concert')
@@ -489,9 +489,10 @@ def verne_program(cim, leiras=''):
         cim = HELYNEV2.sub(' ', cim)
     if cim_verne_e(cim):
         return True
-    # a leírásban legalább kétszer kell Verne nevének állnia (egy futó említés – „mint Jules Verne-nél” – nem elég)
-    t = HELYNEV2.sub(' ', szoveg(leiras or ''))
-    return len(re.findall(r'(?i)jules[- ]verne', t)) >= 2 and verne_e(cim, t)
+    # a leírás elején (az első 300 betűben) kell Verne nevének állnia – ott, ahol a program tárgyát mondják el;
+    # egy későbbi, futó említés nem elég
+    t = HELYNEV2.sub(' ', szoveg(leiras or ''))[:300]
+    return verne_e(cim, t)
 
 
 def idoszak(d1, d2):
@@ -507,7 +508,7 @@ def paris():
     ATNEZVE['paris'] = d.get('total_count')
     for x in d.get('results', []):
         cim = html.unescape(x.get('title') or '').strip()
-        if not cim or not verne_program(cim, (x.get('lead_text') or '') + ' ' + (x.get('description') or '')[:3000]):
+        if not cim or not verne_program(cim, (x.get('lead_text') or '') or (x.get('description') or '')):
             continue
         alkalmak = []
         for o in (x.get('occurrences') or '').split(';'):

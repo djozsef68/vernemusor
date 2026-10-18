@@ -11,6 +11,11 @@ for nev, f in [('PÁRIZS', gyujt.paris), ('NANTES', gyujt.nantes), ('AMIENS', gy
         ki.append(f'== {nev}: {len(r)} tétel ({round(time.time() - t)} mp), átnézve: {gyujt.ATNEZVE.get(nev.lower().replace("á", "a"))}')
         for m in r:
             ki.append('  ' + json.dumps(m, ensure_ascii=False))
+        if nev == 'PÁRIZS':  # a leadek, hogy lássuk, miért került be
+            import urllib.parse
+            d = json.loads(gyujt.letolt('https://opendata.paris.fr/api/explore/v2.1/catalog/datasets/que-faire-a-paris-/records?limit=20&select=title,lead_text&where=' + urllib.parse.quote('search("jules verne") and date_end >= now()'), 'fr'))
+            for x in d.get('results', []):
+                ki.append('   lead| ' + (x.get('title') or '')[:60] + ' || ' + (x.get('lead_text') or '')[:300])
     except Exception as e:
         import traceback
         ki.append(f'== {nev}: HIBA {e}\n' + traceback.format_exc()[-1500:])
