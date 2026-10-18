@@ -1,5 +1,5 @@
 {
- "frissitve": "2026-10-18T05:35:36+00:00",
+ "frissitve": "2026-10-18T05:41:46+00:00",
  "tv": [
   {
    "orszag": "es",
@@ -271,13 +271,13 @@
   "epgshare01 HU1": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 1,
    "atnezve": 23907
   },
   "epgshare01 FR1": {
    "ok": true,
    "db": 6,
-   "mp": 4,
+   "mp": 3,
    "atnezve": 65224
   },
   "epgshare01 UK1": {
@@ -328,15 +328,16 @@
    "mp": 5,
    "atnezve": 74912
   },
-  "epgshare01 US1": {
-   "ok": false,
-   "hiba": "HTTP Error 404: Not Found",
-   "mp": 3
+  "epgshare01 US2": {
+   "ok": true,
+   "db": 0,
+   "mp": 5,
+   "atnezve": 79693
   },
   "iptvx.one RU": {
    "ok": true,
    "db": 1,
-   "mp": 58,
+   "mp": 59,
    "atnezve": 900479
   },
   "port.hu tévé": {
@@ -347,7 +348,7 @@
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 91
+   "mp": 90
   },
   "atgtickets.com": {
    "ok": true,
@@ -367,24 +368,24 @@
   "comingsoon.it": {
    "ok": true,
    "db": 0,
-   "mp": 1
+   "mp": 0
   },
   "sensacine.com": {
    "ok": true,
    "db": 0,
-   "mp": 21,
-   "atnezve": 193
+   "mp": 18,
+   "atnezve": 203
   },
   "picturehouses.com": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 3,
    "atnezve": 439
   },
   "filmweb.pl": {
    "ok": true,
    "db": 0,
-   "mp": 3,
+   "mp": 2,
    "atnezve": 171
   },
   "film.at": {
@@ -402,7 +403,7 @@
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 19,
+   "mp": 15,
    "proba": 10000,
    "atnezve": 3
   }
