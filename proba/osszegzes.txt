@@ -1,429 +1,1711 @@
-===== http://diafilm.osaarchivum.org/public/?fs=2324
-Diafilm
-Figyelem
-AJAX.request(url, 'siteHome', 'newBannerHTML', '', '0', '');
-A gyűjteményről
-Történet és technikák
-Diafilmek
-Link gyűjtemény
-Rólunk írták
-Technikai eszközök
-Ismeretterjesztő (2724)
-,
-Mese (1573)
-,
-Iskolai, oktató (1178)
-,
-Földrajz (754)
-,
-Politika (610)
-,
-Biológia (454)
-,
-Mezőgazdaság (453)
-,
-Szakoktató (398)
-,
-Történelem (345)
-,
-Ipar (325)
-,
-Ifjúsági (317)
-,
-Magyarország földrajza (303)
-,
-Életrajz (278)
-,
-Művészet (253)
-,
-Képzőművészet (230)
-,
-Irodalom (201)
-,
-Fizika (194)
-,
-Magyar történelem (193)
-,
-Közlekedés (189)
-,
-Egészségügy (176)
-,
-Magyar irodalom (170)
-,
-Hangosított diafilm (169)
-,
-Növénytan (168)
-,
-Rajzfilm alapján (133)
-,
-Technikatörténet (130)
-,
-...
-1
-/90
-Nemo kapitány I-II.
-Kiadó:
-MDV., Bp.
-Kiadás éve:
-1963
-Eredeti azonosító:
-MS 3010 MS 3011
-Technika:
-2 diatekercs, 45, 45 normál kocka, szines
-Készítők:
-Verne Gyula regénye nyomán szerk. Ruzicska Józsefné rajz Szemere Antal
-Címkék:
-Ifjúsági, Mese
-Címkék:
-Állattenyésztés
-Anglia Nagy-Britannia
-Angol nyelvű
-Arab nyelvű
-Asztalosipar
-Bábfilm alapján
-Balesetvédelem
-Barkácsolás
-Bazsov
-Bélyegtörténet
-Biblia
-Biológia
-Bizsu
-Csecsemőgondozás
-Csillagászat
-Diavetítés
-Divat
-Egészségügy
-Egyiptom
-Ékszer
-Élelmiszeripar
-Életrajz
-Építészet
-Építőipar
-Esztétika
-Faipar
-Fényképezés, fotó
-Festészet
-Filmművészet
-Finn nyelvű
-Fizika
-Földrajz
-Francia nyelvű
-Franciaország
-Gasztronomia
-Gazdaság
-Gazdaságpolitika
-Gombák
-Grafika
-Haditechnika
-Hajózás
-Hangosított diafilm
-Háztartás
-Hitoktatás
-Holland nyelvű
-Honvédelem
-Horvát nyelvű
-Ifjúsági
-Ipar
-Iparművészet
-Irodalom
-Iskolai, oktató
-Ismeretterjesztő
-Japán
-Kémia
-Képzőművészet
-Kereskedelem
-Könyvtártan
-Környezetvédelem
-Közlekedés
-Madarak
-Magyar irodalom
-Magyar történelem
-Magyarország földrajza
-Matematika
-Méhészet
-Mese
-Meteorológia
-Mezőgazdaság
-Mozgófilmből
-Munkásmozgalomtörténet
-Művelődés
-Művészet
-Német nyelvű
-Néprajz
-Norvég nyelvű
-Nőkérdés
-Növénytan
-Növénytermesztés
-Nyelvoktató
-Olaszország
-Olimpiai játékok
-Orosz nyelvű
-Orvostudomány
-Őslénytan
-Polgári védelem, tűzvédelem
-Politika
-Politikai mese
-Portugál nyelvű
-Rajzfilm alapján
-Repülés
-Román nyelvű
-Sajtótörténet
-Spanyol nyelvű
-Sport
-Szakoktató
-Szálloda
-Szinháztörténet
-Szlovák nyelvű
-Szobrászat
-Technikatörténet
-Török nyelvű
-Történelem
-Útleirás
-Úttörőtörténet
-Űrhajózás
-Vadászat
-Vallás
-Vasút
-Vegyipar
-Világifjúsági találkozó (VIT)
-Villanyszerelés
-Zene
-Cím:
-Kiadás éve:
-Technika:
-Készítők:
-1967
-A Prado
-Festészet, Ismeretterjesztő, Művészet
-1982
-Tereptan
-Haditechnika, Ismeretterjesztő
-1981
-A Drezdai Képtár
-Festészet, Ismeretterjesztő, Képzőművészet, Művészet
-1955
-Okos koma és Fürge koma
-Mese
-Impresszum
-|
-Oldaltérkép
-|
-RSS
-|
-Blog
--- képek: ['images/hu/blank.png', 'images/hu/blank.png', 'images/hu/blank.png', 'images/hu/blank.png', 'images/hu/blank.png']
+===== openedition https://journals.openedition.org/carnets/9034
+Loading...
+Anubis could not load its JavaScript. The server may be overloaded. Please reload the page to try again.
+Ce site utilise Anubis, un outil qui filtre les robots nuisibles.
+Nous vérifions actuellement que vous n’êtes pas un robot.
+En cas de problème, contactez-nous à contact(at)openedition.org
+This site uses Anubis, a tool which filters out harmful bots.
+We’re currently verifying that you’re not a robot.
+If you encounter a problem, please contact us at contact(at)openedition.org
 
-===== http://diafilm.osaarchivum.org/public/?fs=3212
-Diafilm
-Figyelem
-AJAX.request(url, 'siteHome', 'newBannerHTML', '', '0', '');
-A gyűjteményről
-Történet és technikák
-Diafilmek
-Link gyűjtemény
-Rólunk írták
-Technikai eszközök
-Ismeretterjesztő (2724)
-,
-Mese (1573)
-,
-Iskolai, oktató (1178)
-,
-Földrajz (754)
-,
-Politika (610)
-,
-Biológia (454)
-,
-Mezőgazdaság (453)
-,
-Szakoktató (398)
-,
-Történelem (345)
-,
-Ipar (325)
-,
-Ifjúsági (317)
-,
-Magyarország földrajza (303)
-,
-Életrajz (278)
-,
-Művészet (253)
-,
-Képzőművészet (230)
-,
-Irodalom (201)
-,
-Fizika (194)
-,
-Magyar történelem (193)
-,
-Közlekedés (189)
-,
-Egészségügy (176)
-,
-Magyar irodalom (170)
-,
-Hangosított diafilm (169)
-,
-Növénytan (168)
-,
-Rajzfilm alapján (133)
-,
-Technikatörténet (130)
-,
+===== valentin https://misinolvidablestebeos.blogspot.com/2025/07/veinte-mil-leguas-de-viaje-submarino.html
+Aquellos inolvidables tebeos...: Veinte mil leguas de viaje submarino en Valentín (1961) - Francesca &  Nico Rosso - Compilación de Granada XV. Arreglos de Arcano9
+AVISO A LOS LECTORES
+GRACIAS POR LA COMPRENSIÓN.
+NOTA: El CRG es un foro de cómics con descargas a través de emule, un P2P, tienes la información en Google donde hay tutoriales, paso a paso, para instalar  y configurar el programa, también se puede pedir ayuda a familiares, amigos, vecinos... (Hay que usar Firefox, Chrome lo bloquea).
+Páginas
+Inicio
+Arreglos y textos de JMG
+FANTOMEN 1962 de Semic y Egmont.  Información  y enlaces de descarga en versión online - Temístocles y Gromaches
+Proyectos de Doncomic
+Para buscar en este blog
+sábado, 26 de julio de 2025
+Veinte mil leguas de viaje submarino en Valentín (1961) - Francesca &  Nico Rosso - Compilación de Granada XV. Arreglos de Arcano9
+La nave Scotia navega en aguas del Atlántico.
 ...
+Veinte mil leguas de viaje submarino
+Las páginas de esta historieta han sido extraídas
+de los números
+de
+Julio Verne,
+son:
+Nico Rosso
+15 páginas en bicromía
+Escaneos del
+,
+Veinte mil leguas de viaje submarino
+5 comentarios:
+Fernando Bento en Español
+Traducciones de ASantos (excepto una historieta incluida en Mis Chicas)
+GRANDES AUTORES PORTUGUESES 42. Tonecas (1957) - José Antunes
+Museo "José de Huéscar" - Huéscar (Granada)
+El Museo José de Huéscar se encuentra junto a la Torre del Homenaje, que alberga el legado del famoso dibujante de comics que ilustró las aventuras de ”Rintintín y el cabo Rusty".
+Obras de José de Huéscar
+Las adaptaciones de obras literarias en el cómic
+TOP-COMICS
+TOP-COMICS
+Arturo del Castillo en modo «Graphic Novel» (Final)
+-
+Completmos con estas las doce páginas del episodio de «Randall» publicado
+en el Nº 18 de Hora Cero Extra en febrero de 1960 y también la tapa de esa
+Nos han visitado...
+Correo del blog: misinolvidablestebeos@gmail.com
+Nuestros lectores nos dicen...
+Proyecto Mandrake el Mago: En otros medios además de la prensa diaria - Mapanare
+Historietas de Columba, donde las viñetas están retocadas con una gran calidad
+RE-TO-CO-LUM-BA
+ArancioPublicado en:  Fantasía 058 - 196701
+Descarga:
+*https://mega.nz/fi...
+NOTAS DE ARGENTINA por Carlos R. Martinez
+Excelentes artículos de divulgación de la historieta
+Colección Aventuras Adaptaciones de novelas y películas años 40 - 50 en formato historieta
+.
+Hace 2 semanas
+Dichistar  DICCIONARIO DE HISTORIETAS ARGENTINAS - Magnífico blog de Federico Lasaigues
+Dichistar
+https://mega.nz/file/lsMHyADB#NyTa3WpPbZVxMEV_1_-nSOWdcVZq6L075WJct_itO50
+Descarga Indice
+https:...
+Enlace actualizado
+EL CINE EN LAS HISTORIETAS ARGENTINAS. Compilaciones de EAGZA - WOTAN
+Enlaces renovados
+EL CINE EN LAS HISTORIETAS ARGENTINAS (Nueva entrega) - EAGZA
+Enlace actualizado
+Relación de enlaces actualizada
+LA NOVELA "LOS ELFOS DE FELDGRIN", DISPONIBLE PARA SU DESCARGA.
+Felicitaciones al amigo JUANJO MATAS por este impresionante monumendo a la imaginación y la fantasía, que amablemente ofrece a todos los amantes de este género, son ¡¡ 900 !! páginas de un magnetismo que impide que se abandone su lectura, así que... ¡ A DISFRUTAR !
+White Indian de Frank Frazetta Nºs 11- 15 [M.E.]
+Los conquistadores en Valentín (1961) M. Basari & S. D'Amico
+Compilación de Granada XV. Arreglos de Arcano9 (Incompleto, faltan las 2 primeras páginas)
+Los últimos días de Jerusalén en Valentín (1959) S. D'Aquino - M. Bramante
+S. Sebastián en Valentín (1958) P. Roudolph & G. Buzzelli - Compilación de Granada XV. Arreglos de A
+Veinte mil leguas de viaje submarino (1961) - Francesca &  Nico Rosso
+Compilación de Granada XV. Arreglos de Arcano9
+*AGRADECEMOS AL BLOG http://howtoarsenio.blogspot.com/*
+*POR ESTE COMIC*
+*El viaje en barco por el mar de la China es el nexo de ambas historias, ...
+Fecha de la edición: 2001
+ISBN:84-7432-922-1
+Referencia:3410 bkp
+Descarga en...
+Hace 7 años
+El Cid Campeador (en la revista PIPA!) - Lanzón. Compilado por Granada XV, con arreglos de Arcano9
+Historias del Oeste en el tebeo español - EAGZA
+Traducciones, escaneos, compilaciones y arreglos de Josepeites
+Iniciativa de Paco Baena, Josep Mª Delhom y José Luis Villanueva
+Clásicos de la historieta británica  - Traducción y restauración de ASantos
+GRANDES AUTORES PORTUGUESES  01-15 Traducción y arreglos  de ASantos
+Clásicos del Cómic (Especial Diario La Tercera) - Escaneo inédito de Roberto Herzberg
+List of Charlton Comics publications and links
+Entradas recientes
+Aportación de Columberos
+Día del Cómic y del Tebeo en España - 17 de Marzo
+Arreglos y textos de JMG
+Fantomen Nº 897. Ojos invisibles (por Gromaches)
+Veinte mil leguas de viaje submarino en Valentín (...
+Luchadores del Espacio [La Saga de los Aznar] (197...
+Pilotorama - Vol.5 (201 a 250) 1963-1964. Compilad...
+EL INSPECTOR DAN. Historietas en Pulgarcito y cole...
+Valentin Nº 02 (Diciembre? 1952) Ed. Paulinas. Esc...
+Clásicos ilustrados. Ed. Valenciana
+Colección completa 6 tebeos
+White Indian from Durango Kid [M.E.]- Integral - Frank Frazetta. By GranadaXV
+Las 16 historias contenidas en los 16 números iniciales de Durango Kid dibujadas por Frank Frazetta
+Detective Comics - Tradumaquetaciones de 2020adm
+Enlaces a todos los números publicados hasta ahora
+CLÁSICOS DEL CINE Novaro - Colección incompleta
+Epopeya Novaro - Colección Completa - 230 Números + especiales + Librocomic
+El Hombre Invisible, El Hombre Biónico, Kid Acero - Ed. Novaro
+Vida Ilustres Novaro: Colección completa: 332 + 6 nºs extraordinarios
+Tarzán Librocomic 01 - 47. Editorial Novaro [Completo]
+Proyectos de Doncomic
+Escaneos y aportes de Roberto Herzberg
+Vidas Ejemplares -  Ed. Novaro - Colección completa
+Vidas Ejemplares  es  una colección publicada entre los años 1954 y 1974,   son 416 tebeos   de 36 páginas (32  más cuatro de portada, ...
+TESORO DE CUENTOS CLÁSICOS. Colección Completa
+EPOPEYA - Ed.  NOVARO. Colección Completa.
+Epopeya  es  una colección publicada entre los años 1958 y 1973,   son  230 tebeos   ordinarios más 4 extraordinarios de 36 páginas (3...
+Joyas de la Mitología - Editorial Novaro  [COLECCIÓN INCOMPLETA]
+TEX  - Buru Lan Ed. 1970 [Completo] Escaneo de EA7GNO
+Tex es una historieta italiana de culto, creada en 1948 por el guionista  Gian Luigi Bonelli  y el dibujante  Aurelio Galleppini (Ga...
+PÁGINAS
+Página principal
+FLECHA ROJA - Flecha Roja. Ed. Maga 1962 - Arreglos de JGM
+EL CINE EN LAS HISTORIETAS ARGENTINAS. Compilaciones de EAGZA - WOTAN
+Jornal do Cuto -  Portugal Press [Tralhas Varias - AIT]
+Novelas Gráficas Clásicas, Editorial Toray.  Arreglos de JMG. Escaneos de JGM y Hdj
+Pepita 01-12  Ed. Oveja Negra  Escaneos de Doncomic y Granada XV [Colección completa]
+Proyectos de Doncomic
+Revista BALALÍN. Compilatorios de EAGZA
+Escaneos y aportes de Roberto Herzberg
+Detective Comics -  Tradumaquetaciones de 2020adm
+Compilatorios de la revista DIN DAN  - EAGZA
+Grandes Clásicos en blanco y negro - Arreglos de R...
+Terry y los piratas. Milton Caniff 12 Vols. -  Norma Ed. - Escaneos de los blogs de HASIERAN y AQUELLOS INOLVIDABLES TEBEOS
+Serie de ilustradores y humoristas gráficos chilenos: Escaneos de Roberto Herzberg
+Compilatorios de Hazañas del Oeste 1962 (Ediciones Toray)  EAGZA
+La Gran Historieta -  Editorial Abril . Escaneos de Puxasturies
+Los cuentos del Emir de Martha Barnes -  Arreglos de JMC
+(1)
+"París en el Siglo XX" de Jules Verne.Jules Verne
+(1)
+(1)
+12 Catálogos de exposiciones de Tebeos y Cómics
+(1)
+(1)
+Aporte de Doncomic
+(6)
+Aporte de Doncomic - Granada XV
+(2)
+Aporte de Doncomic y Hasieran.
+(1)
+(37)
+Arreglos de Doncomic
+(22)
+(1)
+BATMAN 2 - Las primeras 100 historietas
+(1)
+(1)
+Charlton Comics
+(3)
+(1)
+Clásicos de la historieta británica
+(20)
+Clásicos de la Historieta en España
+(4)
+Clásicos de la historieta portuguesa
+(12)
+(67)
+CLÁSICOS HÉROES DE LA HISTORIETA
+(1)
+(6)
+Clásicos Ilustrados (Classic Comics / Classics Illustrated)
+(1)
+(1)
+Clássicos da Banda Desenhada
+(2)
+Clássicos da Banda Desenhada Espanhola
+(3)
+(1)
+Club Amigos de la Historieta
+(1)
+(19)
+Colin Page
+(1)
+(11)
+Comic-Art
+(1)
+COMICS BRUGUERA
+(1)
+COMICS EN CHILE (1908-2000)
+(1)
+(2)
+Compilatorio de Tebeosycomics
+(174)
+Compilatorios de Doncomic
+(1)
+(19)
+DC Comics
+(74)
+(1)
+Detective Comics
+(85)
+(2)
+Día del Cómic y del Tebeo
+(1)
+(1)
+Dibuja tú también historietas de El Capitán Trueno
+(1)
+Dibujando Historietas
+(1)
+(2)
+Dos historietas cortas e ilustraciones
+(1)
+(1)
+Ed.Ibercomic-Mam
+(1)
+(1)
+EL CINE EN LAS HISTORIETAS ARGENTINAS
+(1)
+(1)
+EL GIGANTE DE LA HISTORIETA  EXTRA SERIE AMARILLA
+(1)
+(1)
+Escaneado por Crecidocontebeos
+(2)
+(3)
+Escaneo de Doncomic
+(184)
+(69)
+FLASH GORDON (COLOSOS DEL COMIC)
+(4)
+(3)
+Grandes Historietas
+(1)
+Grandes Viajes Librocomic
+(1)
+(1)
+Historia de los Comics
+(1)
+(1)
+Historias del Oeste en el tebeo español
+(44)
+(1)
+Historieta
+(1)
+Historieta Argentina
+(470)
+Historieta chilena
+(27)
+Historietas Bélicas
+(1)
+HISTORIETAS CLÁSICAS
+(4)
+Historietas de El Guerrero del Antifaz Ep3
+(4)
+Historietas de Fantasía y Ciencia Ficción
+(4)
+Historietas Nacionales (HN)
+(2)
+(1)
+IBERCOMIC-MAM
+(5)
+(1)
+Informe Comical
+(1)
+(1)
+J. Verne
+(1)
+(1)
+La Gran H
+
+===== powerblog http://powerrecord.blogspot.com/2008/06/20000-leagues-under-sea.html
+Power Records: 20,000 Leagues Under The Sea
+skip to main
+|
+skip to sidebar
+Saturday, June 7, 2008
+20,000 Leagues Under The Sea
+Track:
+20,000 Leagues Under The Sea
+20,000 Leagues Under The Sea
+was surely a no-brainer choice for Power Records when they chose to do literary adaptations--Jules Verne's classic tale has all kinds of amazing visuals that work perfectly in comic book form.
+The cover is supposedly by Neal Adams and Dick Giordano, though I don't see much Adams here. The insides are by Rich Buckler, though I don't know if he did pencils and inks both.
+Like yesterday's
+Robinson Crusoe
+book and record set, I have not been able to find an audio track for this book anywhere, so for now just the book will have to do. If I ever come across it somewhere (or get it made myself), I'll come back and put it up here!
+Posted by
+rob!
+at
+12:03 AM
+Labels:
+45"
+,
+book and record
+,
+classics
+No comments:
+Post a Comment
+Newer Post
+Older Post
+Home
+Subscribe to:
+Post Comments (Atom)
+About Me
+rob!
+Writer/Illustrator/Comics Historian. Co-host of The Fire and Water Podcast, host of The Film and Water Podcast, TreasuryCast, and other shows on The Fire and Water Podcast Network.
+View my complete profile
+Search This Blog
+Mike Bridges
+Mike Dean
+Chris Franklin
+Darrell Krum
+Rockwell Jay Pugglesworth
+Reddata
+Blog Archive
+►
+2017
+(2)
+►
+May
+(1)
+►
+January
+(1)
+►
+2016
+(2)
+►
+December
+(2)
+►
+2015
+(49)
+►
+September
+(4)
+►
+August
+(4)
+►
+July
+(5)
+►
+June
+(4)
+►
+May
+(4)
+►
+April
+(5)
+►
+March
+(5)
+►
+February
+(8)
+►
+January
+(10)
+►
+2014
+(70)
+►
+December
+(14)
+►
+November
+(12)
+►
+October
+(15)
+►
+September
+(22)
+►
+August
+(4)
+►
+July
+(1)
+►
+April
+(1)
+►
+February
+(1)
+►
+2013
+(1)
+►
+December
+(1)
+►
+2010
+(1)
+►
+December
+(1)
+▼
+2008
+(56)
+▼
+June
+(19)
+Superman - En Espanol
+Spider-Man / Hulk 45s
+Star Trek
+Green Lantern - In Brightest Day, In Blackest Night!
+Star Trek - To Starve a Fleaver / The Time Stealer
+Superman LP - 1975
+Superman LP - 1978
+Power Record LP Ad - 1978
+The Amazing Spiderman Vol. II
+Davy Crockett
+Huckleberry Finn
+Little Women
+20,000 Leagues Under The Sea
+Robinson Crusoe
+Robin Hood
+Superman - Weatherspoon's Catalyst
+Superman - P.O. Box 65
+IronMan - Birth of A Hero
+The Werewolf - 1975
+►
+May
+(20)
+►
+April
+(5)
+►
+March
+(4)
+►
+February
+(4)
+►
+January
+(4)
+►
+2007
+(28)
+►
+December
+(18)
+►
+November
+(10)
+
+===== gcd_acclaim HIBA HTTP Error 403: Forbidden
+
+===== gcd_sup81 HIBA HTTP Error 403: Forbidden
+
+===== gcd_3d HIBA HTTP Error 403: Forbidden
+
+===== gcd_power HIBA HTTP Error 403: Forbidden
+
+===== sevenseas HIBA HTTP Error 500: Internal Server Error
+
+===== mobilis https://tkopresents.com/products/mobilis
+Mobilis: The Ultimate Sci-Fi Graphic Novel | TKO Presents
+– TKO Studios
+Skip to content
+BUY ONE GET ONE FREE SUMMER SALE ON ALL TITLES!  FREE US SHIPPING OVER $50 *discount automatically added at checkout*
+Log in
+Country/region
+United States |
+USD
+$
+Search
+Australia
+AUD
+$
+Austria
+EUR
+€
+Belgium
+EUR
+€
+Canada
+CAD
+$
+Czechia
+CZK
+Kč
+Denmark
+DKK
+kr.
+Finland
+EUR
+€
+France
+EUR
+€
+Germany
+EUR
+€
+Hong Kong SAR
+HKD
+$
+Ireland
+EUR
+€
+Israel
+ILS
+₪
+Italy
+EUR
+€
+Japan
+JPY
+¥
+Malaysia
+MYR
+RM
+Netherlands
+EUR
+€
+New Zealand
+NZD
+$
+Norway
+USD
+$
+Poland
+PLN
+zł
+Portugal
+EUR
+€
+Singapore
+SGD
+$
+South Korea
+KRW
+₩
+Spain
+EUR
+€
+Sweden
+SEK
+kr
+Switzerland
+CHF
+CHF
+United Arab Emirates
+AED
+د.إ
+United Kingdom
+GBP
+£
+United States
+USD
+$
+X (Twitter)
+Facebook
+Instagram
+TikTok
+YouTube
+Search
+Log in
+Cart
+Item added to your cart
+View cart
+Check out
+Continue shopping
+Skip to product information
+Open media 1 in modal
+Open media 2 in modal
+Open media 3 in modal
+Open media 4 in modal
+Open media 5 in modal
+Open media 6 in modal
+Open media 7 in modal
+Open media 8 in modal
+Open media 9 in modal
+Open media 10 in modal
 1
-/90
-Nemo kapitány (Captain Nemo I-II.)
-Kiadó:
-MDV., Bp.
-Kiadás éve:
-1983
-Eredeti azonosító:
-IE-MS 83026
-Technika:
-1 diatekercs, 45, 45 normál kocka, szines
-Készítők:
-adaptd from Jules Verne's novel by G. Ruzicska drawings by Antal Szemere
-Címkék:
-Angol nyelvű, Ifjúsági, Mese
-Címkék:
-Állattenyésztés
-Anglia Nagy-Britannia
-Angol nyelvű
-Arab nyelvű
-Asztalosipar
-Bábfilm alapján
-Balesetvédelem
-Barkácsolás
-Bazsov
-Bélyegtörténet
-Biblia
-Biológia
-Bizsu
-Csecsemőgondozás
-Csillagászat
-Diavetítés
-Divat
-Egészségügy
-Egyiptom
-Ékszer
-Élelmiszeripar
-Életrajz
-Építészet
-Építőipar
-Esztétika
-Faipar
-Fényképezés, fotó
-Festészet
-Filmművészet
-Finn nyelvű
-Fizika
-Földrajz
-Francia nyelvű
-Franciaország
-Gasztronomia
-Gazdaság
-Gazdaságpolitika
-Gombák
-Grafika
-Haditechnika
-Hajózás
-Hangosított diafilm
-Háztartás
-Hitoktatás
-Holland nyelvű
-Honvédelem
-Horvát nyelvű
-Ifjúsági
-Ipar
-Iparművészet
-Irodalom
-Iskolai, oktató
-Ismeretterjesztő
-Japán
-Kémia
-Képzőművészet
-Kereskedelem
-Könyvtártan
-Környezetvédelem
-Közlekedés
-Madarak
-Magyar irodalom
-Magyar történelem
-Magyarország földrajza
-Matematika
-Méhészet
-Mese
-Meteorológia
-Mezőgazdaság
-Mozgófilmből
-Munkásmozgalomtörténet
-Művelődés
-Művészet
-Német nyelvű
-Néprajz
-Norvég nyelvű
-Nőkérdés
-Növénytan
-Növénytermesztés
-Nyelvoktató
-Olaszország
-Olimpiai játékok
-Orosz nyelvű
-Orvostudomány
-Őslénytan
-Polgári védelem, tűzvédelem
-Politika
-Politikai mese
-Portugál nyelvű
-Rajzfilm alapján
-Repülés
-Román nyelvű
-Sajtótörténet
-Spanyol nyelvű
-Sport
-Szakoktató
-Szálloda
-Szinháztörténet
-Szlovák nyelvű
-Szobrászat
-Technikatörténet
-Török nyelvű
-Történelem
-Útleirás
-Úttörőtörténet
-Űrhajózás
-Vadászat
-Vallás
-Vasút
-Vegyipar
-Világifjúsági találkozó (VIT)
-Villanyszerelés
-Zene
-Cím:
-Kiadás éve:
-Technika:
-Készítők:
-2006
-Kisvonat a Mohavölgyben
-Hangosított diafilm, Mese
-1984
-Kőrösi Csoma Sándor ( 1784 -1842 )
-Életrajz, Irodalom, Ismeretterjesztő
-1963
-A levegő kincsei
-Fizika, Ismeretterjesztő, Kémia
-1976
-Gépi forgácsolás fejlődéstörténete I.
-Iskolai, oktató, Szakoktató
-Impresszum
-|
-Oldaltérkép
-|
-RSS
-|
-Blog
--- képek: ['images/hu/blank.png', 'images/hu/blank.png', 'images/hu/blank.png', 'images/hu/blank.png', 'images/hu/blank.png']
+/
+of
+10
+TKO Studios
+Mobilis
+Mobilis
+2 reviews
+Regular price
+$29.99
+Regular price
+Sale price
+$29.99
+Unit price
+/
+per
+Sale
+Sold out
+Shipping
+calculated at checkout.
+Quantity
+(
+0
+in cart)
+Decrease quantity for Mobilis
+Increase quantity for Mobilis
+Add to cart
+Couldn't load pickup availability
+Refresh
+Junior Library Guild Gold Standard Selection
+From Ringo Award nominated, superstar creator Juni Ba (
+Djeliya
+) comes an undersea adventure that explores the classic story of 20,000 Leagues Under The Sea through the eyes of an orphaned child.
+It has been centuries since the oceans rose and swallowed up all the nations of men. Now only beasts and unseen horrors lurk below the waves, kept in check by one man: Captain Nemo, in his legendary ship the Nautilus. Until one day, young Arona comes onboard his ship, a stowaway from times long past, giving Nemo his first crew member in years.
+But as he raises the young orphan in his image, she begins to have questions that ask Nemo to dredge up the past: what has become of the world? Can it be saved? And was it all worth it?
+Share
+Share
+Link
+Close share
+Copy link
+View full details
+Customer Reviews
+Based on 2 reviews
+Write a review
+100%
+(2)
+0%
+(0)
+0%
+(0)
+0%
+(0)
+0%
+(0)
+M
+Michael Williams
+Great read at bedtime
+I initial got this for myself but then realized my two girls would probably enjoy it as well. I was not wrong! Usually my wife and I take turns reading each night, with me reading Mobilis my girls wanted me to read every night until we were done. The only problem is now they want another one and there isn't one!
+V
+Vasilios
+Loved both these books so much. Quick delivery time made the wait bearable!
+Choosing a selection results in a full page refresh.
+Opens in a new window.
+
+===== krapp https://www.thilo-krapp.com/en/20000-leagues-under-the-sea-graphic-novel/
+20,000 Leagues under the Sea Graphic Novel - Thilo Krapp
+Comics-Overview
+20,000 Leagues under the Sea Graphic Novel
+Prev
+Previous Project
+Next Project
+Next
+Published by Carlsen Comics
+Jules Verne (Author, abridged and translated by Thilo Krapp), Thilo Krapp (Illustrator), 26 € (D), 26,80 € (A), HC 256 p.
+ISBN: 978-3-551-79358-4
+Jules Verne’s classic as a colorful, elaborated comic book adaptation by
+Carlsen Comics
+!
+Anger burns in Captain Nemo against humanity, which is at war and ruthlessly exploits its environment. Thanks to his submarine, the ‘Nautilus’, he calls the oceans his home. But when he captures Professor Arronax, his servant Conseil and the harpooner Ned Land, the outside world invades his aquatic kingdom. An adventure begins for all of them, in which they must face the dangers of the sea and their inner demons.
+After my adaptation of
+WAR OF THE WORLDS
+was published in 2017, the question was which new comic project I wanted to pick up. Old science fiction classics do suit me, and so the idea came up to adapt Jules Verne’s wonderful underwater world tour from 1869/70, in which he brings us the wonders of the sea and the abysses in man equally close. To do this, I carefully examined Verne’s material for things that I absolutely must keep and bring into the adaption as well as what I can change – and what I can even expand (environmental questions or the bromance in the novel for example!).
+The very comprehensive adaptation is completed by a sketch appendix, which illuminates the background of the artwork (for example the creation of the design of the ‘Nautilus’) and rounds off the graphic novel on a high level both in terms of content and aesthetics.
+Menu
+Social Media
+Contact
+Thilo Krapp · Atelier
+Biedenkopfer Straße 2
+13507 Berlin
+Phone (030) 69 00 10 06
+Mobil (0176) 56 70 83 24
+thilo@thilo-krapp.com
+Company details
+·
+Privacy Policy
+· © Thilo Krapp
+
+===== autentica https://www.autenticaeditora.com.br/pnld/manual/798
+852 0 obj
+>/Metadata 238 0 R/Pages 232 0 R/StructTreeRoot 240 0 R/Type/Catalog/ViewerPreferences
+>>>
+>/ProcSet[/PDF/Text/ImageC/ImageI]/XObject
+>>>/Rotate 0/StructParents 0/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 27/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/Font
+>/ProcSet[/PDF/Text]>>/Rotate 0/StructParents 1/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 2/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 2/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 4/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 3/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 3/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 4/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 5/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 5/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 4/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/XObject
+>>>/Rotate 0/StructParents 6/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 13/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+Pixels
+CaptainComicPro
+Captain Comic Pro
+Regular
+False
+captain_comic_pro.otf
+Cyan
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 7/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 8/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 8/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 5/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text/ImageC]/XObject
+>>>/Rotate 0/StructParents 9/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 12/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text/ImageC]/XObject
+>>>/Rotate 0/StructParents 10/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 12/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 11/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 5/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 12/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 3/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 13/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 5/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 14/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 8/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 15/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 4/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 16/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 3/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/XObject
+>>>/Rotate 0/StructParents 17/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 12/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/XObject
+>>>/Rotate 0/StructParents 18/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 12/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+Pixels
+CaptainComicPro
+Captain Comic Pro
+Regular
+False
+captain_comic_pro.otf
+Cyan
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 19/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 3/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/XObject
+>>>/Rotate 0/StructParents 20/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 12/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+Pixels
+CaptainComicPro
+Captain Comic Pro
+Regular
+False
+captain_comic_pro.otf
+CaptainComic-Bold
+Captain Comic
+Bold
+>/XObject
+>>>/Rotate 0/StructParents 21/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 30/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+Pixels
+CaptainComicPro
+Captain Comic Pro
+Regular
+False
+captain_comic_pro.otf
+Cyan
+Pixels
+CaptainComicPro
+Captain Comic Pro
+Regular
+False
+captain_comic_pro.otf
+Cyan
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 22/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 3/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 23/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 4/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 24/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 16/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 25/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 4/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 26/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 3/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 27/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 3/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/Text]/XObject
+>>>/Rotate 0/StructParents 28/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 3/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToLocationDataMap
+>/PageTransformationMatrixList
+>/PageUIDList
+>/PageWidthList
+>>>>>>>
+>/ProcSet[/PDF/ImageC]/XObject
+>>>/Rotate 0/StructParents 29/TrimBox[0.0 0.0 581.102 779.528]/Type/Page/PieceInfo
+/LastModified
+/NumberOfPageItemsInPage 3/NumberofPages 1/OriginalDocumentID
+/PageItemUIDToL
+
+===== paico https://en.wikipedia.org/wiki/PAICO_Classics
+PAICO Classics - Wikipedia
+Jump to content
+Search
+Search
+Donate
+Create account
+Log in
+Personal tools
+Donate
+Create account
+Log in
+PAICO Classics
+Add languages
+Add links
+From Wikipedia, the free encyclopedia
+Indian comic series
+Paico Classics
+,
+also
+Paico Classics Illustrated
+, was a series of
+Indian
+comic books published by Pai and Company (PAICO),
+Cochin
+between April 1984 and December 1988. The series were the reprints of "Pendulum Illustrated Classics" (
+Pendulum Press
+) translated into various Indian languages (initially in
+Malayalam
+, later in
+Tamil
+as well as the original English). R. Gopalakrishnan, also associated with the
+Poompatta
+children's magazine, was the editor of Paico Classics.
+In 1985 February, prominent Malayalam authors
+Thakazhi Sivasankara Pillai
+,
+Kamala Surayya
+and
+M. T. Vasudevan Nair
+participated in the launching function of the series.
+Pai and Company republished the series in Malayalam and English during 1998–2000.
+Titles published
+[
+edit
+]
+Twenty Thousand Leagues Under the Seas
+—
+Jules Verne
+A Christmas Carol
+—
+Charles Dickens
+A Midsummer Night's Dream
+—
+William Shakespeare
+A Tale of Two Cities
+—
+Charles Dickens
+As You Like It
+—
+William Shakespeare
+Ben-Hur
+—
+Lew Wallace
+Black Beauty
+—
+Anna Sewell
+Crime and Punishment
+—
+Fyodor Dostoyevsky
+Don Quixote
+—
+Miguel de Cervantes
+Dr. Jekyll and Mr. Hyde
+—
+Robert Louis Stevenson
+Dracula
+—
+Bram Stoker
+Food of the Gods
+—
+H. G. Wells
+Frankenstein
+—
+Mary Shelley
+Great Expectations
+—
+Charles Dickens
+Gulliver's Travels
+—
+Jonathan Swift
+Hamlet
+—
+William Shakespeare
+Huckleberry Finn
+—
+Samuel L. Clemens
+(
+Mark Twain
+)
+Iliad
+—
+Homer
+Ivanhoe
+—
+Walter Scott
+Julius Caesar
+—
+William Shakespeare
+Kidnapped
+—
+R L Stevenson
+King Lear
+—
+William Shakespeare
+Macbeth
+—
+William Shakespeare
+Merchant of Venice
+—
+William Shakespeare
+Moby Dick
+—
+Herman Melville
+Oliver Twist
+—
+Charles Dickens
+Othello
+—
+William Shakespeare
+Pride and Prejudice
+—
+Jane Austen
+Robinson Crusoe
+—
+Daniel Defoe
+Romeo and Juliet
+—
+William Shakespeare
+The Sea-Wolf
+—
+Jack London
+Stories of O. Henry
+—
+William Sidney Porter
+(
+O. Henry
+)
+Taming of the Shrew
+—
+William Shakespeare
+The Adventures of Sherlock Holmes
+—
+Arthur Conan Doyle
+The Hound of the Baskervilles
+—
+Arthur Conan Doyle
+The Hunchback of Notre Dame
+—
+Victor Hugo
+The Invisible Man
+—
+H. G. Wells
+The Man in the Iron Mask
+—
+Alexandre Dumas
+The Mysterious Island
+—
+Jules Verne
+The Odyssey
+—
+Homer
+The Prince and the Pauper
+—
+Samuel L. Clemens
+(
+Mark Twain
+)
+The Prisoner of Zenda
+—
+Anthony Hope
+The Return of the Native
+—
+Thomas Hardy
+The Scarlet Pimpernel
+—
+Baroness Orczy
+The Tempest
+—
+William Shakespeare
+The Three Musketeers
+—
+Alexandre Dumas
+The War of the Worlds
+—
+H. G. Wells
+The Time Machine
+—
+H. G. Wells
+Tom Sawyer
+—
+Samuel L. Clemens
+(
+Mark Twain
+)
+Treasure Island
+—
+Robert Louis Stevenson
+Twelfth Night
+—
+William Shakespeare
+See also
+[
+edit
+]
+Anant Pai
+Les Grands Classiques de la littérature en bande dessinée
+External links
+[
+edit
+]
+Paico has started re-printing their original publications and is available for purchase at:
+http://ocomics.com
+This
+comics
+-related article is a
+stub
+. You can help Wikipedia by
+adding missing information
+.
+v
+t
+e
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=PAICO_Classics&oldid=1379759091
+"
+Categories
+:
+Indian comics
+Comics stubs
+Hidden categories:
+Articles with short description
+Short description matches Wikidata
+All stub articles
+Search
+Search
+PAICO Classics
+Add languages
+Add topic
+
+===== kiefer https://en.wikipedia.org/wiki/Henry_C._Kiefer
+From Wikipedia, the free encyclopedia
+American artist from the Golden Age of Comic Books
+[http://bailsprojects.com/bio.aspx?Name=DE+KEROSET%2C+A. A De Keroset entry], ''Who's Who of American Comic Books, 1920–1999''. Retrieved May 10, 2021.</ref> de Kerosett, Carl Kief, Karl Kief, Karl Kiev, H. C. Kiefer, H. C."},"signature":{"wt":"<!-- very optional -->"},"signature_alt":{"wt":""},"notable works":{"wt":"''Wambi''<br />''Classics Illustrated''"},"awards":{"wt":""},"website":{"wt":""}},"i":0}}]}'>
+Henry C. Kiefer
+was an American artist from the
+Golden Age of Comic Books
+. Best remembered for his contributions to the long-running comic book series
+Classics Illustrated
+]
+By 1935, he was working in the burgeoning comics field, for a variety of studios and packagers, including the
+Chesler Studio
+He began with art in features for
+National Comics Publications
+(DC Comics),
+Centaur Publications
+Fox Feature Syndicate
+. By the early 1940s he was illustrating comics features for
+Fiction House
+,
+Harvey Comics
+,
+Quality Comics
+,
+in
+Jungle Comics
+from 1940 to 1948. In 1940–1941, Kiefer drew the feature
+, for Fiction House's
+Planet Comics
+.
+In the period 1947–1953, Kiefer was the main artist for many issues of
+Classic Comics
+and
+, and his work came to define the "look" of the series. For
+Classic Comics
+, he illustrated the second cover for
+, he drew the majority of at least 20 issues from the series, including
+Twenty Thousand Leagues Under the Seas
+,
+on a number of different
+Western comics
+titles. In the period 1951–1955, Kiefer worked for
+.
+Kiefer signed his work with a variety of aliases and signatures, including "de Kerosett," "H. C. K.," "H. C. Kiefer," "HC Kiefer," "HCK," "Henry Calr Kiefer," "Henry Carl Kiefer," "Kark Kief," and "Roy L. Smith." He was related to fellow comics artist
+A. D. Kiefer
+in
+New Fun Comics
+(National/DC), 1935–1936)
+in
+New Fun Comics
+/
+More Fun Comics
+(National/DC), 1935–1937)
+in
+New Adventure Comics
+(National/DC), 1936–1937)
+Multiple features in
+Star Comics
+#1–2 (
+in
+Champion Comics
+(
+Harvey Comics
+, 1939–1942)
+in
+Fantastic Comics
+#1–17 (
+in
+Crack Comics
+#1–20 (
+Quality Comics
+, May 1940–Jan. 1942)
+in
+Planet Comics
+#1–11 (
+in
+Wings Comics
+(Fiction House, 1940–1942)
+in
+Jungle Comics
+(Fiction House, 1940–1948)
+in
+Hit Comics
+(Quality Comics, 1940–1942)
+Old Cap Hawkins' Tales
+Blue Bolt
+(Novelty Comics, 1940–1942)
+Fearless Fellers
+Blue Bolt
+(Novelty Comics, 1943–1944)
+Real Heroes
+1946)
+True Comics
+(Parents' Magazine Press, early 1940s)
+, mid-1940s)
+Real Life Comics
+(Standard/Better/Nedor, mid-1940s)
+Heroic Comics/New Heroic Comics
+(
+in
+Headline Comics
+#6–22 (
+in
+Blue Circle Comics
+(Rural Home, 1944)
+in
+Key Comics
+(Consolidated, 1945–1946)
+in
+Treasure Comics
+#2–8 (Feature Publications, 1945–1946)
+(
+EC Comics
+, 1948–1949)
+Gunfighter
+(EC Comics, 1948–1949)
+Saddle Justice
+(EC Comics, 1948)
+War Against Crime
+(EC Comics, 1949)
+Beware
+(Trojan Magazines, 1953–1955)
+Classic Comics
+/
+— #44
+Twenty Thousand Leagues Under the Seas
+— #47
+,
+Who's Who of American Comic Books, 1920–1999
+. Retrieved May 10, 2021.
+"Henry Kiefer (b. 1890),"
+Grand Comics Database. Retrieved May 10, 2021.
+↑
+↑
+Miller, Raymond (c. 1970). Love, G.B (ed.). "Planet Comics".
+The Fandom Annual
+1957 deaths
+American comics artists
+Golden Age comics creators
+Hidden categories:
+Short description matches Wikidata
+Comics infobox without image
+Track variant DoB
+
+===== adapt https://en.wikipedia.org/wiki/Adaptations_of_Twenty_Thousand_Leagues_Under_the_Seas
+Adaptations of Twenty Thousand Leagues Under the Seas - Wikipedia
+Jump to content
+Adaptations of
+Twenty Thousand Leagues Under the Seas
+Add languages
+From Wikipedia, the free encyclopedia
+Jules Verne
+'s 1870 novel
+Twenty Thousand Leagues Under the Seas
+has been adapted and referenced in popular culture. The following is a list of
+adaptations of
+Twenty Thousand Leagues Under the Seas
+.
+]
+Twenty Thousand Leagues Under the Seas
+has been adapted as an audiobook many times, both unabridged and abridged, with some well-known readers, including: 1960's, published by
+Caedmon Records
+, read by
+James Mason
+(excerpts); 1989, Recorded Books Classics Library Audiobook unabridged version, #89880, in 10 audio-cassettes, 14.5 hours
+ISBN
+1-55690-581-5
+Naxos Audiobooks
+, read by
+John Carlisle
+Blackstone Audio
+, read by Frederick Davidson (unabridged)
+; 2008, published by Dove Audio, read by
+Harlan Ellison
+(abridged); 2011, published by Listening Library, read by
+James Frain
+(unabridged); and 2016, published by CSA Word/Talking Classics, read by
+Alex Jennings
+(abridged).
+Twenty Thousand Leagues Under the Seas
+was adapted into a half-hour episode of the NBC radio series
+]
+20,000 Leagues Under the Sea
+(1961), an 8-part serial adaptation broadcast on the
+released
+The Story of 20,000 Leagues Under the Sea
+(ST-1924), a loose adaptation of both the Verne novel and
+the 1954 Walt Disney film
+In 1974, Wonderland Records released
+20,000 Leagues Under the Sea
+(LP-294), a loose adaptation of the Verne novel.
+[
+]
+This version changes the characters' names to "Professor Anthony Aronnax" and "Ned Baker", added the character of "Commander Smith" and changes the character of Captain Nemo into a
+megalomaniac
+]
+20,000 Leagues Under the Sea
+(2001)
+– A radio drama adaption of Jules Verne's novel aired in the United States.
+Nigel Anthony
+performed a five-episode abridged reading of the novel on
+BBC Radio 7
+]
+Twenty Thousand Leagues Under the Sea
+(2015) – A
+To The Ends of the Earth
+drama series, featuring Sagar Arya as Nemo, Neil McCaul as Professor Aronnax. David Seddon as Ned Land and Madeline Hatt as Connie Aronnax.
+[
+]
+20,000 Leagues Under the Sea
+(1874)
+.
+Twenty Thousand Leagues Under the Sea
+(2006). A stage play adaptation by Ade Morris for the
+England
+. This version was for six actors and used physical theatre to help tell the story, which emphasised parallels in Verne's original with contemporary world events.
+Theatrical films
+]
+20.000 Leagues Under the Sea
+(1905 film) by
+.
+20,000 Leagues Under the Sea
+(1916)
+played
+Captain Nemo
+.
+20,000 Leagues Under the Sea
+(1954)
+as
+Captain Nemo
+and
+as Conseil.
+Captain Nemo and the Underwater City
+(1969)
+as
+Captain Nemo
+.
+– A Disney animated film loosely inspired by the setting of
+Twenty Thousand Leagues Under the Seas
+.
+(2003)
+– Although not an adaptation of the Verne novel and based on the comic book
+of the same name
+Kevin O'Neill
+, it does feature Captain Nemo and the
+Nautilus
+.
+30,000 Leagues Under the Sea
+(2007)
+as
+Captain Nemo
+.
+]
+20,000 Leagues Under the Sea
+(1952)
+.)
+20,000 Leagues Under the Sea
+(1972)
+in Japan.
+Captain Nemo
+(
+3-episode TV adaptation
+The Undersea Adventures of Captain Nemo
+(1975)
+– A futuristic version of
+Captain Nemo
+and the
+appeared in this Canadian animated television series.
+The Return of Captain Nemo
+(1978), sometimes known as
+The Amazing Captain Nemo
+, starred
+in the title role.
+20,000 Leagues Under the Sea
+(Dvacet tisíc mil pod mořem) (1980) – A
+Jiří Adamíra
+as Captain Nemo,
+Jiří Pleskot
+as Ned Land. Directed by Pavel Kraus.
+20,000 Leagues Under the Sea
+(1985)
+, is based on
+Twenty Thousand Leagues Under the Seas
+. BRB Internacional heavily edited that second half of the series down to a truncated 75 minutes
+film later.
+20,000 Leagues Under the Sea
+(1997)
+as
+Captain Nemo
+,
+as Ned Land
+20,000 Leagues Under the Sea
+(1997, Hallmark)
+as
+Captain Nemo
+and
+, and inspired by the book and exploits of
+Captain Nemo
+.
+20,000 Leagues Under the Sea
+(2002)
+]
+20,000 Leagues Under the Sea
+(1988) - A
+titled
+20,000 Leagues: The Adventure Continues
+was being developed by
+However, it was never released.
+20,000 Leagues Under the Sea
+(2009) – A
+]
+Nemo's War
+(2017) - A mainly solitaire board game created by Chris Taylor.
+]
+"20,000 Leagues Under the Sea" (2025) - A Flip & Write game published by Looping Games.
+[
+]
+The boardgame "Raiders of the Deep: U-boats of the Great War 1914-18" published by Compass Games includes an unofficial add-on featuring Captain Nemo's Nautilus. The add-on suggests that Nemo survived until WWI and continued his quest for revenge against the Allied empires.
+Comic book and graphic adaptations
+[
+]
+Twenty Thousand Leagues Under the Seas
+has been adapted into comic book format numerous times.
+In 1948,
+Gilberton Publishing
+published a comic adaptation in issue #47 of their
+Classics Illustrated
+Walt Disney's Treasury of Classic Tales
+published a comic based on the
+1954 film
+In 1955,
+Dell Comics
+published a comic based on the
+1954 film
+anthology series called
+Walt Disney's 20,000 Leagues Under The Sea
+.
+Gold Key
+published a comic based on the
+1954 film
+called
+Walt Disney's 20,000 Leagues Under The Sea
+.
+, which featured
+The Adventures Of Captain Nemo
+, a prequel to the Disney film. Story & art were by
+.  The first 12 issues featured
+The Adventures Of Captain Nemo
+, with art by Sam Fair.
+This collected a new version which had been previously serialized in
+Weekly Reader
+magazine. Adaptation was by Otto Binder, with art by Romy Gaboa & Ernie Patricio. This was reprinted in 1976 by
+Marvel Comics
+in issue #4 of their
+Marvel Classics Comics
+series; in 1984 by Academic Industries, Inc. as issue #C12 of their
+Power Records
+published a comic and record set, PR-42.
+[
+In 1975, Look And Learn Ltd. in England published an adaptation of
+Twenty Thousand Leagues Under The Sea
+as 11 chapters in issues 707-717 of their
+In 1976,
+Marvel Comics
+published a comic book adaptation via issue #4 of their
+Marvel Classics Comics
+line.
+Pendulum Press
+published another comic based on the novel via issue #4 of their
+Illustrated Stories
+In 1992,
+Dark Horse Comics
+published a one shot comic called
+Dark Horse Classics
+This was originally announced as part of the Berkeley/
+First Comics
+Classics Illustrated
+Dark Horse
+version was scaled back to a standard comic-book format with B&W interiors. It was reprinted in 2001 by Hieronymous Press as a limited-edition of 50 copies available only from the artist's website, and more recently, in 2008 from Flesk Publications as an expensive full-color book, as originally intended.  Adaptation & art by Gary Gianni.
+In 1997,
+In 2001, Hieronymus Press published a reprint of the
+Dark Horse Comics
+version, with a new cover, as a limited-edition of 50 copies, available only from
+released
+Captain Nemo
+, a sequel to
+Twenty Thousand Leagues Under the Seas
+.
+In 2008, Capstone Publishers / Stone Arch Books published a graphic novel called
+Twenty-Thousand Leagues Under The Sea
+. The adaptation was by Carl Bowen, the cartoon-style art by Jose Alfonso Ocampo Ruiz, and the coloring by Benny Fuentes.
+In 2009, Flesk Publications published a graphic novel called
+Twenty-Thousand Leagues Under The Sea
+.
+published
+Nemo
+, a graphic novel by French artist Brüno.
+It had previously been released in four parts from 2001 to 2004. In 2017, IDW Publishing published an English translation.
+Polish painter Waldemar Andrzejewski adapted the novel as a comic book titled
+Kapitan Nemo
+(
+Captain Nemo
+). Its creation is estimated at late 1970s or early 1980s; the exact date is unknown, as the comic book was discovered in 2015, after the author's death.
+References in popular culture
+Michael Ende
+, and its film adaptations, uses Nemo's battle with the giant squid as an example of the unforgettable and immersive nature of great stories.
+A 1989 episode of
+King Koopa
+referring to himself as "Koopa Nemo").
+In a 1989 episode "
+is heavily based on
+Twenty Thousand Leagues Under the Seas
+, including a battle with a giant
+". It is a parody of
+20,000 Leagues Under the Seas
+and of the traveling song "
+references are made to similar characters and environments: Dr. Sydney Orville Moist, a paranoid dance-crazy genius scientist (parodying
+Captain Nemo
+) who lives in a hidden underwater headquarters (stationary
+Christopher Lloyd
+) states that Jules Verne is his favourite author and adores
+Twenty Thousand Leagues Under the Seas
+. At the end of the film, Dr. Brown introduces his two sons, named Jules and Verne respectively.
+A 1994
+Kelsey Grammer
+as Captain Nemo) pokes fun at the misconception of
+leagues
+being a measure of depth instead of a measure of distance. Nemo tries repeatedly, though unsuccessfully, to convince his crew of this.
+One of the inaugural rides at
+was called
+20,000 Leagues Under the Sea: Submarine Voyage
+and was based on the Disney movie.
+Samuel L. Jackson
+) reads and takes an interest in
+20,000 Leagues Under the Seas
+.
+Captain Nemo
+is one of the main characters in
+Valhalla Rising
+, reference to a submarine that "inspired" Verne's story
+
+===== verniana PDF
+
+
+===== archive.org title:("20,000 Leagues" OR "20000 Leagues" OR "Twenty Thousand Leagues" OR "20.000 leguas" OR "vingt mille lieues" OR "20 000 lieues") AND (comic OR comics OR "Classics Illustrated" OR "Four Color" OR "bande dessinee" OR historieta OR tebeo)
+20000leaguesunde0000unse_j5h9 | 20,000 leagues under the sea | 1985-01-01T00:00:00Z | texts
+20000leguasdevia0000bind | 20.000 leguas de viaje submarino | 1979-01-01T00:00:00Z | texts
+verne-jules-20-000-leagues-under-the-sea-1963-air-cl-12 | 20,000 Leagues Under The Sea - Jules Verne (Airmont Classics CL12, 1963) | 1963-01-01T00:00:00Z | texts
+smackjeeves-95246 | 20,000 Leagues Under the Sea vs Mecha-Cthulhu (95246) | 2011-02-05T00:00:00Z | image
+20000leaguesunde0000gran | 20,000 leagues under the sea : a graphic classic | 1999-01-01T00:00:00Z | texts
+20000leaguesunde00bowe | 20,000 leagues under the sea | 2008-01-01T00:00:00Z | texts
+graphicrevolve200000bowe | Graphic revolve. 20,000 leagues under the sea | 2008-01-01T00:00:00Z | texts
+20240819_20240819_1818 | 20,000 Leagues Under the Sea |  | texts
+lccn_73075466 | 20,000 leagues under the sea | 1973-01-01T00:00:00Z | texts
+20000leaguesunde00benc | 20,000 leagues under the sea; or, David Copperfield | 1928-01-01T00:00:00Z | texts
+julesvernes200000000bowe_q7x7 | Jules Verne's 20,000 leagues under the sea | 2009-01-01T00:00:00Z | texts
+julesvernes200000000bowe | Jules Verne's 20,000 leagues under the sea : a graphic novel | 2014-01-01T00:00:00Z | texts
+
+===== archive.org subject:(comics) AND (verne OR nemo) AND (leagues OR lieues OR leguas)
+20000leaguesunde00bowe | 20,000 leagues under the sea | 2008-01-01T00:00:00Z | texts
+graphicrevolve200000bowe | Graphic revolve. 20,000 leagues under the sea | 2008-01-01T00:00:00Z | texts
+sciencefictionfa0000reit | Science fiction & fantasy | 2007-01-01T00:00:00Z | texts
+
+===== cbplus HIBA HTTP Error 403: Forbidden
+
+===== cbplus2 HIBA HTTP Error 403: Forbidden
+
+===== dcm HIBA HTTP Error 403: Forbidden
