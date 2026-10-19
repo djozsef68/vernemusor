@@ -4,7 +4,7 @@ import os, sys, json
 sys.path.insert(0, os.path.dirname(__file__))
 import gyujt  # noqa: E402
 ki = []
-for nev, f in [('JEGY.HU', gyujt.jegyhu), ('BBC', gyujt.bbc_radio), ('ARTE', gyujt.arte)]:
+for nev, f in [('ARTE', gyujt.arte)]:
     try:
         r = f()
         ki.append(f'== {nev}: {len(r)} (átnézve: {gyujt.ATNEZVE.get(nev.lower())})')

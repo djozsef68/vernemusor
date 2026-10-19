@@ -727,8 +727,10 @@ def arte():
                 continue
             cim, alcim, leiras = mezo('title'), mezo('subtitle'), mezo('shortDescription')
             veg = re.search(r'"availability":\{"end":"([^"]+)"', blokk)
-            url = mezo('url')
-            if not cim or not url or not veg or not verne_e(cim, alcim, leiras[:300]):
+            u = re.search(r'"url":"(/fr/videos/[^"]+)"', blokk)
+            url = u.group(1) if u else ''
+            # csak ami Verne nevét is említi (egy „Voyage au centre de la Terre” című Grand Canyon-film nem Verne-műsor)
+            if not cim or not url or not veg or not re.search(r'(?i)verne', cim + ' ' + alcim + ' ' + leiras[:300]) or not verne_e(cim, alcim, leiras[:300]):
                 continue
             latott.add(pid)
             try:
@@ -738,7 +740,7 @@ def arte():
             if ig < MOST.date():
                 continue
             fajta = mezo('itemLabel') or mezo('label')
-            ki.append({'tipus': 'egyeb', 'orszag': 'fr', 'cim': cim + (' – ' + alcim if alcim and egyszerusit(alcim) != egyszerusit(cim) and len(alcim) < 80 else ''),
+            ki.append({'tipus': 'egyeb', 'orszag': 'fr', 'cim': cim + (' – ' + alcim if alcim and egyszerusit(alcim) != egyszerusit(cim) and len(alcim) < 80 and not re.search(r'\d{2}/\d{2}/\d{4}|épisodes', alcim) else ''),
                        'fajta': 'arte.tv · ' + (fajta.lower() if fajta else 'online'), 'mufaj': '', 'hely': 'arte.tv', 'varos': '',
                        'datum': '', 'ido': '', 'ig': ig.isoformat(), 'idoszak': f'online – {ig:%d.%m.%Y}', 'link': 'https://www.arte.tv' + url})
         time.sleep(1)
@@ -1029,6 +1031,8 @@ def main():
         eredmeny[k] = maradt
     for m in eredmeny['szinhaz'] + eredmeny['mozi'] + eredmeny['egyeb']:
         m.pop('tipus', None)
+    datumos = {egyszerusit(m['cim']).strip() for m in eredmeny['szinhaz'] if m.get('orszag') == 'hu' and m.get('datum')}
+    eredmeny['szinhaz'] = [m for m in eredmeny['szinhaz'] if not ('jegy.hu' in m.get('link', '') and egyszerusit(m['cim']).strip() in datumos)]
     for k in ('szinhaz', 'egyeb'):  # ugyanaz az esemény két forrásból (pl. Unidivers és a város naptára): a részletesebb marad
         lista = eredmeny[k]
         kidob = set()
