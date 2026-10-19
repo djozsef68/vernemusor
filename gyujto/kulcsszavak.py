@@ -20,7 +20,7 @@ NEV = [
     r'julio verne', r'julius verne', r'juliusz verne', r'jules gabriel verne', r'jule verne', r'verne jules', r'verne julius',
     r'zsul vern', r'jules vern', r'jul vern', r'jules verns?',
     r'julesa? verna', r'julesa vernea', r'julese verna',  # cseh, szlovák, horvát birtokos eset („podle Julese Verna”)
-    r'жюл[ья]? верн\w*', r'жюль верн', r'верн жюль',
+    r'жюл[ья]? верн\w*', r'жюль верн', r'жул верн', r'жул верна', r'верн жюль',
 ]
 
 # Művek és szereplők – a címben (a sorozatcím mellett az epizódcímben is).
@@ -110,6 +110,10 @@ CIM = [
     # finn
     r'maailman ympari (?:80|kahdeksassakymmenessa) paivassa', r'matka maan keskipisteeseen', r'sukelluslaivalla maapallon ympari',
     r'salaperainen saari', r'kapteeni nemo', r'kapteeni grantin lapset', r'maasta kuuhun',
+    # török (a Kéraban Törökországban játszódik)
+    r'80 gunde devrialem', r'seksen gunde devrialem', r'denizler alt nda yirmi bin fersah', r'denizler alt nda 20000 fersah', r'dunyan n merkezine yolculuk', r'esrarengiz ada', r'kaptan grant n cocuklar', r'mihail strogof', r'dunyadan aya', r'balonla bes hafta', r'inatc keraban', r'kaptan nemo', r'on bes yas nda bir kaptan', r'karpat satosu', r'dunyan n sonundaki fener',
+    # bolgár
+    r'около света за 80 дни', r'двадесет хиляди левги под водата', r'20000 левги под водата', r'пътешествие до центъра на земята', r'таинственият остров', r'децата на капитан грант', r'от земята до луната', r'пет седмици в балон', r'петнадесетгодишният капитан', r'жул верн', r'фарът на края на света', r'замъкът в карпатите',
     # horvát (és szerb latin betűvel)
     r'(?:20000|dvadeset tisuca) milja pod morem', r'put oko svijeta za (?:80|osamdeset) dana', r'put oko sveta za (?:80|osamdeset) dana',
     r'put u srediste zemlje', r'tajanstveni otok', r'tajanstveno ostrvo', r'djeca kapetana granta', r'deca kapetana granta',

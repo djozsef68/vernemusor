@@ -46,7 +46,8 @@ def szoveg(h):
 
 
 # ---------------------------------------------------------------- tévé és rádió
-EPG = [('se', 'SE1'), ('no', 'NO1'), ('dk', 'DK1'), ('fi', 'FI1'), ('nl', 'NL1'),  # 2026-10: Észak-Európa, Hollandia
+EPG = [('bg', 'BG1'), ('tr', 'TR1'),  # 2026-10: Bulgária, Törökország (a Kéraban hazája)
+       ('se', 'SE1'), ('no', 'NO1'), ('dk', 'DK1'), ('fi', 'FI1'), ('nl', 'NL1'),  # 2026-10: Észak-Európa, Hollandia
        ('mx', 'MX1'), ('ca', 'CA2'), ('br', 'BR1'), ('br', 'BR2'), ('ar', 'AR1'), ('cl', 'CL1'), ('co', 'CO1'), ('pe', 'PE1'),
        ('uy', 'UY1'), ('za', 'ZA1'), ('au', 'AU1'), ('nz', 'NZ1'),  # 2026-10: Amerika, Dél-Afrika, Óceánia
        ('cz', 'CZ1'), ('sk', 'SK1'), ('ro', 'RO1'), ('hr', 'HR1'), ('rs', 'RS1'),  # 2026-10: Közép-Európa, a Balkán
