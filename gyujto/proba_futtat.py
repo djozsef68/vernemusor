@@ -1,49 +1,28 @@
 #!/usr/bin/env python3
-# Felderítés: jegy.hu, interticket, BBC Radio 4 Extra, ARTE, Operabase, Cinémathèque française.
-import os, sys, re, json, datetime as dt, urllib.parse
+# Felderítés 2: a jegy.hu találatlista és az ARTE keresés szerkezete.
+import os, sys, re, json
 sys.path.insert(0, os.path.dirname(__file__))
 import gyujt  # noqa: E402
 ki = []
 def ir(*a): ki.append(' '.join(str(x) for x in a))
-def lek(url, ny='hu'):
-    try:
-        return gyujt.letolt(url, ny, 40).decode('utf-8', 'replace')
-    except Exception as e:
-        ir('  HIBA', url, str(e)[:120]); return ''
-def kivonat(nev, h, minta=r'(?i)verne|nemo|80 nap|f[öo]ld k[öo]r[üu]l|20 ?000|h[uú]szezer|rejtelmes sziget|strogof'):
-    ir(f'== {nev}: {len(h)} bájt, találat-szavak: {len(re.findall(minta, h))}')
-    for m in list(re.finditer(minta, h))[:12]:
-        ir('   …', gyujt.szoveg(h[max(0, m.start() - 160): m.end() + 160])[:260])
-    for l in list(dict.fromkeys(re.findall(r'href="([^"]+)"', h)))[:0]: ir('   L', l)
-# 1. magyar jegyrendszerek
-for u in ['https://jegy.hu/search?q=verne', 'https://jegy.hu/search?q=80+nap', 'https://jegy.hu/search?q=nemo+kapit%C3%A1ny',
-          'https://www.interticket.hu/kereses?q=verne', 'https://www.interticket.hu/search?q=verne']:
-    kivonat(u, lek(u))
-# 2. BBC Radio 4 Extra
-for nap in range(0, 3):
-    d = (dt.date.today() + dt.timedelta(days=nap)).isoformat()
-    u = f'https://rms.api.bbc.co.uk/v2/experience/inline/schedules/bbc_radio_four_extra/{d}'
-    h = lek(u, 'en')
-    ir(f'== BBC R4X {d}: {len(h)} bájt', h[:200].replace('\n', ' '))
-    if h:
-        try:
-            dd = json.loads(h)
-            cimek = re.findall(r'"primary":"([^"]+)","secondary":"([^"]*)"', h)
-            ir('   címek:', ' ¦ '.join(f'{a} – {b}' for a, b in cimek[:40])[:1500])
-        except Exception as e:
-            ir('   json hiba', e)
-h = lek('https://www.bbc.co.uk/sounds/search?q=jules%20verne', 'en'); kivonat('BBC Sounds keresés', h)
-# 3. ARTE
-for u in ['https://www.arte.tv/api/rproxy/emac/v4/fr/web/pages/SEARCH/?query=jules%20verne',
-          'https://www.arte.tv/api/rproxy/emac/v4/de/web/pages/SEARCH/?query=jules%20verne',
-          'https://www.arte.tv/fr/search/?q=jules%20verne']:
-    h = lek(u, 'fr'); kivonat(u, h)
-# 4. Operabase
-for u in ['https://www.operabase.com/search?q=voyage%20dans%20la%20lune', 'https://www.operabase.com/works/le-voyage-dans-la-lune-5378/performances',
-          'https://www.operabase.com/en/search?query=offenbach%20voyage']:
-    h = lek(u, 'en'); kivonat(u, h, r'(?i)voyage dans la lune|docteur ox|reise in den mond|viaggio nella luna|trip to the moon')
-# 5. Cinémathèque
-for u in ['https://www.cinematheque.fr/recherche.html?q=jules+verne', 'https://www.cinematheque.fr/cycle/', 'https://www.cinematheque.fr/']:
-    h = lek(u, 'fr'); kivonat(u, h, r'(?i)verne|m[ée]li[èe]s|zeman')
+h = gyujt.letolt('https://jegy.hu/search?q=80+nap', 'hu').decode('utf-8', 'replace')
+linkek = list(dict.fromkeys(re.findall(r'href="(/(?:program|event|esemeny|eloadas)[^"#]*)"', h)))
+ir('JEGY linkek:', len(linkek), linkek[:15])
+for l in linkek[:2]:
+    i = h.find(l)
+    ir('JEGY környezet:', re.sub(r'\s+', ' ', h[max(0, i - 1500): i + 1500]))
+ir('JEGY osztályok:', ' | '.join(list(dict.fromkeys(re.findall(r'class="([^"]*(?:result|card|item|program|event)[^"]*)"', h)))[:40]))
+if linkek:
+    e = gyujt.letolt('https://jegy.hu' + linkek[0], 'hu').decode('utf-8', 'replace')
+    ir('JEGY adatlap ld+json:', ' ¦ '.join(x[:700] for x in re.findall(r'(?s)<script type="application/ld\+json">(.*?)</script>', e))[:2500])
+a = gyujt.letolt('https://www.arte.tv/fr/search/?q=jules%20verne', 'fr').decode('utf-8', 'replace')
+m = re.search(r'(?s)<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', a)
+ir('ARTE NEXT_DATA:', bool(m), len(m.group(1)) if m else 0)
+if m:
+    t = m.group(1)
+    for x in re.finditer(r'"title":"([^"]{3,120})","subtitle":(null|"[^"]*")', t):
+        ir('  A', x.group(1), '|', x.group(2)[:80])
+    i = t.find('Verne')
+    ir('ARTE nyers:', t[max(0, i - 1500): i + 1500])
 os.makedirs('proba', exist_ok=True)
 open('proba/osszegzes.txt', 'w', encoding='utf-8').write('\n'.join(ki) + '\n')
