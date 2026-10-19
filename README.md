@@ -7,8 +7,9 @@ Minden nap egyszer (és kézzel bármikor: *Actions → Napi műsorgyűjtés →
 
 | Fül | Forrás | Országok |
 |---|---|---|
-| Tévé, rádió | [epgshare01](https://epgshare01.online/) (az [iptv-org/epg](https://github.com/iptv-org/epg) egyik forrása) | HU, FR, UK, DE, IT |
-| Színház · opera · operett | port.hu, ATG Tickets, Offi | HU, UK, Párizs |
+| Tévé, rádió | [epgshare01](https://epgshare01.online/) (az [iptv-org/epg](https://github.com/iptv-org/epg) egyik forrása) | HU, FR, UK, DE, IT, ES, PT, PL, CH, BE, US, CZ, SK, RO, HR, RS (az utóbbi ötnél csak a helyi adók) |
+| Színház · opera · operett | port.hu, ATG Tickets, Offi, Unidivers | HU, UK, FR |
+| Verne városai (színház, kiállítás, egyéb) | [Que faire à Paris](https://opendata.paris.fr/explore/dataset/que-faire-a-paris-/) (Párizs nyílt adat), [Nantes Métropole programnaptára](https://data.nantesmetropole.fr/) (benne a Musée Jules Verne), [amiens.fr](https://www.amiens.fr/Les-evenements) | Párizs, Nantes, Amiens |
 | Mozi | port.hu, AlloCiné, ComingSoon | HU, FR, IT |
 
 Opcionális: ha a repó *Settings → Secrets and variables → Actions* részében van egy `TICKETMASTER_KULCS`

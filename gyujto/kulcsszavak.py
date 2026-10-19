@@ -19,6 +19,7 @@ NEV = [
     r'jules vernes?', r'jules verne s', r'verne gyula', r'gyula verne', r'verne gy', r'giulio verne', r'guilio verne', r'gulio verne',
     r'julio verne', r'julius verne', r'juliusz verne', r'jules gabriel verne', r'jule verne', r'verne jules', r'verne julius',
     r'zsul vern', r'jules vern', r'jul vern', r'jules verns?',
+    r'julesa? verna', r'julesa vernea', r'julese verna',  # cseh, szlovák, horvát birtokos eset („podle Julese Verna”)
     r'жюл[ья]? верн\w*', r'жюль верн', r'верн жюль',
 ]
 
@@ -81,13 +82,35 @@ CIM = [
     r'dalla terra alla luna', r'isola misteriosa', r'figli del capitano grant', r'michele strogoff',
     r'cinque settimane in pallone', r'due anni di vacanze', r'capitano nemo', r'faro in capo al mondo',
     r'castello dei carpazi',
+    # cseh (Karel Zeman Verne-filmjei is: Vynález zkázy, Ukradená vzducholoď, Na kometě)
+    r'(?:20000|dvacet tisic) mil pod morem', r'cesta kolem sveta za (?:80|osmdesat) dni', r'cesta do stredu zeme',
+    r'tajuplny ostrov', r'deti kapitana granta', r'patnactilety kapitan', r'michal strogov', r'caruv kuryr',
+    r'ze zeme na mesic', r'cesta kolem mesice', r'pet nedel v balone', r'dva roky prazdnin', r'robur dobyvatel',
+    r'hrad v karpatech', r'majak na konci sveta', r'matyas sandorf', r'kapitan nemo',
+    r'vynalez zkazy', r'ukradena vzducholod', r'na komete', r'ocelove mesto', 
+    # szlovák
+    r'(?:20000|dvadsattisic|dvadsat tisic) mil pod morom', r'cesta okolo sveta za (?:80|osemdesiat) dni',
+    r'zahadny ostrov', r'patnastrocny kapitan', r'zo zeme na mesiac', r'pat tyzdnov v balone', r'dva roky prazdnin',
+    r'hrad v karpatoch', r'majak na konci sveta',
+    # román
+    r'(?:20000|douazeci de mii) de leghe sub mari', r'ocolul pamantului in (?:80|optzeci) de zile', r'ocolul lumii in (?:80|optzeci) de zile',
+    r'calatorie spre centrul pamantului', r'insula misterioasa', r'copiii capitanului grant', r'capitan de cincisprezece ani',
+    r'mihail strogoff', r'de la pamant la luna', r'in jurul lunii', r'cinci saptamani in balon', r'doi ani de vacanta',
+    r'castelul din carpati', r'pilotul de pe dunare', r'pilotul dunarii', r'claudius bombarnac', r'capitanul nemo',
+    r'farul de la capatul lumii', r'stapanul lumii', r'robur cuceritorul',
+    # horvát (és szerb latin betűvel)
+    r'(?:20000|dvadeset tisuca) milja pod morem', r'put oko svijeta za (?:80|osamdeset) dana', r'put oko sveta za (?:80|osamdeset) dana',
+    r'put u srediste zemlje', r'tajanstveni otok', r'tajanstveno ostrvo', r'djeca kapetana granta', r'deca kapetana granta',
+    r'petnaestogodisnji kapetan', r'mihajlo strogov', r'mihail strogov', r'carev glasnik', r'sa zemlje na mjesec',
+    r'sa zemlje na mesec', r'pet tjedana u balonu', r'pet nedelja u balonu', r'dvije godine (?:ferija|praznika)',
+    r'kapetan nemo', r'matija sandorf', r'svjetionik na kraju svijeta', r'dvorac u karpatima',
 ]
 
 # Ami hasonlít, de nem Verne.
 TILTO = [
     r'nemo nyomaban', r'finding nemo', r'monde de nemo', r'findet nemo', r'ricerca di nemo', r'szenilla', r'finding dory',
     r'verne troyer', r'verne lundquist', r'в поисках немо', r'buscando a nemo', r'procurando nemo', r'gdzie jest nemo',
-    r'nagi instynkt', r'naked and afraid', r'губка боб', r'шоу патрика', r'patrick star', r'spongebob', r'тесла', r'tesla',
+    r'hleda se nemo', r'hlada sa nemo', r'potraga za nemom', r'u potrazi za nemom', r'in cautarea lui nemo', r'nagi instynkt', r'naked and afraid', r'губка боб', r'шоу патрика', r'patrick star', r'spongebob', r'тесла', r'tesla',
     r'экстремальные динозавры', r'лесная команда', r'waldtruppe', r'little nemo', r'nemo the', r'8 jours de la terre',
 ]
 
