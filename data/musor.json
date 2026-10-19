@@ -1,5 +1,5 @@
 {
- "frissitve": "2026-10-19T05:00:04+00:00",
+ "frissitve": "2026-10-19T05:12:13+00:00",
  "tv": [
   {
    "orszag": "es",
@@ -704,6 +704,18 @@
   }
  ],
  "forrasok": {
+  "epgshare01 BG1": {
+   "ok": true,
+   "db": 0,
+   "mp": 0,
+   "atnezve": 7031
+  },
+  "epgshare01 TR1": {
+   "ok": true,
+   "db": 0,
+   "mp": 0,
+   "atnezve": 15089
+  },
   "epgshare01 SE1": {
    "ok": true,
    "db": 2,
@@ -725,7 +737,7 @@
   "epgshare01 FI1": {
    "ok": true,
    "db": 2,
-   "mp": 1,
+   "mp": 0,
    "atnezve": 10449
   },
   "epgshare01 NL1": {
@@ -737,13 +749,13 @@
   "epgshare01 MX1": {
    "ok": true,
    "db": 3,
-   "mp": 1,
+   "mp": 0,
    "atnezve": 17144
   },
   "epgshare01 CA2": {
    "ok": true,
    "db": 0,
-   "mp": 5,
+   "mp": 3,
    "radio": {
     "CBHA FM CBC Radio One": 95,
     "CBLA FM CBC Radio One": 96,
@@ -782,7 +794,7 @@
   "epgshare01 CO1": {
    "ok": true,
    "db": 1,
-   "mp": 1,
+   "mp": 0,
    "radio": {
     "DSPORTS Radio(DTSR)": 9,
     "DSports Radio(DTSR)": 9
@@ -798,7 +810,7 @@
   "epgshare01 UY1": {
    "ok": true,
    "db": 3,
-   "mp": 2,
+   "mp": 1,
    "radio": {
     "[CNUR] Union Radio Noticias": 62,
     "[RCARA] Radio Caracol": 61
@@ -814,7 +826,7 @@
   "epgshare01 AU1": {
    "ok": true,
    "db": 1,
-   "mp": 3,
+   "mp": 2,
    "atnezve": 57885
   },
   "epgshare01 NZ1": {
@@ -829,7 +841,7 @@
   "epgshare01 CZ1": {
    "ok": true,
    "db": 6,
-   "mp": 4,
+   "mp": 3,
    "radio": {
     "BBC Radio": 127,
     "Country Radio": 1,
@@ -856,7 +868,7 @@
   "epgshare01 RO1": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 1,
    "atnezve": 45579
   },
   "epgshare01 HR1": {
@@ -868,7 +880,7 @@
   "epgshare01 RS1": {
    "ok": true,
    "db": 0,
-   "mp": 5,
+   "mp": 3,
    "radio": {
     "Hit FM radio": 19,
     "Naxi radio kids": 48,
@@ -908,13 +920,13 @@
   "epgshare01 FR1": {
    "ok": true,
    "db": 7,
-   "mp": 3,
+   "mp": 2,
    "atnezve": 64594
   },
   "epgshare01 UK1": {
    "ok": true,
    "db": 4,
-   "mp": 2,
+   "mp": 1,
    "radio": {
     "Radio X": 32,
     "RTÉ 2FM": 33,
@@ -951,7 +963,7 @@
   "epgshare01 DE1": {
    "ok": true,
    "db": 1,
-   "mp": 2,
+   "mp": 1,
    "atnezve": 22678
   },
   "epgshare01 IT1": {
@@ -981,7 +993,7 @@
   "epgshare01 PL1": {
    "ok": true,
    "db": 8,
-   "mp": 6,
+   "mp": 4,
    "radio": {
     "Radio Nowy Świat": 50,
     "Polskie Radio Program 1": 217,
@@ -995,7 +1007,7 @@
   "epgshare01 CH1": {
    "ok": true,
    "db": 0,
-   "mp": 4,
+   "mp": 3,
    "radio": {
     "Radio Ticino Channel": 60,
     "Radio Pilatus TV": 18,
@@ -1006,7 +1018,7 @@
   "epgshare01 BE2": {
    "ok": true,
    "db": 0,
-   "mp": 5,
+   "mp": 3,
    "radio": {
     "Radio Bremen HD": 164,
     "Radio Contact Vision": 23,
@@ -1025,7 +1037,7 @@
   "epgshare01 US2": {
    "ok": true,
    "db": 0,
-   "mp": 5,
+   "mp": 3,
    "radio": {
     "3ABN Radio Network": 168,
     "Rai Radio 1": 207,
@@ -1037,7 +1049,7 @@
   "iptvx.one RU": {
    "ok": true,
    "db": 1,
-   "mp": 31,
+   "mp": 20,
    "radio": {
     "Дорожное радио": 189,
     "NO EPG Radio (заглушка)": 6,
@@ -1064,19 +1076,19 @@
   "France Culture": {
    "ok": true,
    "db": 0,
-   "mp": 8,
+   "mp": 10,
    "atnezve": 223
   },
   "France Inter": {
    "ok": true,
    "db": 0,
-   "mp": 8,
+   "mp": 9,
    "atnezve": 184
   },
   "Deutschlandfunk Kultur": {
    "ok": true,
    "db": 0,
-   "mp": 14,
+   "mp": 15,
    "atnezve": 225
   },
   "Deutschlandfunk": {
@@ -1088,28 +1100,28 @@
   "Ö1": {
    "ok": true,
    "db": 0,
-   "mp": 16,
+   "mp": 19,
    "atnezve": 341
   },
   "port.hu események": {
    "ok": true,
    "db": 0,
-   "mp": 13
+   "mp": 14
   },
   "unidivers.fr": {
    "ok": true,
    "db": 16,
-   "mp": 33
+   "mp": 34
   },
   "port.hu tévé": {
    "ok": true,
    "db": 8,
-   "mp": 1
+   "mp": 2
   },
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 89
+   "mp": 92
   },
   "Párizs (opendata.paris.fr)": {
    "ok": true,
@@ -1119,29 +1131,29 @@
   "Nantes (data.nantesmetropole.fr)": {
    "ok": true,
    "db": 4,
-   "mp": 1,
+   "mp": 2,
    "atnezve": 31
   },
   "Amiens (amiens.fr)": {
    "ok": true,
    "db": 1,
-   "mp": 89,
+   "mp": 97,
    "atnezve": 508
   },
   "atgtickets.com": {
    "ok": true,
    "db": 0,
-   "mp": 15
+   "mp": 16
   },
   "offi.fr": {
    "ok": true,
    "db": 0,
-   "mp": 13
+   "mp": 14
   },
   "allocine.fr": {
    "ok": true,
    "db": 0,
-   "mp": 15
+   "mp": 18
   },
   "comingsoon.it": {
    "ok": true,
@@ -1151,25 +1163,25 @@
   "sensacine.com": {
    "ok": true,
    "db": 0,
-   "mp": 13,
-   "atnezve": 143
+   "mp": 21,
+   "atnezve": 205
   },
   "picturehouses.com": {
    "ok": true,
    "db": 0,
-   "mp": 3,
+   "mp": 2,
    "atnezve": 439
   },
   "filmweb.pl": {
    "ok": true,
    "db": 0,
-   "mp": 3,
+   "mp": 2,
    "atnezve": 133
   },
   "film.at": {
    "ok": true,
    "db": 0,
-   "mp": 1,
+   "mp": 2,
    "atnezve": 13
   },
   "rottentomatoes.com": {
@@ -1181,7 +1193,7 @@
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 35,
+   "mp": 39,
    "proba": 10000,
    "atnezve": 53
   }
