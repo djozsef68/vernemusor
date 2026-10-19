@@ -1,7 +1,7 @@
 import re, html, os, json, urllib.request, concurrent.futures as cf
 UA = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36', 'Accept-Language': 'en,fr,es,pt,de'}
 U = json.load(open('gyujto/proba_urls.json'))
-KW = r'(?i)leagues|lieues|leguas|léguas|meilen|nemo|nautilus|verne|海底|해저|premi|création|estreno|estreia|20\.?000|20 000|season|saison|temporada|dates?|date|year|\b(19|20)\d\d\b'
+KW = r'(?i)átdolg|fordít|kiadó|kiadás|oldal|Nemo kapit|Húszezer|20 ?000|leagues|lieues|leguas|léguas|meilen|nemo|nautilus|verne|海底|해저|premi|création|estreno|estreia|20\.?000|20 000|season|saison|temporada|dates?|date|year|\b(19|20)\d\d\b'
 def one(k, u):
     try:
         b = urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=45).read()
