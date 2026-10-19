@@ -1,5 +1,5 @@
 {
- "frissitve": "2026-10-19T05:12:13+00:00",
+ "frissitve": "2026-10-19T05:24:05+00:00",
  "tv": [
   {
    "orszag": "es",
@@ -584,6 +584,30 @@
    "datum": "2027-04-09",
    "ido": "",
    "link": "https://unidivers.fr/event/exploration-jules-verne-spectacle-jeune-public-isigny-omaha-la-traverse-balleroy-sur-drome-calvados-2027-04-09/"
+  },
+  {
+   "orszag": "hu",
+   "cim": "80 nap alatt a Föld körül • Budapest Táncszínház",
+   "fajta": "",
+   "mufaj": "",
+   "hely": "Nemzeti Táncszínház",
+   "varos": "Budapest",
+   "datum": "",
+   "ido": "",
+   "idoszak": "",
+   "link": "https://www.jegy.hu/program/80-nap-alatt-a-fold-korul-budapest-tancszinhaz-119729"
+  },
+  {
+   "orszag": "hu",
+   "cim": "Szilveszteri 80 nap alatt a Föld körül",
+   "fajta": "",
+   "mufaj": "",
+   "hely": "Kolibri Színház",
+   "varos": "Budapest",
+   "datum": "",
+   "ido": "",
+   "idoszak": "",
+   "link": "https://www.jegy.hu/program/szilveszteri-80-nap-alatt-a-fold-korul-198606"
   }
  ],
  "mozi": [],
@@ -701,6 +725,32 @@
    "datum": "2027-09-11",
    "ido": "11:00",
    "link": "https://unidivers.fr/event/le-tour-du-monde-en-80-jours-magnum-photos-hangar-y-meudon-2027-09-11t1100000200/"
+  },
+  {
+   "orszag": "fr",
+   "cim": "Cherchez la femme ! – Ida Pfeiffer - Les grands récits d'aventure du XIXe siècle",
+   "fajta": "arte.tv · documentaire",
+   "mufaj": "",
+   "hely": "arte.tv",
+   "varos": "",
+   "datum": "",
+   "ido": "",
+   "ig": "2027-12-04",
+   "idoszak": "online – 04.12.2027",
+   "link": "https://www.arte.tv/fr/videos/090626-013-A/cherchez-la-femme/"
+  },
+  {
+   "orszag": "fr",
+   "cim": "Le cap Horn, un des bouts du monde de Jules Verne",
+   "fajta": "arte.tv · documentaire",
+   "mufaj": "",
+   "hely": "arte.tv",
+   "varos": "",
+   "datum": "",
+   "ido": "",
+   "ig": "2026-12-19",
+   "idoszak": "online – 19.12.2026",
+   "link": "https://www.arte.tv/fr/videos/123717-000-A/le-cap-horn-un-des-bouts-du-monde-de-jules-verne/"
   }
  ],
  "forrasok": {
@@ -737,7 +787,7 @@
   "epgshare01 FI1": {
    "ok": true,
    "db": 2,
-   "mp": 0,
+   "mp": 1,
    "atnezve": 10449
   },
   "epgshare01 NL1": {
@@ -749,7 +799,7 @@
   "epgshare01 MX1": {
    "ok": true,
    "db": 3,
-   "mp": 0,
+   "mp": 1,
    "atnezve": 17144
   },
   "epgshare01 CA2": {
@@ -810,7 +860,7 @@
   "epgshare01 UY1": {
    "ok": true,
    "db": 3,
-   "mp": 1,
+   "mp": 2,
    "radio": {
     "[CNUR] Union Radio Noticias": 62,
     "[RCARA] Radio Caracol": 61
@@ -1037,7 +1087,7 @@
   "epgshare01 US2": {
    "ok": true,
    "db": 0,
-   "mp": 3,
+   "mp": 4,
    "radio": {
     "3ABN Radio Network": 168,
     "Rai Radio 1": 207,
@@ -1049,7 +1099,7 @@
   "iptvx.one RU": {
    "ok": true,
    "db": 1,
-   "mp": 20,
+   "mp": 21,
    "radio": {
     "Дорожное радио": 189,
     "NO EPG Radio (заглушка)": 6,
@@ -1082,13 +1132,13 @@
   "France Inter": {
    "ok": true,
    "db": 0,
-   "mp": 9,
+   "mp": 10,
    "atnezve": 184
   },
   "Deutschlandfunk Kultur": {
    "ok": true,
    "db": 0,
-   "mp": 15,
+   "mp": 14,
    "atnezve": 225
   },
   "Deutschlandfunk": {
@@ -1106,12 +1156,12 @@
   "port.hu események": {
    "ok": true,
    "db": 0,
-   "mp": 14
+   "mp": 15
   },
   "unidivers.fr": {
    "ok": true,
    "db": 16,
-   "mp": 34
+   "mp": 33
   },
   "port.hu tévé": {
    "ok": true,
@@ -1121,7 +1171,22 @@
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 92
+   "mp": 91
+  },
+  "jegy.hu": {
+   "ok": true,
+   "db": 3,
+   "mp": 28
+  },
+  "BBC rádió": {
+   "ok": true,
+   "db": 0,
+   "mp": 12
+  },
+  "arte.tv": {
+   "ok": true,
+   "db": 2,
+   "mp": 12
   },
   "Párizs (opendata.paris.fr)": {
    "ok": true,
@@ -1137,7 +1202,7 @@
   "Amiens (amiens.fr)": {
    "ok": true,
    "db": 1,
-   "mp": 97,
+   "mp": 95,
    "atnezve": 508
   },
   "atgtickets.com": {
@@ -1148,40 +1213,40 @@
   "offi.fr": {
    "ok": true,
    "db": 0,
-   "mp": 14
+   "mp": 13
   },
   "allocine.fr": {
    "ok": true,
    "db": 0,
-   "mp": 18
+   "mp": 16
   },
   "comingsoon.it": {
    "ok": true,
    "db": 0,
-   "mp": 0
+   "mp": 1
   },
   "sensacine.com": {
    "ok": true,
    "db": 0,
-   "mp": 21,
-   "atnezve": 205
+   "mp": 18,
+   "atnezve": 188
   },
   "picturehouses.com": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 4,
    "atnezve": 439
   },
   "filmweb.pl": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 3,
    "atnezve": 133
   },
   "film.at": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 1,
    "atnezve": 13
   },
   "rottentomatoes.com": {
@@ -1193,7 +1258,7 @@
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 39,
+   "mp": 42,
    "proba": 10000,
    "atnezve": 53
   }
