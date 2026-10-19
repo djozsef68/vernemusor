@@ -98,6 +98,18 @@ CIM = [
     r'mihail strogoff', r'de la pamant la luna', r'in jurul lunii', r'cinci saptamani in balon', r'doi ani de vacanta',
     r'castelul din carpati', r'pilotul de pe dunare', r'pilotul dunarii', r'claudius bombarnac', r'capitanul nemo',
     r'farul de la capatul lumii', r'stapanul lumii', r'robur cuceritorul',
+    # holland
+    r'(?:in )?(?:80|tachtig) dagen (?:rond|om) de wereld', r'reis (?:naar|om) (?:het|de) (?:middelpunt|binnenste) der? aarde',
+    r'(?:20000|twintigduizend) mijlen onder (?:zee|de zee)', r'het geheimzinnige eiland', r'het mysterieuze eiland', r'kapitein nemo',
+    r'kinderen van kapitein grant', r'michel strogof', r'van de aarde naar de maan', r'vijf weken in een ballon',
+    # svéd, dán, norvég
+    r'jorden runt (?:pa|i) (?:80|attio|firs) (?:dagar|dage|dager)', r'jorden rundt (?:pa|i) (?:80|firs|atti) (?:dage|dager)', r'(?:resan|rejsen|reisen) til+ jordens (?:medelpunkt|indre|midtpunkt)',
+    r'(?:en )?(?:varldsomsegling|verdensomsejling|jordomseiling) under havet', r'(?:20000|tjugotusen|tyvetusinde|tjuetusen) (?:mil|ligaer|leguer)',
+    r'den hemlighetsfulla on', r'den hemmelighedsfulde o', r'den hemmelighetsfulle oy', r'kapten nemo', r'kaptajn nemo', r'kaptein nemo',
+    r'fran jorden till manen', r'fra jorden til manen',
+    # finn
+    r'maailman ympari (?:80|kahdeksassakymmenessa) paivassa', r'matka maan keskipisteeseen', r'sukelluslaivalla maapallon ympari',
+    r'salaperainen saari', r'kapteeni nemo', r'kapteeni grantin lapset', r'maasta kuuhun',
     # horvát (és szerb latin betűvel)
     r'(?:20000|dvadeset tisuca) milja pod morem', r'put oko svijeta za (?:80|osamdeset) dana', r'put oko sveta za (?:80|osamdeset) dana',
     r'put u srediste zemlje', r'tajanstveni otok', r'tajanstveno ostrvo', r'djeca kapetana granta', r'deca kapetana granta',

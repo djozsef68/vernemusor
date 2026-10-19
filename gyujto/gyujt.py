@@ -46,7 +46,8 @@ def szoveg(h):
 
 
 # ---------------------------------------------------------------- tévé és rádió
-EPG = [('mx', 'MX1'), ('ca', 'CA2'), ('br', 'BR1'), ('br', 'BR2'), ('ar', 'AR1'), ('cl', 'CL1'), ('co', 'CO1'), ('pe', 'PE1'),
+EPG = [('se', 'SE1'), ('no', 'NO1'), ('dk', 'DK1'), ('fi', 'FI1'), ('nl', 'NL1'),  # 2026-10: Észak-Európa, Hollandia
+       ('mx', 'MX1'), ('ca', 'CA2'), ('br', 'BR1'), ('br', 'BR2'), ('ar', 'AR1'), ('cl', 'CL1'), ('co', 'CO1'), ('pe', 'PE1'),
        ('uy', 'UY1'), ('za', 'ZA1'), ('au', 'AU1'), ('nz', 'NZ1'),  # 2026-10: Amerika, Dél-Afrika, Óceánia
        ('cz', 'CZ1'), ('sk', 'SK1'), ('ro', 'RO1'), ('hr', 'HR1'), ('rs', 'RS1'),  # 2026-10: Közép-Európa, a Balkán
        ('hu', 'HU1'), ('fr', 'FR1'), ('uk', 'UK1'), ('de', 'DE1'), ('it', 'IT1'), ('es', 'ES1'), ('pt', 'PT1'), ('pl', 'PL1'),
@@ -888,15 +889,24 @@ def main():
             if any(x[0] == kulcs and abs((t - x[1]).total_seconds()) < 45 * 60 for x in tartott):
                 continue
             tartott.append((kulcs, t, m))
-        # A régiós csatornák (pl. Studio Universal, Disney Channel) ugyanazt a műsort több latin-amerikai
-        # ország fájljában is hozzák, más-más időzónával: 12 órán belül csak egyszer.
+        # A régiós csatornák ugyanazt a műsort több ország fájljában is hozzák: Latin-Amerikában (Studio Universal,
+        # Disney Channel) más-más időzónával – ott ugyanaz a cím 12 órán belül egyszer; Észak-Európában (V Film / Viasat)
+        # egyszerre, de minden ország a saját nyelvén adja a címet – ott ugyanaz a csatorna ugyanabban az órában egyszer.
         LATAM = {'mx', 'ar', 'cl', 'co', 'pe', 'uy', 'br'}
+        ESZAK = {'se', 'no', 'dk', 'fi'}
         regios, maradt = [], []
         for kk, t, m in tartott:
-            if m['orszag'] in LATAM:
-                mag = re.sub(r'^\[[^\]]*\]\s*|\s*\([^)]*\)|\b(?:hd|sd|latam|mexico|méxico|argentina|chile|colombia|peru|uruguay)\b|^canal\s+', '', m['csatorna'].lower()).strip()
-                ku = (re.sub(r'[^a-z0-9]', '', mag), egyszerusit(m['cim']))
-                if any(r[0] == ku and abs((t - r[1]).total_seconds()) < 12 * 3600 for r in regios):
+            csop = 'latam' if m['orszag'] in LATAM else 'eszak' if m['orszag'] in ESZAK else ''
+            if csop:
+                mag = m['csatorna'].lower().replace('viasat', 'v')
+                mag = re.sub(r'^\[[^\]]*\]\s*|\s*\([^)]*\)|\b(?:hd|sd|latam|mexico|méxico|argentina|chile|colombia|peru|uruguay|'
+                             r'denmark|danmark|norway|norge|sweden|sverige|finland|suomi)\b|^canal\s+', '', mag)
+                mag = re.sub(r'[^a-z0-9]', '', mag)
+                if csop == 'latam':
+                    ku, ablak = (csop, mag, egyszerusit(m['cim'])), 12 * 3600
+                else:
+                    ku, ablak = (csop, mag), 2 * 3600
+                if any(r[0] == ku and abs((t - r[1]).total_seconds()) < ablak for r in regios):
                     continue
                 regios.append((ku, t))
             maradt.append(m)

@@ -7,7 +7,7 @@ Minden nap egyszer (és kézzel bármikor: *Actions → Napi műsorgyűjtés →
 
 | Fül | Forrás | Országok |
 |---|---|---|
-| Tévé, rádió | [epgshare01](https://epgshare01.online/) (az [iptv-org/epg](https://github.com/iptv-org/epg) egyik forrása) | HU, FR, UK, DE, IT, ES, PT, PL, CH, BE, US, CA, MX, BR, AR, CL, CO, PE, UY, ZA, AU, NZ, CZ, SK, RO, HR, RS (a cseh–balkáni ötnél csak a helyi adók; a latin-amerikai régiós csatornák műsora egyszer) |
+| Tévé, rádió | [epgshare01](https://epgshare01.online/) (az [iptv-org/epg](https://github.com/iptv-org/epg) egyik forrása) | HU, FR, UK, DE, IT, ES, PT, PL, CH, BE, NL, SE, NO, DK, FI, US, CA, MX, BR, AR, CL, CO, PE, UY, ZA, AU, NZ, CZ, SK, RO, HR, RS (a cseh–balkáni ötnél csak a helyi adók; a latin-amerikai és az északi régiós csatornák műsora egyszer) |
 | Színház · opera · operett | port.hu, ATG Tickets, Offi, Unidivers | HU, UK, FR |
 | Verne városai (színház, kiállítás, egyéb) | [Que faire à Paris](https://opendata.paris.fr/explore/dataset/que-faire-a-paris-/) (Párizs nyílt adat), [Nantes Métropole programnaptára](https://data.nantesmetropole.fr/) (benne a Musée Jules Verne), [amiens.fr](https://www.amiens.fr/Les-evenements) | Párizs, Nantes, Amiens |
 | Mozi | port.hu, AlloCiné, ComingSoon | HU, FR, IT |
