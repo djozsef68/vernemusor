@@ -727,8 +727,8 @@ def arte():
                 continue
             cim, alcim, leiras = mezo('title'), mezo('subtitle'), mezo('shortDescription')
             veg = re.search(r'"availability":\{"end":"([^"]+)"', blokk)
-            u = re.search(r'"url":"(/fr/videos/[^"]+)"', blokk)
-            url = u.group(1) if u else ''
+            u = re.search(r'"url":"(/fr/videos/' + re.escape(pid) + r'/[^"]*)"', blokk)
+            url = u.group(1) if u else f'/fr/videos/{pid}/'
             # csak ami Verne nevét is említi (egy „Voyage au centre de la Terre” című Grand Canyon-film nem Verne-műsor)
             if not cim or not url or not veg or not re.search(r'(?i)verne', cim + ' ' + alcim + ' ' + leiras[:300]) or not verne_e(cim, alcim, leiras[:300]):
                 continue
