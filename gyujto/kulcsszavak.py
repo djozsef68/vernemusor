@@ -110,7 +110,7 @@ CIM = [
 TILTO = [
     r'nemo nyomaban', r'finding nemo', r'monde de nemo', r'findet nemo', r'ricerca di nemo', r'szenilla', r'finding dory',
     r'verne troyer', r'verne lundquist', r'в поисках немо', r'buscando a nemo', r'procurando nemo', r'gdzie jest nemo',
-    r'hleda se nemo', r'hlada sa nemo', r'potraga za nemom', r'u potrazi za nemom', r'in cautarea lui nemo', r'nagi instynkt', r'naked and afraid', r'губка боб', r'шоу патрика', r'patrick star', r'spongebob', r'тесла', r'tesla',
+    r'restaurant le jules verne', r'le jules verne restaurant', r'jules verne restaurant', r'hleda se nemo', r'hlada sa nemo', r'potraga za nemom', r'u potrazi za nemom', r'in cautarea lui nemo', r'nagi instynkt', r'naked and afraid', r'губка боб', r'шоу патрика', r'patrick star', r'spongebob', r'тесла', r'tesla',
     r'экстремальные динозавры', r'лесная команда', r'waldtruppe', r'little nemo', r'nemo the', r'8 jours de la terre',
 ]
 

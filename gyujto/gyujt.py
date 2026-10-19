@@ -46,7 +46,9 @@ def szoveg(h):
 
 
 # ---------------------------------------------------------------- tévé és rádió
-EPG = [('cz', 'CZ1'), ('sk', 'SK1'), ('ro', 'RO1'), ('hr', 'HR1'), ('rs', 'RS1'),  # 2026-10: Közép-Európa, a Balkán
+EPG = [('mx', 'MX1'), ('ca', 'CA2'), ('br', 'BR1'), ('br', 'BR2'), ('ar', 'AR1'), ('cl', 'CL1'), ('co', 'CO1'), ('pe', 'PE1'),
+       ('uy', 'UY1'), ('za', 'ZA1'), ('au', 'AU1'), ('nz', 'NZ1'),  # 2026-10: Amerika, Dél-Afrika, Óceánia
+       ('cz', 'CZ1'), ('sk', 'SK1'), ('ro', 'RO1'), ('hr', 'HR1'), ('rs', 'RS1'),  # 2026-10: Közép-Európa, a Balkán
        ('hu', 'HU1'), ('fr', 'FR1'), ('uk', 'UK1'), ('de', 'DE1'), ('it', 'IT1'), ('es', 'ES1'), ('pt', 'PT1'), ('pl', 'PL1'),
        ('ch', 'CH1'), ('be', 'BE2'), ('us', 'US2'),
        ('ru', 'https://iptvx.one/epg/epg_noarch.xml.gz')]  # orosz nyelvű adók: az iptvx.one gyűjtése (az iptv-org egyik forrása)
@@ -768,8 +770,9 @@ def comingsoon():
 # ---------------------------------------------------------------- Ticketmaster (csak ha van kulcs)
 def ticketmaster(kulcs):
     ki, latott, jo, hiba, lat = [], set(), 0, '', 0
-    for orszag, kod in [('uk', 'GB'), ('de', 'DE'), ('fr', 'FR'), ('it', 'IT'), ('hu', 'HU')]:
-        for k in ['Jules Verne', 'Around the World in 80 Days', 'Nemo', 'Strogoff', 'Phileas Fogg', 'Offenbach', 'Voyage dans la lune', 'Docteur Ox']:
+    for orszag, kod in [('uk', 'GB'), ('de', 'DE'), ('fr', 'FR'), ('it', 'IT'), ('hu', 'HU'), ('us', 'US'), ('ca', 'CA'), ('mx', 'MX')]:
+        for k in (['Jules Verne', 'Around the World in 80 Days', 'Nemo', 'Strogoff', 'Phileas Fogg', 'Offenbach', 'Voyage dans la lune', 'Docteur Ox']
+                  + (['Julio Verne', 'Vuelta al mundo en 80', 'Tour du monde en 80', '20,000 Leagues'] if kod in ('US', 'CA', 'MX') else [])):
             u = ('https://app.ticketmaster.com/discovery/v2/events.json?size=50&countryCode=' + kod +
                  '&keyword=' + urllib.parse.quote(k) + '&apikey=' + kulcs)
             try:
@@ -885,7 +888,19 @@ def main():
             if any(x[0] == kulcs and abs((t - x[1]).total_seconds()) < 45 * 60 for x in tartott):
                 continue
             tartott.append((kulcs, t, m))
-        eredmeny[k] = [x[2] for x in tartott]
+        # A régiós csatornák (pl. Studio Universal, Disney Channel) ugyanazt a műsort több latin-amerikai
+        # ország fájljában is hozzák, más-más időzónával: 12 órán belül csak egyszer.
+        LATAM = {'mx', 'ar', 'cl', 'co', 'pe', 'uy', 'br'}
+        regios, maradt = [], []
+        for kk, t, m in tartott:
+            if m['orszag'] in LATAM:
+                mag = re.sub(r'^\[[^\]]*\]\s*|\s*\([^)]*\)|\b(?:hd|sd|latam|mexico|méxico|argentina|chile|colombia|peru|uruguay)\b|^canal\s+', '', m['csatorna'].lower()).strip()
+                ku = (re.sub(r'[^a-z0-9]', '', mag), egyszerusit(m['cim']))
+                if any(r[0] == ku and abs((t - r[1]).total_seconds()) < 12 * 3600 for r in regios):
+                    continue
+                regios.append((ku, t))
+            maradt.append(m)
+        eredmeny[k] = maradt
     for m in eredmeny['szinhaz'] + eredmeny['mozi'] + eredmeny['egyeb']:
         m.pop('tipus', None)
     for k in ('szinhaz', 'egyeb'):  # ugyanaz az esemény két forrásból (pl. Unidivers és a város naptára): a részletesebb marad
@@ -897,7 +912,8 @@ def main():
                     continue
                 ea, eb = egyszerusit(a['cim']).strip(), egyszerusit(b['cim']).strip()
                 if min(len(ea), len(eb)) >= 12 and (ea in eb or eb in ea or ea[:24] == eb[:24]):
-                    kidob.add(j if (a.get('hely') or a.get('ido')) else i)
+                    pont = lambda m: 2 * bool(m.get('hely')) + bool(m.get('ido')) + bool(m.get('varos'))  # noqa: E731
+                    kidob.add(j if pont(a) >= pont(b) else i)
         eredmeny[k] = [m for i, m in enumerate(lista) if i not in kidob]
     egy = {}
     for m in eredmeny['egyeb']:  # ugyanaz az esemény kétszer (kicsit más címmel) – egyszer
