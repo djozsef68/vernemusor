@@ -633,6 +633,118 @@ def amiens():
     return ki
 
 
+# ---------------------------------------------------------------- Magyarország: jegy.hu (színház, családi előadások)
+JEGY_KERES = ['verne', '80 nap alatt', 'nemo kapitány', 'húszezer mérföld', 'rejtelmes sziget', 'sztrogof', 'kétévi vakáció',
+              'grant kapitány', 'utazás a holdba', 'föld középpontja', 'sándor mátyás', 'tizenöt éves kapitány']
+
+
+def jegyhu():
+    ki, latott = [], set()
+    for q in JEGY_KERES:
+        try:
+            h = letolt('https://jegy.hu/search?q=' + urllib.parse.quote_plus(q), 'hu').decode('utf-8', 'replace')
+        except Exception:
+            continue
+        for d in h.split('class="programBox')[1:]:
+            l = re.search(r'href="(https://www\.jegy\.hu/program/[^"]+)"', d)
+            c = re.search(r'<h2[^>]*>(.*?)</h2>', d, re.S)
+            if not l or not c or l.group(1) in latott:
+                continue
+            latott.add(l.group(1))
+            cim = szoveg(re.sub(r'(?s)<span[^>]*>.*?</span>', ' ', c.group(1)))
+            leiras = szoveg(re.search(r'(?s)class="description">(.*?)</div>', d).group(1)) if 'class="description"' in d else ''
+            if not verne_e(cim, leiras[:300]):
+                continue
+            helyek = [szoveg(x).rstrip(', ') for x in re.findall(r'(?s)<a class="place"[^>]*>(.*?)</a>', d)]
+            varos = helyek[0] if helyek else ''
+            hely = helyek[1] if len(helyek) > 1 else ''
+            bem = re.search(r'Bemutató:\s*(\d{4})\.\s*([a-záéíóöőúüű]+)\s*(\d{1,2})\.', leiras)
+            ki.append({'tipus': 'szinhaz', 'orszag': 'hu', 'cim': cim, 'fajta': '', 'mufaj': '', 'hely': hely, 'varos': varos,
+                       'datum': '', 'ido': '', 'idoszak': ('bemutató: ' + bem.group(0).split(':', 1)[1].strip()) if bem else '',
+                       'link': l.group(1)})
+        time.sleep(1)
+    return ki
+
+
+# ---------------------------------------------------------------- BBC rádió (Radio 4 Extra, Radio 4): a heti műsorrend
+BBC_ADOK = [('bbc_radio_four_extra', 'BBC Radio 4 Extra'), ('bbc_radio_fourfm', 'BBC Radio 4'), ('bbc_radio_three', 'BBC Radio 3')]
+
+
+def bbc_radio():
+    ki, lat = [], 0
+    for azon, nev in BBC_ADOK:
+        for n in range(7):
+            nap = (MOST.date() + dt.timedelta(days=n)).isoformat()
+            try:
+                d = json.loads(letolt(f'https://rms.api.bbc.co.uk/v2/experience/inline/schedules/{azon}/{nap}', 'en'))
+            except Exception:
+                continue
+            def jar(o):
+                if isinstance(o, dict):
+                    if 'titles' in o and 'start' in o:
+                        yield o
+                    for v in o.values():
+                        yield from jar(v)
+                elif isinstance(o, list):
+                    for v in o:
+                        yield from jar(v)
+            for e in jar(d):
+                lat += 1
+                t = e.get('titles') or {}
+                cim, alcim = (t.get('primary') or '').strip(), (t.get('secondary') or '').strip()
+                syn = ((e.get('synopses') or {}).get('short') or '')
+                if not verne_e(cim, alcim, syn):
+                    continue
+                try:
+                    kezd = dt.datetime.fromisoformat(e['start'].replace('Z', '+00:00'))
+                    veg = dt.datetime.fromisoformat(e['end'].replace('Z', '+00:00')) if e.get('end') else kezd + dt.timedelta(minutes=30)
+                except (KeyError, ValueError):
+                    continue
+                if veg < MOST:
+                    continue
+                ki.append({'tipus': 'radio', 'orszag': 'uk', 'csatorna': nev, 'cim': cim, 'alcim': alcim, 'ev': None,
+                           'kezd': kezd.isoformat(), 'perc': max(1, round((veg - kezd).total_seconds() / 60))})
+            time.sleep(0.3)
+    ATNEZVE['bbc'] = lat
+    return ki
+
+
+# ---------------------------------------------------------------- ARTE: online nézhető Verne-filmek és -dokumentumfilmek
+def arte():
+    ki, latott = [], set()
+    for q in ['jules verne', 'vingt mille lieues', 'tour du monde en 80 jours', 'capitaine nemo', 'voyage au centre de la terre']:
+        try:
+            h = letolt('https://www.arte.tv/fr/search/?q=' + urllib.parse.quote(q), 'fr').decode('utf-8', 'replace')
+        except Exception:
+            continue
+        h = h.replace('\\"', '"').replace('\\u0026', '&')
+        for blokk in h.split('{"deeplink":"arte://program/')[1:]:
+            pid = blokk.split('"', 1)[0]
+            def mezo(n):
+                m = re.search(r'"' + n + r'":"((?:[^"\\]|\\.)*)"', blokk)
+                return html.unescape(m.group(1)) if m else ''
+            if pid in latott:
+                continue
+            cim, alcim, leiras = mezo('title'), mezo('subtitle'), mezo('shortDescription')
+            veg = re.search(r'"availability":\{"end":"([^"]+)"', blokk)
+            url = mezo('url')
+            if not cim or not url or not veg or not verne_e(cim, alcim, leiras[:300]):
+                continue
+            latott.add(pid)
+            try:
+                ig = dt.datetime.fromisoformat(veg.group(1)).date()
+            except ValueError:
+                continue
+            if ig < MOST.date():
+                continue
+            fajta = mezo('itemLabel') or mezo('label')
+            ki.append({'tipus': 'egyeb', 'orszag': 'fr', 'cim': cim + (' – ' + alcim if alcim and egyszerusit(alcim) != egyszerusit(cim) and len(alcim) < 80 else ''),
+                       'fajta': 'arte.tv · ' + (fajta.lower() if fajta else 'online'), 'mufaj': '', 'hely': 'arte.tv', 'varos': '',
+                       'datum': '', 'ido': '', 'ig': ig.isoformat(), 'idoszak': f'online – {ig:%d.%m.%Y}', 'link': 'https://www.arte.tv' + url})
+        time.sleep(1)
+    return ki
+
+
 # ---------------------------------------------------------------- Anglia: ATG (színház)
 ATG_KERES = ['verne', 'around the world in 80 days', '20,000 leagues', 'journey to the centre of the earth',
              'captain nemo', 'mysterious island', 'phileas fogg', 'from the earth to the moon', 'trip to the moon', 'offenbach']
@@ -855,6 +967,9 @@ def main():
     sz, mo = fut('port.hu', port_hu)
     eredmeny['szinhaz'] += sz
     eredmeny['mozi'] += mo
+    eredmeny['szinhaz'] += fut('jegy.hu', jegyhu)
+    eredmeny['radio'] += fut('BBC rádió', bbc_radio)
+    eredmeny['egyeb'] += fut('arte.tv', arte)
     for nev, f in [('Párizs (opendata.paris.fr)', paris), ('Nantes (data.nantesmetropole.fr)', nantes), ('Amiens (amiens.fr)', amiens)]:
         for m in fut(nev, f):
             eredmeny[m['tipus']].append(m)
