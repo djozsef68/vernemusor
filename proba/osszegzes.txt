@@ -1,3 +1,89 @@
-== ARTE: 2 (átnézve: None)
-   {"tipus": "egyeb", "orszag": "fr", "cim": "Le cap Horn, un des bouts du monde de Jules Verne", "fajta": "arte.tv · documentaire", "mufaj": "", "hely": "arte.tv", "varos": "", "datum": "", "ido": "", "ig": "2026-12-19", "idoszak": "online – 19.12.2026", "link": "https://www.arte.tv/fr/videos/123717-000-A/le-cap-horn-un-des-bouts-
-   {"tipus": "egyeb", "orszag": "fr", "cim": "Cherchez la femme ! – Ida Pfeiffer - Les grands récits d'aventure du XIXe siècle", "fajta": "arte.tv · documentaire", "mufaj": "", "hely": "arte.tv", "varos": "", "datum": "", "ido": "", "ig": "2027-12-04", "idoszak": "online – 04.12.2027", "link": "https://www.arte.tv/fr/videos/090626-
+ARTE-próba – 29 találat, ebből Verne-gyanús: 5
+
+V [de] 090626-013-A | Geniale Frauen | Ida Pfeiffer | 3 perc | 2022-12-05 → 2027-12-04 | https://www.arte.tv/de/videos/dokumentationen-und-reportagen/
+    Jules Verne ließ sich von den großen Wissenschaftlern und Entdeckern des 19. Jahrhunderts zu seinen Abenteuerromanen inspirieren. Diese weisen allerdings verblüffende Ähnlichkeit mit den Schriften von Ida Pfeiffer (1797-1858) auf. Die österreichische Reiseschriftstellerin umrundete zweimal die Welt 
+    (keresés: jules verne)
+V [fr] 090626-013-A | Cherchez la femme ! | Ida Pfeiffer - Les grands récits d'aventure du XIXe siècle | 3 perc | 2022-12-05 → 2027-12-04 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    Jules Verne s’est inspiré des grands scientifiques et explorateurs du XIXe siècle pour écrire ses épopées extraordinaires. Mais celles-ci ne présenteraient-elles pas de troublantes similitudes avec les récits d’Ida Pfeiffer (1797-1858) ? À 45 ans, cette aventurière autrichienne a réalisé deux tours 
+    (keresés: jules verne)
+V [es] 101938-006-A | 42: la respuesta a casi todo | ¿Salvará la geoingeniería el clima? | 30 perc | 2025-05-09 → 2028-06-07 | https://www.arte.tv/es/videos/politica-y-sociedad/
+    Para hacer frente al cambio climático, se estudia la posibilidad de enfriar la Tierra o recuperar CO2. No es ciencia ficción, como cuando Julio Verne se aventuró en su novela \\
+    (keresés: julio verne)
+V [de] 123717-000-A | Kap Hoorn: Eines von Jules Vernes Weltenden | Stadt, Land, Kunst - 20/12/2024 | 14 perc | 2024-12-20 → 2026-12-19 | https://www.arte.tv/de/videos/dokumentationen-und-reportagen/
+    Das Kap Hoorn nimmt eine zentrale Stellung im Werk von Jules Verne (1828-1905) ein. Die unberührte Region, die lange Zeit die Fantasie der Europäer anregte, kommt in sieben Romanen des Schriftstellers vor. Verne diente dieses Ende der Welt, das verheerende Kolonisationsversuche erlitt, als Schauplat
+    (keresés: jules verne)
+V [fr] 123717-000-A | Le cap Horn, un des bouts du monde de Jules Verne | Invitation au voyage - 20/12/2024 | 14 perc | 2024-12-20 → 2026-12-19 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    Le cap Horn est une clé de l’œuvre de Jules Verne. Présent dans pas moins de sept de ses romans, il est l’une des dernières terres inconnues des Européens à nourrir les imaginaires. Sur ce bout du monde, qui vit de désastreuses tentatives de colonisation, Jules Verne interroge les limites de l’homme
+    (keresés: jules verne)
+- [de] 054766-002-A | Der Traum von der Neuen Welt (2/4) | Die Rekorde | 2 perc | 2026-10-23 → 2026-10-30 | https://www.arte.tv/de/videos/dokumentationen-und-reportagen/
+    In den vergangenen tausend Jahren haben Menschen den Atlantik immer wieder überquert. Zwischen 1840 und 1939 träumen viele von der Neuen Welt, es ist ein Zeitalter der Rekorde. Die Mobilität und die Kommunikation verändern sich so rapide, dass die Erde zusammenrückt wie noch nie zuvor. Der Traum vom
+    (keresés: jules verne, reise zum mittelpunkt der erde)
+- [de] 080150-004-A | Die Legenden von Paris (4/4) | Zeiten der Veränderung | 48 perc | 2026-08-15 → 2027-09-21 | https://www.arte.tv/de/videos/dokumentationen-und-reportagen/
+    Auf Guernsey vollendet Victor Hugo \\
+    (keresés: jules verne)
+- [fr] 080150-004-A | L'armée des romantiques (4/4) | L'ère de l'émancipation (1855-1874) | 48 perc | 2026-08-15 → 2027-09-21 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    Exilé à Guernesey à partir d'octobre 1855, Hugo achève \\
+    (keresés: jules verne)
+- [it] 080150-004-A | L'Esercito dei Romantici (4/4) | Il tempo dell'emancipazione (1855-1874) | 48 perc | 2026-10-14 → 2027-09-21 | https://www.arte.tv/it/videos/politica-e-societa/
+    Con il XIX° secolo europeo in piena trasformazione, grazie al calore delle rivoluzioni, a Parigi i giovani artisti sognano di fare i conti con il vecchio mondo... Questa serie animata in quattro episodi esplora il movimento dei Romantici in un affascinante incrocio di opere e destini.
+    (keresés: jules verne)
+- [fr] 086254-000-A | La formation de la Terre et de la Lune |  | 1 perc | 2024-07-16 → 2034-07-17 | https://www.arte.tv/fr/videos/emissions/
+    Préparez-vous ! ARTE Journal Junior vous emmène à bord d'une fusée pour découvrir la formation de notre terre. Au tout début, il y a 4,5 milliards d'années, il était impossible de vivre sur notre planète.
+    (keresés: de la terre à la lune)
+- [fr] 104778-002-A | Grand Canyon, un voyage au centre de la Terre |  | 92 perc | 2026-04-18 → 2027-06-17 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    Aux côtés d’un couple de géologues passionnés, un fascinant périple le long du fleuve Colorado à la découverte du Grand Canyon, monument naturel encore loin d’avoir livré tous ses secrets. 
+    (keresés: voyage au centre de la terre)
+- [fr] 111749-003-A | ARTE Regards | L’art contre le chalutage, un musée sous-marin | 32 perc | 2023-11-01 → 2028-10-31 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    Sur la côte toscane, le pêcheur Paolo Fanciulli lutte pour la préservation des mers d’une manière bien à lui : il jette d’énormes sculptures en marbre dans la baie de Talamone, détruisant ainsi les filets des chalutiers qui agissent illégalement dans cette zone protégée. Cependant, pour créer et imm
+    (keresés: vingt mille lieues sous les mers)
+- [de] 114224-000-A | Die Welt braucht mehr Zauberer | Mare's Nest | 92 perc | 2026-07-06 → 2027-01-09 | https://www.arte.tv/de/videos/dokumentationen-und-reportagen/
+    Mit \\
+    (keresés: reise zum mittelpunkt der erde)
+- [de] 115017-001-A | Vom Motorwagen zum Boliden - Die Geschichte des Automobils (1/3) | Erfindergeist | 52 perc | 2026-05-12 → 2026-11-18 | https://www.arte.tv/de/videos/dokumentationen-und-reportagen/
+    Innovativ, revolutionär, wegweisend – innerhalb eines Jahrhunderts hat das Auto das Verhältnis des Menschen zu seiner Umwelt grundlegend verändert. Die Dokureihe erzählt die faszinierende Geschichte des Automobils und beleuchtet, was dieses technische Wunderwerk über die Menschheit aussagt, die es g
+    (keresés: jules verne)
+- [fr] 115021-003-A | L'Europe dans l'espace | James Webb – À la recherche d’une nouvelle Terre | 10 perc | 2023-11-16 → 2026-11-15 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    Le télescope spatial James Webb a bouleversé l’observation de l’univers. Images de proto-étoiles, de naissance de galaxies, trous noirs, informations inédites sur les exoplanètes... Les données collectées vont alimenter la recherche en astronomie pour de nombreuses années. Retour sur les découvertes
+    (keresés: de la terre à la lune)
+- [it] 117217-006-A | Tracks East | Quando la Guerra condiziona lo sport | 31 perc | 2024-02-28 → 2028-02-14 | https://www.arte.tv/it/videos/programmi/
+    $24
+    (keresés: giro del mondo in 80 giorni)
+- [fr] 118233-000-A | Terre, les forces du vivant |  | 89 perc | 2026-08-15 → 2027-02-15 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    De la création de la Terre, il y a environ 4,5 milliards d'années, au présent incertain de l'anthropocène, cette odyssée géologique retrace avec de fabuleuses images les interactions méconnues entre le monde minéral et le vivant.  
+    (keresés: de la terre à la lune)
+- [fr] 120083-044-A | Invitation au voyage | Cap-Vert | 45 perc | 2026-08-10 → 2026-10-23 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    Découverte du Cap-Vert à travers quatre sujets : la peinture volcanique de Tchalé Figueira ; l’île de Fogo, un paradis noir ; la recette du ragoût de poisson au lait de coco ; la ville de Cidade Velha, qui marqua à la fin du XVe siècle l’étape d’un tour du monde.
+    (keresés: de la terre à la lune)
+- [de] 121315-000-A | Europas Griff nach den Sternen |  | 90 perc | 2026-08-06 → 2026-11-04 | https://www.arte.tv/de/videos/dokumentationen-und-reportagen/
+    In den 1960er Jahren versuchte Europa, mit einer eigenen Rakete den Anschluss an die Raumfahrtmächte USA und Sowjetunion zu erreichen. Der Dokumentarfilm erzählt die Geschichte hinter diesem Projekt: Visionen, Rückschläge, historische Belastungen, politische Hoffnungen – von den Anfängen der Raketen
+    (keresés: jules verne)
+- [fr] 123340-000-A | Musk, Bezos et les autres à la conquête de Mars |  | 54 perc | 2026-07-29 → 2027-01-25 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    Comment, sous couvert de \\
+    (keresés: de la terre à la lune)
+- [fr] 123896-000-A | À l'origine de la vie : les impacts d'astéroïdes |  | 52 perc | 2026-04-25 → 2027-01-02 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    Quel rôle ont pu jouer les collisions d’astéroïdes dans l’apparition du vivant ? Dans les pas de chercheurs sur plusieurs continents, cette enquête scientifique rebat les cartes de nos connaissances sur l’origine de la vie.
+    (keresés: de la terre à la lune)
+- [fr] 124394-000-A | Des policiers à la fac |  | 55 perc | 2026-09-17 → 2027-04-23 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    À Amiens, un groupe de gardiens de la paix suit un cursus de sociologie pour apprendre à penser leur métier différemment. Filmé à leurs côtés, en immersion à l'université, un documentaire aussi étonnant qu’instructif.\\n\\n 
+    (keresés: jules verne)
+- [fr] 125674-000-A | Éclipse totale au-dessus de l’Europe |  | 52 perc | 2026-07-25 → 2027-01-30 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    Le 12 août 2026, une partie des Européens pourront observer une éclipse totale de Soleil. Un événement aussi rare que spectaculaire, qui donne l’occasion de revoir ses fondamentaux, et de faire le point sur l’état de la recherche en astronomie.
+    (keresés: de la terre à la lune)
+- [fr] 126210-003-A | Cuisines des terroirs | Le lac Attersee, Autriche | 30 perc | 2026-09-26 → 2026-10-27 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    Sur les bords du lac Attersee, en Haute-Autriche, la saison des quetsches bat son plein. Gérante de gîte, Gina Brandlmayr a dû faire appel à des saisonniers venus de Salzbourg et de Vienne pour la récolte et la transformation de ces fruits bleu foncé à la saveur douce et acidulée.
+    (keresés: de la terre à la lune)
+- [de] 127781-000-A | Ukraine : Wargame | Einfach anmelden und exklusiv unseren virtuellen Assistenten nutzen! | 36 perc | 2025-10-17 → 2028-09-26 | https://www.arte.tv/de/videos/dokumentationen-und-reportagen/
+    In den letzten Monaten hat sich die Art der Kampfhandlungen zwischen Ukrainern und Russen radikal verändert. Panzerschlachten und Infanteriegefechte gehören der Vergangenheit an.  Die Artillerie spielt keine zentrale Rolle mehr in diesem Krieg. Sie wurde an die hintere Front verlegt, um der neuen Be
+    (keresés: in 80 tagen um die welt)
+- [fr] 128015-000-A | La vie cachée des requins | Dans le sanctuaire des îles Galápagos | 43 perc | 2026-08-04 → 2027-01-31 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    Les requins tant redoutés sont essentiels pour la biodiversité marine. Comment vivent-ils ? Où se réfugient-ils lorsqu’ils se sentent menacés ? Quel danger réel présentent-ils pour les humains ? Dans le sanctuaire des îles Galápagos, des scientifiques tentent d’en savoir plus sur ces mystérieuses cr
+    (keresés: l'île mystérieuse)
+- [fr] 128813-000-A | Le trésor de la basilique Saint-François d’Assise | Laissez-vous guider par notre assistant | 52 perc | 2026-10-03 → 2027-01-02 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    Au travers des fresques de la basilique d'Assise, partiellement détruites par un séisme en 1997 et restaurées après trente ans de travail, un éblouissant voyage dans la vie du saint et dans l'art de son temps.
+    (keresés: voyage au centre de la terre)
+- [fr] 129054-117-A | Invitation au voyage | Le Glasgow de Depardon / Philippines / Canada | 45 perc | 2026-10-20 → 2026-11-26 | https://www.arte.tv/fr/videos/documentaires-et-reportages/
+    Linda Lorin nous emmène à la découverte de notre patrimoine artistique, culturel et naturel. Le Glasgow sans fard de Depardon - Aux Philippines, Siquijor, île ensorcelante - Au Pays basque, les cœurs de canards de Christophe - Au Canada, il est grand, poilu et introuvable.
+    (keresés: l'île mystérieuse)
+- [fr] 130489-020-A | So La Lune | ARTE Dans le Club | 39 perc | 2026-10-19 → 2028-09-21 | https://www.arte.tv/fr/videos/130489-020-A/so-la-lune/
+    Avec So La Lune, ARTE Dans le Club met les voiles ! En prenant la Gaîté Lyrique comme port d’attache, le rappeur nous embarque dans l’univers d’Offshore, album paru au printemps 2026.
+    (keresés: de la terre à la lune)
