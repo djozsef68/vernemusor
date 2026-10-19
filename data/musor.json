@@ -1,5 +1,5 @@
 {
- "frissitve": "2026-10-19T04:51:41+00:00",
+ "frissitve": "2026-10-19T05:00:04+00:00",
  "tv": [
   {
    "orszag": "es",
@@ -81,6 +81,15 @@
    "ev": 2008,
    "kezd": "2026-10-19T14:41:00+00:00",
    "perc": 91
+  },
+  {
+   "orszag": "dk",
+   "csatorna": "V film family",
+   "cim": "Jorden rundt på 80 dage",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-19T19:00:00+00:00",
+   "perc": 120
   },
   {
    "orszag": "it",
@@ -243,6 +252,15 @@
    "ev": null,
    "kezd": "2026-10-20T21:47:00+00:00",
    "perc": 127
+  },
+  {
+   "orszag": "dk",
+   "csatorna": "V film family",
+   "cim": "Jorden rundt på 80 dage",
+   "alcim": "",
+   "ev": null,
+   "kezd": "2026-10-20T23:00:00+00:00",
+   "perc": 120
   },
   {
    "orszag": "fr",
@@ -686,6 +704,36 @@
   }
  ],
  "forrasok": {
+  "epgshare01 SE1": {
+   "ok": true,
+   "db": 2,
+   "mp": 1,
+   "atnezve": 13865
+  },
+  "epgshare01 NO1": {
+   "ok": true,
+   "db": 4,
+   "mp": 1,
+   "atnezve": 14172
+  },
+  "epgshare01 DK1": {
+   "ok": true,
+   "db": 2,
+   "mp": 1,
+   "atnezve": 13514
+  },
+  "epgshare01 FI1": {
+   "ok": true,
+   "db": 2,
+   "mp": 1,
+   "atnezve": 10449
+  },
+  "epgshare01 NL1": {
+   "ok": true,
+   "db": 0,
+   "mp": 1,
+   "atnezve": 23311
+  },
   "epgshare01 MX1": {
    "ok": true,
    "db": 3,
@@ -766,7 +814,7 @@
   "epgshare01 AU1": {
    "ok": true,
    "db": 1,
-   "mp": 4,
+   "mp": 3,
    "atnezve": 57885
   },
   "epgshare01 NZ1": {
@@ -847,7 +895,7 @@
   "epgshare01 HU1": {
    "ok": true,
    "db": 1,
-   "mp": 2,
+   "mp": 1,
    "radio": {
     "MR1-Kossuth": 288,
     "MR2-Petőfi": 49,
@@ -860,7 +908,7 @@
   "epgshare01 FR1": {
    "ok": true,
    "db": 7,
-   "mp": 4,
+   "mp": 3,
    "atnezve": 64594
   },
   "epgshare01 UK1": {
@@ -921,7 +969,7 @@
   "epgshare01 ES1": {
    "ok": true,
    "db": 5,
-   "mp": 3,
+   "mp": 2,
    "atnezve": 34362
   },
   "epgshare01 PT1": {
@@ -933,7 +981,7 @@
   "epgshare01 PL1": {
    "ok": true,
    "db": 8,
-   "mp": 7,
+   "mp": 6,
    "radio": {
     "Radio Nowy Świat": 50,
     "Polskie Radio Program 1": 217,
@@ -947,7 +995,7 @@
   "epgshare01 CH1": {
    "ok": true,
    "db": 0,
-   "mp": 5,
+   "mp": 4,
    "radio": {
     "Radio Ticino Channel": 60,
     "Radio Pilatus TV": 18,
@@ -977,7 +1025,7 @@
   "epgshare01 US2": {
    "ok": true,
    "db": 0,
-   "mp": 6,
+   "mp": 5,
    "radio": {
     "3ABN Radio Network": 168,
     "Rai Radio 1": 207,
@@ -989,7 +1037,7 @@
   "iptvx.one RU": {
    "ok": true,
    "db": 1,
-   "mp": 35,
+   "mp": 31,
    "radio": {
     "Дорожное радио": 189,
     "NO EPG Radio (заглушка)": 6,
@@ -1016,13 +1064,13 @@
   "France Culture": {
    "ok": true,
    "db": 0,
-   "mp": 9,
+   "mp": 8,
    "atnezve": 223
   },
   "France Inter": {
    "ok": true,
    "db": 0,
-   "mp": 9,
+   "mp": 8,
    "atnezve": 184
   },
   "Deutschlandfunk Kultur": {
@@ -1040,13 +1088,13 @@
   "Ö1": {
    "ok": true,
    "db": 0,
-   "mp": 19,
+   "mp": 16,
    "atnezve": 341
   },
   "port.hu események": {
    "ok": true,
    "db": 0,
-   "mp": 14
+   "mp": 13
   },
   "unidivers.fr": {
    "ok": true,
@@ -1056,12 +1104,12 @@
   "port.hu tévé": {
    "ok": true,
    "db": 8,
-   "mp": 2
+   "mp": 1
   },
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 87
+   "mp": 89
   },
   "Párizs (opendata.paris.fr)": {
    "ok": true,
@@ -1077,13 +1125,13 @@
   "Amiens (amiens.fr)": {
    "ok": true,
    "db": 1,
-   "mp": 92,
+   "mp": 89,
    "atnezve": 508
   },
   "atgtickets.com": {
    "ok": true,
    "db": 0,
-   "mp": 16
+   "mp": 15
   },
   "offi.fr": {
    "ok": true,
@@ -1093,7 +1141,7 @@
   "allocine.fr": {
    "ok": true,
    "db": 0,
-   "mp": 17
+   "mp": 15
   },
   "comingsoon.it": {
    "ok": true,
@@ -1103,25 +1151,25 @@
   "sensacine.com": {
    "ok": true,
    "db": 0,
-   "mp": 12,
-   "atnezve": 131
+   "mp": 13,
+   "atnezve": 143
   },
   "picturehouses.com": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 3,
    "atnezve": 439
   },
   "filmweb.pl": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 3,
    "atnezve": 133
   },
   "film.at": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 1,
    "atnezve": 13
   },
   "rottentomatoes.com": {
@@ -1133,7 +1181,7 @@
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 33,
+   "mp": 35,
    "proba": 10000,
    "atnezve": 53
   }
