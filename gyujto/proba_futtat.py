@@ -1,20 +1,20 @@
-import re, html, os, json, urllib.request, concurrent.futures as cf
-UA = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36', 'Accept-Language': 'en,fr,es,pt,de'}
+# Forráspróba: magyar Wikipédia nyers wikiszöveg (action=raw), átirányítást egyszer követve; teljes szöveg mentése.
+import json, os, re, urllib.request, urllib.parse
+UA = {'User-Agent': 'Nautilus-forraspróba/1.0 (nautilus.djp.hu; kapcsolat a weboldalon)'}
 U = json.load(open('gyujto/proba_urls.json'))
-KW = r'(?i)átdolg|fordít|kiadó|kiadás|oldal|Nemo kapit|Húszezer|20 ?000|leagues|lieues|leguas|léguas|meilen|nemo|nautilus|verne|海底|해저|premi|création|estreno|estreia|20\.?000|20 000|season|saison|temporada|dates?|date|year|\b(19|20)\d\d\b'
-def one(k, u):
+os.makedirs('proba', exist_ok=True)
+ossz = []
+def raw(cim):
+    u = 'https://hu.wikipedia.org/w/index.php?title=' + urllib.parse.quote(cim.replace(' ', '_')) + '&action=raw'
+    return urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=45).read().decode('utf-8', 'replace')
+for k, cim in U.items():
     try:
-        b = urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=45).read()
-        if u.endswith('.pdf'):
-            open('/tmp/x.pdf','wb').write(b); os.system('pdftotext /tmp/x.pdf /tmp/x.txt 2>/dev/null'); t=open('/tmp/x.txt',errors='replace').read()
-        else:
-            h = re.sub(r'(?is)<(script|style|nav|footer|header).*?</\1>', ' ', b.decode('utf-8','replace'))
-            t = html.unescape(re.sub(r'<[^>]+>', '\n', h))
-        sor = [s.strip() for s in t.splitlines() if s.strip()]
-        keep = [s for s in sor if re.search(KW, s) and len(s) < 600]
-        return f'===== {k} | {u}\n' + '\n'.join(keep[:60])[:3500]
+        t = raw(cim)
+        m = re.match(r'#(?:ÁTIRÁNYÍTÁS|REDIRECT)\s*\[\[([^\]]+)\]\]', t, re.I)
+        if m:
+            t = raw(m.group(1))
+        open(f'proba/{k}.txt', 'w').write(t)
+        ossz.append(f'{k} | {cim} | {len(t)} karakter')
     except Exception as e:
-        return f'===== {k} | {u}\nHIBA {e}'
-with cf.ThreadPoolExecutor(8) as ex:
-    res = list(ex.map(lambda kv: one(*kv), U.items()))
-os.makedirs('proba', exist_ok=True); open('proba/osszegzes.txt','w').write('\n\n'.join(res)+'\n')
+        ossz.append(f'{k} | {cim} | HIBA {e}')
+open('proba/osszegzes.txt', 'w').write('\n'.join(ossz) + '\n')
