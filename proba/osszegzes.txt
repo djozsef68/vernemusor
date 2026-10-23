@@ -1,5 +1,0 @@
-antik_fo | https://www.antikvarium.hu/ | 162172
-antik_k1 | https://www.antikvarium.hu/kereses?kulcsszo=verne+utaz%C3%A1s+a+tenger+alatt | HIBA HTTP Error 404: Not Found
-antik_k2 | https://www.antikvarium.hu/index.php?type=search&ksz=verne+utaz%C3%A1s+a+tenger+alatt | 214169
-moly_k | https://moly.hu/kereses?query=verne+utaz%C3%A1s+a+tenger+alatt | HIBA HTTP Error 403: Forbidden
-mokka | https://mokka.hu/web/guest/kereses?query=verne+utaz%C3%A1s+a+tenger+alatt | HIBA HTTP Error 404: Not Found
