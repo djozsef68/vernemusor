@@ -1,0 +1,4 @@
+reszlet | https://www.antikvarium.hu/konyv/verne-gyula-utazas-a-tenger-alatt-921599-0 | 121491
+reszlet2 | https://www.antikvarium.hu/konyv/verne-gyula-utazas-a-tenger-alatt-969232-0 | 124795
+lap2 | https://www.antikvarium.hu/index.php?type=search&ksz=verne+gyula&oldalcount=2 | 316406
+lap1 | https://www.antikvarium.hu/index.php?type=search&ksz=verne+gyula | 312606
