@@ -34,3 +34,4 @@ with open('proba/nevadok.jsonl', 'w') as f:
     r = get('https://nominatim.openstreetmap.org/search?format=json&limit=50&countrycodes=hu&street=' + urllib.parse.quote('Verne Gyula utca'))
     f.write(json.dumps({'id': 'OSM-HU-VERNE-UTCA', 'osm': r}, ensure_ascii=False) + '\n')
 open('proba/osszegzes.txt', 'w').write('kész: %d jelölt\n' % len(C))
+# ujrainditas 1792758109
