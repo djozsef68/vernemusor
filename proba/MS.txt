@@ -1,0 +1,515 @@
+{{egyért2|a regényről és főhőséről|Sándor Mátyás (egyértelműsítő lap)}}
+{{Könyv infobox 
+| név           = Sándor Mátyás
+| alcím         =
+| eredeti cím   = Mathias Sandorf
+| kép           = 'Mathias Sandorf' by Léon Benett 001.jpg
+| képméret = 220px
+| képaláírás   = Az eredeti kiadás borítója, [[Léon Benett]] illusztrációja.
+| szerző        = [[Jules Verne]]<br>[[Fájl:Jules Verne 05.jpg|75px]]
+| ország        = {{Franciaország}}
+| nyelv         = [[Francia nyelv|francia]]
+| téma          = 
+| műfaj         = kaland[[regény]]
+| sorozat       = [[Különleges utazások]]
+| előző         = [[A lángban álló szigettenger]]
+| következő     = [[Egy sorsjegy története]]
+| kapcsolódó film = ''[[Sándor Mátyás (televíziós sorozat)|Sándor Mátyás]]'' (1979)
+| kiadó         = [[Pierre-Jules Hetzel]]
+| kiadás dátuma = [[1885]]
+| magyar kiadó  = [[Franklin Irodalmi és Nyomdai Rt.|Franklin Rt.]]
+| magyar kiadás dátuma = [[1887]]
+| fordító       = [[Huszár Imre (újságíró)]]
+| illusztrátor  = [[Léon Benett]]
+| borítógrafika = [[Léon Benett]]
+| médiatípus    = [[könyv]]
+| oldalak       = 
+| isbn          = 963112391X
+| mek           = 03200/03220
+}}
+
+A '''''Sándor Mátyás''''' [[Jules Verne]] [[1885]]-ben megjelent kaland[[regény]]e, a négy magyar vonatkozású Verne-könyv közül ez a regény kapcsolódik leginkább a magyar történelemhez, de cselekményének jelentős része nem érinti [[Magyarország]]ot.
+
+A regény először a Le Temps-ben jelent meg 1885. június 16. és szeptember 20. között. Könyvként az első kötet 1885. július 27-én, a második kötet 1885. augusztus 17-én, a harmadik kötet pedig 1885. október 26-án jelent meg. A teljes regény egyetlen kötetben, illusztrációkkal 1885. november 19-én jelent meg. A könyvek kiadója [[Pierre-Jules Hetzel]] volt, a regény a [[Különleges utazások]] sorozat része. A könyv illusztrációit [[Léon Benett]] rajzolta.
+
+A regény alapján nagy sikerű színházi előadások születtek már Verne életében. Itthon a mai napig léteznek színpadi Sándor Mátyás-feldolgozások.<ref>{{cite web |title=Sándor Mátyás - új magyar musical |url=https://fidelio.hu/zenes-szinhaz/sandor-matyas-uj-magyar-musical--157288.html |publisher=Fidelio.hu |accessdate=2020-12-01}}</ref>
+
+== A regény keletkezése ==
+Jules Verne 1883 őszén kezdte kidolgozni a regény tervét. A kiadónak írt levelében a szerző bejelentette, hogy az új regény ''„olyan lesz, mint a [[Monte Cristo grófja (regény)|Monte Cristo grófja]], de eltúlzott szerelmi szenvedélyek nélkül”''.
+
+A regényt 1884 nyarán írta, amikor családjával a ''Saint-Michel III.'' jachtján kirándulást tett leendő regénye helyszínein, bejárva a [[Földközi-tenger]]t [[Tanger]]től [[Málta|Máltáig]]. ''„Vitorláztam örömömre, de mindig szem előtt tartva, hogy információkat szerezzek a könyveimhez. Ez folyamatos feladat volt, és minden regényem nyert az utakból. … A ''„Sándor Mátyás”'' ötlete a fiamról, Michelről elnevezett St. Michel jachtommal tett, Tangertől Máltáig tartó hajózáson született, az útra elkísért a fiam, az anyja és testvérem, Paul.''<ref>{{cite journal |author=R. H. Sherard |title=Jules Verne otthon |journal=McClure |date=1894. január}} Saját összegzése életéről és munkájáról - alcímmel.</ref> … ''„Kívánom olvasóimnak, hogy mindent megtanuljanak a Földközi-tengerről'' – írta Verne Hetzelnek –, ''ezért az történet húsz különböző helyre viszi el őket”''.<ref>{{cite book |author=Vierne, Simone |title=Jules Vern |location=[[Párizs]] |publisher=Balland |isbn=2715805675 |language=francia}}</ref> A regényben több jelenet is van, amely az utazás során esett meg Vernéékkel, ilyen a Máltánál történt vihar, [[Catania]] és az [[Etna]] meglátogatása. Antekirtt jachtját, a ''Savarenát'' a ''Saint-Michel III.''-ról mintázta Verne.
+
+Az írásra készülve újraolvasta [[Stendhal]]tól [[A pármai kolostor (regény)|A pármai kolostor]]t és [[Róma|Rómát]], [[Nápoly]]t és [[Firenze|Firenzét]] is bemutató útirajzát. Az első rész meghatározó helyszínéről, [[Pazin|Pisino]] várától és a vár alatti víznyelőről Charles Yriarte: ''Az Adria kikötői'' műve hívhatta fel figyelmét. ''A fiatal gróf Esdorff, akit Pazin prefektúrájához vagy kapitányságához kötnek, egy kis csónakkal megpróbált behatolni a barlangba, hogy lássa, meddig követheti a Foiba útját; de apránként a falak bezáródása és a boltozat leereszkedése arra kényszerítette, hogy kinyújtózkodjon a csónakban, anélkül, hogy bármilyen mozdulatot képes volna végrehajtani, ezért vissza kellett fordulnia. Azt mondják, hogy a szakadék nyílásába dobott borostyángyöngyöket találtak a Lim csatornában, Vrsar és [[Rovinj]] között. Amikor mi is beléptünk a barlangba, nehezen kapaszkodva a sziklák szakadékaiba, a Foiba vize nagyon alacsony volt, így hosszú utat tehettünk előre; de a túl agyagos talaj nem engedte, hogy a kísérletet egyedül, segédeszközök nélkül folytassuk tovább.''<ref>{{cite book |author=Yriarte, Charles |title=Les bords de l'Adriatique et le Monténégro. Venise, l'Istrie, le Quarnero, la Dalmatie, le Monténégro et la rive italienne |date=1878 |location=[[Párizs]] |url=http://catalogue.bnf.fr/ark:/12148/cb316769169 |accessdate=2020-11-25 |language=francia}}</ref>
+
+Jules Verne levelet írt Pazin kortárs polgármesterének, Giuseppe Cechnek, amelyben részletesebb tényeket kért a várról. Cech válaszához fényképeket csatolt a szurdokról, a régi várról és a város régi részeiről. A könyv illusztrátora, [[Leon Benett]] ezeket felhasználva készítette el rajzait. Verne a ''Sándor Mátyás'' első kiadásából dedikált példányt küldött Cechnek: ''„Au Podestat de Pisino – Hommage de l'auteur – Jules Verne – Párizs, 1885. november 22.”''<ref>{{cite book |author=Fresini Nerina |title=La Foiba di Pisino |date=1972 |location=[[Trieszt]] |publisher=Libro Co. Italia s.r.l. |coauthors=Carlo D'Ambrosi előszavával |language=olasz}}</ref>
+
+1884. július 18-án a adta át a regény első kötetét a kiadónak, és év végére elkészült a második és a harmadik kötetet is. Hetzel arra kérte a Vernét, hogy kissé változtassa meg a főszereplő motivációját, inkább az igazságosság harcosa legyen, mint bosszúálló, kérése meghallgatásra talált. 1885. március 2-ára elkészült a regény. Jules Verne a művet [[Alexandre Dumas (író, 1802–1870)|idősebb Dumas]]-nak, akit személyesen is ismert és fiának, [[Alexandre Dumas (író, 1824–1895)|ifjabb Dumas]]-nak, aki a barátja és mentora volt, ajánlotta. Ez volt az első alkalom, hogy Verne művét valakinek ajánlotta. Barátját, Dumas-t annyira meghatotta az elkötelezettségben megnyilvánuló szeretet, hogy levelet írt Vernének: ''„Olyan régóta szeretlek, hogy a testvérednek érzem magam”'', és elismerte, hogy az irodalomban inkább Verne Dumas fia, mint ő maga.
+
+{{Idézet|Alexandre Dumas-nak
+
+Ezt a könyvet neked ajánlom, ahogy zseniális mesemondó apád, Alexandre Dumas emlékének is. Ebben a könyvben megkíséreltem Sándor Mátyást a [[Különleges utazások]] Monte Cristójává tenni. Kérem, fogadja el az elhivatottságot mély barátságom bizonyítékaként.<ref>Je vous dédie ce livre en le dédiant aussi à la mémoire du conteur de génie que fut Alexandre Dumas, votre père. Dans cet ouvrage, j’ai essayé de faire de Mathias Sandorf le Monte-Cristo des VOYAGES EXTRAORDINAIRES. Je vous prie d’en accepter la dédicace comme un témoignage de ma profonde amitié.</ref>
+
+Verne Gyula<ref name=quebec>{{cite web |author=Jules Verne |title=Mathias Sandorf |url=https://beq.ebooksgratuits.com/vents/Verne-Sandorf.pdf |publisher=La Bibliothèque électronique du Québec |accessdate=2020-11-28 |language=francia}}</ref>}}
+
+Dumas válasza:
+
+{{Idézet|1885. június 23.
+
+Kedves barátom,
+
+Nagyon megható és jó az a tudat, hogy a Sándor Mátyást nekem ajánlod, és amelyet visszatérésem után, pénteken vagy szombaton kezdek el olvasni. Igazad van abban elkötelezettségében, amellyel az apa emlékét összekapcsolod a fiú barátságával. Senki sem lett volna jobban elbűvölve, mint a Monte Cristo szerzője, ha elolvasta fényes, eredeti, emlékezetes fantáziáid. Olyan nyilvánvaló irodalmi viszony van közted és közte, hogy szó szerint inkább a fia vagy, mint én. Olyan régóta szeretlek, hogy nekem nagyon megfelel a testvérednek lenni.
+
+Köszönöm kitartó szeretetét, és még egyszer nagy szeretetről biztosítom.<ref>Cher ami,
+Je suis très touché de la bonne pensée que vous avez eue de me dédier Mathias Sandorf, dont je vais commencer la lecture dès mon retour, vendredi ou samedi. Vous avez eu raison, dans votre dédicace, d’associer la mémoire du père à l’amitié du fils. Personne n’eût été plus charmé que l’auteur de Monte-Cristo, par la lecture de vos fantaisies lumineuses, originales, entraînantes. Il y a entre vous et lui une parenté littéraire si évidente que, littérairement parlant, vous êtes plus son fils que moi. Je vous aime depuis si longtemps, qu’il me va très bien d’être votre frère.
+Je vous remercie de votre persévérante affection, et je vous assure une fois de plus et bien chaudement de la mienne.</ref>
+
+A. Dumas.<ref name=quebec />}}
+
+== Története ==
+Sándor Mátyás erdélyi gróf és társai, Szathmár László gróf és Báthory István összeesküvést terveznek az osztrák császári hatalom ellen, de Torontál Simon bankár, valamint Sárkány és Zirone leleplezik őket. A halálos ítélet elől csak Sándor Mátyás tud megszökni…
+
+{{cselekmény}}
+;Első rész
+Az első rész történetét Antekirtt doktor mondja el a második részben.<ref name=sm204>Második rész. IV. fejezet</ref>
+:…három magyar nemes egy összeesküvést szervezett, melynek az volt a célja, hogy visszaadja Magyarországnak régi függetlenségét. Ez a három férfi, Sándor Mátyás gróf, Báthory István tanár és Szathmár László gróf jó barát volt, ugyanaz a remény éltette őket régóta, a három ember szíve ugyanazért a célért dobogott.
+:1867. június nyolcadikán akarták megadni a jelt arra a felkelésre, amely kiterjedt volna egész Magyarországra és Erdélyre; előző este Szathmár gróf trieszti házát, ahol az összeesküvés vezetői tartózkodtak, megszállta az osztrák rendőrség. Sándor grófot és két társát elfogták, s még aznap éjszaka a pisinói vártoronyba vitték, ott bebörtönözték, és néhány héttel később már halálra is ítélték őket.
+:Az ítélet végrehajtására kitűzött napot megelőző este a foglyok, akiket ekkor már közös cellába zártak, megkísérelték a szökést. Sándor grófnak és Báthory Istvánnak a villámhárító huzalába fogózva sikerült is a menekülés a pisinói vártoronyból, és abban a pillanatban zuhantak a rohanó Foibába, amikor Szathmár Lászlót megragadták a fegyőrök, megakadályozva, hogy kövesse őket.
+:Noha a szökevényeknek vajmi kevés esélyük volt, hogy megmeneküljenek a haláltól, mivel a föld alatti folyó olyan vidékre sodorta őket, amelyet nem ismertek, mégis ki tudtak vergődni a Leme-csatorna kavicsos partjára, aztán elértek Rovigno városába, s ott menedéket találtak Andrea Ferrato halász házában.
+:Ez a bátor halász mindent előkészített, hogy átszállítsa őket az Adria túlsó partjára, amikor személyes bosszútól fűtve, egy Carpena nevű spanyol, aki rájött rejtekhelyükre, feljelentette a szökevényeket a rovignói rendőrségen. Másodszor is megkísérelték a szökést. De Báthory István megsebesült, és nyomban el is fogták a rendőrök. Sándor Mátyást pedig a partig üldözték, golyózáporban a víz alá merült, és az Adria még holttestét sem vetette partra.
+:Másnap Báthory Istvánt és Szathmár Lászlót a pisinói várerődben kivégezték. Andrea Ferrato halászt pedig örökös kényszermunkára ítélték, és a steini fegyenctelepre szállították, mert menedéket adott nekik.
+:Először is az árulók elcsíptek egy postagalambot, nyakán a Sándor grófhoz intézett rejtjeles üzenettel, és másolatot készítettek róla. Másodszor: sikerült Szathmár gróf házában másolatot készíteniük a rostélyról, és ennek segítségével elolvasták az üzenetet. Amikor a levél szövegét megfejtették, az adatokat kiszolgáltatták a trieszti kormányzónak. Sándor gróf elkobzott javainak egy részével fizették meg a feljelentést.
+: A feljelentőknek jutott két negyedrész több mint másfél millió forintot jelentett, amivel tetszésük szerint rendelkeztek.<ref name=sm207>Második rész. VII. fejezet.</ref>
+
+Akik elcsípték: Sárkány és Zirone. Sárkány félalvilági figura, akit korábbi sötét ügyek kötnek Simon Torontál trieszti bankárhoz. Torontál ajánlja be Sárkányt a könyvelőt kereső Sándor grófhoz, így nyílik alkalma Sárkánynak a rostély lemásolására.
+
+;Második rész
+Tizenöt év telt el.
+
+Simon Torontál eladta bankját Triesztben, és [[Dubrovnik|Raguzába]] költözött feleségével és tizenhét éves lányával, Szávával. A város egyik elismert polgára. Sárkány visszatért észak-afrikai szülőföldjére, olyan ütemben költi Sándor gróf és társai feljelentéséért kapott összeget, hogy mostanra alig maradt belőle. Zirone a meggazdagodott Sárkány mellett maradt, amíg az el nem szegényedett, most mindketten Szicíliában próbálják feléleszteni egykori bűnbandájukat. Carpena meg hol ül. ???
+
+Báthory István özvegye szintén Raguzában él szegény körülmények között a hozzá elszegődött Borossal, Szathmár László inasával. Fia, Báthory Péter, végzett mérnök, aki épp állástalan és szerelmes Torontál Szávába. Száva viszontérez, ám Simon Torontál teljesen elutasítja Báthory Pétert. A menekülőket anno segítő halász meghalt a fegyenctelepen, két gyerekének, Luiginak és Mariának nyoma veszett.
+
+Raguzában bukkan fel Antekirtt doktor, aki az elmúlt tíz évben szerzett hírnevet a Földközi-tenger térségében hatékony gyógyítási képességével. A vagyonos doktoré Antekirtta szigete, amely nem messze fekszik Líbia partjaitól. Antekirtt visszautasítja Torontál kérését, hogy vizsgálja meg egyre depressziósabb feleségét, ugyanakkor kéretlenül felkeresi Báthorynét, akit pár éve jelentős összeggel támogatott Sándor gróf barátságára hivatkozva. Báthoryné, bár szüksége lenne rá, de visszaadja az ajándékot, Péter fia pedig visszautasítja Antekirtt állásajánlatát, mert az elszólítaná Raguzából, Szávától. Antekirtt két új segítőre tesz szert Pescade és Matifou személyében, akik francia cirkuszi komédiások. Pescade bőbeszédű akrobata, Matifou erőművész.
+
+Sárkány és Zirone is Raguzába érkezik, Sárkány zsarolással ráveszi Torontált, hogy lányát hozzá adja. Száva nagykorúságával megkapja apja vagyonának másik felét, amelyet nem osztottak szét az őt feljelentők között. Száva hallani sem akar a frigyről. Pétert egy rejtélyes éjszakai sétáján megszúrják, Antekirtt sem tudja megmenteni. Péter temetési menete szembetalálkozik Sárkány és Száva esküvői menetével, Száva idegösszeomlást kap, az esküvő kútba esik. Rövid idővel később Torontál felesége hal meg, ám halála előtt egy levelet ad postára Báthorynénak. Halála ismét késlelteti az esküvőt. Antekirtt Pescade és Matifou segítségével Péter temetésének éjszakáján kiássa a koporsót, a tetemet Antekirtt hajójára viszik, ahol kiderül, hogy Péter csak tetszhalott volt. Antekirtt felfedi előtte magát: ő Sándor Mátyás gróf.
+
+;Harmadik rész
+Péter Antekirtta szigeten lábadozik, majd meggyógyul. Anyja és Boros elköltözik Raguzából, a Torontálné küldte levélről nem esik szó. Antekirtt Péterrel Szicíliába indul Antekirtt egyik gőzjachtján, de Málta partjainál hatalmas viharba kerülnek, a hajó motorja meghibásodik, épp sikerül őket megmentenie egy bátor halásznak. A halászról kiderül, hogy ő Andrea Ferrato fia, Luigi, aki nővérével él Máltán. Ők is csatlakoznak Antekirtt csapatához.
+
+Sárkány, Zirone és a közben hozzájuk csapódott Carpena Szicíliában szervez rablóbandát. Antekirtt megtudja, hogy rá is vadásznak, az Etna csúcsa közelében ezért csapdát állít a három gazembernek. Ám azok kifürkészik szándékát, a doktor és Péter kerül életveszélybe. Egy kis házba szorulnak tizedmagukkal, a házat ostromló bűnözők vagy ötvenen vannak. Pescade bátorsága segíti megmenekülésüket, de a fegyveres harcban megsebesül, a doktor minden szándéka ellenére Matifou Zironét az Etna kráterébe veti.
+
+;Negyedik rész
+Carpenát egy régebbi bűne miatt letartóztatják Szicíliában, kiadják a spanyoloknak, elítélik, és a ceutai fegyenctelepen tölti büntetését. Antekirtt és Péter Ceutába hajózik. Antekirtt a ceutai kormányzóval kötött fogadást, hogy képes bárkit hipnotizálni, alanynak Carpenát javasolja. A hipnotizált Carpena a kormányzót XII. Alfonz spanyol királynak nézi, kegyelmet és az Izabella-rend keresztjét kéri tőle – Antekirtt sikere mindenkit lenyűgöz egész addig, amíg Carpena egy szikáról a tengerbe nem veti magát. Antekirtt elismeri, hogy kicsúszott felügyelete alól a fogoly, a kormányzó ezt elhiszi, pedig Antekirtt emberei kimentették Carpenát. Antekirtt és emberei visszatérnek Antekirtta szigetére.
+
+Sárkány és Torontál Monte-Carlóban veri el Torontál vagyonának utolsó aranyait. Szávát Sárkány egyik segítője tartja fogságban. Torontál játékfüggő, Sárkány pedig figyel, hogy Torontál teljesen elszegényedjen, így biztosítva maga számára Száva kezét. Mire ''Harminc és negyven'' játékban sikerül elveszíteni az utolsó pénzüket is, addigra Antekirtt emberei rájuk találnak, de csak Torontált sikerül elfogni és Antekirtta szigetére szállítani.
+
+Antekirtt váratlanul levelet kap Borostól, amelyben segítséget kér, mert helyzetük tarthatatlan. Antekirtt és Péter azonnal indul Karthágóba (hogy miért pont ott telepedett le a két magyar, az nem derül ki a regényből), ahol szerencsésen meg is találják Borost és a teljesen megzavarodott Báthorynét. Mindkettőjüket Antekirtta szigetére viszik. Antekirtt meglepő módszerrel visszaállítja Báthoryné emlékeit, aki találkozik halottnak hitt fiával. Zsebében lapul Torontál felesége írt levél, amiből kiderül, hogy Szávát két éves korában rabolták el, Száva valójában Sándor gróf lánya. Antekirtt, aki eddig mindent megtett, hogy ne jöjjön létre frigy Báthory Péter és Torontál Száva közt, mostantól mindent megtesz, hogy Báthory Péter elvehesse Sándor Szávát.
+
+;Ötödik rész
+Újabb hajsza kezdődik, ezúttal Száva után. Miután Matifou kipréseli a fogoly Torontálból, hol tartja Sárkány cinkosa fogva Szávát, Antekirtték Teutába hajóznak. Sárkány azonban megelőzte őket, és a lányt Tripoliba vitte át, ahol cimborája, Szidi Hazam házában tartják fogva.
+
+A Földközi-tenger líbiai partvidékén szerveződő szenuszita<ref name=senussi /> mozgalom szemében régóta tüske Antekirtta léte. Sárkány a mozgalom egyik szervezője. A szenusziták Tripoliban gyülekeznek, hogy egy nagy ünnepséget követően megtámadják és elfoglalják az Antekirtta szigetet. Az ünnepség forgatagába elvegyülnek Antekirtt és emberei. Pescade, kihasználva akrobatikus képességeit, bejut Szidi házába, megtalálja Szávát. Száva, megtudva, hogy a fal túloldalán Báthory Péter várja, azonnal követi a franciát, szerencsével kijutnak az őrzött házból. Péter visszakapja szerelmét, Antekirtt – helyesebben Sándor Mátyás – pedig a lányát.
+
+Antekirtta-szigeten már tervezik az esküvőt, amikor bekövetkezik a szenuszita támadás, amit némi szerencsével sikerül visszaverni. Sőt, Sárkány is a védők kezére kerül. Sándor Mátyás vezetésével ítélkeznek Carpena, Torontál és Sárkány felett, az ítélet: halál. Kivégzés előtt egy közeli zátonyra viszik a három férfit. Egyikül véletlenül aktiválja a szenuszita támadók ellen telepített aknát, mind a hárman meghalnak.
+
+Péter elveszi Szávát.
+
+{{cselekmény vége}}
+
+== Fejezetek ==
+{{hasáb eleje}}
+;Első rész
+I. A postagalamb
+
+II. Sándor Mátyás gróf
+
+III. A Torontál-cég
+
+IV. A rejtjeles üzenet
+
+V. Az ítélet előtt, alatt és után
+
+VI. A pisinói vártorony
+
+VII. A Foiba zuhataga
+
+VIII. Ferrato halász háza
+
+IX. A végső küzdelem utolsó erőfeszítései
+
+;Második rész
+I. Pescade és Matifou
+
+II. A Trabaccolo vízre bocsátása
+
+III. Antekirtt doktor
+
+IV. Báthory István özvegye
+
+V. Különféle események
+
+VI. A Cattarói-öböl
+
+VII. Bonyodalmak
+
+VIII. Találkozás a Stradonén
+
+;Harmadik rész
+
+I. A Földközi-tenger
+
+II. A múlt és a jelen
+
+III. Mi történt Raguzában?
+
+IV. Málta partvidékén
+
+V. Málta
+
+VI. Catania tájékán
+
+VII. A Casa Inglese
+
+;Negyedik rész
+
+I. A ceutai várbörtön
+
+II. A doktor kísérlete
+
+III. Tizenhétszer
+
+IV. Az utolsó tét
+
+V. A gondviselés útján
+
+VI. A kísértet
+
+;Ötödik rész
+
+I. Cap Matifou kézszorítása
+
+II. A gólyák ünnepe
+
+III. Szidi Hazam háza
+
+IV. Antekirtta
+
+V. Igazságszolgáltatás
+{{hasáb vége}}
+
+== Szereplők ==
+{{hasáb eleje}}
+* '''Sándor Mátyás''' gróf, erdélyi nemes
+* Rena, Sándor Mátyás felesége
+* '''Sándor Száva''', Sándor Mátyás és Rena lánya
+* '''Szathmár László''' gróf, magyar nemes
+* '''Báthory István''' professzor
+* '''Báthoryné'''
+* '''Báthory Péter''', Báthory István fia
+* '''Boros''', Báthoryné szolgája
+* '''Andrea Ferrato''', adriai halász
+* '''Maria Ferrato''', Andrea Ferrato lánya
+* '''Luigi Ferrato''', Andrea Ferrato fia, Maria öccse
+* '''Torontál Simon''' bankár
+* Torontál Simon felesége
+* '''Torontál Száva''', a bankár lánya
+* '''Sárkány''', könyvelő, tripoli kalandor
+* '''Namir''', marokkói nő
+* '''Zirone''', szicíliai bűnöző
+* '''Carpena''', spanyol, sótelepi munkás, bűnöző
+* '''Antekirtt''' doktor
+* '''Cap Matifou''', francia erőművész
+* '''Pointe Pescade''', francia artista
+* '''Lendeck''', az Artenak kastély intézője
+* '''Rosena Lendeck''', az intéző felesége, Sándor Száva nevelője
+* '''Narsos''', a ''Savarena'' kapitánya
+* '''Pazzer''', az ''Electric 2'' matróza
+* '''Köstrik''', a ''Ferrato'' kapitánya
+* '''Benito''', szicíliai bűnöző
+* '''Guyarre''' ezredes, Ceuta kormányzója
+* '''Szidi Hazam''' moqqaddem<ref>A Moqaddem egy alacsony rangú polgári tisztség. Polgármester, [[pasa]] egy bizonyos körzet képviseletével bíz meg. Európai hasonlattal a városháza informátora, asszisztense kerületi ügyekben. Nem megválasztott tisztviselő, általában egy idősebb ember</ref>
+* '''Szidi Mohamed el-Rahdi''', a szenuszita<ref name=senussi>A Senussi vagy a Sanusi [[Iszlám|muszlim]], a [[Szúfizmus|szúfi]] irányzathoz tartozó politikai-vallási iskola és rend volt a gyarmati [[Líbia|Líbiában]] és a [[szudán]]i régióban, amelyet az [[algéria]]i Muhammad ibn Ali as-Senussi 1837-ben [[Mekka|Mekkában]] alapította meg. Senussi aggódott az iszlám gondolkodás és szellemiség hanyatlása, valamint a muszlim politikai integritás gyengülése miatt.</ref> rend nagymestere
+* '''Faz-Rhat''', a Török Birodalom tisztviselője
+{{hasáb vége}}
+
+=== Szereplők nevének eredete és magyarításuk ===
+Sándor Mátyás alakját Verne állítólag barátjáról, [[Habsburg–Toscanai Lajos Szalvátor főherceg]]ről mintázta.<ref>{{cite journal |author=Brigitta Mader |title=L’Étranger du quai des Esclavons: À propos de la première rencontre entre Jules Verne et Louis Salvator et la question: qui était le comte Sandorf? (''Az idegen a szlávok között: Jules Verne és Louis Salvator első találkozásával és a kérdéssel: ki volt Sándor gróf?'') |journal=Bulletin de la Société Jules Verne |issue=190 |pages=37-36 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-11-24}}</ref> Verne azt állította, hogy Sándor Mátyást a kiadójáról, az egykor szintén száműzött Hetzelről mintázta, mindkettőt jellemzi erős hazafisága és erkölcsi érzéke.<ref>{{cite journal |author=Robert Pourvoyeur |title=Une analyse de Sandorf (''Sándor elemzése'') |journal=Bulletin de la Société Jules Verne |issue=101 |pages=7-9 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-11-24}}</ref>
+
+''Honnét kapták ezeket a furcsa neveket, amelyek talán nem is csengtek már ismeretlenül messzi hazájukban? Nem az a két földrajzi pont adta, amelyek között az Algíri-öböl nyílik – a Cap Matifou (Matifou-fok), és a Pointe Pescade (Pescade-földnyelv)? Igen, és valójában e nevek kitűnően illettek rájuk, akárcsak Atlaszé holmi vásári birkózóra.''<ref name=sm201>Második rész. I. fejezet.</ref>
+
+A magyar fordításban a nevek is "magyarosodtak". Mathias Sandorfból Sándor Mátyás, Ladislas Zathmarból Szathmár László (bár a [[Huszár Imre (újságíró)|Huszár]]-fordításban eredetileg Zathmar szerepelt), Etienne és Pierre Bathory pedig Báthory István és Péter, megfordították a vezetéknév-keresztnév sorrendet, az utóbbiakat magyar megfelelőkkel helyettesítették. Magyar származású Borik, aki a fordítóktól a Boros nevet kapta, bár a Borik is ismert magyar családnév.<ref>{{cite web |title=Adatbázisok családfa és helytörténet kutatóknak |url=https://www.radixindex.com/hu/vezeteknevek/vezeteknev/borik |publisher=RadixIndex |accessdate=2020-11-28}}</ref> Verne szívesen használta a térképet névadáshoz, ebben a regényében Pescade és Matifou esetén bevallottan, így jogos a feltételezés, hogy Szathmár és Torontál nevét [[Szatmár vármegye|Szatmár]] és [[Torontál vármegye]] után nyerte. A gonoszak is magyarnak tűnnek, pedig nem azok. Torontál Simon, azaz Silas Toronthal, a regényben sem magyar származású ellentétben ismeretlen keresztnevű feleségével.<ref>''Torontálné leküzdhetetlen ellenszenvet érzett az iránt a férfi iránt, akihez sorsa fűzte, s ez az érzés annál inkább hatalmába kerítette, mivel magyar származású volt.'' Második rész. VII. fejezet.</ref> A tripoli származású, azt hazájának valló Sarcany a Sárkány nevet kapta, ami magyarul értelmes szó, így a felületes olvasó magyarnak vélheti.<ref name=Bayerblog>{{cite web |author=Bayer Antal blogja |title=Mathias Sandorf és Sándor Mátyás |date=2014-11-18 |url=https://neroblanco.blog.hu/2014/11/18/mathias_sandorf_es_sandor_matyas |publisher=blog |accessdate=2020-11-28}}</ref>
+
+== Értékelés ==
+{{Idézet|Sándor Mátyás sokkal értékesebb kompozíciójában [mint [[A lángban álló szigettenger]]]. A romantikus regénynek legtökéletesebb példája Verne oeuvrejében; s a mese háttérbe is szorítja a tudományos érdeklődést. Olvassuk el a [[A lángban álló szigettenger|Szigettengert]] és Dumas Monte-Cristo-ját s akkor aligha marad a Sándor Mátyás meséjében olyan elem, amellyel nem találkoztunk. Mint gróf Monte-Cristo, gróf Sándor Mátyás is néhány haszonleső áruló áldozatává lesz. Ö is megszabadul a börtönből s eltűnik, hogy új név alatt térjen vissza megbüntetni azokat, akik ellene vétkeztek. A két elbeszélés részletei is közeli rokonságban állnak egymással.
+
+De a Szigettenger hatása is erős. A görög szabadság ügye után természetes folytatásként karolja föl Verne a magyar szabadság ügyét. Sándor Mátyás és derék társai új harcra készülnek az osztrák zsarnokság ellen, amikor elárulják őket. Az árulók itt nem magyarok, hanem nemzetközi kalandorok.{{refhely|Hankiss|: A regényből nem derül ki egész határozottsággal, hogy Torontál Simonék magyarok-e. Mert hiába fogja Verne a magyarok partját a zsarnokság ellen, sokszor úgy érezzük, hogy ő is osztrákmagyarokra gondol. Erre mutat az is, hogy az egyik vezér, Báthory István, a trieszti iskolában tanár.}} Itt is szerepel egy lelkiismeretlen bankár, Torontál Simon, aki anyagi előnyökért részt vesz az árulás művében. Az ő állítólagos leánya is ellenségévé válik: szerelmes lesz az egyik vértanú fiába.{{refhely|Hankiss|: Tegyük hozzá: Torontál Száva anyja itt, Starkos Miklós anyja ''A lángban álló szigettengerben'' hozzájárul az igazság diadalához.}} Végül kiderül, róla, hogy nem a bankár leánya, hanem Sándor Mátyásé. Starkos mintájára itt is akad kalóz, bandita elég, s a két kalandor, Sárkány és Zirone nem restellik felhasználni őket. Mint Starkos, Sárkány is zsarolással kényszeríti a bankárt, hogy adja neki lányát, akinek pénzére vágyik. Mind a két regényben van egy-egy nagy erejű, jóindulatú kolosszus{{refhely|Hankiss|: Xaris ügyvéd megyédi Elisundo Hadjine-t és megöli a kalózvezért. Cap Matifou, aki a cingár Pointe Pescade-dal együtt cirkuszi akrobatából lett Antekirtt doktor (Sándor Mátyás) bizalmas embere, megszabadítja Torontál Szávát és végez Zironeval. [Hadzsine Elizundo, Elizundo bankár 22 éves lánya, Xarisz, Elizundo szolgája]}}, aki az igazak pártján áll. Mind a két regényben rejtélyes levelek irányítják a küzdőket: amott Hadzsin, itt Antekirtt doktor levelei. De ne felejtsük el azt se, hogy ez a két regény a Földközi-tenger két felét poetizálja: az első a keletit, a második a nyugatit.
+
+A Földközi-tenger dicsőítése zeng a III. rész elején, nyitányképpen. Pointe-Pescade és Cap-Matifou, az akrobaták az algeri öböl két pontjától kapták nevüket és jellegüket. De a regény minden lapján a helyi átélés intenzitása érzik. Verne szétszórta szereplőit a partokon és a szigeteken, s így megvan az ürügye, hogy mindenhová elmenjen újra — a mi kedvünkért. Báthory István özvegye Triesztből [[Dubrovnik|Raguzába]] költözik, aztán hű szolgája [[Karthágó|Carthagóba]] (La Goulette) ??? viszi — elég különös hely egy magyar tanár családjának. Carpena spanyol létére az osztrák partok szalmáiban dolgozik. Később elfogják, hogy a [[ceuta]]i fogolytelepre kerülhessen, melyet talán Verne is látott s velünk is meg akar nézetni. Az árulók egyik áldozatának, a derék [[Rovinj|rovigói]] halásznak árvái — Málta szigetén telepszenek meg: ez sem esik meg gyakran a [[Kvarner-öböl|quarnerói]] halászokkal. A kis Antekirtt-sziget neve adja meg hősünk monte-cristói álnevét. A [[Madame de Staël|Madame de Stael]] Corinne-ja
+<ref>[https://www.gutenberg.org/files/52077/52077-h/52077-h.htm Project Gutenberg's Corinne; or, Italy, by Germaine, Madame de Staël] (angol nyelven)</ref> a nagy romantikus útikönyv Itáliáról: Verne Sándor Mátyása a Földközi-tenger regényes bedekkere a XIX. század második fele számára.
+
+Zirone számára a legszebb halálnem az, hogy Cap-Matifou az [[Etna]] kráterébe dobja bele s a maffia a ''«Casa Inglese»'' ostromában szenved vereséget. Sárkány és Torontál Simon ebül szerzett pénzét is stílusosan pergeti el a [[Monte-Carlo|monte-carlói]] [[A monte-carlói kaszinó|kaszinó]] szerencsekereke.
+
+Nemcsak a magyar olvasók rajongtak érte: világsikere volt. Monte-Cristo nagyszerű meséje itt az utazás még értékesebb lírájával lesz gazdagabb. így nem lehet csodálni, hogy Dumas és Claretie<ref>Jules Arsène Arnaud Claretie (1840. december 3. – 1913. december 23.) francia irodalmi személyiség és a Théâtre Français igazgatója.</ref> éppen ''Sándor Mátyás'' után biztatták leginkább szerzőnket, hogy jelöltesse magát az Akadémiában. Dumas, a régi jóbarát, talán a maga korszerűbb folytatását látta Vernében, a ''Prince Zilah'' írója<ref>[https://www.gutenberg.org/files/3930/3930-h/3930-h.htm Jules Claretie: Prince Zilah, Project Gutenberg]</ref> pedig a magyaros egzotikum kiaknázásában rokonszenves munkatársat.{{refhely|Hankiss|: A tapintatos Verne 1885 március 2-án Claretie-hoz intézett levelében maga hívja fel a figyelmet a két regény érintkezési pontjaira, mert nem akarja a plágiumvádat. Claretie így felel: ''«Personne ne peut accuser de plagiat l'imagination la plus riche et la plus étonnante de ce temps-ci. Zilah embrasse Sandorf.»'' (''Senki se vádolhatja plágiummal korunk leggazdagabb, legcsodálatosabb fantáziáját. Zilah öleli Sándort.''). Nem lehet érdektelen, hogy szorosan egymás után következik három magyar vonatkozású regény: [https://www.amazon.com/LÉvangéliste-parisien-French-Alphonse-Daudet/dp/1987504038 ''L'Evangéliste''] (A. Daudet , 1883), ''Le Prince Zilah'' (1884) és ''Mathias Sandorf'' (1885).}}
+
+Sándor Mátyás tudományos tartalmában — az útleírások földrajzi magván kívül — talán Antekirtt doktor szuggesztiós kísérletei{{refhely|Hankiss|: Elaltatja s mintegy tetszhalottá varázsolja Báthory Pétert, hogy azután megszöktesse a temetőből. Az áruló Carpenát hipnotizálja, így keríti hatalmába s szabadítja ki a ceutai fegyintézetből.}} és az Electricek{{refhely|Hankiss|: Gyorsjáratú villanyos naszádok.}} méltók a megemlítésre.|[[Hankiss János (irodalomtörténész)|Hankiss János]]<ref>{{cite journal |author=Hankiss János | authorlink= Hankiss János (irodalomtörténész) |title=Jules Verne. A tudomány a szépirodalomban |journal=[[Budapesti Szemle]] |date=november 1929 |issue=624 |pages=215-240 |accessdate=2020-06-25}}</ref>}}
+
+=== Sándor Mátyás és Monte Cristo ===
+Dumas Monte Cristo-ja és Verne Sándor Mátyása közt a legkönnyebben észrevehető hasonlóság, hogy mindkét főhős álnéven tér vissza: Edmond Dantès Monte Cristo grófja, Busoni abbé, Lord Wilmore és Szimbád nevét is használja, Sándor Mátyás ''„szerényebb”'', ő csak Antekirtt doktorrá lesz.
+
+Dumas művében a bosszúállás a hajtómotor, Verne inkább az igazságszolgáltatásra helyezi a hangsúlyt, ahogy ezt kiadója is szorgalmazta. Dumas-nál Dantès-t hárman árulják el – Fernand Mondego szerelemféltésből, Danglars ambíciói okán és Caderousse pénzért –, Villefort pedig apja leplezését elkerülendő ítéli el gyorsan és aránytalanul szigorúan. Dantès-val ellentétben Sándor Mátyás nem ártatlan: ő egy államellenes összeesküvés vezetője, míg Dantès csak naiv hírvivő. Sándort Sárkány és Torontál jelenti fel – az állam szempontjából helyesen eljárva –, Zirone csupán Sárkány társa, közvetlenül nem részesül a jutalomból.<ref>''A feljelentőknek jutott két negyedrész több mint másfél millió forintot jelentett, amivel tetszésük szerint rendelkeztek.'' Második rész. VII. fejezet.</ref> Carpena a két szökevényt adja fel – amely ismét az állam szemszögéből nézve helyes cselekedet.
+
+Monte Cristo bosszúját a ''„bíróságokon”'' keresztül gyakorolja: a kéz, amely üt, soha nem Monte-Cristoé. A ''pairek kamarájának'' törvényszéke ítéli el Morcerf grófot (Mondego) Janina kapcsán, a férfi öngyilkos lesz. Danglars báró koldusbotra jut, majd Monte-Cristo cinkosa, Luigi elfogja, és az utolsó pénzét is elveszi a lassan megőrülő embertől. Caderousse-t egy másik bűnöző öli meg, Villefort királyi ügyészt a lelkiismerete ítéli el: megháborodik. Azáltal, hogy a négy férfit különféle ''„bíróságokra”'' bízta, Monte-Cristo inkább vádló, mint bíró.
+
+A Sándor Mátyásban Sándor gróf a bíró. Zirone halálával elkerüli a tárgyalást, de Sárkányt, Torontált és Carpenát a gróf vezette bíróság halálra ítéli. A kivégzés azonban elmarad, a három férfi felrobban. ''„Isten meg akart kímélni minket a kivégzés borzalmától! – mondotta Sándor Mátyás gróf."''<ref name=sm505>Ötödik rész. V. fejezet.</ref>
+
+A jók mindkét regényben elnyerik jutalmukat. A Monte Cristóban Morrel cégét Mont Cristo kihúzza a csődből, Maximilient hozzásegíti Valentine kezének elnyeréséhez, ahogy a Sándor Mátyásban Antekirtt Báthory Pétert Száva feleségül vételéhez. Albert Morceft-et támogatja új élete megkezdésében, Noirtier-t is segíti unokája megmentésében – a módszer erősen visszaköszön Báthory Péter megmentésénél. Sándor Mátyás befogadja Báthorynét, a fiát, szolgájukat Borost, Luigi és Maria Ferratót.
+
+== Érdekességek ==
+;Idézetek a regényből
+* ''A tárgyalás nyilvános volt abban az értelemben, hogy a terem ajtaja nyitva maradt.''<ref name=sm105>Első rész. V. fejezet.</ref>
+* ''Rokonaink, doktor úr? Soha nem engedhettük meg magunknak ezt a fényűzést! De ha meggazdagszunk egyszer, örökösnek bizonyára jelentkezik egy sereg!''<ref name=sm203>Második rész. III. fejezet.</ref>
+* - ''Olyanok, akik választást engednek önnek húsz forint készpénz vagy egy férfias ökölcsapás közt… az is rögvest esedékes ettől az úrtól'' – felelte Pointe Pescade, és Cap Matifoura mutatott.
+:A vámőr nem tétovázott.
+:Elvette a húsz forintot.<ref name=sm208>Második rész. VIII. fejezet.</ref>
+* ''Ubi bene, ibi patria''<ref name=sm304>Harmadik rész. IV. fejezet.</ref> (Hol a haszon, ott a haza) vagy ''Inclusum labor illustrat''.<ref name=sm102>Első rész. II. fejezet.</ref> Verne műveiben szinte mindig található pár latin idézet..
+* ''Miután a karaván túljutott a marokkói birodalmon, először Algéria gazdag vidékeinek határán haladt, amelyet „Új-Franciaországnak” akartak elnevezni, pedig ez a föld valójában sokkal inkább tartozik Franciaországhoz, mint Új-Kaledónia, Új-Hollandia és Új-Skócia Kaledóniához, Hollandiához, illetve Skóciához, hiszen alig harmincórás tengeri út választja el a francia szárazföldtől.''<ref name=sm502>Ötödik rész. II. fejezet</ref> Verne hazáját mindig előremutató példának állítja be, ez is egyik jellemzője műveinek.
+* ''Köztudomású, hogy a gólya erkölcsös, módfelett értelmes és rendkívül bölcs madár, legalábbis a monda szerint soha nem telepszik le olyan vidéken, amelynek neve ezüstpénzen szerepel – mert a pénz minden rossz forrása, és a leghatalmasabb erő, amely a rossz szenvedélyek szakadékába sodorja az embert.''
+* A ''Savarena'' jacht elnevezése ellentmond Antekirtt azon szándékának, hogy eltitkolja kilétét. A jacht elnevezését lánya, Száva, és felesége, Rena, nevéből alkotta. ''Most azonban mindenáron meg kellett találni Szávát, a leányát akinek nevét felesége, Réna grófné nevéhez fűzve a Savarena kétárbócos kapta…''<ref name=sm501>Ötödik rész. I. fejezet</ref>
+* ''A hajó orrában egy nagy kabint bocsátottak rendelkezésükre – kényelmes volt, s „minden megvolt benne, ami csak szükséges az íráshoz”, ahogy mondotta a vidám fickó.''<ref name=sm203/> Verne itt elszólja magát, a ''Savarenát'' saját ''Saint-Michel III.'' jachtjáról mintázta. A regényben senki sem ír, ellentétben vele.
+
+;További érdekességek a regénnyel kapcsolatban
+* ''A [[szuggesztió|szuggerálás]] tényei [[hipnózis|hipnotikus]] állapotban ma már elismertek. [[Jean-Martin Charcot|Charcot]], Brown-Sequard, Azam, [[Charles Richet|Richet]], Dumontpallier, Maudsley, Bernheim, Hack Tuke, Rieger és megannyi más tudós munkái és megfigyelései semmi kétséget nem hagynak e tekintetben.''<ref name=sm401>Negyedik rész. I. fejezet.</ref> A regényben leírt hatékonyság az írói fantázia része, hasonló eredményre a XXI. század első negyedében sem képesek.
+* A ''Sándor Mátyás'', a [[Sztrogof Mihály (regény)|Sztrogof Mihály]] és [[A gőzház]] Verne-regények több hasonlóságot is mutatnak. Mindháromban egymást üldözik a főszereplők: Antekirtt – Torontál, Sztrogof – Ogaref és Edward Munro ezredes – Nána Sahib. Mindháromban korának jelentős birodalma ellen lázad az egyik főszereplő: Osztrák-Magyar Monarchia, Orosz Birodalom és Brit Birodalom.
+* Ahogy Pescade jó hangulata és állandó odaadása hasonlatos a [[Nyolcvan nap alatt a Föld körül (regény)|Nyolcvan nap alatt a Föld körül]] Jean Passepartout-hoz, úgy hasonlatos Cap Matifou külleme, ereje és értelme [[A különös végrendelet]] Tom Crabbe ökölvívójához.
+* Pescare és Maifou nem az első cirkuszi szereplők Verne műveiben, elég a [[César Cascabel]] regényt említeni, amely egy mutatványos család megpróbáltatásait meséli el. Verne a valódi életben is cirkusz-párti volt, 1889. június 23-án [[Amiens]] városának tanácsosaként Théodore Rancy jelenlétében avatta fel<ref>{{cite web |author=Jules Verne |title=DISCOURS D'INAUGURATION DU CIRQUE MUNICIPAL D'AMIENS PAR JULES VERNE, 23 JUIN 1889 |url=http://www.images-en-somme.fr/discours-inauguration-cirque-amiens-jules-verne.php |accessdate=2020-05-23 |archiveurl=https://web.archive.org/web/20180829123437/http://www.images-en-somme.fr/discours-inauguration-cirque-amiens-jules-verne.php |archivedate=2018-08-29 }}</ref> az új, az akkori legkorszerűbb színpadtechnikával felszerelt, kőből épült cirkuszt, amely ma is a regényíró nevét viseli (Cirque Jules Verne).<ref>{{cite web |url=http://www.cirquejulesverne.fr |title=Cirque Jules Verne |accessdate=2020-05-23}}</ref> Mivel cirkuszokat általában fővárosokban szoktak építeni, különlegesség számba ment ez az épület, amely méretével, játszási körülményeivel hamar Európa cirkuszi életének fontos tényezőjévé vált, ma is felkereshető.<ref name="almasi">{{cite web |author=Almássy Balázs |title=Cirkusz az irodalomban |url=http://www.epa.hu/01400/01461/00005/almassy_balazs_cirkusz_az_irodalomban.htm |accessdate=2020-05-23}}</ref><ref>{{cite web |author=Tripadvisor |title=Cirque Jules Verne |url=https://www.tripadvisor.com/Attraction_Review-g196657-d8677538-Reviews-Cirque_Jules_Verne-Amiens_Somme_Hauts_de_France.html |accessdate=2020-05-23}}</ref>
+* Verne minden művében elítéli a szerencsejátékot, a munka nélküli meggazdagodást. A kaszinóról szóló fejezetek számos mondata tanúskodik erről. ''Ha sikerrel akar játszani, uram, tudni kell elveszteni a kis téteket, és megnyerni a nagyokat! Ebben rejlik a játék egész titka!''<ref name=sm404>Negyedik rész. IV. fejezet.</ref> ''A véletlennek csak szeszélyei vannak, nem pedig szokásai.''<ref name=sm404/> ''Nincs olyan számítás, amely legyőzhetné a véletlent, a véletlen maga dönti el, hogy mellénk áll vagy ellenünk fordul!''<ref name=sm403>Negyedik rész. III. fejezet.</ref>
+* A horvátországi Pazinban 1998-tól tartják meg ''Jules Verne napját'', az ünnepre június 26-án kerül sor, ez volt Sándor Mátyás Pazinba vitelének napja. 1989-1990 között "Mathias Sandorf" néven amatőr színház működött Pazinban, a francia íróról utcát neveztek el, és megalakult a helyi Jules Verne klub<ref>{{cite web |title=Jules Verne Club (Pazin – Mitterburg – Pisino) |url=http://www.ice.hr/davors/jvclub.htm |accessdate=2020-12-01 |language=horvát |archiveurl=https://web.archive.org/web/20150223200032/http://www.ice.hr/davors/jvclub.htm |archivedate=2015-02-23 }}</ref> is.
+* A politikai cselekmény következetlenségét mutatja, hogy miután Antekirtt doktor lett, Sándor gróf teljesen közömbössé válik Magyarország felszabadításának gondolata iránt. A regény végére az is kiderül, hogy ''… tizenöt év óta egy politikai fordulat következtében – amely nagyon kedvezett a magyar ügynek – a helyzet lényegesen megenyhült; különösen vonatkozik ez arra, hogy Sándor Mátyás gróf oly gyorsan és oly régen elfojtott vállalkozása milyen emléket hagyott néhány államférfiban.''<ref name=sm504>Ötödik rész. IV. fejezet.</ref> ''Egyébként Sándor gróf maga is visszatérhetett volna birtokára, mert időközben a politikai elítéltek kegyelmet kaptak.''<ref name=sm505>Ötödik rész. V. fejezet.</ref> Érdemes azt is megvizsgálni, mennyi köze van a Sándor Mátyásnak a magyar történelemhez? Valódi történelmi személyről [[Kossuth Lajos]] egyetlen egyszer esik említés .<ref name=sm102>Első rész. II. fejezet.</ref> Sándor Mátyás összeesküvését arra alapozza, hogy a Habsburg birodalom 1866-ban [[Porosz–osztrák–olasz háború|megrendítő vereséget]] szenvedett a poroszoktól. A fellázadt [[Klapka-légió]] még 1866 nyarán ''„egyetlen puskalövés nélkül”'' kénytelen volt visszavonulni az országból. Verne szerint Sándor Mátyás 1867 májusában döntött úgy, hogy erdélyi várából Pestre megy. De márciusban már megtörtént a [[Kiegyezés]], megalakult az [[Andrássy-kormány]]. Így az a feltételezés, hogy egy felkelés esetén Sándoréknak többségük lenne az országgyűlésben, aligha reális.<ref name=Bayerblog /><ref>''Ott párthíveink vannak többségben - felelte Sándor Mátyás. - Csakhamar megalakítják az új kormányt, az majd kézbe veszi az ügyek irányítását.'' Első rész. II. fejezet.</ref>
+
+=== A regényben használt titkosítási eljárás ===
+;A rács (rostély) története
+A regényben bemutatott titkosítási módszert az ókori Kínában használták.<ref>Fabien A. P. Petitcolas and Stefan Katzenbeisser. [https://www.researchgate.net/profile/Manikandan_V_M/post/Can_anyone_provide_to_me_some_books_about_steganography_in_image_cover/attachment/59d638e6c49f478072ea5ab5/AS%3A273706549481503%401442268134726/download/Stefan+Katzenbeisser+Information+Hiding+Techniques+for+Steganography+and+Digital+Watermarking+-Book1.pdf Information Hiding Techniques for Steganography and Digital Watermarking.] 2000.</ref> A rácsot szokás Cardan-rácsnak is nevezni, de ez tévedés. Girolamo Cardano (Jérôme Cardan, 1501–1576) 1550-ben egyszerű rácsot javasolt rejtett üzenetek írására, az általa kitalált megoldás azonban nem volt forgatható. A rács, amelyet szokás rostélynak is nevezni, története pontosan nem követhető.
+
+A XVIII. században is használták, például 1745-ben [[IV. Vilmos orániai herceg]] udvarában. 1796-ban [[Carl Hindenburg]] matematikus szisztematikusabban tanulmányozta a rostélyos titkosítási eljárást.<ref>{{cite book |author=Friedrich L. Bauer |title=Decrypted Secrets - Methods and Maxims of Cryptology, Springer-Verlag, Berlin Heidelberg, 1997, ISBN 3-540-60418-9 |date=1997. |location=[[Berlin]] [[Heidelberg]] |publisher=Springer-Verlag |isbn=3-540-60418-9 |url=https://www.springer.com/gp/book/9783540245025 |accessdate=2020-11-26 |language=angol}}</ref>
+
+Edouard Fleißner von Wostrowitz ([[Lviv|Lemberg]] |1825–1888) osztrák lovastiszt fia volt, maga is katona. A 6. számú Chevaux-léger{{wd|Q1936719}} ezredben teljesített szolgálatot, 1871-ben az [[Lauf an der Pegnitz|Ödenbergi]] Tisztiiskola parancsnokává nevezték ki, 1872-ben ezredessé léptették elő. Nyugdíjazása előtt, 1874 végén nemesi rangra emelték: ''Edouard, Báró von Fleißner von Wostrowitz'' névvel. ''Handbuch der Kryptographie'' (''Titkosítás kézikönyv'') című könyve 1881-ben jelent meg Bécsben.<ref>{{cite book |title=Information Hiding Techniques for Steganography and Digital Watermaking |year=2000 |url=https://archive.org/details/Artech_House_Information_Hiding_Techniques_for_Steganography_and_Digital_Waterma |pages=[https://archive.org/details/Artech_House_Information_Hiding_Techniques_for_Steganography_and_Digital_Waterma/page/n3 1]–2 |last=Katzenbeisser |first=Stephan |coauthors=Petitolas, Fabien |language=angol |publisher = Artech House Books|isbn = 978-1-58053-035-4 |doi=10.1201/1079/43263.28.6.20001201/30373.5}}</ref> Ebben 8x8-as rácsot mutatott be. A megoldást az I. világháborúban a német csapatok használták 1916 végén. Minden rácsnak más és más kódneve volt: – 5x5 ANNA; 6X6 BERTA; 7X7 CLARA; 8X8 DORA; 9X9 EMIL; 10X10 FRANZ. Biztonságuk gyenge volt, és négy hónap után visszavonták őket.<ref>{{cite book |author=David Kahn |title=The Codebreakers |url=https://archive.org/details/codebreakersstor0000kahn_k4s3 |subtitle=The Story of Secret Writing |date=1967, 1996 |isbn=0-684-83130-9 |language=angol |oclc=35159231}}</ref>
+
+Az egyre fejlettebb mechanikai megoldások, végül a számítógépek megjelenése elavulttá tette a rács alkalmazását.
+
+;Matematikai alapok
+A rács alkalmazásának előnye könnyű kezelhetősége mellett a kínált biztonság volt.
+
+A könyvben szereplő 6x6-os rács esetén 36 betűhely van, a rácson egyszerre kilenc betű látható. Egy rés, lyuk, a négyszeri elforgatás okán, a négy negyed egyikén található, tehát 4 lehetőséget kínál. A második rés esetében hasonlóan eljárva a kilenc hely összesen:
+:<math>4 * 4 * 4 * 4 * 4 * 4 * 4 * 4 * 4 = 4^9 = 262144</math>
+eltérő rácselhelyezés lehetséges. Ezek közül számos akad, ami könnyen visszafejthető, például ha az összes lyuk azonos negyedbe esik (3x3-as elrendezés).
+Egyenletes lyuk elrendezés esetén, amelyet a következő képlettel lehet kiszámolni:
+:<math>n = 4 \cdot \binom 9 3 \cdot \binom 6 2 \cdot \binom 4 2 \cdot \binom 2 2 = 4 \cdot 84 \cdot 15 \cdot 6 \cdot 1 = 30 240</math>
+jelentősen csökken a használható sablonok száma, ám kézi visszafejtés esetén a harmincezres szám is elégséges biztonságot kínál.
+
+A visszafejtés a rostély nélkül nem lett volna lehetséges. A rostély használata viszont szerencsés volt, hiszen megfelelő oldalával (2), és megfelelő állásban (4) helyezték azt a szövegre, így egyből megkapták a megfejtést a nyolc lehetőségből.
+
+;Verne-regény
+{|class="wikitable"
+|+ Az ''elfogott'' üzenet
+|-
+|width="20px" align=center| R ||width="20px" align=center| H ||width="20px" align=center| G ||width="20px" align=center| A ||width="20px" align=center| A ||width="20px" align=center| Z ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center| L ||width="20px" align=center| K ||width="20px" align=center| A ||width="20px" align=center| E ||width="20px" align=center| E ||width="20px" align=center| N ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center| S ||width="20px" align=center| L ||width="20px" align=center| Ő ||width="20px" align=center| Ő ||width="20px" align=center| É ||width="20px" align=center| Z
+|-
+|width="20px" align=center| Ü ||width="20px" align=center| Y ||width="20px" align=center| G ||width="20px" align=center| G ||width="20px" align=center| R ||width="20px" align=center| É ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center| N ||width="20px" align=center| Y ||width="20px" align=center| E ||width="20px" align=center| Ő ||width="20px" align=center| L ||width="20px" align=center| M ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center| Z ||width="20px" align=center| K ||width="20px" align=center| B ||width="20px" align=center| N ||width="20px" align=center| E ||width="20px" align=center| T
+|-
+|width="20px" align=center| A ||width="20px" align=center| F ||width="20px" align=center| X ||width="20px" align=center| S ||width="20px" align=center| G ||width="20px" align=center| M ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center| S ||width="20px" align=center| N ||width="20px" align=center| E ||width="20px" align=center| Ő ||width="20px" align=center| O ||width="20px" align=center| L ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center| E ||width="20px" align=center| A ||width="20px" align=center| K ||width="20px" align=center| Z ||width="20px" align=center| L ||width="20px" align=center| D
+|-
+|width="20px" align=center| N ||width="20px" align=center| T ||width="20px" align=center| L ||width="20px" align=center| Á ||width="20px" align=center| R ||width="20px" align=center| E ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center| T ||width="20px" align=center| K ||width="20px" align=center| E ||width="20px" align=center| Z ||width="20px" align=center| K ||width="20px" align=center| Y ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center| S ||width="20px" align=center| R ||width="20px" align=center| N ||width="20px" align=center| L ||width="20px" align=center| É ||width="20px" align=center| E
+|-
+|width="20px" align=center| E ||width="20px" align=center| Z ||width="20px" align=center| L ||width="20px" align=center| F ||width="20px" align=center| T ||width="20px" align=center| É ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center| G ||width="20px" align=center| A ||width="20px" align=center| G ||width="20px" align=center| E ||width="20px" align=center| A ||width="20px" align=center| E ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center| I ||width="20px" align=center| Á ||width="20px" align=center| I ||width="20px" align=center| M ||width="20px" align=center| R ||width="20px" align=center| L
+|-
+|width="20px" align=center| S ||width="20px" align=center| E ||width="20px" align=center| R ||width="20px" align=center| É ||width="20px" align=center| O ||width="20px" align=center| G ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center| E ||width="20px" align=center| N ||width="20px" align=center| R ||width="20px" align=center| G ||width="20px" align=center| É ||width="20px" align=center| L ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center bgcolor=#FFFFFF|  ||width="20px" align=center| N ||width="20px" align=center| T ||width="20px" align=center| E ||width="20px" align=center| Ő ||width="20px" align=center| Z ||width="20px" align=center| N
+|}
+
+{|class="wikitable"
+|+ A rostély
+|-
+|width="20px" bgcolor=„#000000| ||width="20px" bgcolor=#FFFFFF|&nbsp; ||width="20px" bgcolor=„#000000|&nbsp; ||width="20px" bgcolor=#FFFFFF|&nbsp; ||width="20px" bgcolor=„#000000|&nbsp; ||width="20px" bgcolor=#FFFFFF|&nbsp;
+|-
+| bgcolor=„#000000|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=#FFFFFF|&nbsp; || bgcolor=„#000000|&nbsp;
+|-
+| bgcolor=„#000000|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=#FFFFFF|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=„#000000|&nbsp;
+|-
+| bgcolor=„#000000|&nbsp; || bgcolor=#FFFFFF|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=#FFFFFF|&nbsp; || bgcolor=„#000000|&nbsp;
+|-
+| bgcolor=„#000000|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=#FFFFFF|&nbsp;
+|- 
+| bgcolor=„#000000|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=#FFFFFF|&nbsp; || bgcolor=„#000000|&nbsp; || bgcolor=„#000000|&nbsp;
+|}
+{{cselekmény}}
+{|class="wikitable"
+|+ Az első 6x6-os rács megfejtésének lépései
+|-
+|colspan=6| Első lépés||rowspan=8 bgcolor=#FFFFFF| ||colspan=6| Második lépés||rowspan=8 bgcolor=#FFFFFF| ||colspan=6| Harmadik lépés||rowspan=8 bgcolor=#FFFFFF| ||colspan=6| Negyedik lépés
+|-
+|width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|H||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|A||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|Z||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|G||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|R||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|A||width="20px" align=center bgcolor=#000000|&nbsp;
+|-
+|width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|R||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|G||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|É||width="20px" align=center bgcolor=#FFFFFF|Ü||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|Y||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|G||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;
+|-
+|width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|X||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|S||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|F||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|G||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|A||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|M
+|-
+|width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|T||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|R||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center| N||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|E||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|Á||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|L||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;
+|-
+|width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|É||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|L||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|T||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|Z||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|E||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|F||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;
+|-
+|width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|É||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|E||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|G||width="20px" align=center bgcolor=#FFFFFF|S||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|R||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#FFFFFF|O||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;||width="20px" align=center bgcolor=#000000|&nbsp;
+|-
+|colspan=6| Eredmény: HAZRXTRÉÉ ||colspan=6| eredmény: GÉSNELTEG||colspan=6| eredmény: GÜFGÁZSRO||colspan=6| eredmény: RAYGAMLEF
+|}
+
+ami visszafelé: FELMAGYAR ORSZÁGFÜG GETLENSÉG ÉÉRTXRZAH, az utolsó öt karakter töltelék.
+{{cselekmény vége}}
+
+=== A nem létező Antekirtta-sziget ===
+[[Fájl:'Mathias Sandorf' by Léon Benett 049.jpg|300px|bélyegkép|jobbra| Antekirtta. Jules Verne ''Sándor Mátyás'' regényének kitalált szigete a térkép alján található, a mélyre nyúló tengeröbölben, az ''Tripolitaine'' felirat ''A'' betűje felett. A rajz [[Léon Benett]] munkája. A kitalált Antekirtta-sziget koordinátái:<br>{{coord|30|21|43.6|N|19|06|01|E}}]]
+[[Fájl:'Mathias Sandorf' by Léon Benett 066.jpg|300px|bélyegkép|jobbra|A kikötő, amelynek végében lépcsőzetesen emelkedett a kis város…<ref name=sm304 /> Léon Benett rajza]]
+
+:''Antekirtta. Nem tudom, milyen hosszúsági és szélességi fok alatt terül el, egyszerűen csak Földközi-tenger, így címezné a levelet a nagybátyám is, ha volna nagybátyám, de mind ez ideig az ég megtagadta tőlem azt az örömet, hogy nagybátyám legyen! Végül is semmi meglepő nincs benne, hogy ezt a szigetet Antekirttának hívják, hiszen Antekirtt doktoré. Azt azonban, hogy a doktor kapta-e a szigettől a nevét, vagy a sziget a doktortól, akkor sem tudnám megmondani, ha a Földrajzi Társaság főtitkára volnék!''<ref name=sm301>Harmadik rész. I. fejezet.</ref>
+
+:''Hol fekszik Antekirtta szigete?'' – kérdezte Báthory Péter.
+:- ''A Nagy-Szirtisz partvidékén, a Tripoliszi kormányzóság és [[Cyrenaica|Kirenaika]] között, az afrikai szárazföldbe betüremlő [[Sidra-öböl]] mélyén.'' Csakugyan, a Szirtisz-szigetcsoporttól északra fekszik Antekirtta. Ott, a Sidra-öbölben, harminc tengeri mérföldre a [[Bengázi tartomány|Benghazi tartománytól]], a parthoz legközelebb eső sziget, Antekirtta<ref>KRITTEL SZEMBEN, a könyv lábjegyzete.</ref> különösképpen magára vonta az orvos figyelmét. Így hívták a szigetet, mert a Szirtisz- vagy Kirtisz-szigetcsoport előtt fekszik.<ref name=sm302>Harmadik rész. II. fejezet.</ref>
+
+:''… Antekirtta meglehetősen nagy kiterjedésű volt – kerülete tizennyolc mérföld -, hogy befogadja mindazokat, akiket az orvos itt akart letelepíteni; eléggé kiemelkedett a tengerből, hiszen egy nyolcszáz lábnyi magas hegycsúcsról ellenőrizni lehetett az öblöt egészen a kirenaikai partvidékig; terményei, amelyek a patakok öntözte földeken nőttek, meglehetősen változatosak voltak, és elegendőek a néhány ezer főnyi lakosság ellátására.''<ref name=sm302/>
+
+:''Egy gőzgépekkel és kazánokkal felszerelt központi erőművet húsz új rendszerű és tökéletesített dinamóval szereltek fel. Ott termelték az áramot, amellyel roppant teljesítményű, különleges akkumulátorok Antekirtta minden üzemének energiáját biztosították, a vízműveknek, a városi világításnak, a távírónak, a telefonnak és a sziget körül és belsejében futó vasútnak.''<ref name=sm304/>
+
+:''A kikötő, amelynek végében lépcsőzetesen emelkedett a kis város, természetes úton képződött, de nagy munkával még jobban kiépítették. Két kőgát, egy móló, egy hullámtörő igen jól védte bármilyen irányú széltől. Vize mindenütt mély volt, még a rakpartok tövében is. Így a legkülönfélébb időjárás esetén is teljes biztonságot nyújtott a kis antekirttai hajórajnak…''<ref name=sm304 />
+
+:''Artenak városa kicsit hátrább terült el, legmagasabb épülete egy kis templom karcsú tornya volt''<ref name=sm304 />
+
+:''A festői szépségű Artenak mindössze néhány száz házból állt… a házak elszórtan épültek a dombokon levő üde kertekben, tetejüket sűrű lomb árnyékolta, az egyik európai, a másik arab stílusban…''<ref name=sm304 />
+
+:''A mintegy háromszáz európai és arab család … kétezer lelket számláló kis települést alkotott. Nem voltak rabszolgák, még csak alattvalók sem…''<ref name=sm302/>
+
+:''A doktor házát a telepesek városházának nevezték… A ház elragadó, mór stílusú épület volt, tornyokkal, farácsos ablakokkal, sétaudvarral, folyosókkal, oszlopcsarnokokkal, szökőkutakkal, szalonokkal…''<ref name=sm304 />
+
+:''A városon kívül, a szomszédos hegyhátakon elszórtan helyezkedett el néhány más, magányosabb épület, villa, feljebb egy kis kórház, ahová a doktor, a település egyetlen orvosa, betegeit küldte, ha éppen akadtak.''<ref name=sm304 />
+
+=== Harminc és negyven (Trente et Quarante) ===
+Sárkány és Torontál Simon [[a monte-carlói kaszinó]]ban költik el Torontál utolsó forintjait. Verne soha nem tartotta sokra a szerencsejátékot és az azon nyert pénzt, ennek több regényében – [[Az aranyvulkán]], [[Az arany meteor]] ... – is hangot ad. A regény születése idején a ''Harminc és negyven'' közismert kártyajáték volt, ezért Verne nem is mutatta be a játékot.
+
+''Ha tehát a szerencsejáték már önmagában erkölcstelen, ráadásul még ostobaság is, hiszen ilyen egyenlőtlen feltételekkel folyik.''<ref name=sm404/> Verne is tudja, hogy az összes játékban a bank, a kaszinó lesz a nyertes. ''Ha sikerrel akar játszani, uram, tudni kell elveszteni a kis téteket, és megnyerni a nagyokat! Ebben rejlik a játék egész titka!''<ref name=sm404/> Torontálnak és Sárkánynak ez nem sikerült.
+
+A regényben tizenhétszer nyer egymás után a piros-sor. Mivel annak esélye, hogy a sor nyerjen, ötven százalék, a tizenhét egymást követő nyerésé: 0,00076%
+
+A ''Trente et Quarante'', amely nagyon hasonló a ''Rouge et Noir'' (''Piros és Fekete'') játékhoz, XVII. századi francia eredetű szerencsejáték, amelyet kártyákkal és speciális asztallal játsszák.<ref>{{cite book|last1=Parlett|first1=David|title=The Penguin Book of Card Games|url=https://archive.org/details/penguinbookofcar0000parl_p0x5|date=2008|publisher=Penguin Books|location=London|page=[https://archive.org/details/penguinbookofcar0000parl_p0x5/page/604 604]}}</ref> Ez egy egyszerű játék, amely általában nagyon jó várható hozamot, több mint 98%-ot ad a játékosoknak.<ref>William Norman Thompson [https://archive.org/details/gamblinginameric0000thom_l2c0/page/379 <!-- quote=Trente et Quarante  game. --> ''Gambling in America: an encyclopedia of history, issues, and society''] pg. 379 ABC-CLIO (2001) {{ISBN|1-57607-159-6}}</ref>
+
+;Játékmenet
+Hat csomag ötvenkét lapos [[Francia kártya|francia kártyát]] használnak. A kártyákat az osztó összekeveri, az összekevert lapokat egy kártya-osztóba helyezi. A játékosok megteszik tétjeiket. Az osztó egyesével lapot húz, képpel felfelé egymás mellé helyezi őket, amíg a sor értéke nem haladja meg a harmincat. Az első sor a ''fekete-sor''. Ehhez hasonlóan rakja ki a második sort, a ''piros-sort''. Az a sor nyer, amelyikben kisebb a lapok összege. Az ász egyet, a bubi-dáma-király tízet ér. Négy fogadási lehetőség van (ezt a speciális asztalon kialakított helyre tett zsetonnal lehet megtenni):
+* a fekete sor nyer,
+* a piros sor nyer,
+* a nyerő sor első lapja azonos színű a nyerő sor nevével (kör vagy káró az első lap és a piros sor a nyerő) ''couleur'' (szín),
+* a nyerő sor első lapja nem azonos színű a nyerő sor nevével: ''inverse'' (fordított).
+Az első két fogadási lehetőség a ''grand tableau'', az utolsó kettő ''petit tableau''. Pontegyenlőségre speciális eljárás vonatkozik, gyakorlatilag ezekben az esetekben lesz a bank, bizonyos feltételek és korlátozások mellett nyerő.
+
+;Egy példa
+{| {{széptáblázat}}
+!valign=top| Fekete-sor
+| [[Image:poker-sm-237-8d.png|50px]]
+| [[Image:poker-sm-223-Qh.png|50px]]
+| [[Image:poker-sm-21A-5s.png|50px]]	 
+| [[Image:poker-sm-245-Tc.png|50px]]
+|
+|
+|valign=top| 33 pont
+|-
+!valign=top| Piros-sor
+| [[Image:poker-sm-226-9h.png|50px]]
+| [[Image:poker-sm-24A-5c.png|50px]]
+| [[Image:poker-sm-23B-4d.png|50px]]	 
+| [[Image:poker-sm-241-Ac.png|50px]]	 
+| [[Image:poker-sm-232-Kd.png|50px]]
+| [[Image:poker-sm-237-8d.png|50px]]	 
+|valign=top| 37 pont
+|}
+Nyerő a Fekete-sor (alacsonyabb pontérték) és ''fordított'', mert a nyerő sor első lapja piros, a sor neve viszont fekete.
+
+;''Harminc és negyven'' és a bűnözők
+Bár Verne korában is ismert volt már a játék néhány gyenge pontja, az író ezt nem használta ki regényében.
+
+Mivel nincs minden játék elején keverés, így előfordulhat, hogy valamelyik szín ''jobban fogy'', így a ''petit tableau'' fogadás esélyei már megbecsülhető. Más gyenge pontokat is kihasználva az 1970-es években a [[Francia Riviéra]] kaszinóiban egyre többen játszottak ''Harminc és negyvenet'', sőt, egyes kaszinók egész csapatokat béreltek fel más kaszinók kifosztására a játék hibáit kihasználva.
+
+== Magyar kiadások ==
+A felsorolás az [http://www.odrportal.hu/ Országos közös katalógus és könyvtárközi kölcsönzés] adatai alapján készült. A szögletes zárójelben látható adatok bizonytalanok.
+
+* Sándor Mátyás, Budapest, Franklin, 1887, 1889, 1899, 1909, 1917, [1924], [1942] fordító: [[Huszár Imre (újságíró)|Huszár Imre]], illusztráció: Benett 
+* Sándor Mátyás, Budapest, Eisler, 1897, 1905 fordító: [[Zempléni P. Gyula]], a regény a ''Verne Gyula összegyűjtött munkái'' sorozatban jelent meg
+* Sándor Mátyás, Budapest, Magyar Kereskedelmi Közlöny, [1910?], fordító: [[Mikes Lajos]], illusztráció: Nemes Mihály, a regény a ''Verne Gyula munkái'' sorozatban jelent meg
+* Sándor Mátyás, Budapest, Tolnai, [192?], fordító: [[Mikes Lajos]], illusztráció: Memes Mihály, a regény a ''Verne Gyula munkái'' és a ''Verne Gyula összes munkái'' sorozatban jelent meg
+* Sándor Mátyás, Budapest, Forrás, [1944], fordító: Mikes Lajos, illusztráció: Nemes Mihály, a regény a ''Verne Gyula munkái'' és a ''Verne Gyula összes munkái'' sorozatban jelent meg
+* Sándor Mátyás, Budapest, Ifjúsági Kiadó, 1952, 1955, 1957, fordító: [[Vázsonyi Endre (író)|Vázsonyi Endre]], illusztráció: Szentgyörgyi Kornél 
+* Sándor Mátyás, [Budapest], Ifjúsági Kiadó, [1955], 1957, fordító: Vázsonyi Endre, illusztráció: [[Tedesco Anna]], készült a román-magyar közös könyvkiadás keretében 
+* Sándor Mátyás regény, [[Bukarest]], Ifjúsági Kiadó [1956], fordító: Vázsonyi Endre, illusztráció: Tedesco Anna, készült a román-magyar közös könyvkiadás keretében 
+* Sándor Mátyás, [Budapest], [[Szövetkezetek Országos Szövetsége|SZÖVOSZ]], 1957 fordító: Vázsonyi Endre, illusztráció: Győry Miklós, készült a román-magyar közös könyvkiadás keretében, a regény a ''Kincses könyvek'' sorozatban jelent meg
+* Sándor Mátyás, Budapest, Szépirodalmi Kiadó, 1960, illusztráció: [[Würtz Ádám]], fordító: Vázsonyi Endre 
+* Sándor Mátyás, Budapest, Móra Kiadó, 1964, fordító: Vázsonyi Endre, illusztráció: [[Szecskó Tamás]] és [[Lukáts Kató]], a regény ''Az én könyvtáram'' sorozatban jelent meg
+* Sándor Mátyás, Budapest, Móra Kiadó, 1969, 1976<ref>A regény 89 800 példányban jelent meg.</ref> {{ISBN|963110530X}},<ref name=moly /> 1980<ref>A regény 90 000 példányban jelent meg.</ref> {{ISBN|9631137317}}<ref name=moly /> {{ISBN|963112391X}},<ref name=moly /> 1984<ref>A regény 70 000 példányban jelent meg.</ref> {{ISBN|9631137317}},<ref name=moly /> [fordító: [[Örvös Lajos]]], [illusztráció: Kondor Lajos], a regény a ''Jules Verne művei'' sorozatban jelent meg
+* Sándor Mátyás, [[Pozsony|Bratislava]], Madách Kiadó, 1969, 1976, 1984,<ref>A regény 2 850 példányban jelent meg.</ref> [fordító: Örvös Lajos], [illusztráció: Kondor Lajos], csehszlovák-magyar közös kiadás
+* Sándor Mátyás, Bukarest, Poligr. Casa Sc, 1972, fordító: Vázsonyi Endre, a regény az ''Előre kiskönyvtára'' sorozatban jelent meg
+* Sándor Mátyás, Budapest, Móra Kiadó, 1984, [fordító: Örvös Lajos], román-magyar közös kiadás 
+* Sándor Mátyás, Budapest, FSP Literátor DTP Ny., 1993, fordító: Örvös Lajos 
+* Sándor Mátyás, [[Kaposvár]], Reál Kft., [1995], Könyvújság
+* Sándor Mátyás, Kaposvár, Real, [1997], fordító: Örvös Lajos 
+* Sándor Mátyás, Budapest, Unikornis, 2003, fordító: Vázsonyi Endre, sajtó alá rendezte: Majtényi Zoltán, {{ISBN|9634275125}},<ref name=moly /> a regény a ''Jules Verne összes művei'' sorozatban jelent meg
+* Sándor Mátyás, Budapest, Népszabadság Zrt., 2008, fordító: Örvös Lajos, {{ISBN|9789639709522}}<ref name=moly>{{cite web |author=Jules Verne |title=Sándor Mátyás |url=https://moly.hu/konyvek/jules-verne-sandor-matyas |publisher=[moly.hu] |accessdate=2020-12-01}}</ref>
+
+=== Magyar képregények ===
+{|class="wikitable sortable"
+|+ Sztrogoff Mihály magyar képregényben
+|- style="background:#e8e8e8;"
+!| Magyar cím
+!| Forgatókönyv
+!| Rajz
+!| Közlés helye
+!| Közlés ideje
+!| Folytatások száma
+!| Össz. oldal
+!| Képek száma
+!| Típus, megjegyzés
+|-
+| <ref name=kepregenydb>{{cite web |title=Jules Verne |url=https://wiki.kepregenydb.hu/Jules_Verne |publisher=wiki.kepregenydb.hu |accessdate=2020-11-04 |quote=Magyar, illetve magyar nyelven közölt képregények Verne munkái alapján. A listát Pedro állította össze Kiss Ferenc gyűjtése nyomán.}}</ref> Sándor Mátyás|| Cs. Horváth Tibor || Korcsmáros Pál || [[Füles (magazin)|Füles]] || 1958. 4. – 1958. 19. || align="right" |16||align="right"|64||align="right"|265 || fekete-fehér rajz
+|-
+| <ref>{{cite web |author=Verne Gyula |title=Sándor Mátyás |url=https://kepeskiado.hu/product/sandor-matyas/ |publisher=Képes Kiadó |accessdate=2020-11-27}}</ref> Sándor Mátyás || Cs. Horváth Tibor || Korcsmáros Pál || Képes Kiadó || 2014 || önálló füzet ||align="right"|72|| || A Fülesben folytatásban megjelent képregény önálló füzetbe. {{ISBN|9789639833562}}
+|}
+
+=== Magyar filmváltozat ===
+A könyvből [[1979]]-ben hatrészes magyar–francia–olasz–NSZK [[Sándor Mátyás (televíziós sorozat)|tévéfilmsorozat]] készült [[Bujtor István]] főszereplésével.
+
+=== Egyéb feldolgozások ===
+* [[Henri Fescourt]] némafilm formájában dolgozta fel a regényt [[1921]]-ben.
+* [[Georges Lampin]] [[1963]]-ban forgatta a ''[[Sándor Mátyás (film, 1963)|Sándor Mátyás]]'' című egész estés filmet francia-spanyol-olasz koprodukcióban.
+
+== Jegyzetek ==
+{{jegyzetek}}
+
+== Források ==
+* [http://mek.oszk.hu/03200/03220/03220.pdf Sándor Mátyás – MEK (pdf-változat)]
+* [http://legeza.oszk.hu/sendpage.php?rec=li2331 Legeza Ilona könyvismertetője]
+* [http://moly.hu/konyvek/jules-verne-sandor-matyas A regény adatlapja a Molyon]
+* {{hely|Hankiss}} {{cite journal |author=[[Hankiss János (irodalomtörténész)|Hankiss János]] |title=Jules Verne. A tudomány a szépirodalomban |journal=[[Budapesti Szemle]] |date=november 1929 |issue=624 |pages=215–240 |accessdate=2020-06-25}}
+* {{cite web |author=Bayer Antal blogja |title=Mathias Sandorf és Sándor Mátyás |date=2014-11-18 |url=https://neroblanco.blog.hu/2014/11/18/mathias_sandorf_es_sandor_matyas |publisher=blog |accessdate=2020-11-28}}
+* {{cite journal |author=Ph. Burgaud  |title=Le Vengeur des morts, le cinéroman de Michel Verne d’après Mathias Sandorf (''A Holtak bosszúja, Michel Verne mozimániája Sándor Mátyás után'') |journal=Bulletin de la Société Jules Verne |issue=196 |pages=55-54 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-11-24}}
+* {{cite journal |author=Olivier Dumas |title=Mathias Sandorf. Le Vingt Ans après de Verne avec Marie en filigrane (''Sándor Mátyás. Húsz év után, Marie mint vízjel, Vernén'') |journal=Bulletin de la Société Jules Verne |issue=166 |pages=24-28 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-11-24}}
+* {{cite journal |author=Laurence Sudret |title=Les ruines dans Mathias Sandorf et L’Archipel en feu. Sources de réalisme et moteur de l’action (''A romok a Sándor Mátyásban és a Lángbanálló szigettengerben. A realizmus forrásai és a cselekvés mozgatórugói'') |journal=Bulletin de la Société Jules Verne |issue=157 |pages=17-24 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-11-24}}
+* {{cite journal |author=Philippe Jauzac Et Éric Weissenberg |title=Un rare et étonnant cartonnage de Mathias Sandorf (''Sándor Mátyás ritka és meghökkentő melléklete'') |journal=Bulletin de la Société Jules Verne |issue=142 |pages=5964-5963 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-11-24}}
+* {{cite journal |author=Jean-Pierre Picot |title=Le chef-d’œuvre et son double: Le Comte de Monte-Cristo, d’Alexandre Dumas et Mathias Sandorf, de Jules Verne (''A remekmű és duplája: Alexandre Dumas Monte Cristo grófja és Jules Verne Sándor Mátyása.'') |journal=Bulletin de la Société Jules Verne |issue=109 |pages=41-40 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-11-24}}
+* {{cite journal |author=Anonyme [Olivier Dumas] |title=La vie de la société (''A társaság élete'') |journal=Bulletin de la Société Jules Verne |issue=52 |pages=121-121 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-11-24}}
+
+== További információk ==
+* [http://mek.oszk.hu/03200/03220/html/ ''Sándor Mátyás''] a [[Magyar Elektronikus Könyvtár]]ban
+
+=== A filmsorozatról ===
+* {{PORT.hu film|31621|Sándor Mátyás}}
+* {{IMDb cím|0134252|Sándor Mátyás}}
+* [https://www.youtube.com/watch?v=0oTzXynDhus Filmzene – Sándor Mátyás] [[YouTube]] (2:22)
+* [http://videotar.mtv.hu/Videok/2007/06/21/11/Sandor_Matyas_6_1_resz.aspx MTV – Videótár]
+
+{{Jules Verne munkássága}}
+{{portál|Irodalom}}
+
+[[Kategória:Jules Verne művei]]
+[[Kategória:Az 1880-as évek regényei]]

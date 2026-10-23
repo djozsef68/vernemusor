@@ -1,0 +1,67 @@
+{{Könyv infobox
+ | név = A tizenöt éves kapitány
+ | eredeti cím = Un capitaine de quinze ans
+ | szerző = [[Jules Verne]]
+ | ország = {{Franciaország}}
+ | nyelv = [[francia nyelv|francia]]
+ | kiadás dátuma = [[1878]]
+ | médiatípus = [[könyv]]
+ | isbn =
+ | mek = 00500/00520
+}}
+
+'''''A tizenöt éves kapitány''''' ({{franciául|Un capitaine de quinze ans}}) [[Jules Verne]] [[1878]]-ban megjelent [[regény]]e. Fő témája a [[rabszolgaság]] és különösen az afrikai portugál gyarmatokon folyó rabszolga-kereskedelem.
+
+== Témakörök ==
+'''A regényben előforduló témakörök:'''
+
+* A felnőtté válás nehézségei – a hősies Dick Sandnek el kell vállalnia a hajó vezetését (kapitányságát), miután az igazi kapitány életét veszti egy [[bálnavadászat]] során.
+* Az [[entomológia]] (rovartan) felfedezése
+* A [[rabszolgaság]] elítélése
+* A bosszú leírása
+
+== Cselekmény ==
+Dick Sand egy tizenöt éves fiú, aki a Pilgrim (Zarándok) nevű [[szkúner]] fedélzetén szolgál mint hajósinas. A személyzet tapasztalt bálnavadászokból áll, akik minden évben [[Új-Zéland]] felé veszik az útjukat. Az utasok között van Weldonné, a hajótulajdonos felesége, ötéves kisfia (Jack Weldon) és rovartanász rokona, Benedek bácsi. A csendes-óceáni hajóút során öt hajótöröttet (Tom, Acteon, Bat, Austin, Hercules) és egy kutyát (Dingo) mentenek ki egy félig elsüllyedt hajóroncsról. Az utazás vége felé egy bálnát vesznek észre, amelyet megpróbálnak elejteni, hogy a sikertelen szezon veszteségeit csökkentsék. Hull kapitány vonakodva, de Dick Sandet bízza meg a hajó vezetésével, amíg ő a bálna elejtésére indul. A vadászat tragikus véget ér, Hull kapitány a tapasztalt matrózaival együtt a tengerbe vész. 
+
+Dick egyedül marad a hajó irányítására néhány emberrel, akiket éppen a hajóroncsról menekítettek ki. Megpróbálja őket megtanítani a hajózás alapjaira, és a hajóval megkísérli Dél-Amerika partjait elérni, segítség reményében. Negoro, a hajó ideiglenes szakácsa azonban gonosz tervet forralva félrevezeti Sand Dicket. Összetöri az egyik [[iránytű]]t, a másikat egy mágnessel eltéríti, valamint a hajó sebességének mérésére szolgáló eszközt is használhatatlanná teszi. Ezzel lehetetlenné teszi a hajó [[navigáció]]ját. Negoro ténykedésének következtében a hajó – anélkül, hogy a kapitány vagy az utasok ezt észrevennék – délkeleti irányban átvág a [[Csendes-óceán]] délkeleti vizein, áthalad a [[Drake-átjáró]]n, megkerüli a [[Tűzföld]]et, majd ismét keleti irányba fordulva átvág az [[Atlanti-óceán]]on, és [[Dél-Amerika]] partjai helyett egyenlítői [[Afrika|Afrikában]], [[Angola]] lakatlan partvidékén fut partra. A cselszövésre csak sokára jönnek rá. Kiderül, hogy Negoro afrikai rabszolga-kereskedő, és az utasokat rabszolgaként adja el. Negoro amerikai cinkosa, Harris éppen ott várja Negorót, ahol a hajótöröttek partra sodródtak. Harris egy ideig elhiteti az utasokkal, hogy Dél-Amerikában vannak, közben azonban rabszolgavadászok kezére adja őket. A fogságba ejtett Weldonnét, kisfiát és Benedek bácsit Negoro túszként akarja felhasználni, hogy értük a gazdag tulajdonostól, James Weldontól jelentős váltságdíjat zsaroljon ki. (Verne itt részletesen leírja az európaiak közreműködésével is zajló afrikai rabszolgakereskedelem történetét és korabeli működő rendszerét). Afrikai szárazföldi útjuk során a foglyoknak sok szenvedést kell elviselniük. Dick nem törik meg, és végül bátorságának, leleményességének és nagyerejű néger barátjának, Herculesnek köszönhetően biztonságba juttatja a rá bízott embereket.
+
+== Szereplők ==
+* Dick Sand – hajósinas, a tizenöt éves kapitány
+* Hull kapitány – a Pilgrim bálnavadászhajó kapitánya
+* Weldonné – a Pilgrim tulajdonosának, James Weldonnak felesége
+* Jack Weldon – James Weldon kisfia
+* Benedek bácsi – Weldonék rokona; az [[ízeltlábúak]] tudósa
+* Nan – Weldonné öreg néger szolgálója
+* Negoro – portugál kalandor, rabszolgakereskedő, a Pilgrim ideiglenes hajószakácsa
+* Tom, Bat, Austin, Acteon, Hercules – a hajóroncsról mentett amerikai néger férfiak (Hercules rendkívül erős)
+* Dingo – a hajóroncsról mentett kutya, Negorót engesztelhetetlenül gyűlöli
+* Harris – amerikai kalandor, Negoro cinkosa
+* Alvez – az [[angola]]i rabszolgapiac vezetője
+* Moini-Lungga – Kazonndé királya; túlzott [[alkoholizmus]]a miatt meghal
+
+== Feldolgozások ==
+=== Filmváltozatok ===
+* Пятнадцатилетний капитан (szovjet, 1945)<ref>{{Imdb title|0038841|A tizenötéves kapitány}}</ref>
+* Un Capitán de quince ańos (francia-spanyol, 1974)<ref>{{PORT.hu-film|51182|A tizenötéves kapitány}}</ref>
+
+=== Hangjátékok magyarul ===
+* Rádiójáték (1969)<ref>{{Cite-web|url=https://radiojatek.elte.hu/?s=A+tizen%C3%B6t+%C3%A9ves+kapit%C3%A1ny+(1969)|title=A tizenötéves kapitány (1969) – Adaptáció|publisher=Radiojatek.elte.hu|accessdate=2024-08-07}}</ref>
+* Rádiójáték (1989)<ref>{{Cite-web|url=https://radiojatek.elte.hu/?s=A+tizen%C3%B6t+%C3%A9ves+kapit%C3%A1ny+(1989)|title=A tizenöt éves kapitány (1989) – Adaptáció|publisher=Radiojatek.elte.hu|accessdate=2024-08-07}}</ref>
+
+== Jegyzetek ==
+{{jegyzetek}}
+
+== Források ==
+* [http://mek.oszk.hu/00500/00520/00520.htm A regény a Magyar Elektronikus Könyvtárban]
+* [http://moly.hu/konyvek/jules-verne-a-tizenot-eves-kapitany A regény adatlapja a Moly oldalán]
+
+== További információk ==
+* [https://web.archive.org/web/20190605145357/http://verne.djp.hu/ Vernéről, Verne regényeiről]
+
+{{Jules Verne munkássága}}
+{{Nemzetközi katalógusok}}
+{{Portál|Irodalom}}
+
+{{DEFAULTSORT:Tizenötéveskapitány}}
+[[Kategória:Jules Verne művei]]
+[[Kategória:Az 1870-es évek regényei]]

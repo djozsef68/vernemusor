@@ -1,0 +1,315 @@
+{{egyért2|a regényről|80 nap alatt a Föld körül (egyértelműsítő lap)}}
+{{Könyv infobox
+| név           = Nyolcvan nap alatt a Föld körül
+| alcím         =
+| eredeti cím   = Le Tour du monde en quatre-vingts jours
+| fordító       = [[Szász Károly (költő, 1829–1905)|Szász Károly]] (1876)<ref>''Utazás a Föld körül 80 nap alatt'' címmel jelent meg.</ref><br />[[Győry Ilona]] (1892)<ref>Megjelent ''Utazás a Föld körül 80 nap alatt''. Verne Gyula után - címmel.</ref><br />[[Csatlós János]] (1957)
+| főszerkesztő  = 
+| kép           = Verne Tour du Monde.jpg
+| képméret      =
+| képaláírás    = A ''80 nap alatt a Föld körül'' korabeli kiadása
+| szerző        = [[Jules Verne]]<br />[[Fájl:Jules Verne 05.jpg|120px]]
+| ország        = {{Franciaország}}
+| nyelv         = [[francia nyelv|francia]]
+| téma          = [[utazás]]
+| műfaj         = [[kalandregény]]
+| sorozat       = 
+| előző         = 
+| következő     = -
+| kapcsolódó film = ''[[80 nap alatt a Föld körül (film, 1956)|80 nap alatt a Föld körül]]'' (1956)<br />''[[80 nap alatt a Föld körül Willy Foggal]]'' (1983)<br />''[[80 nap alatt a Föld körül (film, 2004)|80 nap alatt a Föld körül]]'' (2004)
+| kiadó         = Hetzel Kiadó
+| kiadás dátuma = 1873
+| magyar kiadó  = [[Franklin Irodalmi és Nyomdai Rt.|Franklin Társulat]]<br />[[Móra Könyvkiadó|Móra Ferenc Könyvkiadó]]<br />[[Könyvmolyképző Kiadó]]
+| magyar kiadás dátuma = [[1876]]<ref>{{cite web |url= http://moly.hu/konyvek/jules-verne-nyolcvan-nap-alatt-a-fold-korul |title= További kiadások a regény adatlapján |accessdate= 2015-10-02 |author= [[Moly.hu]]}}</ref>
+| illusztrátor  = [[Bokros Ferenc]], [[Szecskó Tamás]]
+| borítógrafika = 
+| médiatípus    = [[könyv]]
+| oldalak       = 224 (1957), 268 (1980), 280 (2008)
+| isbn          = {{ISBN|9631121763}}
+| mek           = 02000/02045/index.phtml
+| wikicommons   = Around the World in Eighty Days
+}}
+[[Fájl:Nyolcvan nap alatt a Föld körül.jpg|bélyegkép|200px|jobbra|Az 1896-os francia kiadás könyvborítója]]
+[[Fájl:JulesVerneReiseIn80Tagen.png|bélyegkép|200px|jobbra|A regény 1875-ös [[Német nyelv|német]] kiadásának címoldala]]
+
+A '''''Nyolcvan nap alatt a Föld körül''''' ''(Le Tour du monde en quatre-vingts jours)'' [[Jules Verne]] [[Franciaország]]ban 1873-ban<ref>{{Cite web |url=http://verne.djp.hu/ |title=Sorozatban 1872. november 6. és 1872. december 22. között jelent meg a Le Temps-ben. |accessdate=2015-12-18 |archiveurl=https://web.archive.org/web/20190605145357/http://verne.djp.hu/ |archivedate=2019-06-05}}</ref> megjelent, világszerte népszerű klasszikus [[kalandregény]]e.<ref name="mult-kor9332">{{cite web| url = http://mult-kor.hu/cikk.php?id=9332|title = 100 éve halt meg Jules Verne| accessdate= 2015-10-03| author = Múlt-kor}}</ref> A mű ''Utazás a Föld körül'' címmel is megjelent.<ref>{{cite web| url = http://moly.hu/konyvek/jules-verne-utazas-a-fold-korul|title = Utazás a Föld körül| accessdate= 2015-10-02| author = [[Moly.hu]]}}</ref>
+
+A történetben Phileas Fogg, [[london]]i úriember és újonnan alkalmazott francia inasa, Passepartout próbálja megkerülni a Földet 80 nap alatt. A világot körbeutazó, különös utazás tétje 20 ezer [[Font sterling|font]]. Erre az akkoriban nehezen megvalósítható, különleges utazásra lehetőséget biztosított már a közlekedés forradalma. Az új közlekedési eszközök: a vasút, a gőzhajó lerövidítette a távolságokat. Ez a regény az egyik legismertebb Verne alkotásai közül.<ref name="mult-kor9332"/><ref>Egy [[UNESCO]]-statisztika szerint a Biblia és Marx-Engels művei után Verne regényei jelentek meg a legnagyobb példányszámban a világon.</ref> Magyarul először 1875-ben a [[Franklin Irodalmi és Nyomdai Rt.|Franklin Társulat]] adta ki [[Szász Károly (költő, 1829–1905)|Szász Károly]] fordításában.
+
+== Műfaja, stílusa ==
+A könyv műfaja szerint szórakoztató irodalom, a romantikus [[kalandregény]]ek sorába tartozik, úgy, mint Verne több más regénye is. Jellemző rá, hogy a hős és kalandjai állnak a középpontban, miként fantáziadús hőstettei és megpróbáltatásai is. A főszereplő a fogadás következtében kiszakad megszokott környezetéből, veszélyes helyzetekbe kerül, állandóan vándorol, utazik, de a hosszú hányattatást követően győzelmet arat. [[Bűnügyi regény (irodalmi műfaj)|Krimi]]re emlékeztető módon a cselekmény egészében üldöztetésben van része, tévedésből bűnözőnek nézik, a célja végrehajtásában folyamatosan akadályokba ütközik. A kalandoknak kevés lélekalakító, jellemformáló hatásuk van, ám az olvasót folytonos meglepetések, váratlan fordulatok érik. A mű cselekményes, fordulatos, romantikus érzelmi szállal átszőtt.
+
+== A regény előzményei ==
+Verne 1862-ben [[Jules Hetzel]] könyvkiadóval szerződést kötött, és kötelezte magát arra, hogy évenként két regényt ír, melyeket a kiadó a ''Különleges utazások'' (Les Voyages Extraordinaires) sorozatában jelentet meg. 1863-ban kiadták az ''[[Öt hét léghajón]]'' című regényt, amely akkora sikert aratott, hogy egy éven belül 11 nyelvre lefordították. A szerződés keretében a könyvkiadó egy év múlva kiadta az ''[[Utazás a Föld középpontja felé (regény)|Utazás a Föld középpontja felé]]'', majd 1865-ben az ''[[Utazás a Holdba (regény, 1865)|Utazás a Holdba]]'' műveket. A további években folytatódott a sorozat a ''[[Hatteras kapitány]]'', a ''[[Grant kapitány gyermekei]]'', a ''[[Nemo kapitány]]'', az ''[[Utazás a Hold körül]]'', ''[[Az úszó város]]'', a [[Három orosz és három angol kalandjai]] és ''[[A prémvadászok]]'' regényekkel. Közben Verne, népszerű alkotásainak köszönhetően, 1872-ben elnyerte a [[Francia Akadémia]] díját.<ref name="mult-kor9332"/> Az elismerést követő évben jelent meg a ''Nyolcvan nap alatt a Föld körül''.
+
+== Történet ==
+A gazdag angol úriember, Phileas Fogg, a [[london]]i Reform Klub tagja 1872. október 2-án egy klubbéli beszélgetés kapcsán vállalkozik arra, hogy egy 20 ezer [[Font sterling|fontos]] fogadás keretében (ami teljes vagyonának mintegy felét tette ki) 80 nap (1920 óra) alatt körbeutazza a [[Föld]]et. A fogadásban részt vevő felek az útvonalat is meghatározzák: London – [[Szuez]] – [[Mumbai|Bombay]] – [[Kolkata|Kalkutta]] – [[Hongkong]] – [[Jokohama]] – [[San Francisco (Kalifornia)|San Francisco]] – [[New York]] – [[London]].
+
+{| class="wikitable sortable"
+|-
+! Városok
+! Közlekedési eszköz
+! Idő
+|-
+| Londonból Szuezbe
+| [[vasút]] és [[gőzhajó]]
+|align="right"| 7 nap
+|-
+| Szuezből Bombaybe
+| gőzhajó
+|align="right"| 13 nap
+|-
+| Bombayből Calcuttába
+| vasút és [[Elefántfélék|elefánt]]
+|align="right"| 3 nap
+|-
+| Calcuttából Hongkongba
+| gőzhajó
+|align="right"| 13 nap
+|-
+| Hongkongból Jokohamába
+| gőzhajó
+|align="right"| 6 nap
+|-
+| Jokohamából San Franciscóba
+| gőzhajó
+|align="right"| 22 nap
+|-
+| San Franciscóból New Yorkba
+| vasút és vitorlás szán
+|align="right"| 7 nap
+|-
+| New Yorkból Londonba
+| gőzhajó és vasút
+|align="right"| 9 nap
+|-
+|}
+
+Wilbur Fix, a [[Scotland Yard]] nyomozója tévesen egy [[anglia]]i – {{szám|50000}} fontos – bankrablás tettesét véli felismerni Foggban, ezért folyamatosan hátráltatja a főhőst célja teljesítésében. Mr. Fogg és kísérője a [[Szuez]]ből [[Mumbai|Bombayig]] tartó hajóúton két nap előnyre tesz szert, amit hamarosan elvesztenek, mert találkoznak Auda hercegnővel, akit a [[Barbárok|barbár]] helyi szokások miatt – halott férjével együtt – [[Máglya|máglyán]] akarnak elégetni. Fogg inasa, Passepartout megmenteti a fiatal özvegyasszony életét, így immáron hármasban folytatják az izgalmas versenyfutást az idővel.
+
+A felügyelő [[Kolkata|Kalkuttában]] letartóztatja Foggékat, ám ők tetemes [[Óvadék (büntetőjog)|óvadék]] ellenében megmenekülnek a bebörtönzéstől, így Fix tovább kényszerül követni őket [[Hongkong]]ba. Itt Fogg és Auda lemaradnak a [[Jokohama|Jokohamába]] induló ''Carnatic'' hajóról. Phileas kibérli a Tankadère kétárbócos hajót, majd a hercegnővel, valamint Fixszel együtt elhajóznak [[Sanghaj]] felé. Passepartout, akit az angol nyomozó korábban leitatott, a Carnaticon találja magát. Kábulatában valahogy feljut a [[gőzhajó]]ra, de a gazdája és útitársa lemaradnak a vízi járműről, mivel nem értesülnek a korábbi indulásról és csak Jokohamában találkoznak újra. A [[japán]] kikötővárosban Fix felügyelő megkapja a [[konzulátus]]on a Fogg elleni letartóztatási parancsot, de itt semmire sem megy vele, mert már nem angol fennhatóság alatt álló területen tartózkodnak. Jokohamából együtt indulnak tovább [[San Francisco (Kalifornia)|San Franciscóba]].
+
+Az [[Amerikai Egyesült Államok|Amerikába]] tartó ''General Grant'' gőzhajó útja során az angol rendőr felfedi kilétét a francia inas előtt, és közli vele, hogy most már a szövetségese, és nem ellensége Phileasnak, mert minél előbb szeretné őket angol földön látni. A [[Csendes-óceán]]tól az [[Atlanti-óceán]]ig 3786 mérföldes utat hét nap alatt teszik meg. A sziú [[indiánok]] megtámadják a szerelvényt, és az utasok védekezésre kényszerülnek. Eközben Passepartout eltűnik, de Fogg becsületbeli ügynek tekinti, hogy kiszabadítsa az inasát. Ezt követően egy vitorlás szánnal száguldanak [[Omaha (Nebraska)|Omaha]] felé. Innen [[Chicago|Chicagóba]], majd egy másik vonattal [[New York]]ba utaznak. A ''China'' nevű gőzöst 45 perccel késik le, ezért Fogg a kikötőben megállapodik Andrew Speedy kapitánnyal, hogy vele tarthatnak a teherhajóján. Amikor a teherhajó az óceánon van, a ravasz angol lefizeti a hajó legénységét, hogy más célállomás felé, [[Liverpool]] irányába hajózzanak, ezért Speedyt a kabinjába zárják. A kereskedelmi hajón azonban kevés a [[szén]], ezért az utazás vége felé az összes berendezést eltüzelik, hogy elérjék az [[Írország|ír]] partokat. [[Queenstown]]ból gyorsvonattal [[Dublin]]ba mennek, majd innen egy szupergyors steamerrel [[Liverpool]]ba. December 21-én, húsz perccel déli tizenkettő előtt Phileas Fogg partot ér a liverpooli kikötőben, ahonnan csupán hat óra választja el [[London]]tól.
+
+Ekkor a túlbuzgó Fix felügyelő letartóztatja Phileas Foggot, akit bankrablónak tart. A félreértés ugyan hamarosan kiderül – az igazi bankrablót három nappal korábban letartóztatta az angol [[rendőrség]] – és Foggot szabadon engedik, de a Londonba induló [[vonat]]ot már lekésték. Bérelt különvonattal utazik a társaság Londonba, de öt perccel a kitűzött határidő után érkeznek meg. Fogg a fogadásról lemondva feleségül akarja venni Auda hercegnőt, ezért elküldi inasát a közelben lakó főtisztelendő úrhoz, hogy vele egyeztessék az esküvő időpontját. Passepartout Samuel Wilsontól tudja meg, hogy 24 órával hamarabb érkeztek vissza az utazásukból, így a gazdája még megnyerheti a fogadást. Lóhalálában a Reform Klubba sietnek, ahová a világutazó [[másodperc]]re pontosan meg is érkezik.
+
+[[Fájl:Around the World in Eighty Days map.png|bélyegkép|650px|középre|A térkép Phileas Fogg [[Föld]] körüli utazását mutatja be a regényben leírtak szerint. ''Fekete'' szín: [[vasút]], ''kék'': [[gőzhajó]], ''sárga'': [[extrém]] jármű]]
+
+Phileas Fogg húszezer fontot nyer, az út során 19 ezret költött, a kettő közötti különbséget Passepartout és Wilbur Fix felügyelő között osztja el fele-fele arányban. Fogg mit nyert az utazással?
+
+{{Idézet|Hogy semmit? Mondjuk, hogy semmit, legfeljebb bájos feleségét, aki – bármily hihetetlenül hangzik is – oly boldoggá tette, amilyen boldog még senki sem volt.|Részlet a 37. fejezetből<ref>Jules Verne: 80 nap alatt a Föld körül (Puedlo Kiadó, 2000, 180. oldal)</ref>}}
+
+{|class="wikitable collapsible collapsed" width="500"
+|-
+!bgcolor="#40e0d0" colspan=2|Egy titok magyarázata
+|-
+|colspan=2 bgcolor="#e0ffff"|
+{{Idézet|Íme, a tévedés magyarázata. Igen egyszerű.
+
+Phileas Fogg, „anélkül, hogy sejtette volna”, egy [[Nap (időegység)|nappal]] megelőzte útitervét – mégpedig azért, mert [[kelet]] felé utazta körül a [[Föld]]et, míg ha ellenkező irányban, vagyis [[nyugat]] felé ment volna, akkor veszített volna egy napot. Keletnek tartva ugyanis állandóan a [[Nap]] felé haladt, és ezért számára minden egyes nap annyiszor négy [[perc]]et rövidült, ahány [[Szélességi kör|szélességi fokot]] érintett kelet felé.
+
+A Föld kerülete, 360 fokra oszlik, s ha ezt a 360 fokot négy perccel megszorozzuk, pontosan huszonnégy órát kapunk – vagyis éppen annyit, amennyit Phileas Fogg nyert, észrevétlenül. Más szóval: miközben Phileas Fogg, keletnek tartva, nyolcvanszor látta a napot delelni, [[London]]ban maradt kollégái csupán hetvenkilencszer.|Részlet a 37. fejezetből<ref>Jules Verne: 80 nap alatt a Föld körül (Puedlo Kiadó, 2000, 178. oldal)</ref>}}
+|}
+
+[[Fájl:Jules Verne 80 Sony Reader 1.jpg|bélyegkép|200px|jobbra|A 80 nap alatt a Föld körül [[Francia nyelv|francia]], [[Angol nyelv|angol]] és [[lengyel nyelv]]en]]
+
+== Szereplők ==
+[[Fájl:Ocolul Pământului în 80 de zile.png|bélyegkép|200px|jobbra|Verne műve [[Román nyelv|románul]] ]]
+
+=== Főszereplők ===
+* '''Phileas Fogg:''' a londoni ''Reform Klub'' 40 éves, kifogástalanul udvarias, de magának való tagja. A [[humanizmus]], a becsület, az adott szó és az egészséges versenyszellem képviselője a regényben.
+* Jean Passepartout: Fogg francia szolgája, aki hűségével és józan paraszti eszével többször kisegíti gazdáját a bajból.
+* Auda: indiai hercegnő, akit férje halála után a helyi szokásoknak megfelelően fel akarnak áldozni, de Passepartout megmenti a tűzhaláltól.
+* Wilbur Fix: rendőrfelügyelő, aki kitartó kopóként üldözi a történetben a bankrablónak vélt főhőst.
+
+=== Mellékszereplők ===
+* Sir Francis Cromarty, az angol hadsereg [[Rendfokozat|dandártábornoka]]
+* Andrew Stuart, [[mérnök]]
+* John Sullivan és Samuel Fallentin, bankárok
+* Thomas Flanagan, serfőző
+* Ralp Gauthier, az Angol Bank egyik igazgatója
+* John Bunsby, a két[[árbóc]]os Tankadère kapitánya
+* William Batulcar, cirkuszigazgató
+* William Hitch, [[Mormonizmus|mormon]] tiszteletes
+* Andrew Speedy, a Henrietta kapitánya
+* Samuel Wilson, főtisztelendő
+
+[[Fájl:Utazás a Föld körül.JPG|bélyegkép|200px|jobbra|Utazás a Föld körül (1898-as magyar kiadás)]]
+
+== Kiadások magyar nyelven (válogatás)==
+{| {{széptáblázat}}
+!Kiadó
+!Hely
+!Év
+!Fordító
+|-
+| [[Könyvmolyképző Kiadó]]
+| [[Szeged]]
+| 2008<ref>{{cite web |url=http://konyvmolykepzo.hu/products-page/jonatan-konyvmolykepzo/jules-verne-80-nap-alatt-a-fold-korul-232 |title=80 nap alatt a Föld körül |accessdate=2015-10-03 |publisher=[[Könyvmolyképző Kiadó]]}}</ref>
+| [[Csatlós János]]
+|-
+| [[Népszabadság]]
+| [[Budapest]]
+| 2008<ref>{{cite web |url=http://www.lapker.hu/katalogus/index.php?p=catalog&act=show&id=0113388700_20080013 |title=Nyolcvan nap alatt a Föld körül |accessdate=2015-10-03 |archiveurl=https://web.archive.org/web/20151004040756/http://www.lapker.hu/katalogus/index.php?p=catalog&act=show&id=0113388700_20080013 |archivedate=2015-10-04 |publisher=Lapker}}</ref>
+| Csatlós János
+|-
+| [[Unikornis Kiadó]]
+| Budapest
+| 2002<ref name="80+nap+alatt+a+Föld+körül">{{cite web |url=http://www.odrportal.hu/kereso/index.php?stype=title&q=%2280+nap+alatt+a+F%C3%B6ld+k%C3%B6r%C3%BCl%22 |title=Nyolcvan nap alatt a Föld körül |accessdate=2015-10-03 |work=Országos Dokumentum-ellátási Rendszer}}{{Halott link|url=http://www.odrportal.hu/kereso/index.php?stype=title&q=%2280+nap+alatt+a+F%C3%B6ld+k%C3%B6r%C3%BCl%22|date=2022-12}}</ref>
+| Csatlós János
+|-
+| Puedlo Kiadó
+| [[Debrecen]]
+| 2000<ref name="80+nap+alatt+a+Föld+körül"/>
+| Szász Károly<ref>Szász Károly fordítását átdolgozta: Nemere Ilona.</ref><ref>{{cite web |url=http://www.odrportal.hu/web/guest/record/-/record/MOKKAZ0006401394 |title=80 nap alatt a Föld körül (példányadat) |accessdate=2015-10-03 |work=Országos Dokumentum-ellátási Rendszer}}</ref>
+|-
+| [[Alexandra Kiadó]]
+| [[Pécs]]
+| 1996<ref name="80+nap+alatt+a+Föld+körül"/>
+| Csatlós János
+|-
+| [[Móra Könyvkiadó|Móra Ferenc Könyvkiadó]]
+| Budapest
+| 1957,<ref>{{cite web |url=http://opac.lib.uni-miskolc.hu/monguz/index.jsp;jsessionid=A1FCC98A899CC8A52DE693980016DFBF?from_page=details&page=details&dbname=database&bib1id=4&bib1field=0&term=655119 |title=Nyolcvan nap alatt a Föld körül |accessdate=2015-10-03 |archiveurl=https://web.archive.org/web/20151004144243/http://opac.lib.uni-miskolc.hu/monguz/index.jsp;jsessionid=A1FCC98A899CC8A52DE693980016DFBF?from_page=details&page=details&dbname=database&bib1id=4&bib1field=0&term=655119 |archivedate=2015-10-04 |work=Monguz OPAC}}</ref> 1980<ref name="80+nap+alatt+a+Föld+körül"/>
+| Csatlós János
+|-
+| [[Franklin Irodalmi és Nyomdai Rt.|Franklin Társulat]]
+| Budapest
+| 1898<ref>{{cite web |url=http://bibliofilia.blog.hu/2008/11/08/utazas_a_fold_korul_1898 |title=Utazás a Föld körül (1898) |accessdate=2015-10-03 |work=Bibliofilia}}</ref>
+| [[Szász Károly (költő, 1829–1905)|Szász Károly]]
+|-
+| [[Franklin Irodalmi és Nyomdai Rt.|Franklin Társulat]]
+| Budapest
+| 1892
+| [[Győry Ilona]]
+|}
+
+== Háttér és elemzés ==
+A ''Nyolcvan nap alatt a Föld körül'' nehéz időkben íródott, [[Franciaország]] és Verne számára is. Ekkor zajlott a [[porosz–francia háború]], melyben Vernét besorozták a parti őrségbe. Az író ekkor pénzügyi gondokkal is küzdött (előző munkáiért nem kapott szerzői jogdíjat), ráadásul az édesapja ekkoriban hunyt el, valamint tanúja volt egy nyilvános kivégzésnek, ami igen felkavarta.<ref name=butcher>William Butcher: ''Around the World in Eighty Days'', Oxford Worlds Classics, 1995, Bevezetés</ref> Mindezek ellenére Verne új könyvén dolgozott, melynek ötlete egyik délután újságolvasás közben fogant meg benne egy párizsi kávéházban.
+
+A XIX. század technológiai újításai lehetőséget teremtettek a Föld gyors körülhajózására, az ebből adódó kilátások pedig lenyűgözték Vernét és olvasóit.<ref name=butcher/> 1869 és 1870 között három technológiai áttörés történt, melyek első ízben tették lehetővé egy világ körüli út megtételét. Ezek a következők voltak: az [[első transzkontinentális vasútvonal]] befejezése az [[Amerikai Egyesült Államok]]ban (1869), az indiai vasútvonalak összekapcsolása a szubkontinens területén (1870), és a [[Szuezi-csatorna]] megnyitása (1869).<ref name=butcher/> A felfedezések kora a végéhez közeledett, és egy olyan korszak közeledett, melyben a turizmus teljesen globálissá válhat. A képzelet szárnyra kapott attól, hogy bárki leülhet, összeállíthat egy ütemtervet, jegyet vehet és körbeutazhatja a világot. Ezt korábban csak a leghősiesebb és legedzettebb kalandorok tehették meg.<ref name=butcher/>
+
+Vernét gyakran [[Futurizmus|futurista]] vagy [[sci-fi]]-írónak bélyegzik, de egyik legsikeresebb művében,<ref name=butcher/> a ''Nyolcvan nap alatt a Föld körül'' címűben egy csepp sci-fi elem sincsen. Futurisztikus regény helyett inkább a [[Brit Birodalom]] emlékezetes portréjának tekinthető az alkotás: „az országénak, ahol a nap soha nem nyugszik le”.<ref name=butcher/> Ezt a portrét egy kívülálló festette nem sokkal azelőtt, hogy a birodalom elérte volna csúcspontját. A könyv bővelkedik azon általános viselkedésformák megjelenítésében, melyek az előkelő angolokra, vagy tágabb értelemben a britekre jellemző. Például a 12. fejezetben a következő hangzik el, amikor a csapat elefántháton „üget” végig a dzsungelen: „A két utas azonban ízig-vérig angol flegmával tűrte helyzetét; nemigen társalogtak, és alig látták egymást.” Amikor pedig a 25. fejezetben Foggot sértegetik San Fransiscóban, Fix detektív elismeri, hogy „Amint látjuk, Mr. Fogg az a fajta angol volt, aki odahaza nem tűri a párbajt, de külföldön megverekszik a becsületéért.”
+
+A regény záró dátuma 1872. december 21, ugyanaz a nap, mikor a regényt folyóiratban publikálták.<ref name=butcher/> Mivel először folytatásokban jelentették meg, ezért néhány olvasó azt hitte, hogy az utazás valójában megtörtént: fogadásokat kötöttek, néhány vonalhajózási és vasúttársaság pedig befolyásolni igyekezett Vernét, hogy szerepelhessenek a könyvben.<ref name=butcher/> Azt nem tudni, hogy Verne eleget tett-e kéréseiknek, de a könyvben található leírások arra engednek következtetni, hogy igen.
+
+Habár a történetet sokszor a [[léghajó]]s utazással hozzák összefüggésbe, ezt az ikonikus [[szimbólum]]ot Verne ebben a művében nem használta: az ötlet felmerült a 32. fejezetben, de aztán el is vetették. „Márpedig mindenáron át kell jutnia az Atlanti-óceánon – még ha léghajóra is száll, ami azonban fölöttébb kalandos vállalkozás volna, és amúgy sem megvalósítható.” A népszerű, [[80 nap alatt a Föld körül (film, 1956)|1956-os filmadaptáció]] azonban felhasználta a léghajó ötletét, mára már a történet mitológiájának részévé nőtte ki magát, és még egyes könyvborítókon is szerepel. Ez a cselekményelem Verne korábbi, az őt híressé tevő [[Öt hét léghajón]] című munkájára emlékeztetheti az olvasót.
+
+==Irodalmi jelentősége és kritikák==
+
+#''„Emlékeztetnénk az olvasókat, hogy Verne úr bűvészmutatványa nem az első, amit létrehozott, azonban itt úgyszólván összegezte és koncentrálta eddigi életművét. Nem lehet eléggé dicsérni könyveit, amelyek valóban hasznosak, szórakoztatóak, megrendítőek és erkölcsösek ... Amerika és Európa létrehozta már a maga riválisait, de ezek minden esetben észrevehetően gyengébbek voltak.” –írta Henri Trianon 1873-ban a Le Constitutionnel-ben ''<ref>{{cite journal|author=Henry Trianon |editor= |title=|journal = Le Constitutionnel|volume = |issue =|url= |accessdate= |date=1873-12-20 |year= |month= |publisher=Europe |isbn= |pages= |quotes=}}</ref>
+#[[Léon Blum]] 1905-ben a [[L'Humanité]]ben megjelent cikkében így méltatja a művet: ''„Az első könyvei'', a 80 nap alatt a Föld körül, ''vagy az'' [[Utazás a Holdba (regény, 1865)|Utazás a Holdba]] ''a legjobb művei szerintem, azonban ezeket teljességükben kell nézni inkább, mint részleteiben, azok hatásait kell inkább vizsgálni, mint azok belső minőségét. Az elmúlt negyven évben nincs olyan mű, ami hasonlóan nagy hatással lett volna a gyerekekre itt vagy Európa más országaiban. Ez a hatás jó volt, amennyire ezt ma meg lehet ítélni.”''<ref>{{cite journal|author=[[Léon Blum]] |editor= |title=|journal = L'Humanité|volume = |issue =|url= |accessdate= |date=1905-04-03 |year= |month= |publisher=Europe |isbn= |pages= |quotes=}}</ref>
+#[[Jean Cocteau]] szerint ''„Verne Gyula remekműve ösztönözte a gyermekkorunkat, és többet tanított nekünk, mint az összes atlasz: a kaland ízére és az utazás szeretetére. »Harmincezer bankjegy önnek kapitány, ha egy órán belül elérjük Liverpoolt!« Phileas Foggnak ez a kiáltása marad számomra a tenger hívása.”''<ref>{{citLib|szerző=[[Jean Cocteau]] |cím=Mon premier voyage (Tour du monde en 80 jours)|év=1936 |kiadó=Gallimard |hely= |isbn= }}</ref>
+#[[Lev Nyikolajevics Tolsztoj|Lev Tolsztoj]]ról írta Cirill Andrejev: ''„Lev Tolsztoj szerette Verne műveit. »Jules Verne regényei páratlanok«, mondogatta. »Felnőttként olvastam őket, és emlékszem, hogy felizgatott. Jules Verne elképesztő mestere az elbeszélés művészi felépítésének, amivel lenyűgözi és lelkesíti az olvasót.«”''<ref>{{citLib|szerző=Cirill Andrejev |közreműködők=François Hirsch |cím=Preface to the Complete Works |kiadó=Europe |hely= |isbn=  |fejezetcím=33 |oldal=112-113,22-48}}</ref>
+
+== Hatása ==
+[[Fájl:Nellie Bly 2.jpg|bélyegkép|125px|balra|Nellie Bly]]
+
+A ''Nyolcvan nap alatt a Föld körül'' regény sokakat utazásra ösztönzött.
+* Nellie Bly,<ref>{{cite web| url = http://www.biography.com/people/nellie-bly-9216680|title = Nellie Bly - Journalist| accessdate= 2015-10-02| author = Biography.com| language = angol}}</ref> egy [[Amerikaiak|amerikai]] hölgy 1889-ben 72 nap alatt tette meg a Föld körüli utat, Verne táviratban köszöntötte.
+* 1901-ben a [[Transzszibériai vasútvonal|transzszibériai vasút]] átadása után egy [[párizs]]i újságíró, Gaston Stiegler 63 nap alatt valósította meg a regényben leírtakat.<ref>{{cite web| url = http://www.geni.com/people/Gaston-Stiegler/6000000002311554381|title = Gaston Stiegler (1853 - 1931)| accessdate= 2015-10-02| author = Geni.com| language = angol}}</ref>
+* 1987-ben a Sunday Times írt arról, hogy több mint 100 évvel Fogg bolygókerülése után több időt venne igénybe a retró utazás. A menetrendi egyeztetés, a hivatalos papírok beszerzése (az útlevelek, vízumok megszerzése), a hajójáratok hiánya miatt 22 nappal több időre lenne szüksége a kalandra vállalkozónak.
+* A [[BBC]] 1988-ban felkérte [[Michael Palin]]t, hogy a korabeli körülményeknek megfelelően próbálja meg Fogg útját bejárni. A színész 79 nap alatt teljesítette a körutat.<ref>Az utazásból hatrészes ismeretterjesztő filmsorozat (1992) és egy könyv is készült készült, ''Nyolcvan nap alatt a Föld körül'' címmel (2005-ben magyar nyelven is megjelent])</ref><ref>{{cite web| url =http://moly.hu/konyvek/michael-palin-nyolcvan-nap-alatt-a-fold-korul|title = Nyolcvan nap alatt a Föld körül| accessdate= 2015-10-02| author = [[Moly.hu]]}}</ref>
+
+[[Fájl:CsepreghyFerenc_80NapAlatt.png|bélyegkép|140px|A debreceni előadás plakátja (1876)]]
+
+== Színház ==
+A művet színpadra is alkalmazták: játszották [[Párizs]]ban, [[Bécs]]ben. [[Magyarország]]on [[Csepreghy Ferenc]]nek a Verne-regény nyomán írt darabját adták elő nagy sikerrel a budapesti [[Népszínház (Budapest, 1875–1908)|Népszínház]]ban, majd hamarosan [[Debrecen]]ben is.
+ 
+A [[Vasárnapi Ujság (hetilap, 1854–1921)|Vasárnapi Ujság]] 1875. december 26-i számában<ref>''Irodalom és művészet'' rovat, 838. oldal, első hasáb</ref> ezt közli: "A népszínház részéről a hét elején következő értesitést bocsátották ki: Decz. 27-n kerül először szinre: „Utazás a föld körül 80 nap alatt". Látványos színmű zenével, énekkel és tánczczal, J. Verne regénye után irta Csepreghy Ferencz. 1. kép: Egy merész fogadás Londonban. 2. kép: A suezi kikötő. 3. kép: India őserdeiben. 4. kép: Emberáldozat. Menekülés elefánton. 5. kép: A kalkuttai törvényszék előtt. 6. kép: A kigyók szigetén s a bajadérek ligetében. 7. kép: A Pacific-vasuton Amerikában. 8. kép: Az amerikai rézbőrűek között. 9. kép: A hajó belsejében. 10. kép: Katasztrófa a nyilt tengeren. 11. kép: Hajótörés a szárazon. Liverpool. 12. kép: A londoni reformklub révében." A ''Szabolcs'' c. hetilap 1876. február 20-án "a debreczeni szinház legnevezetesebb ujdonságának" minősíti a darabot és beszámol arról, hogy mind a tíz előadás "zsufolt ház előtt" ment le.<ref>[http://epa.oszk.hu/00000/00030/01138/pdf/01138.pdf A Vasárnapi Ujság 1875. december 26-i száma]</ref>
+
+2023-ban a Vígszínházban mutatták be [[Magács László]] rendezésében a "80 nap a Föld körül" színdarabot, amely Verne, [[Lóci játszik]] és [[Divinyi Réka]] ötletei alapján készült. A főbb szerepekben [[Karácsonyi Zoltán]] (Phileas Fogg), [[Szántó Balázs]] (Jean Passepartout) és [[Hirtling István]] (Fix felügyelő).<ref>{{cite web |title=80 nap alatt a Föld körül |url=https://www.vigszinhaz.hu/80_nap_alatt_a_Fold_korul |publisher=Vígszínház |accessdate=2023-02-13 |year=2023}}</ref>
+
+== Filmfeldolgozások ==
+* A ''80 nap alatt a Föld körül (1919)''<ref>{{cite web| url =http://www.imdb.com/title/tt0010622/ |title = 80 nap alatt a föld körül (1919)| accessdate= 2015-10-02| author = [[Internet Movie Database|IMDb]]| language = angol}}</ref> egy fekete-fehér [[némafilm]]-[[paródia]] [[Richard Oswald]] rendezésében. A filmnek ma már nincs elérhető változata.
+* Az ''An Indian Fantasy Story (Indiai fantáziatörténet)'' egy befejezetlen francia-angol alkotás 1938-ból, ami a Reform Club-i fogadást, illetve az indiai hercegnő megmentését mutatja be. A filmet sosem fejezték be.<ref>{{cite web| url =http://www.bcdb.com/cartoon-story/56541-An_Indian_Fantasy.html|title = An Indian Fantasy Story| accessdate= 2015-10-02| author = Bcdb.com| language = angol}}</ref>
+* A legismertebb feldolgozás 1956-ban került napvilágra: ''[[80 nap alatt a Föld körül (film, 1956)|80 nap alatt a Föld körül]]'' címmel, [[David Niven]], [[Shirley MacLaine]] és [[Cantinflas]] főszereplésével, valamint világsztárok sorával (pl. [[Buster Keaton]], [[Marlene Dietrich]], [[Frank Sinatra]]) még a kis szerepekben is.<ref>{{cite web| url = http://www.imdb.com/title/tt0048960/|title = 80 nap alatt a föld körül (1956)| accessdate= 2015-10-01| author = [[Internet Movie Database|IMDb]]| language = angol}}</ref> Ez az alkotás többnyire követte az eredeti történetet, bár Franciaországot a regénytől eltérően a [[Nadar]] tervezte léghajóval szelik át. A film nyolc [[Oscar-díj]] jelölésből ötöt nyert meg, többek közt a legjobb filmnek járó díjat.
+* A ''Have Gun – Will Travel''<ref>{{cite web|url = http://www.imdb.com/title/tt0050025/|title = Have Gun – Will Travel (1957–1963)| accessdate= 2015-10-02| author = [[Internet Movie Database|IMDb]]| language = angol}}</ref> című amerikai sorozat egyik részének címe ''„Fogg Bound” (Fogg utazása)'', melyben a sorozat főhőse, Paladin ([[Richard Boone]]) egy ideig elkíséri útján Phileas Foggot ([[Patric Knowles]]). A részt 1960. december 3-án sugározták a [[CBS (cég)|CBS]] nevű amerikai csatornán.<ref>{{cite web| url = http://www.imdb.com/title/tt0597518/?ref_=ttep_ep36|title = Fogg Bound (3 Dec. 1960)| accessdate= 2015-10-02| author = [[Internet Movie Database|IMDb]]| language = angol}}</ref>
+* 1963-ban megjelent a ''The Three Stooges Go Around the World in a Daze (A dilis trió a Föld körül)''.<ref>{{cite web| url = http://www.imdb.com/title/tt0057580/ |title = The Three Stooges Go Around the World in a Daze (1963)| accessdate= 2015-10-02| author = [[Internet Movie Database|IMDb]]| language = angol}}</ref>
+* A [[Hanna-Barbera|Hanna-Barbera animációs stúdió]] által 1969 és 1971 között készített ''The Cattanooga Cats (Cattanoogai macskák)''<ref>{{cite web| url = http://www.imdb.com/title/tt0063883 |title = Cattanooga Cats (1969–1971)| accessdate= 2015-10-02| author = [[Internet Movie Database|IMDb]]| language = angol}}/</ref> egyik részének címe ''79 nap alatt a Föld körül''.
+* A ''Festival of Family Classics (Családi klasszikusok fesztiválja)''<ref>{{cite web| url = http://www.imdb.com/title/tt0246619/|title = Festival of Family Classics| accessdate= 2015-10-02| author = [[Internet Movie Database|IMDb]]| language = angol}}</ref> című rajzfilmsorozat részeként 1972-ben jelent meg a 80 nap alatt a Föld körül, az amerikai Rankin/Bass stúdió és a japán Mushi Production közreműködésével.
+* Az egy évados ''80 nap alatt a Föld körül'' című [[rajzfilm]]sorozat 1972-ben látott napvilágot az ausztráliai Air Programs International gondozásában.<ref>{{cite web| url = http://www.imdb.com/title/tt0364783/|title = Around the World in Eighty Days (1972–1973)| accessdate= 2015-10-03| author = [[Internet Movie Database|IMDb]]| language = angol}}</ref> Az [[NBC Universal|NBC]] csatorna 1972–73 között sugározta Amerikában szombat reggelenként.<ref>{{cite web| url = http://www.imdb.com/company/co0023250/|title = Air Programs International (API) [au]| accessdate= 2015-10-03| author = [[Internet Movie Database|IMDb]]| language = angol}}</ref>
+* Az 1976-os ''[[Csizmás Kandúr a világ körül]]'' című [[Anime|animét]] a Toei Animation készítette.<ref>{{cite web|url = http://hungarian.imdb.com/title/tt0086160/|title = A klasszikus Csizmás Kandúr 2. (1976)| accessdate= 2015-10-01| author = [[Internet Movie Database|IMDb]]| language = angol}}</ref>
+* A BRB Internacional nevű spanyol stúdió gondozásában létrejött ''[[80 nap alatt a Föld körül Willy Foggal]]'' 1983-ban jelent meg, illetve 1993-ban egy második évaddal (ami még két Verne regényt dolgoz fel).<ref>{{cite web|url = http://www.imdb.com/title/tt0135114/|title = 80 nap alatt a Föld körül Willy Foggal (1981– )| accessdate= 2015-10-01| author = [[Internet Movie Database|IMDb]]| language = angol}}</ref>
+* A ''Tweety’s High-Flying Adventure (Csőrike magasröptű kalandjai)''<ref>{{cite web|url = http://www.imdb.com/title/tt0248575/ |title = Tweety's High-Flying Adventure (2000)| accessdate= 2015-10-02| author = [[Internet Movie Database|IMDb]]| language = angol}}</ref> a ''[[Bolondos dallamok]]'' több szereplőjét is felvonultató rajzfilm, amit a [[Warner Bros.|Warner Brothers]] adott ki 2000-ben. Csőrikének nemcsak a világot kell körbeutaznia, de 80 macskamancslenyomatot is kell szereznie, miközben Szilveszter támadásait próbálja elhárítani.
+* Az alapötletet magában foglaló, de a galaktikus térre kiterjesztett ''Ginga Shippu Sasuraiger'' című anime 1983-ban született meg.<ref>{{cite web|url = https://www.animenewsnetwork.com/encyclopedia/anime.php?id=2227|title = Ginga Shippu Sasuraiger| accessdate= 2015-10-02| author = [[Anime News Network]]| language = angol}}</ref>
+* Egy 1989-es háromrészes tévésorozatban [[Pierce Brosnan]] Foggot, [[Eric Idle]] Passepartout, [[Peter Ustinov]] pedig Fixet játssza, illetve több tévésztár is feltűnik kisebb szerepekben. A hősök valamivel nehezebb utat tesznek meg, mint a könyvbéli karakterek, ezenkívül a forgatókönyvíró több helyen is átírta az eredeti cselekményt, történelmi eseményhez ([[Párizsi kommün]]) kapcsolva a kor technikai találmányát ([[Zeppelin (léghajó)|Zeppelin léghajója]]) is beépítette a cselekménybe.<ref>{{cite web|url =http://www.imdb.com/title/tt0096535/|title = 80 nap alatt a föld körül (tévésorozat)| accessdate= 2015-10-03| author = [[Internet Movie Database|IMDb]]| language = angol}}</ref>
+[[Fájl:BerlinTournage80Jours1.jpg|bélyegkép|balra|Filmforgatás [[Berlin]]ben, 2003-ban]]
+* A történetet 2004-ben ismét vászonra vitték, szintén ''[[80 nap alatt a Föld körül (film, 2004)|80 nap alatt a Föld körül]]'' címmel. [[Steve Coogan]], [[Jackie Chan]] és [[Cécile de France]] voltak a főszereplők.<ref>{{cite web|url = http://hungarian.imdb.com/title/tt0327437/|title = 80 nap alatt a Föld körül (2004)| accessdate= 2015-10-01| author = [[Internet Movie Database|IMDb]]| language = angol}}</ref>
+* A [[BBC]] [[Michael Palin]]nel (aki a [[Monty Python]] tagja volt) 1989-ben létrehozott egy sorozatot, amely a könyv útját követi.<ref>{{cite web| url = http://irodalmiolvasoterem.blogspot.hu/2014/01/80-nap-alatt-fold-korul-verne-palin-es.html| title = Phileas Fogg és Michael Palin útvonala| accessdate = 2015-10-01| author = Irodalmi olvasóterem| language = angol| archiveurl = https://web.archive.org/web/20150929223949/http://irodalmiolvasoterem.blogspot.hu/2014/01/80-nap-alatt-fold-korul-verne-palin-es.html| archivedate = 2015-09-29}}</ref> Ez az egyike azoknak az úti beszámolóknak, amelyeket Michael Palin a BBC-vel tett, s ami sikeres átmenetet képez komikus karrierjével. A legújabb sorozat hasonló formában 2007-ben jelent meg Michael Palin: ''Új Európa'' címmel.
+* Az ''Around the World in 80 Plates (80 tányérral a Föld körül)''<ref>{{cite web|url = http://www.bravotv.com/around-the-world-in-80-plates |title = Around the World in 80 Plates| accessdate= 2015-10-01| author = Bravotv}}</ref> egy amerikai [[valóságshow]], ami 2012. május 9-én kezdődött a Bravo amerikai tévécsatornán. A sorozatban 12 [[szakács]]ot követhetünk nyomon, akik 10 országban 44 nap alatt mérik össze tudásukat a szakácsművészet területén. Az egyes epizódokban a versenyzők különböző nagyvárosokba látogatnak, ahol megismerkednek a helyi szokásokkal, a [[Kultúra|kultúrával]] és a konyhaművészettel, oly módon, hogy számos kihívásban vesznek részt. A végén egy [[párbaj]]ban csapnak össze, ahol nem csak újra kell alkotni, de új formában fel is kell tálalni a menüket a világhírű [[Étterem|éttermeknek]] és nagy igényeket támasztó tulajdonosaiknak. A műsor házigazdája két professzionális szakács, [[Curtis Stone]] és [[Cat Cora]].
+* 2021-ben egy 8 részes minisorozatban dolgozták újra a történetet, a főszerepben [[David Tennant]]tel (Phileas), [[Ibrahim Koma]]val (Passepartout) valamint [[Leonie Benesch]]sel, aki a két férfival tartó újságírónőt, Abigail Fix Fortescuet alakítja.<ref>{{Cite journal|title=Around the World in 80 Days (2021 TV series)|url=https://en.wikipedia.org/w/index.php?title=Around_the_World_in_80_Days_(2021_TV_series)&oldid=1079847639|journal=Wikipedia|date=2022-03-28|language= angol}}</ref>
+
+== Magyarul ==
+
+* ''Utazás a Föld körül nyolcvan nap alatt''; ford. Szász Károly; Franklin, Bp., 1875
+* ''Utazás a Föld körül 80 nap alatt''; ford. Zempléni P. Gyula; Eisler, Bp., 1891 (''Verne Gyula összegyűjtött munkái'')
+* ''Utazás a föld körül 80 nap alatt''; ifjúsági átdolg. V. Christian, ford. Győry Ilona; Laufer, Bp., 1892
+* ''Utazás a Föld körül nyolcvan nap alatt 1-2.''; ford. Telekes Béla; Lampel, Bp., 1902 (''Magyar könyvtár'')
+* ''Nyolcvan nap alatt a Föld körül''; ford. Csatlós János; Móra, Bp., 1957
+* ''80 nap alatt a Föld körül''; ford. Szász Károly, átdolg. Nemere Ilona; Puedlo, Nagykovácsi, 2000
+* ''Nyolcvan nap alatt a Föld körül''; ford. Kovácsné Kliment Emilia; Új Ex Libris, Bp., 2002 (''Klasszikus ifjúsági regénytár'')
+* ''80 nap alatt a Föld körül''; ford. Csatlós János; 4. jav. kiad.; Könyvmolyképző, Szeged, 2019 (''Jonatán könyvmolyképző'')
+* ''Nyolcvan nap alatt a Föld körül. Regény''; ford. Csatlós János, átdolg. Fenyő Áron; Regun, Üllő, 2007 (''Jules Verne összes átdolgozott műve'')
+* ''80 nap alatt a Föld körül''; átdolg. Consuelo Delgado, ford. Czéhmester Emőke; Napraforgó, Bp., 2021
+* ''80 nap alatt a Föld körül''; röv., átdolg. Clementina Coppini, ford. Balássy Fanni; Manó Könyvek, Bp., 2024
+
+=== Egyéb, Verne nyomán ===
+
+* [[Csepreghy Ferenc]]: ''Utazás a földkörül nyolcvan nap alatt. Színdarab''; Verne Gyula regénye után; Pfeifer, Bp., 1876 (''A Népszínház könyvtára'')
+* Liszkay Tamás: ''80 nap alatt a Föld körül Willy Foggal''; M&C Kft., Bp., 2005
+* ''Nyolcvan nap alatt a Föld körül''; átdolg. Deanna McFadden, ford. Farkas Krisztina; Alexandra, Pécs, 2011 (''Klasszikusok könnyedén'')
+* ''Nyolcvan nap alatt a Föld körül. 3. szint''; átdolg. Consuelo Delgado, ford. Wágner Mária; Napraforgó, Bp., 2015 (''Olvass velünk!'')
+* ''80 nap alatt a Föld körül''; ford. Rusznák György; Napraforgó, Bp., 2020 (''Klasszikusok kicsiknek'')
+
+== Képregény ==
+Jules Verne regényét Magyarországon [[Cs. Horváth Tibor]] és [[Fazekas Attila (illusztrátor)|Fazekas Attila]] dolgozta fel [[képregény]] formában.<ref>{{cite web|url = http://www.antikvarium.hu/ant/book.php?konyv-cim=80-nap-alatt-a-fold-korul&ID=158313|title = A 80 nap alatt a Föld körül képregény adatai| accessdate= 2015-10-01| author = Klasszikusok Képregénytára}}</ref> A 32 oldalas képregényt először a ''[[Füles (magazin)|Füles]]'' közölte folytatásokban az 1981. év 42. számától az 1982. év 5. számáig.<ref>{{cite web| url = http://wiki.kepregeny.net/index.php/F%C3%BCles| title = Füles magazin| accessdate = 2015-10-02| author = Képregénytörténet| archiveurl = https://web.archive.org/web/20131224103550/http://wiki.kepregeny.net/index.php/F%C3%BCles| archivedate = 2013-12-24}}</ref>
+
+Az Ifjúsági Lap- és Könyvkiadó 1989-ben jelentette meg a ''Klasszikusok képregénytára'' sorozat 2. köteteként.<ref>{{cite web|url = http://bookline.hu/product/home.action?id=2100429175&type=10&_v=CS_Horvath_Tibor_80_nap_alatt_a_fold_korul_kepregeny_ |title = A 80 nap alatt a Föld körül A képregény adatai| accessdate= 2015-10-01| author = Bookline}}</ref>
+
+== Képgaléria Léon Benett rajzaiból ==
+<center>
+<gallery widths="120" heights="120px" perrow="5">
+Fájl:'Around the World in Eighty Days' by Neuville and Benett 06.jpg|Phileas Fogg fogadása a Reform Klubban
+Fájl:'Around the World in Eighty Days' by Neuville and Benett (139390250).jpg|Auda hercegnő megmentése [[India|Indiában]]
+Fájl:'Around the World in Eighty Days' by Neuville and Benett 34.jpg|[[Sanghaj]] felé: Foggék két[[árbóc]]os hajója hatalmas viharban
+Fájl:'Around the World in Eighty Days' by Neuville and Benett 37.jpg|Passepartout [[cirkusz]]i akrobataként
+Fájl:'Around the World in Eighty Days' by Neuville and Benett 53.jpg|Utazás vitorlás szánnal a [[préri]]n keresztül
+Fájl:'Around the World in Eighty Days' by Neuville and Benett 46.jpg|Száguldás egy völgy[[híd]]on keresztül
+Fájl:'Around the World in Eighty Days' by Neuville and Benett 55.jpg|Amikor fogyóban a [[szén]], fával fűtik a [[gőzhajó]]t
+Fájl:Around the World in Eighty Days by Neuville and Benett (99683675).jpg|Fix [[Liverpool]]ban letartóztatja Foggot
+Fájl:'Around the World in Eighty Days' by Neuville and Benett (139390668).jpg|Érkezés az utolsó másodpercben
+</gallery>
+</center>
+<div style="clear:both;"></div>
+
+== Jegyzetek ==
+{{jegyzetek}}
+
+== Fordítás ==
+* A '''Háttér és elemzés''' valamint a '''Filmfeldolgozások''' rész az [[:en:Around the World in Eighty Days|Around the World in Eighty Days]] című angol Wikipédia-szócikk '''Background and analysis''' és '''Onscreen''' szakaszának fordításán alapul. Az eredeti cikk szerkesztőit annak laptörténete sorolja fel.
+
+== Források ==
+* {{CitLib |aut=Jules Verne |tit=Nyolcvan nap alatt a Föld körül |ass=ford. Csatlós János |loc=Budapest |red=Móra |ann=1980 |isbn=963-11-2176-3 |url={{MEK|02000/02045/02045.htm}} |accd=2017-09-02}}
+* {{cite web | url = http://irodalmiolvasoterem.blogspot.hu/2014/01/80-nap-alatt-fold-korul-verne-palin-es.html | title = 80 nap alatt a Föld körül. 110 éve hunyt el Jules Verne | accessdate = 2017-09-02 | author = Irodalmi olvasóterem | archiveurl = https://web.archive.org/web/20170902184233/http://irodalmiolvasoterem.blogspot.hu/2014/01/80-nap-alatt-fold-korul-verne-palin-es.html | archivedate = 2017-09-02}}
+* {{cite web | url = http://cgi.axelero.hu/ilegeza/sendpage.cgi?rec=li2329 | title = Könyvismertető | accessdate = 2017-09-02 | author = Legeza Ilona | archiveurl = https://web.archive.org/web/20150928234437/http://cgi.axelero.hu/ilegeza/sendpage.cgi?rec=li2329 | archivedate = 2015-09-28}}
+* {{cite web| url = http://moly.hu/konyvek/jules-verne-nyolcvan-nap-alatt-a-fold-korul |title = A regény adatlapja| accessdate= 2017-09-02| publisher = [[Moly.hu]]}}
+* ''Verne, a legjobb természettudomány-tanár'' ([[Népszabadság]], 2014. február 7.)
+
+== További információk ==
+{{Wikikönyvek|Nyolcvan nap alatt a Föld körül (regény)|Nyolcvan nap alatt a Föld körül (regény)}}
+* {{cite web| url = http://mek.oszk.hu/02000/02045/02045.pdf |title= Nyolcvan nap alatt a Föld körül |accessdate= 2015-10-02 |publisher= [[Magyar Elektronikus Könyvtár]]}}
+* {{cite web| url = http://www.funnygames.hu/jatek/80_nap_alatt_a_foeld_koeruel.html| title = 80 nap alatt a Föld körül játék| accessdate = 2015-10-02| author = Funny Games| language = angol| archiveurl = https://web.archive.org/web/20150930152328/http://www.funnygames.hu/jatek/80_nap_alatt_a_foeld_koeruel.html| archivedate = 2015-09-30}}
+* {{cite web| url = https://docs.google.com/presentation/d/1GaQPN99Ue9EcWsv3z44FkTiP0se_s2pU4aG4mQ6Na5A/edit#slide=id.p21 |title= Jules Verne: 80 nap alatt a föld körül |accessdate= 2015-10-02 |author= Google Slides}}
+* {{cite web |url= http://tancszinhaz.hu/esemenynaptar/esemeny/38/65 |title= 80 nap alatt a Föld körül |accessdate= 2015-10-02 |author= [[Budapest Táncszínház]]}}
+* {{VIL|16|610–618}}
+
+{{Jules Verne munkássága}}
+{{Nemzetközi katalógusok}}
+{{portál|irodalom}}
+
+{{kiemelt}}
+
+[[Kategória:Jules Verne művei]]
+[[Kategória:Az 1870-es évek regényei]]
+[[Kategória:Londonban játszódó irodalmi művek]]

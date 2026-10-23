@@ -1,0 +1,363 @@
+{{Könyv infobox
+| név           = Öt hét léghajón
+| alcím         =
+| eredeti cím   = Cinq semaines en ballon
+| fordító       = Telekes Pál József<ref name=elsomagyarkiadas>[[Jules Verne magyarul kiadott műveinek listája]]</ref>
+| főszerkesztő  = 
+| kép           = Cinq Semaines en ballon 001.png
+| képméret      = 200px
+| képaláírás    = Jules Verne : Cinq Semaines en ballon, Hetzel & Cie, Paris, 1863.
+| szerző        = [[Jules Verne]]<br>[[Kép:Jules Verne 05.jpg|75px]]
+| ország        = {{Franciaország}}
+| nyelv         = [[francia nyelv|francia]]
+| téma          = [[utazás]]
+| műfaj         = [[regény]]
+| sorozat       = 
+| előző         = 
+| következő     = -
+| kapcsolódó film = 
+| kiadó         = Hetzel és fia
+| kiadás dátuma = 1863
+| magyar kiadó  = [[Franklin Irodalmi és Nyomdai Rt.|Franklin Társulat]]<ref name=elsomagyarkiadas />
+| magyar kiadás dátuma = [[1874]]<ref name=elsomagyarkiadas />
+| illusztrátor  = Nemes Mihály
+| borítógrafika = 
+| médiatípus    = [[könyv]]
+| oldalak       = 316 (2003)
+| isbn          = {{ISBN|9634275036}}
+| mek           = 05000/05082/05082.htm
+| wikicommons   = Five Weeks in a Balloon
+}}
+[[Kép:Cinq Semaines en ballon 002.png|bélyegkép|jobbra|Illusztráció az 1863-as kiadásból]]
+Az '''''Öt hét léghajón''''' (''Cinq semaines en ballon. Voyages de découvertes in Afrique par trois anglais. Rédigé sur les notes du docteur Fergusson – Öt hét léghajón. Három angol felfedező útja Afrikában. Dr. Fergusson feljegyzései nyomán.'') [[Jules Verne]] [[1862]]-ben írt kalandregénye.
+
+Jules Verne 1862&nbsp;őszén találkozott [[Pierre-Jules Hetzel]] (1814–1886) kiadóval, Verne két kéziratát nyújtotta be neki. Hetzel elutasította az ''Anglia és Skócia felé tartó akadályokkal teli út'' tervezetét,<ref name=sjv183biblio /> amelyet 1859-1860&nbsp;őszén és telén született. Az 1862-ben írt második ''Voyage en l'air'' kéziratban Hetzel néhány változtatást kért.
+
+Végül [[1863]].&nbsp;január&nbsp;31-én jelent meg<ref name=sjv183biblio>{{cite journal |author=Volker Dehs |title=La bi(bli)ographie de Cinq semaines en ballon ''Öt hét léghajón bi(bli)ografiája'' |journal=Bulletin de la Société Jules Verne |issue=183 |pages=4-19  |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-10-11}}</ref> megváltozott ''Cinq semaines en ballon. Voyages de découvertes in Afrique par trois anglais. Rédigé sur les notes du docteur Fergusson'' címmel. Az első illusztrált kiadás 1865. december 5-én jelent meg.<ref>{{cite book |author=Piero Gondolo della Riva |title=Bibliographie analytique de toutes les œuvres de Jules Verne' |date=1977. |location=Párizs |publisher=Société Jules-Verne |language=francia |pages=6-7}}</ref>
+
+1862.&nbsp;október&nbsp;23-án Verne és Hetzel között létrejött az első szerződés, amely Vernének 500&nbsp;frankot garantált első regényéért, amennyiben 2000&nbsp;példányban sikerül azt értékesíteni. 3&nbsp;000&nbsp;példányt adtak el csak 1863-ban, ezt szinte évente újabb ezer példányos kiadás követte. Az ''Öt hét léghajón'' regényt a ''Hetzel és fia'' kiadó 82&nbsp;alkalommal nyomja újra (összesen 83&nbsp;kiadás), ennél csak a ''[[Nyolcvan nap alatt a Föld körül (regény)|Nyolcvan nap alatt a Föld körül]]'' regényt adták ki többször, 151&nbsp;alkalommal, mielőtt a Hachette megvette volna a ''Hetzel és fiát''.<ref name=sjv183biblio />
+
+A könyv sikerét jelezte, hogy egy éven belül 11 nyelvre lefordították. Magyarul könyv alakban először 1874-ben adta ki a [[Franklin Irodalmi és Nyomdai Rt.|Franklin Társulat]]. Érdekesség, hogy  hazai újságközlése ill. talán inkább híradás róla már előbb is létezett, ti.  a ''Regélő''  (ún. regényfolyóirat) 1868-ban egy úgynevezett kivonat  formájában közölt egy írást "''Légutazás Afrikán át''" címmel, mégpedig ''"Kivonat Jules Verne-nek „Cinq Semaines en Ballon“ című elbeszéléséből"'' megjegyzéssel, ami tkp. a mű tartalmi rövidítése ill. részleteinek közlése volt.<ref>{{Cite web |url=https://adt.arcanum.com/hu/collection/Regelo/ |title=Regélő 1868. 1. félév 631-637.p. |accessdate=2026-02-24}}</ref>
+
+A 34 éves Verne élete ettől fogva gyökeresen megváltozott, egész életmódja szabadabb lett. Elhagyta pénzügyi állását, és ezután kizárólag az írásnak élt.
+
+==A regény keletkezése==
+Verne az ''Öt hét léghajón'' előtt négy novellát írt. Az első a [[Dráma a levegőben]] (1851), amely szintén hőlégballon kalandról szól, ez hozta össze Felix [[Nadar]]ral, a kor egyik hősével. Barátságukat végigkísérte a repülés irányításának kérdése, számos ötletet eszeltek ki a megoldására. A [[Martin Paz]] (1852), a [[Zakariás mester]] (1854) és a [[Telelés Grönlandban]] (1855) műveken jól megfigyelhető, miként alakul, fejlődik, csiszolódik a vernei stílus.
+
+Felix Nadar maga is hitt abban, hogy igazi repülőgépeket lehet építeni, támogatta a ''levegőnél nehezebb'' elméletet. Nadar finanszírozta a ''Le Géant'' (Az óriás) léggömb építését, amely alig hat hét alatt készült el. Ezzel kereskedelmileg használható városnéző járatokat akart szervezni. Verne lelkesen támogatta a tervet, újságcikkekkel,<ref>Ilyen a [[Musée des familles]] 1863. decemberi számának 92-93 oldalán a ''Le Géant'' üdvözlő írása.</ref> személyes fellépéssel segítette azt. Miközben Nadar cselekedett ötleteinek megvalósítása érdekében, megjelent Verne első regénye, az ''Öt hét léghajón''. A kiadás évében, 1863.&nbsp;október&nbsp;4-én Nadar ''Le Géant'' léggömbje megtehette első útját.
+
+Nadar inspirációja mellett Verne olvasott Speke és Grant, akkor még függőben lévő, a Nílus forrásainak felkutatására készülő útjáról. Az expedíciós útról az újságok tudósítottak, a Speke név harminchat alkalommal szerepel a regényben.
+
+A regény teljes kéziratát sem Verne hagyatékában, sem Hetzel iratai között sem találták meg, csupán két töredék ismeretes.<ref>{{cite journal |author=Jules Verne |title=Les manuscrits de Cinq semaines en ballon ''Öt hét léghajón kéziratai'' |journal=Bulletin de la Société Jules Verne |issue=183 |pages=20-27 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-10-11}}</ref>
+
+===Verne a regényéről a McClure magazinnak===
+:''- Szeretném, ha elmondaná nekem, hogyan írta ezt a regényt, miért írta és hogyan készül fel rá! Mit tudott a léggömbözésről, volt tapasztalata?''
+:- Valójában – válaszolta M. Verne –, az ''"Öt hét léghajón"'' nem a léggömbözésről szóló történet, hanem Afrikáról szóló történet. Mindig nagyon érdekelt a földrajz és az utazás, szerettem volna romantikus leírást adni Afrikáról. Nem volt más mód arra, hogy Afrikán keresztül vigyem utazóimat, csak a léggömbön, ezért a léggömb. Abban az időben még nem emelkedtem fel. Valójában életemben csak egyszer utaztam léggömbön. Ez [[Amiens]]ben volt, jóval a regényem megjelenése után. Csak ''"háromnegyed óra volt egy ballonban"'', mert hibás indulás történt. Godard, a pilóta, amikor megcsókolta kisfiát, a léggömb felröppent, magunkkal kellett vinnünk a fiút, a ballon annyira súlyos volt, hogy nem repült messze. Longeauig haladtunk, az a csomópont, amelyet mellett elhaladt. Mondhatom, hogy a regény írása idején, ahogy most sem, nem bíztam abban, hogy valaha is irányíthatom a léggömböket, kivéve egy abszolút mozdulatlan légkörben, mint például ebben a szobában. Hogyan lehet ballont készíteni a hat, hét vagy nyolc méter/másodperccel futó áramok ellen? Ez csak egy álom, bár azt hiszem, hogy ha a kérdést valaha is meg kell oldani, akkor egy olyan gépet használunk, amely nehezebb lesz, mint a levegő, követve a madár elvét, amely képes repülni, bár nehezebb, mint a levegő, amelyet megmozdít.”<ref name=mcclure>{{cite journal |author=R. H. Sherard |title=Jules Verne otthon |journal=McClure |date=1894. január}} Saját összegzése életéről és munkájáról - alcímmel.</ref>
+
+===Verne a regényéről a Strand Magazinnak===
+:Gyakran megkérdezték tőlem, honnan a gondolat, hogy jobb elnevezés híján, tudományos romantikus stílusban írjak.
+:Nos, én mindig is szenvedélyesen tanulmányoztam a földrajz tudományát, ugyanúgy, ahogy néhány ember a történelmet, a történelem kutatásnak örül. Nagyon azt hiszem, hogy a térképeim iránti szeretetem és a nagyszerű felfedezők vezettek a földrajzi történetek hosszú sorozatom első komponálásához.
+:Az első, ''„Öt hét léghajón“'' című könyvem írásakor Afrikát választottam a cselekmény helyszínéül, azzal az egyszerű okkal, hogy ezen a kontinens kevésbé volt ismert, mint bármely más; és kitaláltam, hogy a világ felületének ezen részének felfedezésének legötletesebb módja egy ballonból lehetséges. Nagyon élveztem a történet írását, sőt, még hozzátehetem, a szükséges kutatásokat is; mert akkor, mint most, mindig is megpróbáltam a legvadabb regényemet a lehető legreálisabbá és valósághűbbé tenni.
+:A történet befejezése után elküldtem a kéziratot a híres párizsi kiadónak, M. Hetzelnek. Elolvasta a történetet, érdekelte és tett egy ajánlatot, amelyet elfogadtam. Mondhatom neked, hogy ez a kiváló ember és fia nagyon jó barátaimmá váltak és maradtak, és a cég közzéteszi a hetvenedik regényem.
+:''- Akkor nem éltél át egyetlen olyan szorongó pillanatot sem, miközben hírnévre vágyott?'' – kérdeztem. ''Az első könyve azonnal népszerűvé vált, itthon és külföldön egyaránt?''
+:Igen – felelte szerényen. Az ''„Öt hét léghajón“'' a mai napig a legolvasottabb regényeim közé tartozik, ne feledje, hogy a könyv megjelenésekor harmincöt éves voltam, és körülbelül nyolc éve házas.<ref>{{cite journal |author=Marie A. Belloc |title=Jules Verne otthonában |journal=A Strand Magazine |date=1895. február |coauthors=Fotók: C. Herbert |location=Amiens}}</ref>
+
+===Inspiráló álhír===
+[[Edgar Allan Poe]] 1844. április 13-án a New York Sun napilapban megjelent cikke arról számolt be, hogy Monck Mason [[léghajó]]val Franciaországból indulva három nap alatt átszelte az [[Atlanti-óceán]]t. A részletesen kidolgozott történetet<ref>{{cite web| url = https://www.eapoe.org/works/tales/ballhxa.htm|title = Edgar Allan Poe, “The Balloon Hoax” [Text-02], New York Sun, Extra, April 13, 1844, p. 1, cols 2-6| accessdate= 2020-02-25}}</ref> több lap is átvette, ám pár hét után kiderült, hogy a hír hamis. Ám a hamis átkelésről szóló cikkek eljutottak Vernéhez is, akit erősen inspirált a [[Dráma a levegőben]] (1851) novella megírására, majd később az Öt hét léghajón írásában.<ref>{{cite web| url = https://www.mentalfloss.com/article/524140/when-edgar-allan-poe-pranked-new-york-city-and-inspired-jules-verne|title = When Edgar Allan Poe Pranked New York City — And Inspired Jules Verne| accessdate= 2020-02-25}}</ref>
+
+== Történet ==
+Dr. Samuel Fergusson, egy kalandos kedvű tudós megalkotott egy hőlégballont, és ezzel néhány társával együtt felszállt a magasba. Sorsukat a szelekre bízták, óriási területeket barangoltak így be. Eljutottak [[Afrika|Afrikába]], amely akkoriban még nem volt teljesen ismert az [[európa]]iak előtt. A vakmerő felfedezők utazásuk során a kontinens titkait keresték. A repülés földrajzi ismeretterjesztéssé és izgalmas kalanddá vált.
+
+==Fejezetek==
+'''Első fejezet.''' Egy lelkesen megtapsolt beszéd vége. – Doktor Fergusson Sámuel bemutatása. – ''«Excelsior!»'' – Egy öntudatos fatalista. – Ebéd a ''«Traveller-klub»''-ban[//en.wikipedia.org/wiki/Travellers_Club#]. – Számtalan alkalmi felköszöntés.
+
+'''Második fejezet.''' A ''«Daily Telegraph»'' egy cikke. – Tudósok tollharca. – Petermann támogatja barátját, dr. Fergussont. – A tudós Kohner válasza. – Fogadások. – A doktor több rendbeli ajánlatot kap.
+
+'''Harmadik fejezet.''' A doktor barátja. – Barátságuk története. – Kennedy Dick [[London]]ban. – Egy váratlan, nem megnyugtató indítvány. – Kevés vigasztalást ígérő közmondás. – Néhány szó az afrikai vértanúk lajstromáról. – A léghajó előnyei. – Dr. Fergusson titka.
+
+'''Negyedik fejezet.''' Kutatások Afrikában. – [[Heinrich Barth|Bart]], Richardson, [[Adolf Overweg|Overweg]], Werne, Brun-Rollet, Peney, Andrea Debono, Miani, [[Guillaume Lejean]], [[James Bruce|Bruce]], Krapf és Rebman, Maizan, Roscher, [[Richard Francis Burton|Burton]] és [[John Hanning Speke|Speke]].
+
+'''Ötödik fejezet.''' Kennedy álmai. – A többesszámok. – Dick példálózásai. – Séta Afrika térképén. – Ami a körző két hegye között van. – Jelenlegi expedíciók. – Speke és Grant. – Krapf, Decken, [[Theodor von Heuglin|Heuglin]].
+
+'''Hatodik fejezet.''' Egy hallatlan kitűnő szolga. – Meglátja [[Jupiter]] [[A Jupiter holdjai|holdjait]]. – Dick és Joe vitában. – Kétely és hit. – A mázsálás. – Joe, mint [[Arthur Wellesley|Wellington]]. – Joe kap egy koronát.
+
+'''Hetedik fejezet.''' Mértani részletek. – A [[léggömb]] hordképességének kiszámítása. – A kettős léggömb. – A boríték. – A csónak. – A titokzatos készülék. – Az élelmiszerek. – A ráadás.
+
+'''Nyolcadik fejezet.''' Joe fontos egyéniség. – A ''«Resolut»'' parancsnoka. – Kennedy fegyvertára. – A berakodás. – A búcsúlakoma. – Elutazás február 21-én. – A doktor tudományos ülései. – Duveyrier, [[David Livingstone|Livingstone]]. – A légutazás részletei. – Kennedy elhallgat.
+
+'''Kilencedik fejezet.''' Megkerülik a [[Jóreménység foka|Jóremény-fokát]]. – Az árboc alatt. – Joe tanár kozmográfiai előadásai. – A léghajó kormányzása. – A kedvező légáramok fölkeresése. – [[Arkhimédész#A fizikus|'Έυςηχα (Heurιka]]).
+
+'''Tizedik fejezet.''' Régibb kísérletek. – A doktor öt szekrénye. – A durranó gázfúvó. – A fűtőkészülék. – A vele való bánás. – Biztos siker.
+
+'''Tizenegyedik fejezet.''' Megérkezés [[Zanzibár]]ba. – Az angol konzul. – A bennszülöttek ellenséges hangulata. – Kumbeni szigete. – Az esőcsinálók. – A léggömb megtöltése. – Elutazás április 18-án. – Utolsó Istenhozzád. – A ''Victoria''.
+
+'''Tizenkettedik fejezet.''' Átkelés a tengerszoroson. – A Mrima. – Dick terve és Joe indítványa. – A kávé-recept. – Uzaramo. – A szerencsétlenül járt Maizan. – A Duthum hegy. – A doktor térképei. – Egy éj a nopálfán.
+
+'''Tizenharmadik fejezet.''' Az idő változik. – Kennedy láza. – A doktor orvossága. – Utazás a földön. – Az Imensé-öböl. – A Rubeho begye. – Hatezer láb magasban. – Egy napi pihenő.
+
+'''Tizennegyedik fejezet.''' A gummifa-erdő. – A kék antilop. – Két lövés. – Váratlan támadás. – Egy éjjel a levegőben. – Mabunguru. – Zsihoe-la-Mkoa. – A vízkészlet. – Megérkezés [[Tabora|Kazéba]].
+
+'''Tizenötödik fejezet.''' Kazé. – A zsibongó vásár. – A ''Victoria'' megjelenése. – Wangangák. – A hold fiai. – A doktor sétája. – A népség. – A királyi palota. – A szultán feleségei. – Királyi korhelység. – Joet imádják. – Hogy táncolnak a holdon? – Gyors változás. – Két hold az égen. – Az isteni dicsőség forgandósága.
+
+'''Tizenhatodik fejezet.''' Zivatar előjelei. – A Holdország. – [[Afrika]] jövője. – Az utolsó ítélet gépje. – Az ország látképe naplementekor. – A növény- és állatvilág. – A zivatar. – A tűzzóna. – A csillagos ég.
+
+'''Tizenhetedik fejezet.''' A Hold-hegyek. – Zöld óceán. – Kivetik a horgonyt. – Az elefánt mint vontató. – A vígan égő tűz. – A vastagbőrű halála. – Sütőkemence a szabadban. – Ebéd a zöldben. – Egy éj a földön.
+
+'''Tizennyolcadik fejezet.''' Karaghwa. – Az [[Viktória-tó (Afrika)|Ukeréwe tava]]. – Egy éj a szigeten. – Az [[egyenlítő]]. – Átkelés a tavon. – A vízesések. – Az ország képe. – A [[Nílus]] forrásai. – Benga szigete. – Andrea Debono kezeírása. – Az angol címeres lobogó.
+
+'''Tizenkilencedik fejezet.''' A Nílus. – A reszkető hegy. – Emlék a vidéknek. – Az arabok meséi. – A nyám-nyámok. – Joe értelmes gondolatai. – A ''Victoria'' laviroz. – Léghajózások. – Blanchard asszony.
+
+'''Huszadik fejezet.''' A mennyei palack. – A fügepálmák. – A ''«mamouth trees»''. – A hadifa. – A szárnyas fogat. – Két néptörzs harcban. – Vérfürdő. – Isteni közbelépés.
+
+'''Huszonegyedik fejezet.''' Különös zörej. – Éjjeli támadás. – Kennedy és Joe a fán. – Két lövés. – Segítség! segítség! – Francia válasz. – Megvirrad. – A [[hittérítő]]. – A szabadítás terve.
+
+'''Huszonkettedik fejezet.''' A villamos fénykéve. – A hittérítő. – Szöktetés fénysugárnál. – A lazaristaszerzetes. – Kevés remény. – A doktor gondozása. – Egy önmegtagadásra szánt élet. – Átkelés egy vulkán felett.
+
+'''Huszonharmadik fejezet.''' Joe haragszik. – Egy igaznak halála. – A virrasztás. – A szárazság. – A temetés. – A kovatömbök. – Joe extázisban. – Drága teher. – Az aranyhegyek. – Joe kezd desperálni.
+
+'''Huszonnegyedik fejezet.''' A szél megáll. – A puszta közeledik. – A vízhiány. – Az éjek az egyenlítő alatt. – Sámuel nyugtalankodik. – A helyzet. – Kennedy és Joe erélyes válaszai. – Még egy éjszaka.
+
+'''Huszonötödik fejezet.''' Egy kis bölcselkedés. – Felhő a láthatáron. – A ködben. – A váratlan léggömb. – A ''Victoria'' pontos megszemlélése. – A pálmák. – Egy karaván nyomai. – A kút a puszta közepén.
+
+'''Huszonhatodik fejezet.''' Negyvenöt fok Celsius. – A doktor tünődései. – Kétségbeesett keresés. – A fűtő kialszik. – Negyvennyolc fok. – A puszta. – Egy éjjeli séta. – A magány. – Ájulás. – Joe terve. – Még van egy nap.
+
+'''Huszonhetedik fejezet.''' Iszonyú hőség. – Káprázatok. – Az utolsó csepp víz. – A kétségbeesés éjjele. – Öngyilkossági kísérlet. – A számum. – Az [[oázis]]. – Az oroszlánpár.
+
+'''Huszonnyolcadik fejezet.''' Egy gyönyörű este. – Joe konyhája. – Értekezés a nyers húsról. – Bruce James története. – A táborozás. – Joe álmai. – A [[barométer]] süllyed. – A barométer megint emelkedik. – Készülődések az útra. – Az orkán.
+
+'''Huszonkilencedik fejezet.''' Növényzet előjelei. – Egy francia író fantasztikus gondolatai. – Pompás vidék. – Adamova királyság. – Burton és Speke fölfedezései Barthéival egybekötve. – Az Atlantika-hegyek. – A [[Benue (folyó)|Benue-folyó]]. – Jola városa. – A Begéle. – A Mendif hegye.
+
+'''Harmincadik fejezet.''' Mosfeija. – A sheik. – Benham, [[Hugh Clapperton|Clapperton]], Oudney, Vogel. – Loggum fővárosa. – Toole. – Szélcsend Kernak felett. – A kormányzó és udvara. – A támadás. – A galambok mint gyujtogatók.
+
+'''Harmincegyedik fejezet.''' Éjjeli indulás. – Mind a hárman. – Kennedy ösztöne. – Elővigyázati rendszabályok. – A [[Chari|Shari]] folyása. – A [[Csád-tó|Csad-tó]]. – A tó vize. – A víziló. – Egy hiába kilőtt golyó.
+
+'''Harminckettedik fejezet.''' Bornu fővárosa. – A Biddióma-szigetek. – A kondorok. – A doktor nyugtalankodása. – Az ő elővigyázati rendszabályai. – Támadás fent a levegőben. – A boríték kiszakadása. – A lebukás. – Magasztos önfeláldozás. – A tó északi partja.
+
+'''Harmincharmadik fejezet.''' Találgatások. – A ''Victoria'' egyensúlyának helyreállítása. – Doktor Fergusson új számításai. – Kennedy vadászik. – A Csad-tó teljes átkutatása. – Tangalia. – Visszatérés. – Lari.
+
+'''Harmincnegyedik fejezet.''' Az orkán. – Kénytelen elutazás. – Egy horgony elvesztése. – Szomorú gondolatok. – Az elhatározás. – A homoktölcsér. – Az eltemetett karaván. – Ellenkező és kedvező szél. – Visszatérés dél felé. – Kennedy a maga helyén.
+
+'''Harmincötödik fejezet.''' Joe története. – A Biddiomák szigete. – Az imádás. – Az elsüllyedt sziget. – A tó partjai. – A kígyófa. – Utazás gyalog. – Szenvedések. – Moszkitók és hangyák. – Az éhség. – A ''Victoria'' eltünése. – Kétségbeesés. – Az ingovány. – Az utolsó felkiáltás.
+
+'''Harminchatodik fejezet.''' Egy fekete pont a láthatáron. – Egy arab csapat. – Az üldözés – Az ő! – Lebukott a lóról. – A megfojtott arab. – Kennedy egy golyója. – Szöktetés röptiben. – Joe megszabadul.
+
+'''Harminchetedik fejezet.''' Az út nyugat felé. – Joe fölébredése. – Az ő önfejűsége. – Joe történetének vége. – Tagelel. – Kennedy aggodalmai. – Az út észak felé. – Egy éjjel [[Agadez|Aghades]] mellett.
+
+'''Harmincnyolcadik fejezet.''' Gyors menet. – Előrelátó elhatározások. – Karavánok. – Folytonos esőzés. – [[Gao]]. – A [[Niger (folyó)|Niger]]. – Golberry, Geoffroy, Gray. – [[Mungo Park]]. – Laing. – Caillé René, Clapperton, Lander John és Richard.
+
+'''Harminckilencedik fejezet.''' A Niger kanyarulatában fekvő ország. – A Hombori hegység fantasztikus látképe. – Kabra. – [[Timbuktu]]. – Doktor Barth terve. – A helyzet rosszabbodása. – Amerre az Isten akarja.
+
+'''Negyvenedik fejezet.''' Doktor Fergusson aggodalmai. – Állandó irány dél felé. – Egy sáskafelhő. – [[Dzsenné|Jenné]] látképe. – [[Ségou|Szego]] látképe. – A szél megfordult. – Joe sajnálkozása.
+
+'''Negyvenegyedik fejezet.''' Közeledés a [[Szenegál]]hoz. – A ''Victoria'' egyre süllyed. – Folyton dobják ki a terhet. – El Hadzsi, a marabú. – Pascal, Vincent, Lambert. – Mohamed egy vetélytársa. – A nehezen átröpülhető hegyek. – Kennedy fegyverei. – Joe mesterfogása. – Megálló egy erdő felett.
+
+'''Negyvenkettedik fejezet.''' Nemes vetélkedés. – Az utolsó áldozat. – A felduzzasztó készülék. – Joe ügyessége. – Az éjfél. – A doktor áll őrt. – Kennedy áll őrt. – Kennedy elalszik. – A tűzvész. – Az ordítás. – Lőtávolban.
+
+'''Negyvenharmadik fejezet.''' A talibák. – Az üldözés. – Egy elpusztított ország. – Mérsékelt szél. – A ''Victoria'' süllyed. – Az utolsó eleség. – A ''Victoria'' ugrándozásai. – Védekezés puskalövésekkel. – A szél erősebb lesz. – A [[Szenegál (folyó)|Szenegál folyó]]. – A gouinai vízesések. – A melegített levegő. – Átkelés a folyón.
+
+'''Negyvennegyedik fejezet.''' Befejezés. – A jegyzőkönyv. – A francia telepítvények. – A Médini állomás. – A Basilic. – St.-Louis. – Az angol fregatt. – Visszatérés Londonba.
+
+==Értékelés==
+A megjelenés évében (1863) a lapok, magazinok fontos információ források voltak, rendszeresen adtak hírt a megjelent újdonságokról. A kiadó Hetzel feladatához méltó módon dolgozott azon, hogy új felfedezettje első könyvéről minél több, kedvező beszámoló szülessen.
+
+''Revue des Deux Mondes''
+:Afrikát keresztezi három rettenthetetlen angol! A leghíresebb utazók nagy felfedezései, a tudomány és a történelem gyors és elbűvölő összegzése regényben, – a képzelet és az igazság –, ez jellemzi M. Jules Vernes [sic] könyvét. Könyve a képzeletbeli utazás, érdekes és hasznos, mint az elme azon ritka művei, amelyek megérdemlik a [[Robinson Crusoe|Robinsonok]] és a [[Gulliver utazásai|Gulliverek]] magasságát, és amelyeknek az az előnye, hogy egy pillanatra sem felejtik el, hogy a fantáziában és a találmányban is támaszkodjanak pozitív tényekre és cáfolhatatlan tudományra. Jelezzük ezt a könyvet gyermekeknek és időseknek, nőknek és tétleneknek, tanultaknak és azoknak, akik nem. Célja, hogy szenzációt okozzon és a maga nemében klasszikussá váljon, mint M. Jean Mée [sic] ''Falat kenyér'' című története,<ref name=janemace>Jean Macé (1815-1894) francia író, szerkesztő. Elsők egyikeként írt népszerű tudományos könyveket gyermekeknek. Az 1861-ben megjelent ''L’Histoire d’une bouchée de pain, lettres à une petite fille sur nos organes et nos fonctions'' (Egy falat kenyér története, levelek egy kislánynak a szerveinkről és a funkcióinkról) nagyon sikeres volt. Barátjával, Hetzel-vel 1864–ben együtt alapítják meg a [[Magasin d'éducation et de récréation]] illusztrált ifjúsági magazint, amely számos Verne regényt közöl folytatásban, mielőtt könyvként megjelenne. Később Verne is a lap szerkesztője lesz.</ref> a M. Hetzel által kiadott kiváló gyűjteményből.<ref>{{cite journal |author= LM |title=Öt hét léghajóban! |journal=Revue des Deux Mondes |date=1863-02-01 |language=francia}}</ref>
+
+''Le Figaro''
+:Ezen a címen: ''Öt hét léghajón'' jelentettük be M. Jules Verne könyvét, amely kíváncsivá fogja tenni a tanult világot, ahogyan a Hold [[William Herschel|Herschellnek]] tulajdonított felfedezései a múltban.<ref name=gretamoonhoax>A ''Great Moon Hoax'' (Nagy Hold Átverés) hat cikkből álló sorozat volt, amelyet 1835. augusztus 25-én kezdett közölni a [[New York]]-i The Sun. A Hold feltételezett felfedezéséről szóló cikkek szerzőjének hamisan Sir John Herschelt, az egyik legismertebb csillagászt tüntették fel.</ref> Fergusson doktor útja valóság, vagy nem? Csak annyit lehet mondani róla, hogy bájos, mint egy regény, és olyan művelt, mint egy tudományos könyv. Soha nem foglalták össze jobban a leghíresebb utazók összes komoly felfedezését. A történet izgalmas, megragadó; vidám és megható. Minden korosztály talál valamit a számukra. Milyen szép illusztrált könyv került ezzel a Hetzel-gyűjteményben! Olyan ritka könyv, amelyet mindenkinek ajánlani lehet.<ref>A cikk Verne születésnapján jelent meg, Hetzel "ajándéka".</ref><ref>{{cite journal |title=Öt hét léghajón |journal=[[Le Figaro]] |date=1863-02-08 |language=francia}}</ref>
+
+''Journal of Political and Literary Debates''
+:M. Hetzel kiváló gyűjteménye ma egy kellemes könyvvel gazdagodik, amelynek hasonló sikereket merünk megjósolni, bár más műfajban, mint M. Jean ''Egy falat kenyér története''.<ref name=janemace /> Jules Verne könyve: ''Öt hét léghajón'' a nagy- és kisgyermekes közönség ugyanolyan fogadtatásában részesül. Három rettenthetetlen angol, tudós és szellemes angol ember keresztezi egész Afrikát, a leghíresebb utazók által tett nagyszerű felfedezéseket, igazsággal, világossággal, tehetséggel és érdeklődéssel összefoglalva. Ez az új képzeletbeli utazás témája. Ezt a légi utat megkülönböztetjük mindazoktól, amelyek ezen a ponton megelőzték, a szerző tudta, hogyan kell körülvenni a találmányt az első pillanattól kezdve olyan pontos adatokkal, hogy a tudománynak nincs mit tennie, mint megismételnie mindazt, ami ebben a boldog könyvben található. Az Öt hét léghajón hamarosan elfoglalja a helyét a Robinsonok és a Gulliverek mellett. Az író ismeretlen volt; ez a kezdete; talán ezért sikerült elkészítenie egy igazán új könyvet, hogy egy pikáns utazás leple alatt nagyon mulatságos, nagyon informatív, nagyon bölcs könyvet sikerült elkészítenie, amelynek az olvasást ajánlhatjuk mindenkinek: a tanultaknak és annak, aki nem, a férfinak és a gyermeknek, az anyának és a kislánynak.<ref>{{cite journal |author=F. Camus |title=Öt hét léghajón. Három angol felfedező utazása Afrikába. |journal=Journal of Political and Literary Debates |date=1863-02-12 |issue=lapsz |page=2 |language=francia}}</ref>
+
+''Le Moniteur Universel''
+:Hála az utazók sokaságának, akik évszázadok óta és minden oldalról belevetette magát a különféle kontinensek felfedezésébe, a világ ismeretes számunkra. Kevés olyan ország őrzi titkát, amelyeket támadnak oly lelkesedéssel, amellyel az ember az ismeretlenbe rohan. Afrika még mindig ellenáll ezeknek a támadásoknak, és úgyszólván rejtélyes lepleibe bújik. Furcsa ország! 
+:M. Jules Verne könyvének, ''Öt hét léghajón'', amelyet most olvastunk, a hasznos művek közé kell sorolni. Jean Macé úr sikere, ''A falat kenyér''<ref name=janemace /> óta a tudomány, úgy tűnik, mindenki számára elérhető, többé-kevésbé ötletes, többé-kevésbé boldog formában népszerűsítővé válik. Ha nem félnék egy már nagyon régi képletet reprodukálni, azt mondanám, hogy szórakozás közben tanít. Ahogy el lehet képzelni, Jules Verne úr léggömbje a mozgás képzeletbeli eszköze, és doktor Fergusson, akinek a jegyzeteit Verne úr gondosan összegyűjtötte, a légi utazó, minden vagy legalábbis Afrika felfedezője. Az afrikai kontinens feletti madártávlatú utazása során a jeles orvos számos ereszkedést hajt végre, bárhová is mutat a távcső, egy érdekes pontra. A dolgok gyorsabban haladnak, mint a fent leírtak, és összefoglalva: a jól elkészített és a megfelelő forrásokból táplálkozó regény nem kevéssé kíváncsi. Sajnálom azonban, hogy az orvos és társai, Dick és Joe, két eredeti példány, akiket figyelmükbe ajánlok, annyira sietnek, hogy leeresszék ballonjukat. Természetesen sok mindent láttak, de sok említést érdemlő megfigyelést maguk mögött hagytak. A könyv szórakoztató és szellemesen íródott.<ref>{{cite journal |author=Henri Lavoix (1820-1892) újságíró |title=|journal=Le Moniteur Universel |date=1863-02-18 |issue=48 |pages=248-249 |language=francia}}</ref>
+
+''La Presse''
+:Afrikát három angol keresztezi rettenthetetlenül, a leghíresebb utazók minden nagy felfedezését rögzítették és összefoglalták ebben a rövid és bájos kötetben. A tudomány és a történelem – a képzelet és az igazság – ez különbözteti meg M. Jules Verne könyvét. Ez a könyv továbbra is a legkülönösebb és leghasznosabb képzeletbeli utazás marad, mint például azon ritka könyvek egyike, amelyek megérdemlik a Robinsonok és a Guliverek örökségét, és amelyeknek előnye, hogy egy pillanatra sem hagyják el a valóságot, fantáziában és találmányban támaszkodik a tényekre, a pozitív és vitathatatlan tudományra. Jelentjük ezt a könyvet mindenkinek, tudósoknak és azoknak, akik nem. Célja, hogy szenzációt keltsen és a maga nemében klasszikussá váljon, mint Jean Macé úr ''A falat kenyér'' története<ref name=janemace /> a kiváló Hetzel-kiadótól.<ref>{{cite journal |author=Emile Cantrel |title=Könyvek - Öt hét léghajón! - egy nappal sem kevesebb |journal=La Presse |date=1862-03-03 |language=francia}}</ref>
+
+''L'Opinion nationale''
+:Emlékszem, egyszer olvastam valamit, ami beleégett az elmémbe, pedig már nagyon rég volt, az évre sem emlékszem, [[I. Lajos Fülöp francia király|Louis-Philippe]] uralkodása közepette volt. Ez egy fenomenális teleszkóp volt, amelyet minden részletében gondosan leírtak, és amelynek segítségével [[William Herschel|Sir John Herschel]], lenyűgöző név, olyan csodálatos felfedezéseket tett a Holdról.<ref name=gretamoonhoax /> Hihetetlen volt, de nem lehetett ellenállni egy ilyen kategorikus tanúvallomásnak. Az elbeszélő a nagyobb hihetőség érdekében a [[Jóreménység foka|Jóreménység fokán]] álló obszervatóriumról szólt, és a beszámolóban voltak intim részletek, a tulajdonnevek olyan pontossága, a tudományos nyelv ilyen tökéletes megértése, olyan egyszerű és annyira nyugodt igazság-hangsúly. A párizsi literátusok közönsége gúnyolódott a fenyveseken, a szárnyas férfiakon, a háromszög alakú templomokon és a piros pipacsokon, amelyeket a nagy angol csillagász a tanulmány szerinti távcsövével látott a Holdon. Azok a férfiak, akik hamarosan betöltik az ötvenet, természetesen erőfeszítéssel felidézhetik az emléket, melyek valószínűleg abban az időben az emlékeikbe mentődtek.
+:Ez eszembe jutott, amikor elolvastam Jules Verne könyvét. Eredetibb történet, mely már régen megfogant, átgondoltabban kivitelezett. Nem tudom, a tudósok feltudják-e találni a feltaláló csodálatos léggömbjének felépítését, amely tetszés szerint fel-le megy, ballaszt vagy gáz legkisebb áldozata nélkül, és amely öt héten át viszi legénységét mindenekelőtt az afrikai kontinens. Valóban volt olyan tudós, aki egykori Képviselői Kamaránk pódiumán ünnepélyesen kijelentette, hogy kivitelezhetetlen az elektromos távcső, amikor az már négy éve működött Angliában. Jules Verne úr gömbje még csak a könyvében működött; de ott olyan jól működik, a megadott magyarázat annyira kielégítő és olyan egyértelmű, hogy az olvasó fantáziája beindul, a kosárba érzi magát a könyv három hősével. Követjük őket, nincs zavar a dráma minden viszontagságán keresztül, amelyet ég és föld között játszanak. Ezt a fantáziadús utazást olyan tudományos komolysággal vezetik le, amely szinte kikapcsolja az elmédet, olyannyira, hogy a végén ez tűnik a legtermészetesebb dolognak a világon. Úgy tűnik, ha valaki valahol találkozna ezzel a rettenthetetlen doktor Fergussonnal vagy hűséges Joe-val, csak félig lepődne meg.
+:Egy dolog erőteljesen segíti az illúziót; és ez egyébként a könyv nagy érdeme, mert kedvezően elüt attól a rossz poéntól, amiről az elején beszéltem. Ha az utazás és annak kalandjai fantasztikusak, akkor olyan valóságokon keresztül vezetnek végig, amelyek annál érdekesebbek, minél izgalmasabbak, sokunknak ismeretlenek. Nagyon nagy műveltség rejtőzik a történet felszíne alatt; minden részletet, amelynek csábítani kellene, hogy mesésnek hihessen, a legmegfelelőbb térképeken gondosan feljegyezték és a leghitelesebb tanúvallomásokból kölcsönözték; az alátámasztásként idézett nevek valódi nevek, ezt az afrikai felfedező utat az olvasó saját számlájára teszi. M. Jules Verne fentről összegez, itt nem találtam jobb kifejezést, ezeknek a rettenthetetlen felfedezőknek az összes útja, a tudósok, akik életük kockáztatásával szerezték meg azt, amit ma tudunk Afrikáról, túl valóságos utazások azok, mert az utazók többsége ott pusztult el. Hosszú történeteik anyagát vette át, egyesével kiegészítette, összekötötte; ezekben a fáradságos expedíciókban hüvelykről hüvelykre használta fel a leírt tájak széles körvonalait, amelyek minden lépésnél megálltak; egyszóval ez madártávlatból nézve Afrika, amelyet ő adott nekünk, de olyan Afrika, mint amilyet valóban megmutattak azok, akik nem léggömbbel mentek oda.
+:A türelmes tanulás és a szellemes képzelet keverékéből egyszerre az egyik legszórakoztatóbb és legtanulságosabb könyv jelent meg, amely elvarázsolhatja a téli esti kikapcsolódást. Megtaláljuk az összes nevet, és követjük azoknak a hősöknek a nyomát, akik megszakítás nélkül követték egymást az európai civilizáció e támadásában az afrikai barbárság rejtelmeivel kapcsolatban..<ref>{{cite journal |author=Jean Macé |title=Öt hét léghajón. Három angol felfedező útja Afrikában. Dr. Fergusson feljegyzései nyomán. Verne Gyula műve, Hetzel kiadás |journal=L'Opinion nationale |date=1863-04-11 |issue=99 |pages=1 |language=francia}}</ref>
+
+''Budapesti Szemle''
+
+A havilap három részes sorozatban tekintette át Verne Gyula életművét 1929-ben.
+:...elkezdi írni első nagy művét, az ''Öt hét léghajónt''. ... Hetzel kiadóé az érdem, hogy a nagyon is tudományos anyagból valódi regényt gyúratott az íróval s ledöntötte azt a válaszfalat, amely eddig Verne nagyvonalú, tudományos érdeklődése és könnyűsúlyú irodalmi munkássága közt állt. Hetzel jó szeme és tapintatossága a legeslegutolsó pillanatban mentette meg a már-már végleg elkedvetlenedő írót. Az átdolgozás bámulatos gyorsan megtörtént; Hetzel 20&nbsp;évre lekötötte Verne munkásságát s a [[Különleges utazások|Voyages extraordinaires]] nagyszabású terve kialakult.
+
+:A későbbi heves angolgyűlölő ekkor még szinte természetesnek tartja, hogy angolokat válasszon nagy terve szereplőiül. Fergusson Sámuel, a ''«Victoria»'' feltalálója, aki léghajóval akarja legyőzni az Afrika-utazás leküzdhetetlen nehézségeit. Bátor, hidegvérű, szívós angol, s mögötte alig állhatna impozánsabb dekoráció a brit földrajzi társaságnál. Titkát csak a léghajón mondja el társainak, a szenvedélyes vadásznak és a hűséges szolgának: a gáz melegítéséve uralkodik a léghajó emelkedésén, ill. süllyedésén.<ref>Meuníer kapitány újításait is felhasználta Verne, aki azt tovább gondolta, ''fejlesztette''.</ref> A széljárását nagyjában kiszámítják, mert a ''«Victoria»'' még nem kormányozható [[Zeppelin (léghajó)|Zeppelin]]. A tudományos-kalandos alapötlet szerint ezzel az új típusú járművel repülik át Afrikát keletnyugati irányban, Zanzibártól a francia Szenegálig. (Így azután mégis csak jut valami szerep a franciáknak: ők helyezik biztonságba a minden segédeszközétől megfosztott, bennszülöttektől üldözött expedíciót.) Az út akadályai teszik a regényt: először Dick Kennedy ellenkezései, amelyeket Fergusson nem vesz komolyan; azután az út kalandjai: a kínzócölöphöz kötött francia misszionárius megmentése villanyos reflektorral, mely elvakítja a vadakat; kínzó szomjúság és szélcsend; oroszlánok; sáskafelhő; gyújtogató galambsereg és rivális sasok, amelyek megsértik a léghajó burkát. Innen kezdődik a ballon dekadenciája, az a pusztulás, amely minden képzeletbeli alkotást fenyeget az író realizmusa részéről. Joe, a derék szolga kétszer is leugrik, hogy megmentse a ''«Victoriát»''. De végső válság idején az ilyen romantikus, bármilyen regénybe illő kaland nem elégítene ki bennünket: tudományos ötletre áhítozunk s meg is kapjuk; az üldözők elől menekülő léghajósok gáza vesztett léggömbjüket melegített levegővel emelik utoljára a magasba, a Szenegál gouinai zuhatagja fölé.<ref>Ennek a szabadító trükknek «hideg» pendantját találjuk meg [[A prémvadászok|Prémek hazája]] végén, ahol a tudós sűrített levegővel tartja fagyva a langyos tengerben már-már szétolvadó jégtáblát.</ref>
+
+:A tudományosság egyébként is túlteng még, az adagolás nem kifogástalan. Hosszú német és angol könyvcímeket idéz a regényíró;<ref>''The source of the Nile, being a generál survey of the bassin of that river and of its head stream with the history of the Nilotic discovery'' by Charles Beke Th. D., vagy ''Atlas der neuesten Entdeckungen in Afrika'', Petermann, Gotha, Öt hét a léghajón. XII. fejezet.</ref> óriási névsort ad nyomatéknak az I.&nbsp;fejezet végére: az analitikus tudományosság (ötletek) mellé így a szintétikus járul (a tárgyra vonatkozó összes ismeretek egybefoglalása). De a tudománytól a regényhez vezető híd biztos és állandó: Fergusson doktor nemcsak tudós, fölfedező és feltaláló, hanem utazó és ''«egy kissé Selkirk és Robinson Crusoe dicsőségéről is álmodozott, mivel ez utóbbiak előtte szintén nem látszottak kisebbeknek»''<ref name=1fejezet>I. fejezet</ref> a tudósoknál.
+
+:A regényes hangulat így nem marad hátrányban. Maga a tudományosság is szolgál pompás, ritka mozzanatokkal. Az angol földrajzi társaság ülésére ''«in medias res»'' veti az olvasót, s nincs író, aki ennyi sajátos hangulatot tudna ledesztillálni egy közbeszólásokkal tarkított vitából vagy az újságok zajkoncertjéből. A doktor megjelenése szuggesztív: ''«A tetszészaj és éljenzés csak akkor szűnt meg, midőn Fergusson egy kedves kézmozdulattal csendet kért. A számára készített karszékhez lépett; ott megállott; erélyes tekintettel körülnézett, jobbkeze mutatóújját az égre emelé, felnyitá ajkait és csak ez egyetlen szót mondá: Excelsior!»<ref name=1fejezet>I. fejezet</ref> Hogy Verne minden lelkesedése mellett mennyire nem elégszik meg a vaskalappal, kiviláglik ebből a kedvesen ironikus megfigyelésből: ''«A vén hajóskapitánynak egészen megtetszett ez a különös ember; felkelt és azt indítványozta, hogy Fergusson doktor beszéde a ''«londoni királyi földrajzi társaság közleményei»''-be egész terjedelmében felvétessék.''<ref name=1fejezet>I. fejezet</ref> Mély ''«hangulatot»'' kelt az a jelenség is, amit a valósággal való kapcsolásnak nevezhetnénk. Verne hősei abba a helyzetbe kerülnek, hogy egy tényleges tudományos vitában ''«döntenek»'' a Nílus forrásai kérdésében. Mégis csak megdobogtatja az olvasó szívét, amikor a nagy titokról – ha képzeletben is – föllebben a fátyol!<ref>Romantikus ellentét kultusz diktálja, hogy a misszionáriust, a szegénység szolgáját, aranyföldbe temetik (XXIII. fejezet). Joenak pedig, aki egy csomó aranyrögöt magával vitt a gondolába, vérző szívvel kell ledobálnia ezt a drága ballasztot.</ref>''
+
+:És hangulat tömjéné száll fel abból a tényből is. hogy egy gondola szűk kuckójában húzódik meg három ember s öt héten át ez az ő világuk. Nemcsak gyermekek tapsolnak az ilyen térlehetőségnek, hanem – ha ilyen rendkívüli kuckóról van szó – komoly felnőttek is. Az utazásnak két kifogyhatatlan hangulatforrása van: a hétköznapi lét határainak kitágítása a helyzetváltoztatás és az új miliők révén; s a közlekedési eszköz sajátos intérieur-hangulata. Az első olyan banális, hogy nem is érdemes szót vesztegetni rá; a második azonban eleddig kevésbé méltányolt, pedig ugyancsak hatalmas a varázsa. Megint a gyermekek izgalmát és extázisát kell tanúul hívni, mert ez nem a helyváltoztatásnak szól, hanem a vasúti fülkének és folyosónak, a hálókocsinak, a hajókabinnak, az autóbusz emeletének. A felnőttekre persze csak a ritka közlekedési eszközöknek van ilyen hatása, s Verne járművei sohasem fogytak ki a ritka impressziókból.
+:De már ebben az első regényben összefonódik a földrajzi és a technikai érdeklődés, vagy – helyesebben – az utazás és a természettudományi ötlet. Ennek a frigynek a legegyszerűbb formája az, hogy az utazás újfajta közlekedési eszközökön történik. A helyváltoztatást nem igénylő vállalkozások száma Vernénél elenyészően csekély.<ref>{{cite journal |author=[[Hankiss János (irodalomtörténész)|Hankiss János]] |title=Jules Verne. A tudomány a szépirodalomban |journal=[[Budapesti Szemle]] |date=október 1929 |issue=623 |pages=54–86 |accessdate=2020-06-25}}</ref>
+
+== Szereplők ==
+* doktor '''Fergusson Sámuel''', a ''Victoria'' léghajósa, brit tudós, aki gazdag természettudományi ismeretekkel és képzelettel rendelkezett.
+* '''Wilson József''', a ''Victoria'' léghajósa, egyszerűbb nevén '''Joe''', aki Ferguson, intelligens és nagyon odaadó szolgája.
+* '''Kennedy "Dick" Richárd''', a ''Victoria'' léghajósa, egy bátor vadász.
+* Sir '''Francis M''', az [[Brit Királyi Földrajzi Társaság|Angol Királyi Földrajzi Társaság]] elnöke<ref>A regény szerint jelzett időpontban a [[Szilur]]-rendszert elsőként azonosító [[Sir Roderick Murchison]] volt a [[Brit Királyi Földrajzi Társaság]] elnöke.</ref>
+* '''Pennet''', a ''Resolut'' kapitánya
+* misszionárius
+* '''Dufraisse''' tengerész-hadnagy
+* ''' Rodamel''' zászlótartó tiszt
+* '''Dufays''' őrmester
+* '''Filippeau''' közlegény
+* '''Mayor''' közlegény
+* '''Pelissier''' közlegény
+* '''Lorois''' közlegény
+* '''Bascagnet''' közlegény
+* '''Guillon''' közlegény
+* '''Lebel''' közlegény.
+
+==Érdekességek==
+* Joe alakját Verne barátjáról, Félix Duquesnel (1832–1915) francia színdarab-szerzőről és újságíróról mintázta.<ref>{{cite journal |author=Volker Dehs |title=Les souvenirs de Félix Duquesnel ''Félix Duquesnel emlékei'' |journal=Bulletin de la Société Jules Verne |issue=132 |pages=27-30 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-10-11}}</ref>
+* Verne életében egyetlen alkalommal utazott léggömbbel, jóval a regény írása után, 1873-ban. Lásd feljebb a "Verne a regényéről a McClure magazinnak" alcímnél.<ref name=mcclure/>
+* Hetzel ötletére Verne regényei a ''[[Különleges utazások]]'' (''Voyages Extraordinaires'') gyűjtő-felcímmel jelentek meg. Az ''Öt hét léghajón'' volt a sorozat első kötete, ám csak 1865-től jelent meg a felcím a könyv borítóján.
+* ''Látod kedves Dick, milyen nagy a hatalma annak az ércnek a világ legjobb emberére is. Mennyi szenvedélyt, kincsvágyat és bűnt bírna egy ily aranybánya tudása világra hozni. Valóban elszomorító!''<ref name=23fejezet>XXIII. fejezet</ref> Verne élete végéig elítélte a munka nélküli meggazdagodást, elég [[Az aranyvulkán]], [[Az arany meteor]] vagy a [[Dél csillaga]] regényeket említeni.
+* ''...nyolcezer lábnyi magasba emelkedett. Ez volt a legmagasabb fölemelkedés az egész út alatt és a hőmérsék odafenn annyira alászállott, hogy a doktornak és kísérőinek a pokrócokba kellett burkolódzni.''<ref name=29fejezet>XXIX. fejezet</ref> 8&nbsp;000&nbsp;láb 2&nbsp;438,4&nbsp;méternek felel meg.
+* ''mire volna jó ezeket az állatokat megölni, melyekből semmi hasznunk? Ha arról van szó, elpusztítani egy oroszlánt, egy tigrist, egy hiénát, ezt értem, de egy antilopot, gazellát csak azért, hogy vadászszenvedélyedet kielégítsed, az valóban nem éri meg a fáradságot. Máskülönben barátom, majd száz lábnyira fogunk csak e föld felett lebegni, és ha látsz valami vadállatot, nem bánom, ha mulattatásunkra egy golyót röpítesz szívébe.''<ref name=31fejezet>XXXI. fejezet</ref> Későbbi regényeiben – [[Három orosz és három angol kalandjai]], [[Város a levegőben]] – fokozatosan az öncélú vadászatot elítélő véleményt adott szereplői szájába Verne. 
+* ''- Doktor Fergusson?'' – kérdé a tiszt.
+:''- Igen az vagyok,'' – válaszolá nyugodtan a doktor – ''itt pedig az én két barátom.''<ref name=43fejezet>XLII. fejezet</ref>
+Afrika felfedezésének egyik [[Henry Morton Stanley#Livingstone (1870-71)|híres]], és ritka mosolyt fakasztó [[David Livingstone#Betegsége és halála|pillanata]], amikor [[Henry Morton Stanley]] rátalál az elveszettnek hitt [[David Livingstone|Livingstone]]-ra:
+:- ''Dr Livingstone, I presume?'' – Dr. Livingstone, ha nem tévedek?”
+:- ''"Yes. I feel thankful that I am here to welcome you.'' – Igen. Örülök, hogy itt köszönthetem.
+Verne párbeszéde nagyon hasonló, de a Stanley-Livingstone találkozóra 1871. november 10-én került sor, Verne könyvének megjelenése után nyolc évvel. Arról nincs megbízható információ,hogy Stanley olvasta-e Verne regényét.
+
+==A léghajó útja térképen==
+[[Kép:Five Weeks in a Balloon.jpg|800 px|center|bélyegkép|Térkép, amely a bejárt utat mutatja Kelet-Afrikától Nyugat-Afrikáig]]
+
+==[[Édouard Riou]] és de Montaut illusztrációi==
+A képek az első francia illusztrált kiadás képei, metszetei. A magyar kiadások nyomdai okok miatt hagytak ki önkényesen képeket. A képaláírások a [[Franklin Irodalmi és Nyomdai Rt.]] (1923.) ötödik kiadásából származnak.
+<gallery>
+Fájl:Cinq Semaines en ballon 003.png|<ref name=franklin />
+Fájl:Cinq Semaines en ballon 004.png|A Traveller-klub lakomája.
+Fájl:Cinq Semaines en ballon 005.png|<ref name=franklin>Ehhez a képhez nincs képaláírás a Franklin kiadásban.</ref>
+Fájl:Cinq Semaines en ballon 006.png|Kennedy Dick.
+Fájl:Cinq Semaines en ballon 007.png|<ref name=franklin />
+Fájl:Cinq Semaines en ballon 008.png|<ref name=franklin />
+Fájl:Cinq Semaines en ballon 009.png|A három útitárs.
+Fájl:Cinq Semaines en ballon 010.png|<ref name=franklin />
+Fájl:Cinq Semaines en ballon 011.png|<ref name=franklin />
+Fájl:Cinq Semaines en ballon 012.png|A ''Resolut''.
+Fájl:Cinq Semaines en ballon 013.png|Dr. Fergusson előadásai.
+Fájl:Cinq Semaines en ballon 014.png|Joe mesél a matrózoknak.
+Fájl:Cinq Semaines en ballon 015.png|[[Zanzibár]] látképe.
+Fájl:Cinq Semaines en ballon 016.png|A léggömb megtöltése.
+Fájl:Cinq Semaines en ballon 017.png|A léggömb duzzad.
+Fájl:Cinq Semaines en ballon 018.png|A léggömb könnyedén ringatózott.
+Fájl:Cinq Semaines en ballon 019.png|A négerek vad orgiába csaptak át.
+Fájl:Cinq Semaines en ballon 020.png|"''Erre biztos számítottam.''"
+Fájl:Cinq Semaines en ballon 021.png|Átkelés a tengerszoroson.
+Fájl:Cinq Semaines en ballon 022.png|Mrima felett.
+Fájl:Cinq Semaines en ballon 023.png|"''Mily látvány! Mily csodálat!''"
+Fájl:Cinq Semaines en ballon 024.png|Uzaramo vidéke fölött lebegtek.
+Fájl:Cinq Semaines en ballon 025.png|A léggömb a nopálfához kötözve.
+Fájl:Cinq Semaines en ballon 026.png|A Rubeho hegye.
+Fájl:Cinq Semaines en ballon 027.png|<ref name=franklintalan>Ez a kép hiányzik a Franklin kiadásból.</ref>
+Fájl:Cinq Semaines en ballon 028.png|... ott fekszik Zihoe-La-Mkoa.
+Fájl:Cinq Semaines en ballon 029.png|A szultán palotája.
+Fájl:Cinq Semaines en ballon 030.png|"''Jól kapaszkodik.''"
+Fájl:Cinq Semaines en ballon 031.png|"''...látod azokat a vízilovakat...''"
+Fájl:Cinq Semaines en ballon 032.png|...hatalmas mennydörgés rázta meg a levegőt...
+Fájl:Cinq Semaines en ballon 033.png|Az elefánt mint vontató.
+Fájl:Cinq Semaines en ballon 034.png|Az elefántnak vége volt.
+Fájl:Cinq Semaines en ballon 035.png|A [[Nílus]] utolsó zuhatagai.
+Fájl:Cinq Semaines en ballon 036.png|Benga szigete.
+Fájl:Cinq Semaines en ballon 037.png|"''Íme, megint egy vízesés!''"
+Fájl:Cinq Semaines en ballon 038.png|"''Ez nem egyéb, mint egy [[Közönséges füge|fügefa]]...''"
+Fájl:Cinq Semaines en ballon 039.png|"''Ez a kannibálok hadifája...''"
+Fájl:Cinq Semaines en ballon 040.png|A két lövés.
+Fájl:Cinq Semaines en ballon 041.png|A villamos fény.
+Fájl:Cinq Semaines en ballon 042.png|"''A fekete gonosztevők egyike belecsimpaszkodott a csónak aljába.''"
+Fájl:Cinq Semaines en ballon 043.png|<ref name=franklintalan />
+Fájl:Cinq Semaines en ballon 044.png|<ref name=franklintalan />
+Fájl:Cinq Semaines en ballon 045.png|A [[hittérítő]] temetése.
+Fájl:Cinq Semaines en ballon 046.png|A sivatag kezdete.
+Fájl:Cinq Semaines en ballon 047.png|A Nap letűnt a láthatáson.
+Fájl:Cinq Semaines en ballon 048.png|"''Még egy léggömb!''"
+Fájl:Cinq Semaines en ballon 049.png|Éjjel senki sem őrködött.
+Fájl:Cinq Semaines en ballon 050.png|Leroskadt és elterült a homokon.
+Fájl:Cinq Semaines en ballon 051.png|<ref name=franklintalan />
+Fájl:Cinq Semaines en ballon 052.png|Pihenő az oázison.
+Fájl:Cinq Semaines en ballon 053.png|Utazóink még egyszer letekintettek...
+Fájl:Cinq Semaines en ballon 054.png|Állatok már láthatók.
+Fájl:Cinq Semaines en ballon 055.png|A Mendif hegye felett.
+Fájl:Cinq Semaines en ballon 056.png|A loggumi kormányzó.
+Fájl:Cinq Semaines en ballon 057.png|<ref name=franklintalan />
+Fájl:Cinq Semaines en ballon 058.png|Így keltek át a buja és zöld növényzettel borított földek felett.
+Fájl:Cinq Semaines en ballon 059.png|Kuka<ref>A város mai neve: Kukawa.</ref> látképe.
+Fájl:Cinq Semaines en ballon 060.png|Joe leugrik.
+Fájl:Cinq Semaines en ballon 061.png|Kennedy bő vadászata.
+Fájl:Cinq Semaines en ballon 062.png|Az orkán.
+Fájl:Cinq Semaines en ballon 063.png|Joe a [[Csád-tó]]ban.
+Fájl:Cinq Semaines en ballon 064.png|A kígyók fája.
+Fájl:Cinq Semaines en ballon 065.png|"''Segítség! Segítség!''"
+Fájl:Cinq Semaines en ballon 066.png|Joe fölemelése.
+Fájl:Cinq Semaines en ballon 067.png|A kailuák országa.
+Fájl:Cinq Semaines en ballon 068.png|<ref name=franklintalan />
+Fájl:Cinq Semaines en ballon 069.png|A Hombori-hegység.
+Fájl:Cinq Semaines en ballon 070.png|<ref name=franklintalan />
+Fájl:Cinq Semaines en ballon 071.png|Joe kidobja a sátor szövetét.
+Fájl:Cinq Semaines en ballon 072.png|"''Hisz nincs ennél könnyebb...''"
+Fájl:Cinq Semaines en ballon 073.png|"''Tűz! Tűz!''" – kiáltott.
+Fájl:Cinq Semaines en ballon 074.png|Védekezés puskalövésekkel.
+Fájl:Cinq Semaines en ballon 075.png|A Gouinai-zuhatagok.
+Fájl:Cinq Semaines en ballon 076.png|Ott állott mintegy tíz férfiúból álló csoport.
+Fájl:Cinq Semaines en ballon 077.png|A fogadtatás.
+Fájl:Cinq Semaines en ballon 078.png|<ref name=franklin />
+Fájl:Cinq Semaines en ballon 079.png|A léggömbbel megtett út.<ref name=franklintalan /> 
+</gallery>
+
+==Magyar kiadások==
+* Öt hét léghajón, [[Franklin Irodalmi és Nyomdai Rt.|Franklin]], Budapest, 1874,<ref>{{cite web| url = http://www.odrportal.hu/web/guest/record/-/record/MOKKAS0000789028|title = Öt hét léghajón : utazás Afrikában (1. kiadás)| accessdate= 2015-10-11| author = Országos Dokumentum-ellátási Rendszer}}</ref> 1880<ref>{{cite web |author=Verne Gyula |title=Öt hét léghajón. Utazás Afrikában. 2. kiad. 8° (174 l.) Bpest, 1880. Franklin-társ. 1.20 |url=https://www.arcanum.hu/hu/online-kiadvanyok/Petrik-magyar-konyveszet-17121920-2/18761885-13040/verne-gyula-ot-het-leghajon-utazas-afrikaban-2-kiad-8-174-l-bpest-1880-franklin-tars-120-16315/ |publisher=Franklin / Arcanum |accessdate=2020-10-13 |year=1880}}</ref> 1896<ref>{{cite web| url = http://www.odrportal.hu/web/guest/record/-/record/MOKKAI0009386404|title = Öt hét léghajón : utazás Afrikában (3. képes kiadás)| accessdate= 2015-10-11| author = Országos Dokumentum-ellátási Rendszer}}</ref> és 1923<ref>{{cite web| url = http://www.odrportal.hu/web/guest/record/-/record/MOKKAI0008635701|title = Öt hét léghajón : utazás Afrikában (5. képes kiadás)| accessdate= 2015-10-11| author = Országos Dokumentum-ellátási Rendszer}}</ref>
+* Öt hét léghajón. [[Dráma Mexikóban|Egy dráma Mexikóban]],<ref>Az ''Öt hét léghajón'' és az ''Egy dráma Mexikóban'' műveket egy könyvben adták ki.</ref> fordító: Zempléni P. Gyula, Budapest, Eisler, 1891,<ref>{{cite web |url=http://www.odrportal.hu/web/guest/record/-/record/MOKKAS0000789028 |title=Öt hét léghajón : utazás Afrikában | accessdate= 2020-10-13 |author =Országos Dokumentum-ellátási Rendszer}}</ref> a könyv a ''Verne Gyula összegyűjtött munkái'' sorozat részeként jelent meg
+* Öt hét léghajón, fordító: Barabás Ferenc, Gross, Győr, 1892, Egyetemes könyvtár
+* Öt hét léghajón, fordító: Telkes Pál József és Nemes Mihály, Budapest, Magyar Kereskedelmi Közlöny, [1900 körül]<ref>{{cite web |url=http://www.odrportal.hu/web/guest/record/-/record/MOKKAI0009298287 |title=Öt hét léghajón : regény | accessdate= 2020-10-13 |author =Országos Dokumentum-ellátási Rendszer}}</ref>
+* Öt hét léghajón, fordító: Telkes Pál József, Tolnai Nyomda, Budapest, 1900,<ref>{{cite web |url=http://www.odrportal.hu/web/guest/record/-/record/MOKKAI0009300579 |title=Öt hét léghajón | accessdate= 2020-10-13 |author =Országos Dokumentum-ellátási Rendszer}}</ref> a könyv a ''Verne Gyula összes munkái'' sorozat részeként jelent meg
+* Öt hét léghajón, fordító: Telekes Pál József, Tolnai Nyomda, Budapest, 1953<ref>{{cite web| url = http://www.odrportal.hu/web/guest/record/-/record/MOKKAZ0004024736|title = Öt hét léghajón| accessdate= 2015-10-11| author = Országos Dokumentum-ellátási Rendszer}}</ref>
+* Öt hét léghajón, fordító: Telekes Pál József,<ref>A fordítást [[Majtényi Zoltán]] átdolgozta.</ref> Unikornis Kiadó, Budapest, 2003<ref>{{cite web| url = http://www.odrportal.hu/web/guest/record/-/record/MOKKAZ0006472319|title = Öt hét léghajón| accessdate= 2015-10-11| author = Országos Dokumentum-ellátási Rendszer}}</ref> {{ISBN|9789634275039}} <ref>A könyvet a Munditer Bt. is megjelentette, szintén 2003-ban, azonos ISBN számmal.</ref>
+
+== Filmfeldolgozások ==
+* 1961 – ''Flight of the Lost Balloon''
+* 1962 – ''Five Weeks in a Balloon''<ref>{{IMDb cím|0055988}}</ref>
+* 1975 – ''Viaje Fantástico en Globo''<ref>{{IMDb cím|0304894|Viaje Fantástico en Globo}}</ref>
+
+== Jegyzetek ==
+{{jegyzetek}}
+
+== Források ==
+* [[Jules Verne]]: ''Öt hét léghajón'' (Unikornis Kiadó, Budapest, 2003) {{ISBN|9634275036}}
+* {{cite web| url = http://mek.oszk.hu/05000/05082/#|title = Öt hét léghajón : utazás Afrikában - A regény szövege (Franklin, 1896)| accessdate= 2015-10-10| author = [[Magyar Elektronikus Könyvtár|MEK]]| language = magyar}}
+* {{cite web| url = http://moly.hu/konyvek/jules-verne-ot-het-leghajon|title = A regény adatlapja| accessdate= 2015-10-10| author = [[Moly.hu]]| language = magyar}}
+* {{cite journal |author=[[Hankiss János (irodalomtörténész)|Hankiss János]] |title=Jules Verne. A tudomány a szépirodalomban |journal=[[Budapesti Szemle]] |date=október 1929 |issue=623 |pages=54–86 |accessdate=2020-06-25}}
+* {{cite journal |author=[[Hankiss János (irodalomtörténész)|Hankiss János]] |title=Jules Verne. A tudomány a szépirodalomban |journal=[[Budapesti Szemle]] |date=november 1929 |issue=624 |pages=215–240 |accessdate=2020-06-25}}
+* {{cite journal |author=[[Hankiss János (irodalomtörténész)|Hankiss János]] |title=Jules Verne. A tudomány a szépirodalomban |journal=[[Budapesti Szemle]] |date=december 1929 |issue=625 |pages=377–384 |accessdate=2020-06-25}}
+* {{cite journal |author=V. Dehs  |title=Cinq semaines en ballon, commenté par William Butcher ''Öt hét léghajón, William Butcher jegyzetei'' |journal=Bulletin de la Société Jules Verne |issue=200 |pages=86-89 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-10-10}}
+* {{cite journal |author=Philippe Burgaud |title=Cinq semaines en ballon en film ''Öt hét léghajón filmen'' |journal=Bulletin de la Société Jules Verne |issue=184 |pages=30-37 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-10-10}}
+* {{cite journal |author=Volker Dehs |title=La bi(bli)ographie de Cinq semaines en ballon ''Öt hét léghajón bi(bli)ografiája'' |journal=Bulletin de la Société Jules Verne |issue=183 |pages=4-19 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-10-11}}
+* {{cite journal |author=Jules Verne |title=Les manuscrits de Cinq semaines en ballon ''Öt hét léghajón kéziratai'' |journal=Bulletin de la Société Jules Verne |issue=183 |pages=20-27 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-10-10}}
+* {{cite journal |author=Volker Dehs |title=Cinq semaines en ballon devant la critique de 1863 ''Öt hét léghajón az 1863. évi kritikákban'' |journal=Bulletin de la Société Jules Verne |issue=183 |pages=30-39 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-10-10}}
+* {{cite journal |author=Robert Soubret |title=Le Cinq semaines en ballon de madame Hetzel ''Madame Hetzel öt hete léggömbben'' |journal=Bulletin de la Société Jules Verne |issue=183 |pages=43-49 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-10-10}}
+* {{cite journal|author=Éric Weissenberg Et Olivier Dumas|title=Observations nouvelles sur le rare premier cartonnage de Cinq Semaines en ballon ''Új megfigyelések az első dobozról, az öt hét léghajón-ról''|journal=Bulletin de la Société Jules Verne|issue=172|pages=49-48 |language=francia|ország=Franciaország|location=Párizs|publisher=Société Jules Verne|date=2020-10-10}}
+* {{cite journal |author=Éric Weissenberg |title=Cinq Semaines en ballon, un roman de «commande»? ''Öt hét léghajón, a "megrendelt" regény?'' |journal=Bulletin de la Société Jules Verne |issue=156 |pages=49-55 |language=francia |ország=Franciaország |location=Párizs |publisher=Société Jules Verne |date=2020-10-10}}
+
+== További információk ==
+{{Commonskat-natúr|Illustrations from Five Weeks in a Balloon by Riou and Montaut}} (illusztrációk)
+* {{cite web| url = http://verne.djp.hu/Text/CS/| title = Öt hét léghajón - A regény szövege Telekes Pál József fordításában| accessdate = 2015-10-10| author = Verne.djp.hu| language = magyar| archiveurl = https://web.archive.org/web/20100312053011/http://verne.djp.hu/Text/CS/#| archivedate = 2010-03-12}}
+* {{cite web| url = http://cultura.hu/kultura/jules-verne-oxigenjeteka/|title = Jules Verne oxigénjétéka| accessdate= 2015-10-10| author = Cultura Magazin| language = magyar}}
+* {{cite web| url = http://www.imdb.com/title/tt0055988/|title = Five Weeks in a Balloon| accessdate= 2015-10-10| author = [[Internet Movie Database|IMDb]]| language = angol}}
+
+== Kapcsolódó szócikkek ==
+* [[Léghajó]]
+
+{{Jules Verne munkássága}}
+{{Nemzetközi katalógusok}}
+{{Portál|Irodalom}}
+
+[[Kategória:Jules Verne művei]]
+[[Kategória:Az 1860-as évek regényei]]
