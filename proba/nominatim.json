@@ -1,0 +1,26 @@
+{
+"Rue Jules Verne, Paris": {
+"hiba": "'latin-1' codec can't encode character '\\u0151' in position 62: ordinal not in range(256)"
+},
+"Ulica Julesa Vernea, Pazin": {
+"hiba": "'latin-1' codec can't encode character '\\u0151' in position 62: ordinal not in range(256)"
+},
+"Verne Gyula utca, Budapest": {
+"hiba": "'latin-1' codec can't encode character '\\u0151' in position 62: ordinal not in range(256)"
+},
+"Verne Gyula utca, Miskolc": {
+"hiba": "'latin-1' codec can't encode character '\\u0151' in position 62: ordinal not in range(256)"
+},
+"Verne Gyula utca, Ózd": {
+"hiba": "'latin-1' codec can't encode character '\\u0151' in position 62: ordinal not in range(256)"
+},
+"Verne Gyula utca, Makó": {
+"hiba": "'latin-1' codec can't encode character '\\u0151' in position 62: ordinal not in range(256)"
+},
+"Boulevard Jules Verne, Amiens": {
+"hiba": "'latin-1' codec can't encode character '\\u0151' in position 62: ordinal not in range(256)"
+},
+"Rue Jules Verne, Nantes": {
+"hiba": "'latin-1' codec can't encode character '\\u0151' in position 62: ordinal not in range(256)"
+}
+}
