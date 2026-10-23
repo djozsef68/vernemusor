@@ -9,15 +9,12 @@ def get(u):
             err = e; time.sleep(2 + 3 * i)
     return {'hiba': str(err)}
 def wiki(lang, q):
-    r = get(f'https://{lang}.wikipedia.org/w/api.php?action=query&list=search&format=json&srlimit=3&srsearch=' + urllib.parse.quote(q))
+    d = get(f'https://{lang}.wikipedia.org/w/api.php?action=query&format=json&generator=search&gsrlimit=3&prop=extracts|coordinates|info&inprop=url&exintro=1&explaintext=1&exlimit=max&redirects=1&gsrsearch=' + urllib.parse.quote(q))
     out = []
-    for h in (r.get('query', {}).get('search', []) if isinstance(r, dict) else []):
-        d = get(f'https://{lang}.wikipedia.org/w/api.php?action=query&format=json&prop=extracts|coordinates&exintro=1&explaintext=1&redirects=1&titles=' + urllib.parse.quote(h['title']))
-        p = list(d.get('query', {}).get('pages', {}).values())[0] if isinstance(d, dict) and d.get('query') else {}
+    for p in (d.get('query', {}).get('pages', {}).values() if isinstance(d, dict) else []):
         c = (p.get('coordinates') or [{}])[0]
-        out.append({'lang': lang, 'title': h['title'], 'extract': (p.get('extract') or '')[:700], 'lat': c.get('lat'), 'lon': c.get('lon'),
-                    'url': f'https://{lang}.wikipedia.org/wiki/' + urllib.parse.quote(h['title'].replace(' ', '_'))})
-        time.sleep(0.2)
+        out.append({'lang': lang, 'title': p.get('title', ''), 'extract': (p.get('extract') or '')[:700], 'lat': c.get('lat'), 'lon': c.get('lon'), 'url': p.get('fullurl', '')})
+    time.sleep(0.15)
     return out
 def nomi(q):
     time.sleep(1.2)
