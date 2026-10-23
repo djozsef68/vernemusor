@@ -1,78 +1,6 @@
 {
- "frissitve": "2026-10-22T08:39:40+00:00",
+ "frissitve": "2026-10-23T08:35:21+00:00",
  "tv": [
-  {
-   "orszag": "cz",
-   "csatorna": "ČT1",
-   "cim": "Nautilus",
-   "alcim": "Hallucinations",
-   "ev": 2024,
-   "kezd": "2026-10-22T09:00:00+02:00",
-   "perc": 48
-  },
-  {
-   "orszag": "pl",
-   "csatorna": "CT 1",
-   "cim": "Nautilus",
-   "alcim": "Vidiny Dobrodruzný",
-   "ev": 2024,
-   "kezd": "2026-10-22T02:00:00-05:00",
-   "perc": 45
-  },
-  {
-   "orszag": "us",
-   "csatorna": "CINEVAULT",
-   "cim": "Journey to the Center of the Earth",
-   "alcim": "",
-   "ev": null,
-   "kezd": "2026-10-22T09:04:00+00:00",
-   "perc": 113
-  },
-  {
-   "orszag": "br",
-   "csatorna": "Telecine Pipoca",
-   "cim": "Viagem 2: A Ilha Misteriosa",
-   "alcim": "",
-   "ev": null,
-   "kezd": "2026-10-22T09:35:00-03:00",
-   "perc": 95
-  },
-  {
-   "orszag": "cz",
-   "csatorna": "ČT1",
-   "cim": "Nautilus",
-   "alcim": "Modrá hlubina",
-   "ev": 2024,
-   "kezd": "2026-10-22T15:55:00+02:00",
-   "perc": 51
-  },
-  {
-   "orszag": "pl",
-   "csatorna": "CT 1",
-   "cim": "Nautilus",
-   "alcim": "Modrá hlubina Dobrodruzný",
-   "ev": 2024,
-   "kezd": "2026-10-22T08:55:00-05:00",
-   "perc": 50
-  },
-  {
-   "orszag": "br",
-   "csatorna": "TV Brasil",
-   "cim": "Júlio e Verne - Os Irmãos Gemiais",
-   "alcim": "",
-   "ev": null,
-   "kezd": "2026-10-22T11:24:00-03:00",
-   "perc": 13
-  },
-  {
-   "orszag": "pe",
-   "csatorna": "STUDIO UNIVERSAL (Studio Universal)",
-   "cim": "La vuelta al mundo en 80 días",
-   "alcim": "",
-   "ev": 2004,
-   "kezd": "2026-10-22T14:25:00+00:00",
-   "perc": 130
-  },
   {
    "orszag": "pt",
    "csatorna": "NOS Studios",
@@ -369,30 +297,6 @@
  "szinhaz": [
   {
    "orszag": "fr",
-   "cim": "Le Tour du monde en 80 jours par la compagnie Jeux de Vilains  Beaugency",
-   "fajta": "",
-   "mufaj": "",
-   "hely": "",
-   "varos": "",
-   "datum": "2026-10-22",
-   "ido": "",
-   "link": "https://unidivers.fr/event/le-tour-du-monde-en-80-jours-par-la-compagnie-jeux-de-vilains-beaugency-loiret-2026-10-22/"
-  },
-  {
-   "orszag": "fr",
-   "cim": "VASTE MONDE",
-   "fajta": "théâtre",
-   "mufaj": "",
-   "hely": "Théâtre 100 Noms",
-   "varos": "Nantes",
-   "datum": "2026-10-22",
-   "ido": "14:30",
-   "ig": "2026-10-29",
-   "idoszak": "6 × · 22.10.2026 – 29.10.2026",
-   "link": "https://billetterie-theatre100noms.mapado.com/event/707515-vaste-monde"
-  },
-  {
-   "orszag": "fr",
    "cim": "Voyagez avec Jules Verne dans un spectacle immersif inoubliable au Grand Hôtel des Rêves !",
    "fajta": "",
    "mufaj": "",
@@ -401,8 +305,21 @@
    "datum": "2026-10-24",
    "ido": "",
    "ig": "2026-11-08",
-   "idoszak": "22.10.2026 – 08.11.2026",
+   "idoszak": "23.10.2026 – 08.11.2026",
    "link": "https://www.paris.fr/evenements/voyagez-avec-jules-verne-dans-un-spectacle-immersif-inoubliable-au-grand-hotel-des-reves-113358"
+  },
+  {
+   "orszag": "fr",
+   "cim": "VASTE MONDE",
+   "fajta": "théâtre",
+   "mufaj": "",
+   "hely": "Théâtre 100 Noms",
+   "varos": "Nantes",
+   "datum": "2026-10-25",
+   "ido": "14:30",
+   "ig": "2026-10-29",
+   "idoszak": "5 × · 25.10.2026 – 29.10.2026",
+   "link": "https://billetterie-theatre100noms.mapado.com/event/707515-vaste-monde"
   },
   {
    "orszag": "fr",
@@ -414,7 +331,7 @@
    "datum": "2026-10-27",
    "ido": "21:15",
    "ig": "2026-12-08",
-   "idoszak": "22.10.2026 – 08.12.2026",
+   "idoszak": "23.10.2026 – 08.12.2026",
    "link": "https://www.paris.fr/evenements/le-tour-du-monde-en-80-jours-par-la-compagnie-moonshine-117906"
   },
   {
@@ -471,7 +388,20 @@
    "ido": "20:00",
    "ig": "2026-12-12",
    "idoszak": "4 × · 09.12.2026 – 12.12.2026",
-   "link": "http://mixt.fr/le-chateau-des-carpathes-12122026-1630"
+   "link": "https://mixt.fr/le-chateau-des-carpathes-12122026-1630"
+  },
+  {
+   "orszag": "fr",
+   "cim": "Théâtre – 20 000 lieues sous les mers",
+   "fajta": "",
+   "mufaj": "",
+   "hely": "",
+   "varos": "Amiens",
+   "datum": "2026-12-10",
+   "ido": "",
+   "ig": "2026-12-12",
+   "idoszak": "10.12.2026 – 12.12.2026",
+   "link": "https://www.amiens.fr/Les-evenements/Theatre-20-000-lieues-sous-les-mers"
   },
   {
    "orszag": "fr",
@@ -548,16 +478,14 @@
  "egyeb": [
   {
    "orszag": "fr",
-   "cim": "Atelier - La Fabrique à hologrammes",
-   "fajta": "stage",
+   "cim": "Atelier – La Fabrique à hologrammes, Musée Jules Verne, Nantes",
+   "fajta": "",
    "mufaj": "",
-   "hely": "Musée Jules Verne",
-   "varos": "Nantes",
+   "hely": "",
+   "varos": "",
    "datum": "2026-10-23",
    "ido": "14:30",
-   "ig": "2026-10-23",
-   "idoszak": "",
-   "link": "https://metropole.nantes.fr/infonantes/agenda/83614"
+   "link": "https://unidivers.fr/event/atelier-la-fabrique-a-hologrammes-musee-jules-verne-nantes-2026-10-23t1430000200/"
   },
   {
    "orszag": "fr",
@@ -747,25 +675,25 @@
   "epgshare01 FI1": {
    "ok": true,
    "db": 1,
-   "mp": 1,
+   "mp": 0,
    "atnezve": 10446
   },
   "epgshare01 NL1": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 1,
    "atnezve": 23387
   },
   "epgshare01 MX1": {
    "ok": true,
-   "db": 1,
-   "mp": 1,
+   "db": 0,
+   "mp": 0,
    "atnezve": 17522
   },
   "epgshare01 CA2": {
    "ok": true,
    "db": 0,
-   "mp": 6,
+   "mp": 3,
    "radio": {
     "CBHA FM CBC Radio One": 101,
     "CBLA FM CBC Radio One": 100,
@@ -780,31 +708,31 @@
   "epgshare01 BR1": {
    "ok": true,
    "db": 2,
-   "mp": 1,
+   "mp": 0,
    "atnezve": 17468
   },
   "epgshare01 BR2": {
    "ok": true,
-   "db": 5,
+   "db": 3,
    "mp": 0,
    "atnezve": 9382
   },
   "epgshare01 AR1": {
    "ok": true,
    "db": 0,
-   "mp": 1,
+   "mp": 0,
    "atnezve": 11250
   },
   "epgshare01 CL1": {
    "ok": true,
    "db": 0,
-   "mp": 1,
+   "mp": 0,
    "atnezve": 10018
   },
   "epgshare01 CO1": {
    "ok": true,
-   "db": 1,
-   "mp": 1,
+   "db": 0,
+   "mp": 0,
    "radio": {
     "DSPORTS Radio(DTSR)": 8,
     "DSports Radio(DTSR)": 8
@@ -813,14 +741,14 @@
   },
   "epgshare01 PE1": {
    "ok": true,
-   "db": 1,
+   "db": 0,
    "mp": 0,
    "atnezve": 2426
   },
   "epgshare01 UY1": {
    "ok": true,
-   "db": 2,
-   "mp": 3,
+   "db": 1,
+   "mp": 1,
    "radio": {
     "[CNUR] Union Radio Noticias": 66,
     "[RCARA] Radio Caracol": 60
@@ -836,13 +764,13 @@
   "epgshare01 AU1": {
    "ok": true,
    "db": 0,
-   "mp": 4,
+   "mp": 2,
    "atnezve": 57530
   },
   "epgshare01 NZ1": {
    "ok": true,
    "db": 0,
-   "mp": 1,
+   "mp": 0,
    "radio": {
     "Radio Aotearoa": 27
    },
@@ -850,8 +778,8 @@
   },
   "epgshare01 CZ1": {
    "ok": true,
-   "db": 3,
-   "mp": 5,
+   "db": 1,
+   "mp": 3,
    "radio": {
     "BBC Radio": 126,
     "Country Radio": 1,
@@ -865,13 +793,13 @@
   "epgshare01 SK1": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 1,
    "atnezve": 20168
   },
   "epgshare01 RO1": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 1,
    "atnezve": 45977
   },
   "epgshare01 HR1": {
@@ -883,7 +811,7 @@
   "epgshare01 RS1": {
    "ok": true,
    "db": 0,
-   "mp": 5,
+   "mp": 3,
    "radio": {
     "Hit FM radio": 17,
     "Naxi radio kids": 37,
@@ -910,7 +838,7 @@
   "epgshare01 HU1": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 1,
    "radio": {
     "MR1-Kossuth": 291,
     "MR2-Petőfi": 48,
@@ -923,13 +851,13 @@
   "epgshare01 FR1": {
    "ok": true,
    "db": 3,
-   "mp": 4,
+   "mp": 2,
    "atnezve": 64039
   },
   "epgshare01 UK1": {
    "ok": true,
    "db": 0,
-   "mp": 2,
+   "mp": 1,
    "radio": {
     "Radio X": 32,
     "RTÉ 2FM": 31,
@@ -966,7 +894,7 @@
   "epgshare01 DE1": {
    "ok": true,
    "db": 1,
-   "mp": 3,
+   "mp": 2,
    "atnezve": 26984
   },
   "epgshare01 IT1": {
@@ -984,19 +912,19 @@
   "epgshare01 ES1": {
    "ok": true,
    "db": 0,
-   "mp": 3,
+   "mp": 1,
    "atnezve": 33841
   },
   "epgshare01 PT1": {
    "ok": true,
    "db": 1,
-   "mp": 2,
+   "mp": 1,
    "atnezve": 21905
   },
   "epgshare01 PL1": {
    "ok": true,
-   "db": 5,
-   "mp": 8,
+   "db": 3,
+   "mp": 4,
    "radio": {
     "Radio Nowy Świat": 56,
     "Polskie Radio Program 1": 210,
@@ -1010,7 +938,7 @@
   "epgshare01 CH1": {
    "ok": true,
    "db": 0,
-   "mp": 5,
+   "mp": 3,
    "radio": {
     "Radio Ticino Channel": 57,
     "Radio Pilatus TV": 21,
@@ -1021,7 +949,7 @@
   "epgshare01 BE2": {
    "ok": true,
    "db": 1,
-   "mp": 5,
+   "mp": 3,
    "radio": {
     "Radio Bremen HD": 165,
     "Radio Contact Vision": 20,
@@ -1039,8 +967,8 @@
   },
   "epgshare01 US2": {
    "ok": true,
-   "db": 1,
-   "mp": 6,
+   "db": 0,
+   "mp": 3,
    "radio": {
     "3ABN Radio Network": 168,
     "Rai Radio 1": 210,
@@ -1052,13 +980,13 @@
   "iptvx.one RU": {
    "ok": true,
    "db": 1,
-   "mp": 63,
+   "mp": 34,
    "radio": {
     "Дорожное радио": 279,
-    "NO EPG Radio (заглушка)": 89,
+    "NO EPG Radio (заглушка)": 90,
     "Olsib Radio FHD": 298,
-    "Polskie Radio 1 [PL]": 321,
-    "Polskie Radio 2 [PL]": 204,
+    "Polskie Radio 1 [PL]": 325,
+    "Polskie Radio 2 [PL]": 208,
     "Радио 1": 367,
     "Радио для Двоих": 79,
     "Radio Italia TV [IT]": 66,
@@ -1074,72 +1002,72 @@
     "Русское радио": 467,
     "TEAM Авторадио HD": 1899
    },
-   "atnezve": 800205
+   "atnezve": 818236
   },
   "France Culture": {
    "ok": true,
    "db": 0,
-   "mp": 12,
-   "atnezve": 224
+   "mp": 15,
+   "atnezve": 222
   },
   "France Inter": {
    "ok": true,
    "db": 0,
-   "mp": 12,
-   "atnezve": 182
+   "mp": 13,
+   "atnezve": 183
   },
   "Deutschlandfunk Kultur": {
    "ok": true,
    "db": 0,
-   "mp": 14,
+   "mp": 17,
    "atnezve": 225
   },
   "Deutschlandfunk": {
    "ok": true,
    "db": 0,
-   "mp": 15,
+   "mp": 17,
    "atnezve": 334
   },
   "Ö1": {
    "ok": true,
    "db": 0,
-   "mp": 18,
-   "atnezve": 330
+   "mp": 20,
+   "atnezve": 328
   },
   "port.hu események": {
    "ok": true,
    "db": 0,
-   "mp": 15
+   "mp": 19
   },
   "unidivers.fr": {
    "ok": true,
-   "db": 18,
+   "db": 17,
    "mp": 32
   },
   "port.hu tévé": {
    "ok": true,
    "db": 12,
-   "mp": 1
+   "mp": 2
   },
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 99
+   "mp": 111
   },
   "jegy.hu": {
    "ok": true,
    "db": 3,
-   "mp": 31
+   "mp": 34
   },
   "BBC rádió": {
    "ok": true,
    "db": 0,
-   "mp": 12
+   "mp": 15
   },
   "arte.tv": {
    "ok": true,
    "db": 2,
-   "mp": 13
+   "mp": 16
   },
   "Párizs (opendata.paris.fr)": {
    "ok": true,
@@ -1148,29 +1076,30 @@
   },
   "Nantes (data.nantesmetropole.fr)": {
    "ok": true,
-   "db": 7,
-   "mp": 2,
-   "atnezve": 29
+   "db": 6,
+   "mp": 3,
+   "atnezve": 26
   },
   "Amiens (amiens.fr)": {
-   "ok": false,
-   "hiba": "<urlopen error timed out>",
-   "mp": 124
+   "ok": true,
+   "db": 1,
+   "mp": 158,
+   "atnezve": 494
   },
   "atgtickets.com": {
    "ok": true,
    "db": 0,
-   "mp": 18
+   "mp": 23
   },
   "offi.fr": {
    "ok": true,
    "db": 0,
-   "mp": 14
+   "mp": 15
   },
   "allocine.fr": {
    "ok": true,
    "db": 0,
-   "mp": 18
+   "mp": 21
   },
   "comingsoon.it": {
    "ok": true,
@@ -1180,20 +1109,20 @@
   "sensacine.com": {
    "ok": true,
    "db": 0,
-   "mp": 26,
-   "atnezve": 203
+   "mp": 21,
+   "atnezve": 196
   },
   "picturehouses.com": {
    "ok": true,
    "db": 0,
    "mp": 2,
-   "atnezve": 439
+   "atnezve": 432
   },
   "filmweb.pl": {
    "ok": true,
    "db": 0,
-   "mp": 2,
-   "atnezve": 147
+   "mp": 3,
+   "atnezve": 145
   },
   "film.at": {
    "ok": true,
@@ -1210,7 +1139,7 @@
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 48,
+   "mp": 39,
    "proba": 10000,
    "atnezve": 54
   }
