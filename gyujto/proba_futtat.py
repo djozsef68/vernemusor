@@ -35,3 +35,4 @@ with open('proba/nevadok.jsonl', 'w') as f:
     f.write(json.dumps({'id': 'OSM-HU-VERNE-UTCA', 'osm': r}, ensure_ascii=False) + '\n')
 open('proba/osszegzes.txt', 'w').write('kész: %d jelölt\n' % len(C))
 # ujrainditas 1792758109
+# ujra 1792758290
