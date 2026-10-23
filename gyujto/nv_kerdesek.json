@@ -1,0 +1,1684 @@
+[
+{
+"id": "H1",
+"q": "Verne Gyula utca",
+"tel": "Budapest XVIII. kerület",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "kozterulet"
+},
+{
+"id": "H2",
+"q": "Verne Gyula utca",
+"tel": "Miskolc",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "kozterulet"
+},
+{
+"id": "H3",
+"q": "Verne Gyula utca",
+"tel": "Ózd – Uraj / Bedegvölgy",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "kozterulet"
+},
+{
+"id": "H8",
+"q": "Nautilus Hajós Bár",
+"tel": "Esztergom",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "H12",
+"q": "Nautilus Sport Club Egyesület",
+"tel": "Magyarország",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "oktatas"
+},
+{
+"id": "H29",
+"q": "Tudományos-Fantasztikus Klub: Verne Gyula Emlékérem",
+"tel": "Budapest",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "H30",
+"q": "Magyar Posta: Utazás a Holdba – Jules Verne légipostai bélyeg",
+"tel": "Magyarország",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne",
+"Lune",
+"Moon",
+"Hold",
+"Barbicane"
+],
+"k7": "egenvizen"
+},
+{
+"id": "H32",
+"q": "Franklin-Társulat: Verne Gyula összes munkái sorozat",
+"tel": "Budapest",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "kiadvany"
+},
+{
+"id": "H35",
+"q": "Móra Ferenc Könyvkiadó : Verne-sorozatok",
+"tel": "Budapest – Uzsgorod",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "H36",
+"q": "Unikornis Kiadó: Verne Gyula összes művei",
+"tel": "Budapest",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "kiadvany"
+},
+{
+"id": "H57",
+"q": "Nautilus Étterem",
+"tel": "Budapest V. kerület",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "kozterulet"
+},
+{
+"id": "H60",
+"q": "Escape Game Over Budapest: Némó Kapitány Nyomában kaland-szabadulószoba",
+"tel": "Budapest VI./VII. kerület",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "vendeglatas"
+},
+{
+"id": "H61",
+"q": "Sándor Mátyás – Magyar angol telivér versenyló",
+"tel": "Budapest",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Sandorf",
+"Sándor"
+],
+"k7": "verseny"
+},
+{
+"id": "H64",
+"q": "Vass József Könyvkereskedése : Verne Gyula regényei sorozat",
+"tel": "Budapest",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "kiadvany"
+},
+{
+"id": "H74",
+"q": "Nautilus Kft. , Verne Kft., Phileas Fogg Kft., Nemo Bt.",
+"tel": "Budapest",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "H76",
+"q": "VÉGA Magyar Sci-Fi Egyesület: Verne Gyula – Arany Meteor-díj emlékérem",
+"tel": "Magyarország",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "H80",
+"q": "Móra Ferenc Ifjúsági Könyvkiadó: 25 példányos számozott fakszimile Verne-sorozat",
+"tel": "Budapest",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "H82",
+"q": "Maxim Könyvkiadó: Klasszikusok – Nemo kapitány",
+"tel": "Szeged",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "kiadvany"
+},
+{
+"id": "H96",
+"q": "Galaktika 19. – A rejtélyes Verne Gyula",
+"tel": "Budapest",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "kiadvany"
+},
+{
+"id": "H98",
+"q": "Forum Könyvkiadó : 5 kötetes magyar Verne-sorozat",
+"tel": "Újvidék",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "kiadvany"
+},
+{
+"id": "H99",
+"q": "Magyar Posta: Fantasztikum az űrkutatásban – 150 éve született Jules Verne",
+"tel": "Magyarország",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "egenvizen"
+},
+{
+"id": "H101",
+"q": "Népszabadság Zrt.: Verne Gyula-sorozat",
+"tel": "Budapest",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Fogg",
+"Passepartout",
+"80"
+],
+"k7": "kiadvany"
+},
+{
+"id": "H102",
+"q": "Regun-Press Kiadó: Jules Verne összes átdolgozott műve",
+"tel": "Üllő",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "kiadvany"
+},
+{
+"id": "H103",
+"q": "Jules Verne csodálatos kalandjai",
+"tel": "Magyarország",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "kiadvany"
+},
+{
+"id": "H104",
+"q": "Nautilus Könyvek: 500 példányos számozott Franklin-reprint sorozat",
+"tel": "Budapest",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "kiadvany"
+},
+{
+"id": "H106",
+"q": "Teleki Ferenc gróf – A Várkastély a Kárpátokban magyar főhőse",
+"tel": "Erdély / Kolozsvár / Nagybánya",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "H124",
+"q": "Nautilus Kajak-Kenu Szakosztály",
+"tel": "Dunakanyar / Budapest",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "vendeglatas"
+},
+{
+"id": "H129",
+"q": "Magyar Digitális Iskolai Könyvtár – Verne Gyula gyűjtemény",
+"tel": "Budapest",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "H136",
+"q": "Verne Gyula utca",
+"tel": "Makó",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "kozterulet"
+},
+{
+"id": "H145",
+"q": "Szegedi Tudományegyetem Frankofón Egyetemi Központ: Jules Verne Konferenciák",
+"tel": "Szeged",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "H150",
+"q": "Madách – Kriterion – Kárpáti – Forum – Móra Verne-hálózat",
+"tel": "Budapest – Pozsony – Bukarest – Ungvár – Újvidék",
+"orsz": "Magyarország",
+"lang": [
+"hu"
+],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K1",
+"q": "Université de Picardie Jules-Verne",
+"tel": "Amiens",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K2",
+"q": "Lycée Jules-Verne (Nantes)",
+"tel": "Nantes",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K3",
+"q": "Lycée Jules-Verne Limours",
+"tel": "Limours",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K6",
+"q": "Lycée Jules Verne Johannesburg",
+"tel": "Johannesburg",
+"orsz": "Dél-afrikai Köztársaság",
+"lang": [
+"en"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K7",
+"q": "Liceo Francés Jules Verne Guatemala",
+"tel": "Guatemalaváros",
+"orsz": "Guatemala",
+"lang": [
+"es"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K8",
+"q": "École française Jules-Verne de Riga",
+"tel": "Riga",
+"orsz": "Lettország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K9",
+"q": "École française Jules-Verne Helsinki",
+"tel": "Helsinki",
+"orsz": "Finnország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K11",
+"q": "Jules-Verne-Gymnasium",
+"tel": "München",
+"orsz": "Németország",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K15",
+"q": "Centre international Jules-Verne",
+"tel": "Amiens",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K16",
+"q": "IRT Jules Verne",
+"tel": "Bouguenais",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K17",
+"q": "Société Jules-Verne",
+"tel": "Párizs",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K18",
+"q": "North American Jules Verne Society",
+"tel": "",
+"orsz": "Egyesült Államok",
+"lang": [
+"en"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K19",
+"q": "Sociedad Hispánica Jules Verne",
+"tel": "Spanyolország és Latin-Amerika",
+"orsz": "",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K21",
+"q": "Musée Jules-Verne",
+"tel": "Nantes",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K22",
+"q": "Maison de Jules Verne",
+"tel": "Amiens",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K23",
+"q": "Cirque Jules-Verne",
+"tel": "Amiens",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K27",
+"q": "Trophée Jules-Verne",
+"tel": "",
+"orsz": "nemzetközi",
+"lang": [
+"fr"
+],
+"kw": [
+"Fogg",
+"Passepartout",
+"80"
+],
+"k7": "verseny"
+},
+{
+"id": "K31",
+"q": "Dani Julesa Vernea Pazin",
+"tel": "Pazin",
+"orsz": "Horvátország",
+"lang": [
+"hr"
+],
+"kw": [
+"Sandorf",
+"Sándor"
+],
+"k7": "verseny"
+},
+{
+"id": "K33",
+"q": "Palle Huld dán cserkészfiú 44 napos világkörüli útja",
+"tel": "Koppenhága – Föld körül",
+"orsz": "",
+"lang": [],
+"kw": [
+"Fogg",
+"Passepartout",
+"80"
+],
+"k7": "verseny"
+},
+{
+"id": "K34",
+"q": "80edays – Around the World in 80 Days Electric Vehicle Rally",
+"tel": "Barcelona – Föld körül",
+"orsz": "Ázsia)",
+"lang": [],
+"kw": [
+"Fogg",
+"Passepartout",
+"80"
+],
+"k7": "verseny"
+},
+{
+"id": "K35",
+"q": "Around the World in 80 Days Cycling Challenge",
+"tel": "Párizs – Föld körül",
+"orsz": "",
+"lang": [],
+"kw": [
+"Fogg",
+"Passepartout",
+"80"
+],
+"k7": "verseny"
+},
+{
+"id": "K36",
+"q": "Jules Verne (crater)",
+"tel": "Hold",
+"orsz": "nemzetközi",
+"lang": [
+"en"
+],
+"kw": [
+"Verne",
+"Lune",
+"Moon",
+"Hold",
+"Barbicane"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K37",
+"q": "5231 Verne",
+"tel": "kisbolygóöv",
+"orsz": "nemzetközi",
+"lang": [
+"en"
+],
+"kw": [
+"Verne"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K38",
+"q": "1640 Nemo",
+"tel": "kisbolygóöv",
+"orsz": "nemzetközi",
+"lang": [
+"en"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K40",
+"q": "Jules Verne ATV",
+"tel": "világűr",
+"orsz": "nemzetközi",
+"lang": [
+"en"
+],
+"kw": [
+"Verne"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K41",
+"q": "Apollo–11 Columbia parancsnoki egység",
+"tel": "Egyesült Államok",
+"orsz": "",
+"lang": [],
+"kw": [
+"Verne",
+"Lune",
+"Moon",
+"Hold",
+"Barbicane"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K42",
+"q": "Nautilus-X",
+"tel": "Egyesült Államok",
+"orsz": "",
+"lang": [],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K43",
+"q": "NEMO műholdprogram",
+"tel": "USA / Kanada / Japán",
+"orsz": "",
+"lang": [],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K44",
+"q": "Nemo Chasma Charon",
+"tel": "Charon",
+"orsz": "nemzetközi",
+"lang": [
+"en"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K45",
+"q": "Pole of inaccessibility Point Nemo",
+"tel": "Csendes-óceán",
+"orsz": "nemzetközi",
+"lang": [
+"en"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K47",
+"q": "Monts Jules-Verne Kerguelen",
+"tel": "Kerguelen-szigetek",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K48",
+"q": "Nemo Glacier Pourquoi Pas Island",
+"tel": "Antarktisz",
+"orsz": "nemzetközi",
+"lang": [
+"en"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K49",
+"q": "Aronnax Glacier",
+"tel": "Antarktisz",
+"orsz": "nemzetközi",
+"lang": [
+"en"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K50",
+"q": "Maratus nemo",
+"tel": "",
+"orsz": "Ausztrália",
+"lang": [
+"en"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K52",
+"q": "USS Nautilus",
+"tel": "Egyesült Államok Haditengerészete",
+"orsz": "Connecticut)",
+"lang": [],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K53",
+"q": "Nautilus Wilkins submarine 1931",
+"tel": "",
+"orsz": "Egyesült Államok",
+"lang": [
+"en"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K54",
+"q": "French repair ship Jules Verne A620",
+"tel": "",
+"orsz": "Franciaország",
+"lang": [
+"en"
+],
+"kw": [
+"Verne"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K56",
+"q": "E/V Nautilus",
+"tel": "Egyesült Államok",
+"orsz": "",
+"lang": [],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "oktatas"
+},
+{
+"id": "K57",
+"q": "CMA CGM Jules Verne",
+"tel": "",
+"orsz": "Franciaország",
+"lang": [
+"en"
+],
+"kw": [
+"Verne"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K60",
+"q": "Jules Verne train Trans-Europ-Express",
+"tel": "",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K61",
+"q": "Jules Verne Express",
+"tel": "Amiens – Noyelles-sur-Mer",
+"orsz": "Franciaország",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K62",
+"q": "Arts et Métiers (métro de Paris) Nautilus",
+"tel": "Párizs",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K64",
+"q": "Tombe de Jules Verne Vers l'immortalité",
+"tel": "Amiens",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K65",
+"q": "Monument à Jules Verne Amiens",
+"tel": "Amiens",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "kozterulet"
+},
+{
+"id": "K66",
+"q": "Colonne Jules Verne Amiens",
+"tel": "Amiens",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "kozterulet"
+},
+{
+"id": "K67",
+"q": "Statue de Jules Verne Butte Sainte-Anne Nantes",
+"tel": "Nantes",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K68",
+"q": "Monumento a Julio Verne Vigo",
+"tel": "Vigo",
+"orsz": "Spanyolország",
+"lang": [
+"es"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K69",
+"q": "Monumento al Capitán Nemo y los Buzos",
+"tel": "Redondela",
+"orsz": "Spanyolország",
+"lang": [],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K70",
+"q": "Monumento a Julio Verne Pasaia",
+"tel": "Pasaia",
+"orsz": "Spanyolország",
+"lang": [
+"es"
+],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K71",
+"q": "Monumento a Julio Verne",
+"tel": "Montserrat",
+"orsz": "Spanyolország",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K74",
+"q": "Viaduc Jules-Verne Amiens",
+"tel": "Amiens",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "kozterulet"
+},
+{
+"id": "K75",
+"q": "Pont Jules-Verne Nantes",
+"tel": "Nantes",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "kozterulet"
+},
+{
+"id": "K76",
+"q": "Clinique Jules-Verne",
+"tel": "Nantes",
+"orsz": "Franciaország (2-4 Route de Paris)",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K81",
+"q": "Le Jules Verne restaurant tour Eiffel",
+"tel": "Párizs",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "vendeglatas"
+},
+{
+"id": "K84",
+"q": "Les Machines de l'île",
+"tel": "Nantes",
+"orsz": "Franciaország (Île de Nantes)",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "kozterulet"
+},
+{
+"id": "K87",
+"q": "Verne robotaxi Rimac",
+"tel": "Zágráb",
+"orsz": "Horvátország",
+"lang": [
+"en"
+],
+"kw": [
+"Verne"
+],
+"k7": "vendeglatas"
+},
+{
+"id": "K95",
+"q": "Submarine Force Library and Museum",
+"tel": "Groton",
+"orsz": "Egyesült Államok",
+"lang": [],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K96",
+"q": "Nautile sous-marin Ifremer",
+"tel": "",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K106",
+"q": "New Shepard capsule RSS",
+"tel": "",
+"orsz": "Egyesült Államok",
+"lang": [
+"en"
+],
+"kw": [
+"Verne"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K107",
+"q": "NEMO Science Museum",
+"tel": "Amszterdam",
+"orsz": "Hollandia",
+"lang": [
+"en"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K111",
+"q": "Jules Verne ravitailleur de sous-marins 1931",
+"tel": "",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K112",
+"q": "École secondaire Jules-Verne Vancouver",
+"tel": "Vancouver",
+"orsz": "Kanada",
+"lang": [
+"en"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K113",
+"q": "Groupe scolaire Jules-Verne",
+"tel": "Châtenay-Malabry",
+"orsz": "Franciaország",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K114",
+"q": "École Jules-Verne",
+"tel": "Montaigu-Vendée",
+"orsz": "Franciaország",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K115",
+"q": "Jules Verne Food Court",
+"tel": "Brierley Hill",
+"orsz": "Egyesült Királyság",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "vendeglatas"
+},
+{
+"id": "K117",
+"q": "Science Fiction and Fantasy Hall of Fame Jules Verne",
+"tel": "Seattle",
+"orsz": "Egyesült Államok",
+"lang": [
+"en"
+],
+"kw": [
+"Verne"
+],
+"k7": "verseny"
+},
+{
+"id": "K125",
+"q": "Phileas (bus)",
+"tel": "Eindhoven",
+"orsz": "Hollandia",
+"lang": [
+"en"
+],
+"kw": [
+"Fogg",
+"Passepartout",
+"80"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K129",
+"q": "Jules Verne holdkráter kijelölése új Point Nemo űreszköz-temetőként",
+"tel": "Hold",
+"orsz": "",
+"lang": [],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K133",
+"q": "Programme Jules Verne",
+"tel": "Franciaország / Világszerte",
+"orsz": "",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K138",
+"q": "Musée National de la Marine – Trophée Jules-Verne kiállítás",
+"tel": "Párizs",
+"orsz": "Franciaország (Trocadéro)",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K139",
+"q": "Institut Océanographique de Paris",
+"tel": "Párizs",
+"orsz": "Franciaország (Rue Saint-Jacques)",
+"lang": [],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K142",
+"q": "Maison natale de Jules Verne",
+"tel": "Nantes",
+"orsz": "Franciaország",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K143",
+"q": "Villa La Solitude",
+"tel": "Le Crotoy",
+"orsz": "Franciaország",
+"lang": [],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K144",
+"q": "Hôtel de Ville d'Amiens – Salle Jules-Verne",
+"tel": "Amiens",
+"orsz": "Franciaország",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K145",
+"q": "Mondial Jules Verne 2005 – Centenáriumi Világév",
+"tel": "Franciaország",
+"orsz": "Párizs) és világszerte",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "verseny"
+},
+{
+"id": "K146",
+"q": "Reform Club – Phileas Fogg emlékhely",
+"tel": "London",
+"orsz": "Egyesült Királyság",
+"lang": [],
+"kw": [
+"Fogg",
+"Passepartout",
+"80"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K147",
+"q": "Phileas Fogg's World of Adventures",
+"tel": "Brighton",
+"orsz": "Egyesült Királyság",
+"lang": [],
+"kw": [
+"Fogg",
+"Passepartout",
+"80"
+],
+"k7": "vendeglatas"
+},
+{
+"id": "K166",
+"q": "Podivuhodné cesty Albatros",
+"tel": "Prága",
+"orsz": "Csehország",
+"lang": [
+"cs"
+],
+"kw": [
+"Robur",
+"Albatros"
+],
+"k7": "kiadvany"
+},
+{
+"id": "K167",
+"q": "Ulica Julesa Vernea",
+"tel": "Pazin",
+"orsz": "Horvátország",
+"lang": [],
+"kw": [
+"Sandorf",
+"Sándor"
+],
+"k7": "kozterulet"
+},
+{
+"id": "K171",
+"q": "Mount Verne Pourquoi Pas Island",
+"tel": "Antarktisz",
+"orsz": "nemzetközi",
+"lang": [
+"en"
+],
+"kw": [
+"Verne"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K172",
+"q": "Conseil Hill Antarctica",
+"tel": "Antarktisz",
+"orsz": "nemzetközi",
+"lang": [
+"en"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K173",
+"q": "Robur (Fahrzeughersteller)",
+"tel": "Zittau",
+"orsz": "Németország",
+"lang": [
+"de"
+],
+"kw": [
+"Robur",
+"Albatros"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K174",
+"q": "Collège Phileas-Fogg Attichy",
+"tel": "Attichy",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Fogg",
+"Passepartout",
+"80"
+],
+"k7": "oktatas"
+},
+{
+"id": "K180",
+"q": "Phileas Fogg snacks",
+"tel": "Consett",
+"orsz": "Egyesült Királyság",
+"lang": [
+"en"
+],
+"kw": [
+"Fogg",
+"Passepartout",
+"80"
+],
+"k7": "vendeglatas"
+},
+{
+"id": "K182",
+"q": "Hôtel Phileas",
+"tel": "Párizs",
+"orsz": "24 Rue d'Amsterdam)",
+"lang": [],
+"kw": [
+"Fogg",
+"Passepartout",
+"80"
+],
+"k7": "vendeglatas"
+},
+{
+"id": "K185",
+"q": "Kaštel Pazin – Mathias Sandorf állandó kiállítás",
+"tel": "Pazin",
+"orsz": "Horvátország",
+"lang": [],
+"kw": [
+"Sandorf",
+"Sándor"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K186",
+"q": "Korvett Nautilus",
+"tel": "Ferrol / Cádiz",
+"orsz": "Spanyolország",
+"lang": [],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "oktatas"
+},
+{
+"id": "K187",
+"q": "UC3 Nautilus",
+"tel": "Koppenhága",
+"orsz": "Dánia",
+"lang": [
+"en"
+],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K189",
+"q": "NEMO",
+"tel": "Európai Unió",
+"orsz": "Met Office)",
+"lang": [],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "oktatas"
+},
+{
+"id": "K201",
+"q": "Société astronomique Jules-Verne",
+"tel": "",
+"orsz": "Franciaország",
+"lang": [
+"fr"
+],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K203",
+"q": "Verne Martian crater",
+"tel": "Mars",
+"orsz": "nemzetközi",
+"lang": [
+"en"
+],
+"kw": [
+"Verne"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K209",
+"q": "Horloge Jules-Verne",
+"tel": "Le Crotoy",
+"orsz": "Franciaország",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K217",
+"q": "European Jules Verne Research Network",
+"tel": "Párizs – London – Berlin – Brüsszel",
+"orsz": "",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "oktatas"
+},
+{
+"id": "K220",
+"q": "Jules Verne-magasinet",
+"tel": "Stockholm",
+"orsz": "Svédország",
+"lang": [
+"sv"
+],
+"kw": [
+"Verne"
+],
+"k7": "kiadvany"
+},
+{
+"id": "K226",
+"q": "20000 Varuna",
+"tel": "Naprendszer",
+"orsz": "",
+"lang": [],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "egenvizen"
+},
+{
+"id": "K230",
+"q": "CS Nautilus",
+"tel": "Egyesült Államok / Világtengerek",
+"orsz": "",
+"lang": [],
+"kw": [
+"Nemo",
+"Nautilus"
+],
+"k7": "oktatas"
+},
+{
+"id": "K231",
+"q": "Parcours Jules Verne à Amiens",
+"tel": "Amiens",
+"orsz": "Franciaország",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+},
+{
+"id": "K234",
+"q": "Zhiloj Kompleks Zhyul Vern",
+"tel": "Nyizsnyij Novgorod",
+"orsz": "Oroszország",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "kozterulet"
+},
+{
+"id": "K237",
+"q": "Fingal's Cave – Le Rayon vert emlékpont",
+"tel": "Staffa-sziget",
+"orsz": "Skócia",
+"lang": [],
+"kw": [
+"Verne"
+],
+"k7": "emlekhely"
+}
+]
