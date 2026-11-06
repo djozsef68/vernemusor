@@ -1,42 +1,6 @@
 {
- "frissitve": "2026-11-05T10:58:48+00:00",
+ "frissitve": "2026-11-06T10:56:42+00:00",
  "tv": [
-  {
-   "orszag": "ro",
-   "csatorna": "Pro Cinema",
-   "cim": "Ocolul Pământului în 80 de zile",
-   "alcim": "",
-   "ev": 1989,
-   "kezd": "2026-11-05T04:15:00-06:00",
-   "perc": 120
-  },
-  {
-   "orszag": "br",
-   "csatorna": "TV Brasil",
-   "cim": "Júlio e Verne - Os Irmãos Gemiais",
-   "alcim": "",
-   "ev": null,
-   "kezd": "2026-11-05T11:32:00-03:00",
-   "perc": 13
-  },
-  {
-   "orszag": "sk",
-   "csatorna": "JOJ Cinema",
-   "cim": "Cesta kolem světa za 80 dní",
-   "alcim": "",
-   "ev": 1989,
-   "kezd": "2026-11-06T03:45:00+01:00",
-   "perc": 40
-  },
-  {
-   "orszag": "it",
-   "csatorna": "Sky Cinema Family",
-   "cim": "Viaggio al centro della Terra",
-   "alcim": "",
-   "ev": 2008,
-   "kezd": "2026-11-06T07:00:00+00:00",
-   "perc": 95
-  },
   {
    "orszag": "ro",
    "csatorna": "Pro Cinema",
@@ -71,7 +35,7 @@
    "alcim": "",
    "ev": 2021,
    "kezd": "2026-11-06T11:00:00+00:00",
-   "perc": 100
+   "perc": 80
   },
   {
    "orszag": "sk",
@@ -152,7 +116,7 @@
    "alcim": "",
    "ev": 2021,
    "kezd": "2026-11-06T19:00:00+00:00",
-   "perc": 100
+   "perc": 79
   },
   {
    "orszag": "us",
@@ -206,7 +170,7 @@
    "alcim": "",
    "ev": 2021,
    "kezd": "2026-11-07T03:00:00+00:00",
-   "perc": 100
+   "perc": 80
   },
   {
    "orszag": "rs",
@@ -426,6 +390,24 @@
    "perc": 60
   },
   {
+   "orszag": "uk",
+   "csatorna": "Sky Adventure",
+   "cim": "Journey 2: The Mysterious Island",
+   "alcim": "",
+   "ev": 2012,
+   "kezd": "2026-11-08T04:55:00+00:00",
+   "perc": 105
+  },
+  {
+   "orszag": "uk",
+   "csatorna": "Sky Family",
+   "cim": "Journey 2: The Mysterious Island",
+   "alcim": "",
+   "ev": 2012,
+   "kezd": "2026-11-08T04:55:00+00:00",
+   "perc": 105
+  },
+  {
    "orszag": "pl",
    "csatorna": "METRO",
    "cim": "Podróż na tajemniczą wyspę",
@@ -455,11 +437,20 @@
   {
    "orszag": "fr",
    "csatorna": "Syfy",
-   "cim": "Voyage au centre de la terre",
+   "cim": "Voyage au centre de la Terre",
    "alcim": "",
    "ev": null,
-   "kezd": "2026-11-08T21:00:00+01:00",
+   "kezd": "2026-11-08T20:00:00+00:00",
    "perc": 100
+  },
+  {
+   "orszag": "pt",
+   "csatorna": "AXN Movies",
+   "cim": "A Volta Ao Mundo Em 80 Dias",
+   "alcim": "Around The World In 80 Days",
+   "ev": 2004,
+   "kezd": "2026-11-08T21:10:00+00:00",
+   "perc": 125
   },
   {
    "orszag": "pl",
@@ -522,16 +513,6 @@
  "radio": [],
  "szinhaz": [
   {
-   "orszag": "hu",
-   "cim": "80 nap alatt a Föld körül",
-   "hely": "Kolibri Gyermek- és Ifjúsági Színház",
-   "varos": "Budapest",
-   "datum": "2026-11-06",
-   "ido": "10:00",
-   "mufaj": "gyerekműsor",
-   "link": "https://port.hu/adatlap/szindarab/gyerekprogram/80-nap-alatt-a-fold-korul/directing-55806"
-  },
-  {
    "orszag": "fr",
    "cim": "Voyagez avec Jules Verne dans un spectacle immersif inoubliable au Grand Hôtel des Rêves !",
    "fajta": "",
@@ -541,8 +522,18 @@
    "datum": "2026-11-07",
    "ido": "",
    "ig": "2026-11-08",
-   "idoszak": "05.11.2026 – 08.11.2026",
+   "idoszak": "06.11.2026 – 08.11.2026",
    "link": "https://www.paris.fr/evenements/voyagez-avec-jules-verne-dans-un-spectacle-immersif-inoubliable-au-grand-hotel-des-reves-113358"
+  },
+  {
+   "orszag": "hu",
+   "cim": "80 nap alatt a Föld körül",
+   "hely": "Kolibri Gyermek- és Ifjúsági Színház",
+   "varos": "Budapest",
+   "datum": "2026-11-07",
+   "ido": "17:00",
+   "mufaj": "gyerekműsor",
+   "link": "https://port.hu/adatlap/szindarab/gyerekprogram/80-nap-alatt-a-fold-korul/directing-55806"
   },
   {
    "orszag": "fr",
@@ -565,7 +556,7 @@
    "datum": "2026-11-10",
    "ido": "21:15",
    "ig": "2026-12-08",
-   "idoszak": "05.11.2026 – 08.12.2026",
+   "idoszak": "06.11.2026 – 08.12.2026",
    "link": "https://www.paris.fr/evenements/le-tour-du-monde-en-80-jours-par-la-compagnie-moonshine-117906"
   },
   {
@@ -800,122 +791,122 @@
    "ok": true,
    "db": 0,
    "mp": 0,
-   "atnezve": 6299
+   "atnezve": 5467
   },
   "epgshare01 TR1": {
    "ok": true,
    "db": 0,
    "mp": 0,
-   "atnezve": 15296
+   "atnezve": 15182
   },
   "epgshare01 SE1": {
    "ok": true,
    "db": 2,
    "mp": 1,
-   "atnezve": 13444
+   "atnezve": 13356
   },
   "epgshare01 NO1": {
    "ok": true,
    "db": 4,
    "mp": 1,
-   "atnezve": 15768
+   "atnezve": 15976
   },
   "epgshare01 DK1": {
    "ok": true,
    "db": 4,
    "mp": 1,
-   "atnezve": 13255
+   "atnezve": 13283
   },
   "epgshare01 FI1": {
    "ok": true,
    "db": 2,
-   "mp": 0,
-   "atnezve": 10411
+   "mp": 1,
+   "atnezve": 10382
   },
   "epgshare01 NL1": {
    "ok": true,
    "db": 0,
    "mp": 1,
-   "atnezve": 23567
+   "atnezve": 23111
   },
   "epgshare01 MX1": {
    "ok": true,
    "db": 1,
-   "mp": 0,
-   "atnezve": 16205
+   "mp": 1,
+   "atnezve": 16622
   },
   "epgshare01 CA2": {
    "ok": true,
    "db": 11,
    "mp": 4,
    "radio": {
-    "CBHA FM CBC Radio One": 93,
-    "CBLA FM CBC Radio One": 101,
+    "CBHA FM CBC Radio One": 87,
+    "CBLA FM CBC Radio One": 99,
     "CJRT FM Radio": 25,
-    "CKRY FM Radio": 23,
+    "CKRY FM Radio": 24,
     "CBC Radio One AM": 25,
     "CBC Radio Two FM": 25,
     "TikTok Radio on Stingray": 25
    },
-   "atnezve": 67483
+   "atnezve": 67220
   },
   "epgshare01 BR1": {
    "ok": true,
    "db": 0,
    "mp": 1,
-   "atnezve": 18028
+   "atnezve": 17743
   },
   "epgshare01 BR2": {
    "ok": true,
-   "db": 4,
+   "db": 2,
    "mp": 0,
-   "atnezve": 9209
+   "atnezve": 9044
   },
   "epgshare01 AR1": {
    "ok": true,
    "db": 0,
    "mp": 0,
-   "atnezve": 9743
+   "atnezve": 10925
   },
   "epgshare01 CL1": {
    "ok": true,
    "db": 0,
    "mp": 0,
-   "atnezve": 7826
+   "atnezve": 9683
   },
   "epgshare01 CO1": {
    "ok": true,
    "db": 2,
    "mp": 0,
-   "atnezve": 9551
+   "atnezve": 9666
   },
   "epgshare01 PE1": {
    "ok": true,
    "db": 0,
    "mp": 0,
-   "atnezve": 3058
+   "atnezve": 3028
   },
   "epgshare01 UY1": {
    "ok": true,
    "db": 0,
    "mp": 2,
    "radio": {
-    "[CNUR] Union Radio Noticias": 62,
-    "[RCARA] Radio Caracol": 60
+    "[CNUR] Union Radio Noticias": 59,
+    "[RCARA] Radio Caracol": 61
    },
-   "atnezve": 31946
+   "atnezve": 30113
   },
   "epgshare01 ZA1": {
    "ok": true,
    "db": 1,
    "mp": 0,
-   "atnezve": 16508
+   "atnezve": 14836
   },
   "epgshare01 AU1": {
    "ok": true,
    "db": 2,
    "mp": 2,
-   "atnezve": 57506
+   "atnezve": 57195
   },
   "epgshare01 NZ1": {
    "ok": true,
@@ -924,45 +915,46 @@
    "radio": {
     "Radio Aotearoa": 19
    },
-   "atnezve": 9062
+   "atnezve": 9085
   },
   "epgshare01 CZ1": {
    "ok": true,
    "db": 0,
-   "mp": 3,
+   "mp": 4,
    "radio": {
-    "BBC Radio": 138,
+    "BBC Radio": 72,
     "Country Radio": 1,
-    "ČRo Radio Wave": 2,
-    "Dance Radio": 2,
-    "Fajn radio": 5,
-    "Happy Radio": 43,
+    "ČRo Radio Wave": 3,
+    "Dance Radio": 1,
+    "Fajn radio": 3,
+    "Happy Radio": 29,
     "Radio Beat": 1,
     "Radio Expres": 1,
     "Radio Junior (sk)": 1,
     "Radio Metropole": 1,
-    "Radio WOW": 8,
+    "Radio Proglas": 1,
+    "Radio WOW": 4,
     "SRO4 - Radio FM": 1
    },
-   "atnezve": 58922
+   "atnezve": 58627
   },
   "epgshare01 SK1": {
    "ok": true,
-   "db": 10,
+   "db": 8,
    "mp": 1,
    "atnezve": 18620
   },
   "epgshare01 RO1": {
    "ok": true,
-   "db": 4,
+   "db": 2,
    "mp": 2,
-   "atnezve": 46032
+   "atnezve": 45978
   },
   "epgshare01 HR1": {
    "ok": true,
    "db": 0,
    "mp": 1,
-   "atnezve": 25617
+   "atnezve": 27784
   },
   "epgshare01 RS1": {
    "ok": true,
@@ -972,175 +964,175 @@
     "Hit FM radio": 19,
     "Naxi radio kids": 48,
     "Naxi radio": 101,
-    "Pink radio": 14,
+    "Pink radio": 15,
     "Play radio": 22,
     "Radio AS FM": 25,
-    "Radio Beograd 1": 125,
-    "Radio Beograd 2/3": 137,
+    "Radio Beograd 1": 128,
+    "Radio Beograd 2/3": 134,
     "Radio Beograd 202": 39,
-    "Radio Beseda": 87,
+    "Radio Beseda": 90,
     "Radio Karolina": 21,
     "Radio Lola HD (Radiovizijski)": 44,
     "Radio Lola": 44,
-    "Radio S TV HD": 119,
-    "Radio S1": 21,
+    "Radio S TV HD": 121,
+    "Radio S1": 22,
     "Radio Skay": 241,
     "Red Radio": 48,
     "TDI Radio": 19,
     "TDI radio": 19
    },
-   "atnezve": 82654
+   "atnezve": 82653
   },
   "epgshare01 HU1": {
    "ok": true,
    "db": 2,
    "mp": 1,
    "radio": {
-    "MR1-Kossuth": 282,
-    "MR2-Petőfi": 48,
-    "MR3-Bartók": 91,
+    "MR1-Kossuth": 267,
+    "MR2-Petőfi": 49,
+    "MR3-Bartók": 87,
     "MR4-Nemzetiségi": 68,
     "MR6-Dankó": 130
    },
-   "atnezve": 23843
+   "atnezve": 23759
   },
   "epgshare01 FR1": {
    "ok": true,
-   "db": 3,
+   "db": 4,
    "mp": 3,
-   "atnezve": 69542
+   "atnezve": 69779
   },
   "epgshare01 UK1": {
    "ok": true,
-   "db": 0,
+   "db": 3,
    "mp": 2,
    "radio": {
     "Radio X": 32,
-    "RTÉ 2FM": 34,
+    "RTÉ 2FM": 36,
     "RTÉ Lyric fm": 33,
-    "RTÉ Radio 1": 57,
-    "Virgin Radio": 41,
-    "BBC 6 Music": 54,
-    "BBC R Cymru": 45,
-    "BBC R Cymru 2": 38,
-    "BBC R Foyle": 99,
-    "BBC R n Gael": 43,
-    "BBC R Scot.": 41,
-    "BBC R Ulster": 88,
-    "BBC R Wales": 49,
-    "BBC R1": 71,
-    "BBC R1X": 71,
-    "BBC R2": 51,
-    "BBC R3": 45,
-    "BBC R4 Ex": 189,
-    "BBC R4 FM": 147,
-    "BBC R5L": 44,
-    "BBC R5SX": 29,
-    "BFBS Radio": 35,
+    "RTÉ Radio 1": 58,
+    "Virgin Radio": 50,
+    "BBC 6 Music": 53,
+    "BBC R Cymru": 51,
+    "BBC R Cymru 2": 39,
+    "BBC R Foyle": 104,
+    "BBC R n Gael": 47,
+    "BBC R Scot.": 43,
+    "BBC R Ulster": 101,
+    "BBC R Wales": 54,
+    "BBC R1": 70,
+    "BBC R1X": 67,
+    "BBC R2": 57,
+    "BBC R3": 47,
+    "BBC R4 Ex": 172,
+    "BBC R4 FM": 159,
+    "BBC R5L": 48,
+    "BBC R5SX": 33,
+    "BFBS Radio": 34,
     "Panjab Radio": 48,
     "BBC Radio Sussex": 28,
-    "Greatest Hits Radio (West Sussex)": 30,
+    "Greatest Hits Radio (West Sussex)": 31,
     "More Radio Mid Sussex": 20,
     "BBC Radio Bristol 94.9FM": 29,
     "BBC Radio Bristol 104.6FM": 29,
     "BBC Radio Bristol DAB": 29
    },
-   "atnezve": 41640
+   "atnezve": 42040
   },
   "epgshare01 DE1": {
    "ok": true,
    "db": 0,
    "mp": 2,
-   "atnezve": 22843
+   "atnezve": 21865
   },
   "epgshare01 IT1": {
    "ok": true,
-   "db": 2,
+   "db": 1,
    "mp": 1,
    "radio": {
     "Radio Italia TV HD": 37,
     "Radio Italia Trend Tv HD": 7,
-    "Virgin Radio": 460,
-    "RaiRadio2": 93
+    "Virgin Radio": 461,
+    "RaiRadio2": 87
    },
-   "atnezve": 20615
+   "atnezve": 20728
   },
   "epgshare01 ES1": {
    "ok": true,
    "db": 0,
    "mp": 2,
-   "atnezve": 33641
+   "atnezve": 26580
   },
   "epgshare01 PT1": {
    "ok": true,
-   "db": 0,
+   "db": 1,
    "mp": 1,
-   "atnezve": 21394
+   "atnezve": 21621
   },
   "epgshare01 PL1": {
    "ok": true,
    "db": 10,
-   "mp": 5,
+   "mp": 6,
    "radio": {
     "Radio Nowy Świat": 55,
-    "Polskie Radio Program 1": 218,
+    "Polskie Radio Program 1": 213,
     "Polskie Radio Program 2": 134,
     "Radio Silesia": 35,
     "Czwórka Polskie Radio": 47,
     "Czwórka Polskie Radio HD": 47
    },
-   "atnezve": 107412
+   "atnezve": 107250
   },
   "epgshare01 CH1": {
    "ok": true,
    "db": 0,
    "mp": 4,
    "radio": {
-    "Radio Ticino Channel": 55,
-    "Radio Pilatus TV": 19,
+    "Radio Ticino Channel": 53,
+    "Radio Pilatus TV": 17,
     "Radio Italia TV": 39
    },
-   "atnezve": 87595
+   "atnezve": 86577
   },
   "epgshare01 BE2": {
    "ok": true,
    "db": 0,
    "mp": 4,
    "radio": {
-    "Radio Bremen HD": 169,
-    "Radio Contact Vision": 33,
-    "BBC Radio 1 Xtra": 71,
-    "BBC Radio 2": 56,
-    "BBC Radio 3": 46,
-    "BBC Radio 4 Extra": 184,
-    "BBC Radio London": 33,
-    "Virgin Radio": 26,
+    "Radio Bremen HD": 158,
+    "Radio Contact Vision": 32,
+    "BBC Radio 1 Xtra": 68,
+    "BBC Radio 2": 58,
+    "BBC Radio 3": 48,
+    "BBC Radio 4 Extra": 169,
+    "BBC Radio London": 32,
+    "Virgin Radio": 28,
     "Radio Zeta": 42,
     "Radio Italia TV": 39,
     "Radio Italia Live": 39
    },
-   "atnezve": 76172
+   "atnezve": 74993
   },
   "epgshare01 US2": {
    "ok": true,
    "db": 3,
-   "mp": 4,
+   "mp": 5,
    "radio": {
-    "3ABN Radio Network": 159,
-    "Rai Radio 1": 198,
+    "3ABN Radio Network": 151,
+    "Rai Radio 1": 152,
     "Little Saigon Radio Channel": 24,
-    "YTN Radio Korea": 115
+    "YTN Radio Korea": 110
    },
-   "atnezve": 82584
+   "atnezve": 81992
   },
   "iptvx.one RU": {
    "ok": true,
    "db": 2,
-   "mp": 43,
+   "mp": 50,
    "radio": {
     "Дорожное радио": 257,
-    "NO EPG Radio (заглушка)": 89,
-    "Olsib Radio FHD": 295,
+    "NO EPG Radio (заглушка)": 90,
+    "Olsib Radio FHD": 299,
     "Polskie Radio 1 [PL]": 280,
     "Polskie Radio 2 [PL]": 182,
     "Радио 1": 325,
@@ -1156,74 +1148,74 @@
     "Радио Ваня": 192,
     "Радио Звезда": 286,
     "Русское радио": 419,
-    "TEAM Авторадио HD": 1702
+    "TEAM Авторадио HD": 1723
    },
-   "atnezve": 806928
+   "atnezve": 845685
   },
   "France Culture": {
    "ok": true,
    "db": 0,
-   "mp": 13,
+   "mp": 12,
    "atnezve": 217
   },
   "France Inter": {
    "ok": true,
    "db": 0,
-   "mp": 12,
-   "atnezve": 190
+   "mp": 13,
+   "atnezve": 183
   },
   "Deutschlandfunk Kultur": {
    "ok": true,
    "db": 0,
-   "mp": 12,
-   "atnezve": 224
+   "mp": 29,
+   "atnezve": 219
   },
   "Deutschlandfunk": {
    "ok": true,
    "db": 0,
-   "mp": 13,
-   "atnezve": 334
+   "mp": 16,
+   "atnezve": 332
   },
   "Ö1": {
    "ok": true,
    "db": 0,
-   "mp": 15,
+   "mp": 20,
    "atnezve": 340
   },
   "port.hu események": {
    "ok": true,
    "db": 0,
-   "mp": 12
+   "mp": 17
   },
   "unidivers.fr": {
    "ok": true,
    "db": 14,
-   "mp": 31
+   "mp": 37
   },
   "port.hu tévé": {
    "ok": true,
    "db": 6,
-   "mp": 1
+   "mp": 2
   },
   "port.hu": {
    "ok": true,
    "db": 1,
-   "mp": 95
+   "mp": 114
   },
   "jegy.hu": {
    "ok": true,
    "db": 3,
-   "mp": 28
+   "mp": 34
   },
   "BBC rádió": {
    "ok": true,
    "db": 0,
-   "mp": 11
+   "mp": 16
   },
   "arte.tv": {
    "ok": true,
    "db": 0,
-   "mp": 10
+   "mp": 13
   },
   "Párizs (opendata.paris.fr)": {
    "ok": true,
@@ -1233,29 +1225,29 @@
   "Nantes (data.nantesmetropole.fr)": {
    "ok": true,
    "db": 5,
-   "mp": 2,
-   "atnezve": 50
+   "mp": 3,
+   "atnezve": 52
   },
   "Amiens (amiens.fr)": {
    "ok": true,
    "db": 1,
-   "mp": 105,
-   "atnezve": 392
+   "mp": 130,
+   "atnezve": 385
   },
   "atgtickets.com": {
    "ok": true,
    "db": 0,
-   "mp": 17
+   "mp": 18
   },
   "offi.fr": {
    "ok": true,
    "db": 0,
-   "mp": 12
+   "mp": 15
   },
   "allocine.fr": {
    "ok": true,
    "db": 0,
-   "mp": 15
+   "mp": 20
   },
   "comingsoon.it": {
    "ok": true,
@@ -1265,25 +1257,25 @@
   "sensacine.com": {
    "ok": true,
    "db": 0,
-   "mp": 19,
-   "atnezve": 170
+   "mp": 21,
+   "atnezve": 164
   },
   "picturehouses.com": {
    "ok": true,
    "db": 0,
-   "mp": 2,
-   "atnezve": 320
+   "mp": 5,
+   "atnezve": 325
   },
   "filmweb.pl": {
    "ok": true,
    "db": 0,
-   "mp": 2,
-   "atnezve": 159
+   "mp": 3,
+   "atnezve": 150
   },
   "film.at": {
    "ok": true,
    "db": 0,
-   "mp": 1,
+   "mp": 2,
    "atnezve": 13
   },
   "rottentomatoes.com": {
@@ -1295,7 +1287,7 @@
   "ticketmaster": {
    "ok": true,
    "db": 0,
-   "mp": 44,
+   "mp": 43,
    "proba": 10000,
    "atnezve": 53
   }
